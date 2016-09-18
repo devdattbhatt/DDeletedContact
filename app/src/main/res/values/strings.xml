@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">D Deleted Contact</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">Contacts</string>
+    <string name="deleted_contact">Deleted</string>
+</resources>
