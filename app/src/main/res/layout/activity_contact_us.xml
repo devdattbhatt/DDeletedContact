@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="13dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contact_to_whats_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:drawableEnd="@drawable/whats_app"
+            android:drawableRight="@drawable/whats_app"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/static_contact_us_whats_app"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_to_google_plus_developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/developer"
+            android:drawableStart="@drawable/developer"
+            android:gravity="center"
+            android:text="@string/static_contact_us_developer"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_to_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:drawableEnd="@drawable/translate"
+            android:drawableRight="@drawable/translate"
+            android:gravity="center"
+            android:text="@string/static_contact_us_language"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_to_google_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/google_plus"
+            android:drawableStart="@drawable/google_plus"
+            android:gravity="center"
+            android:text="@string/static_contact_us_google_plus"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_to_linkedin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:drawableEnd="@drawable/linkedin"
+            android:drawableRight="@drawable/linkedin"
+            android:gravity="center"
+            android:text="@string/static_contact_us_linkedin"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_to_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:drawableLeft="@drawable/facebook"
+            android:drawableStart="@drawable/facebook"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/static_contact_us_facebook"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

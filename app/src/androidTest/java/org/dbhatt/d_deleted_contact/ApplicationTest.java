@@ -1,4 +1,4 @@
-package org.dbhatt.ddeletedcontact;
+package org.dbhatt.d_deleted_contact;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

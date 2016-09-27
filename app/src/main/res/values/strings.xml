@@ -1,8 +1,37 @@
 <resources>
     <string name="app_name">D Deleted Contact</string>
-    <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="splash_dbhatt_org">Dbhatt.org</string>
     <string name="all_contact">Contacts</string>
     <string name="deleted_contact">Deleted</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="share">Share</string>
+
+    <!-- Toast messages-->
+    <string name="try_after_some_time">Try After Some Time</string>
+
+    <!-- action menu -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_restore_all">Restore All</string>
+    <string name="action_app_invite">Invite Friends</string>
+    <string name="action_share">Share apk</string>
+    <string name="action_feed_back">Feedback</string>
+ f    <string name="action_contact_us">Contact us</string>
+
+    <!-- default value-->
+    <string name="contact_name">Contact name</string>
+    <string name="contact_account_type">Account Type</string>
+
+    <!-- descriptions -->
+    <string name="description_contact_photo">Contact Photo</string>
+    <string name="description_contact_info">Contact info</string>
+
+    <!--static link-->
+    <string name="static_contact_us_whats_app">Happy to talk any time as soon as possible, english only.</string>
+    <string name="static_contact_us_developer">Warmly welcome to testers together we can build best apps ever.</string>
+    <string name="static_contact_us_language">This is language group around the world.</string>
+    <string name="static_contact_us_google_plus">Reach me directly on google+ profile</string>
+    <string name="static_contact_us_linkedin">grow your connection via linkedin.</string>
+    <string name="static_contact_us_facebook">We are on facebook too.</string>
 </resources>
