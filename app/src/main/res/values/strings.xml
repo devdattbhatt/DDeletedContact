@@ -17,7 +17,8 @@
     <string name="action_app_invite">Invite Friends</string>
     <string name="action_share">Share apk</string>
     <string name="action_feed_back">Feedback</string>
- f    <string name="action_contact_us">Contact us</string>
+    f
+    <string name="action_contact_us">Contact us</string>
 
     <!-- default value-->
     <string name="contact_name">Contact name</string>
@@ -34,4 +35,10 @@
     <string name="static_contact_us_google_plus">Reach me directly on google+ profile</string>
     <string name="static_contact_us_linkedin">grow your connection via linkedin.</string>
     <string name="static_contact_us_facebook">We are on facebook too.</string>
+
+    <!-- app invite fire base-->
+    <string name="invite_title">Invite Friends</string>
+    <string name="invite_message">D Deleted Contact is Open source, Freeware, Ad-free best app to recover contacts.</string>
+    <string name="invite_email_subject">@string/app_name</string>
+    <string name="invite_html_contact">%%APPINVITE_LINK_PLACEHOLDER%%</string>
 </resources>

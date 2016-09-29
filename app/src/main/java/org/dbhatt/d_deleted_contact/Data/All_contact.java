@@ -14,8 +14,8 @@ import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
+import android.os.Environment;
 import android.provider.ContactsContract;
-import android.provider.MediaStore;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
@@ -25,9 +25,14 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.dbhatt.d_deleted_contact.Activity.MainActivity;
 import org.dbhatt.d_deleted_contact.R;
 
 import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -38,6 +43,8 @@ import java.util.Random;
  */
 public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
 
+    private static final int DO_NOT_FINISH_REQUEST_CODE = 143;
+    private static MainActivity mainActivity;
     private Context context;
     private boolean rtl = false;
     private Random rnd;
@@ -46,7 +53,7 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
     private ContentResolver resolver;
     private ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> all_contact;
 
-    public All_contact(ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> all_contact, Context context) {
+    public All_contact(ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> all_contact, Context context, MainActivity mainActivity) {
         this.all_contact = all_contact;
         resolver = context.getContentResolver();
         rnd = new Random();
@@ -57,6 +64,7 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
             else rtl = true;
         }
         this.context = context;
+        this.mainActivity = mainActivity;
     }
 
     @Override
@@ -109,23 +117,37 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
                             new String[]{String.valueOf(all_contact.get(getAdapterPosition()).getId()), android.provider.ContactsContract.CommonDataKinds.Photo.CONTENT_ITEM_TYPE}
                             , null);
                     if (cursor.moveToFirst()) {
-                        byte[] photo = cursor.getBlob(0);
+                        final byte[] photo = cursor.getBlob(0);
                         cursor.close();
                         if (photo != null) {
                             final InputStream inputStream = new ByteArrayInputStream(photo);
+                            final Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
                             View view = ((LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE)).inflate(R.layout.alert_dialog_photo, null);
-                            ((ImageView) view.findViewById(R.id.contact_photo)).setImageBitmap(BitmapFactory.decodeStream(inputStream));
+                            ((ImageView) view.findViewById(R.id.contact_photo)).setImageBitmap(bitmap);
                             AlertDialog.Builder builder = new AlertDialog.Builder(context)
                                     .setNegativeButton(R.string.dismiss, null)
                                     .setView(view)
                                     .setPositiveButton(R.string.share, new DialogInterface.OnClickListener() {
                                         @Override
                                         public void onClick(DialogInterface dialog, int which) {
+                                            mainActivity.setFinish_activity(false);
+                                            File tmp_file = null;
+                                            try {
+                                                tmp_file = new File(Environment.getExternalStorageDirectory(), "tmp.png");
+                                                FileOutputStream outputStream = new FileOutputStream(tmp_file);
+                                                bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream);
+                                                outputStream.flush();
+                                                outputStream.close();
+                                            } catch (FileNotFoundException e) {
+                                                e.printStackTrace();
+                                            } catch (IOException e) {
+                                                e.printStackTrace();
+                                            }
                                             Intent sendIntent = new Intent();
                                             sendIntent.setAction(Intent.ACTION_SEND);
-                                            sendIntent.putExtra(Intent.EXTRA_STREAM, Uri.parse(MediaStore.Images.Media.insertImage(resolver, BitmapFactory.decodeStream(inputStream), all_contact.get(getAdapterPosition()).getName(), null)));
+                                            sendIntent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(tmp_file));
                                             sendIntent.setType("image/png");
-                                            context.startActivity(Intent.createChooser(sendIntent, context.getText(R.string.share)));
+                                            mainActivity.startActivityForResult(Intent.createChooser(sendIntent, context.getText(R.string.share)), DO_NOT_FINISH_REQUEST_CODE);
                                         }
                                     });
                             builder.create().show();
@@ -133,6 +155,10 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
                     }
                     break;
                 case R.id.contact_info:
+                    View view = ((LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE)).inflate(R.layout.alert_dialog_photo, null);
+                    AlertDialog.Builder builder = new AlertDialog.Builder(context);
+                    builder.setTitle("");
+                    builder.setView(view);
                     break;
             }
         }

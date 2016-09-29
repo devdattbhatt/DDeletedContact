@@ -8,7 +8,9 @@ import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.ContactsContract;
+import android.support.annotation.NonNull;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
@@ -23,28 +25,35 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.google.android.gms.appinvite.AppInvite;
+import com.google.android.gms.appinvite.AppInviteInvitation;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+
 import org.dbhatt.d_deleted_contact.Data.Contact;
 import org.dbhatt.d_deleted_contact.Fragment.All_contact;
 import org.dbhatt.d_deleted_contact.Fragment.Deleted_contact;
 import org.dbhatt.d_deleted_contact.R;
 
+import java.io.File;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int DO_NOT_FINISH_REQUEST_CODE = 143;
+    private static final int DO_NOT_FINISH_REQUEST_CODE = 143, APP_INVITE = 9211;
     private static boolean refreshing = false;
     private static ContentResolver contentResolver;
     private static int READ_CONTACT_PERMISSION_REQUEST = 0000;
     private boolean finish_activity = true;
     private SectionsPagerAdapter mSectionsPagerAdapter;
     private ViewPager mViewPager;
-    ArrayList<Contact> all_contact, deleted_contact;
+    private ArrayList<Contact> all_contact, deleted_contact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         finish_activity = false;
         new Thread(new Runnable() {
@@ -111,10 +120,30 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_restore_all:
+                if (deleted_contact.isEmpty())
+                    Toast.makeText(this, R.string.no_data_found, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.action_app_invite:
+                finish_activity = false;
+                GoogleApiClient googleApiClient = new GoogleApiClient.Builder(this)
+                        .addApi(AppInvite.API)
+                        .enableAutoManage(this, new GoogleApiClient.OnConnectionFailedListener() {
+                            @Override
+                            public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
+                            }
+                        }).build();
+
+                Intent app_invite_intent = new AppInviteInvitation.IntentBuilder(getString(R.string.invite_title))
+                        .setMessage(getString(R.string.invite_message))
+                        .setEmailSubject(getString(R.string.invite_email_subject))
+                        .setEmailHtmlContent(getString(R.string.invite_html_contact))
+                        .build();
+                startActivityForResult(app_invite_intent, APP_INVITE);
                 break;
+
             case R.id.action_share:
+
                 break;
 
             case R.id.action_contact_us:
@@ -133,7 +162,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        Log.e("finish", String.valueOf(finish_activity));
         if (finish_activity)
             finish();
     }
@@ -141,8 +169,21 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == DO_NOT_FINISH_REQUEST_CODE)
-            finish_activity = true;
+        switch (requestCode) {
+            case DO_NOT_FINISH_REQUEST_CODE:
+                finish_activity = true;
+                break;
+            case APP_INVITE:
+                finish_activity = true;
+                break;
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (new File(Environment.getExternalStorageDirectory(), "tmp.png").exists())
+            new File(Environment.getExternalStorageDirectory(), "tmp.png").delete();
     }
 
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
@@ -207,7 +248,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 }
-                if (cursor != null)
+                if (cursor != null && !cursor.isClosed())
                     cursor.close();
                 Log.e("all data", String.valueOf(all_contact.size()));
                 Log.e("deleted data", String.valueOf(deleted_contact.size()));
@@ -234,4 +275,7 @@ public class MainActivity extends AppCompatActivity {
         return deleted_contact;
     }
 
+    public void setFinish_activity(boolean finish_activity) {
+        this.finish_activity = finish_activity;
+    }
 }

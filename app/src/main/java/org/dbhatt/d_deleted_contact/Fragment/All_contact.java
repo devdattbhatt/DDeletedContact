@@ -33,7 +33,6 @@ public class All_contact extends Fragment {
         RecyclerView recyclerView;
         View view;
 
-
         all_contact = ((MainActivity) getActivity()).get_all_contact();
         Log.e("all contact", String.valueOf(all_contact.size()));
         if (all_contact.size() > 0) {
@@ -41,7 +40,7 @@ public class All_contact extends Fragment {
             recyclerView = (RecyclerView) view.findViewById(R.id.adapter_recycler_view);
             recyclerView.setHasFixedSize(true);
             recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-            recyclerView.setAdapter(new org.dbhatt.d_deleted_contact.Data.All_contact(all_contact, getContext()));
+            recyclerView.setAdapter(new org.dbhatt.d_deleted_contact.Data.All_contact(all_contact, getContext(), ((MainActivity) getActivity())));
             recyclerView.setNestedScrollingEnabled(false);
             return view;
         } else {
