@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    android:gravity="center">
+
+    <TextView
+        android:text="@string/contact_phone_number"
+        android:id="@+id/number0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="7dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:text="@string/contact_phone_number"
+        android:id="@+id/number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/number0"
+        android:layout_margin="7dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/number2"
+        android:text="@string/contact_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/number1"
+        android:layout_margin="7dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/number3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/contact_phone_number"
+        android:layout_below="@+id/number2"
+        android:layout_margin="7dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/number4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/contact_phone_number"
+        android:layout_below="@+id/number3"
+        android:layout_margin="7dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/number5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/contact_phone_number"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/number4"
+        android:layout_margin="7dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/number6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/contact_phone_number"
+        android:layout_below="@+id/number5"
+        android:layout_margin="7dp"
+        android:visibility="gone" />
+</RelativeLayout>

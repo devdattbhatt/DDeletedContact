@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/adapter_recycler_view"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scrollbarSize="7dp"
-    android:scrollbarThumbVertical="@color/colorPrimary"
-    android:scrollbars="vertical" />
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/adapter_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/dbhatt_org"
+        android:scrollbarSize="7dp"
+        android:scrollbarThumbVertical="@color/colorPrimary"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/no_data_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/no_data_found" />
+
+    <TextView
+        android:id="@+id/dbhatt_org"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/splash_dbhatt_org"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+</RelativeLayout>
 
