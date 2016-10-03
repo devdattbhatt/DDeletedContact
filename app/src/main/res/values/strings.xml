@@ -8,6 +8,7 @@
     <string name="dismiss">Dismiss</string>
     <string name="share">Share</string>
     <string name="thank_you">Thank you for share/invite</string>
+    <string name="contact_developer">Error occur, contact developer.</string>
 
     <!-- Toast messages-->
     <string name="try_after_some_time">Try After Some Time</string>

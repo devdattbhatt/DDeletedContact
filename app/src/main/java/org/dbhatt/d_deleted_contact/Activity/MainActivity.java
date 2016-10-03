@@ -49,7 +49,11 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int DO_NOT_FINISH_REQUEST_CODE = 143, APP_INVITE = 9211, SHARE_APP = 142;
+    private static final int DO_NOT_FINISH_REQUEST_CODE = 143,
+            APP_INVITE = 9211,
+            SHARE_APP = 142,
+            REQUEST_READ_CONTACTS_ALL_CONTACT = 1431,
+            REQUEST_READ_CONTACTS_DELETED_CONTACT = 1432;
     private static boolean refreshing = false;
     private static ContentResolver contentResolver;
     private static int READ_CONTACT_PERMISSION_REQUEST = 0000;
