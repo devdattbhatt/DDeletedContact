@@ -3,6 +3,7 @@ package org.dbhatt.d_deleted_contact.Activity;
 import android.Manifest;
 import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.OperationApplicationException;
 import android.content.pm.PackageManager;
@@ -23,6 +24,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -52,14 +54,11 @@ public class MainActivity extends AppCompatActivity {
     private static final int DO_NOT_FINISH_REQUEST_CODE = 143,
             APP_INVITE = 9211,
             SHARE_APP = 142,
-            REQUEST_READ_CONTACTS_ALL_CONTACT = 1431,
-            REQUEST_READ_CONTACTS_DELETED_CONTACT = 1432;
+            REQUEST_READ_CONTACTS_CONTACT = 1431,
+            REQUEST_WRITE_CONTACTS_CONTACT = 1432;
     private static boolean refreshing = false;
     private static ContentResolver contentResolver;
-    private static int READ_CONTACT_PERMISSION_REQUEST = 0000;
     private boolean finish_activity = true;
-    private SectionsPagerAdapter mSectionsPagerAdapter;
-    private ViewPager mViewPager;
     private ArrayList<Contact> all_contact, deleted_contact;
     All_contact fragment_all_contact;
     Deleted_contact fragment_deleted_contact;
@@ -82,9 +81,9 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+        SectionsPagerAdapter mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-        mViewPager = (ViewPager) findViewById(R.id.container);
+        ViewPager mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
@@ -102,13 +101,24 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }).start();
             } else {
+                final MainActivity mainActivity = this;
                 if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.READ_CONTACTS)) {
-                    ActivityCompat.requestPermissions(this,
-                            new String[]{Manifest.permission.READ_CONTACTS},
-                            READ_CONTACT_PERMISSION_REQUEST);
-                } else
-                    ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_CONTACTS}, READ_CONTACT_PERMISSION_REQUEST);
-
+                    new AlertDialog.Builder(this)
+                            .setTitle(R.string.permission)
+                            .setMessage(R.string.permission_message_write_external_storage)
+                            .setPositiveButton(R.string.permission_grant, new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    finish_activity = false;
+                                    ActivityCompat.requestPermissions(mainActivity,
+                                            new String[]{Manifest.permission.READ_CONTACTS},
+                                            REQUEST_READ_CONTACTS_CONTACT);
+                                }
+                            }).create().show();
+                } else {
+                    finish_activity = false;
+                    ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_CONTACTS}, REQUEST_READ_CONTACTS_CONTACT);
+                }
             }
         } else {
             new Thread(new Runnable() {
@@ -137,9 +147,38 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_restore_all:
-                if (deleted_contact.isEmpty())
-                    Toast.makeText(getApplicationContext(), R.string.no_data_found, Toast.LENGTH_SHORT).show();
-                else new Restore_All_contact().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                if (Build.VERSION.SDK_INT > 22) {
+                    if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_CONTACTS) == PackageManager.PERMISSION_GRANTED) {
+                        if (deleted_contact.isEmpty())
+                            Toast.makeText(getApplicationContext(), R.string.no_data_found, Toast.LENGTH_SHORT).show();
+                        else
+                            new Restore_All_contact().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                    } else {
+                        final MainActivity mainActivity = this;
+                        if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.WRITE_CONTACTS)) {
+                            new AlertDialog.Builder(this)
+                                    .setTitle(R.string.permission)
+                                    .setMessage(R.string.permission_message_write_external_storage)
+                                    .setPositiveButton(R.string.permission_grant, new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialog, int which) {
+                                            finish_activity = false;
+                                            ActivityCompat.requestPermissions(mainActivity,
+                                                    new String[]{Manifest.permission.WRITE_CONTACTS},
+                                                    REQUEST_WRITE_CONTACTS_CONTACT);
+                                        }
+                                    }).create().show();
+                        } else {
+                            finish_activity = false;
+                            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_CONTACTS}, REQUEST_WRITE_CONTACTS_CONTACT);
+                        }
+                    }
+                } else {
+                    if (deleted_contact.isEmpty())
+                        Toast.makeText(getApplicationContext(), R.string.no_data_found, Toast.LENGTH_SHORT).show();
+                    else
+                        new Restore_All_contact().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                }
                 break;
             case R.id.action_app_invite:
                 finish_activity = false;
@@ -205,6 +244,14 @@ public class MainActivity extends AppCompatActivity {
                 finish_activity = true;
                 if (resultCode == RESULT_OK)
                     Toast.makeText(this, R.string.thank_you, Toast.LENGTH_SHORT).show();
+                break;
+            case REQUEST_READ_CONTACTS_CONTACT:
+                finish_activity = true;
+                if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) == PackageManager.PERMISSION_GRANTED)
+                    load_contacts();
+                break;
+            case REQUEST_WRITE_CONTACTS_CONTACT:
+                finish_activity = true;
                 break;
         }
     }

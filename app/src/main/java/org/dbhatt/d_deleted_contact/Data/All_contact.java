@@ -148,24 +148,49 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
                                                 @Override
                                                 public void onClick(DialogInterface dialog, int which) {
 
-                                                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                                                    if (Build.VERSION.SDK_INT > 22) {
                                                         if (ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                                                             if (ActivityCompat.shouldShowRequestPermissionRationale(mainActivity,
                                                                     Manifest.permission.READ_CONTACTS)) {
-                                                                ActivityCompat.requestPermissions(mainActivity,
-                                                                        new String[]{Manifest.permission.READ_CONTACTS},
-                                                                        REQUEST_READ_CONTACTS_ALL_CONTACT);
 
+                                                                new AlertDialog.Builder(context)
+                                                                        .setTitle(R.string.permission)
+                                                                        .setMessage(R.string.permission_message_write_external_storage)
+                                                                        .setPositiveButton(R.string.permission_grant, new DialogInterface.OnClickListener() {
+                                                                            @Override
+                                                                            public void onClick(DialogInterface dialog, int which) {
+                                                                                ActivityCompat.requestPermissions(mainActivity,
+                                                                                        new String[]{Manifest.permission.READ_CONTACTS},
+                                                                                        REQUEST_READ_CONTACTS_ALL_CONTACT);
+                                                                            }
+                                                                        }).create().show();
                                                             } else {
                                                                 ActivityCompat.requestPermissions(mainActivity,
                                                                         new String[]{Manifest.permission.READ_CONTACTS},
                                                                         REQUEST_READ_CONTACTS_ALL_CONTACT);
                                                             }
-                                                        }
-                                                    } else {
-                                                        share_contact_photo(bitmap);
-                                                    }
+                                                        } else share_contact_photo();
+                                                    } else share_contact_photo();
+                                                }
 
+                                                private void share_contact_photo() {
+                                                    mainActivity.setFinish_activity(false);
+                                                    File tmp_file = null;
+                                                    try {
+                                                        tmp_file = new File(Environment.getExternalStorageDirectory(), "tmp.png");
+                                                        FileOutputStream outputStream = new FileOutputStream(tmp_file);
+                                                        bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream);
+                                                        outputStream.flush();
+                                                        outputStream.close();
+                                                    } catch (IOException e) {
+                                                        e.printStackTrace();
+                                                        Toast.makeText(context, R.string.contact_developer, Toast.LENGTH_SHORT).show();
+                                                    }
+                                                    Intent sendIntent = new Intent();
+                                                    sendIntent.setAction(Intent.ACTION_SEND);
+                                                    sendIntent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(tmp_file));
+                                                    sendIntent.setType("image/png");
+                                                    mainActivity.startActivityForResult(Intent.createChooser(sendIntent, context.getText(R.string.share)), DO_NOT_FINISH_REQUEST_CODE);
                                                 }
                                             });
                                     builder.create().show();
@@ -281,26 +306,4 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
             }
         }
     }
-
-    public void share_contact_photo(Bitmap bitmap) {
-        mainActivity.setFinish_activity(false);
-        File tmp_file = null;
-        try {
-            tmp_file = new File(Environment.getExternalStorageDirectory(), "tmp.png");
-            FileOutputStream outputStream = new FileOutputStream(tmp_file);
-            bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream);
-            outputStream.flush();
-            outputStream.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-            Toast.makeText(context, R.string.contact_developer, Toast.LENGTH_SHORT).show();
-        }
-        Intent sendIntent = new Intent();
-        sendIntent.setAction(Intent.ACTION_SEND);
-        sendIntent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(tmp_file));
-        sendIntent.setType("image/png");
-        mainActivity.startActivityForResult(Intent.createChooser(sendIntent, context.getText(R.string.share)), DO_NOT_FINISH_REQUEST_CODE);
-    }
-
-
 }

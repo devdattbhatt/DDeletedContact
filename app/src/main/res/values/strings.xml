@@ -43,4 +43,11 @@
     <string name="invite_message">D Deleted Contact is Open source, Freeware, Ad-free best app to recover contacts.</string>
     <string name="invite_email_subject">@string/app_name</string>
     <string name="invite_html_contact">%%APPINVITE_LINK_PLACEHOLDER%%</string>
+
+    <!-- Alert dialog box-->
+    <string name="permission">Permission</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE permission is needed</string>
+    <string name="permission_message_read_contact">READ_CONTACTS permission is needed</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS permission is needed</string>
+    <string name="permission_grant">Grant</string>
 </resources>
