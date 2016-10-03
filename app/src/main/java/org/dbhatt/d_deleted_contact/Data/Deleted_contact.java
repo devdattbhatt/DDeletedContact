@@ -47,11 +47,8 @@ public class Deleted_contact extends RecyclerView.Adapter<Deleted_contact.Contac
         resolver = context.getContentResolver();
         rnd = new Random();
         paint = new Paint();
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-            if (context.getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_LTR)
-                rtl = false;
-            else rtl = true;
-        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1)
+            rtl = context.getResources().getConfiguration().getLayoutDirection() != View.LAYOUT_DIRECTION_LTR;
         this.context = context;
     }
 

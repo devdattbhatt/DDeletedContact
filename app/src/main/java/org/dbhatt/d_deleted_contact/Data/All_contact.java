@@ -58,11 +58,8 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
         resolver = context.getContentResolver();
         rnd = new Random();
         paint = new Paint();
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-            if (context.getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_LTR)
-                rtl = false;
-            else rtl = true;
-        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1)
+            rtl = context.getResources().getConfiguration().getLayoutDirection() != View.LAYOUT_DIRECTION_LTR;
         this.context = context;
         this.mainActivity = mainActivity;
     }
@@ -175,7 +172,6 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
                         if ((view.findViewById(d[0])).getVisibility() == View.VISIBLE)
                             builder.setView(view);
                         else builder.setMessage(R.string.no_data_found);
-
                     } else
                         builder.setMessage(R.string.no_data_found);
 

@@ -31,6 +31,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
+                android:layout_margin="3dp"
                 android:contentDescription="@string/description_contact_info"
                 android:src="@drawable/ic_info_outline_black_24dp" />
 
@@ -39,8 +40,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignTop="@+id/contact_photo"
-                android:layout_marginEnd="24dp"
-                android:layout_marginRight="24dp"
                 android:layout_toEndOf="@+id/contact_photo"
                 android:layout_toLeftOf="@+id/contact_info"
                 android:layout_toRightOf="@+id/contact_photo"
@@ -55,8 +54,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/contact_name"
-                android:layout_marginEnd="24dp"
-                android:layout_marginRight="24dp"
                 android:layout_toEndOf="@+id/contact_photo"
                 android:layout_toLeftOf="@+id/contact_info"
                 android:layout_toRightOf="@+id/contact_photo"

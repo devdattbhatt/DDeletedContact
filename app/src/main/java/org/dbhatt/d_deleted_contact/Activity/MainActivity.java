@@ -133,7 +133,9 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_restore_all:
-                new Restore_All_contact().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                if (deleted_contact.isEmpty())
+                    Toast.makeText(getApplicationContext(), R.string.no_data_found, Toast.LENGTH_SHORT).show();
+                else new Restore_All_contact().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
                 break;
             case R.id.action_app_invite:
                 finish_activity = false;
@@ -291,23 +293,19 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected Void doInBackground(Void... params) {
-            if (deleted_contact.isEmpty())
-                Toast.makeText(getApplicationContext(), R.string.no_data_found, Toast.LENGTH_SHORT).show();
-            else {
-                for (int i = 0; i < deleted_contact.size(); i++) {
-                    ArrayList<ContentProviderOperation> ops = new ArrayList();
-                    ops.add(ContentProviderOperation.newUpdate(ContactsContract.RawContacts.CONTENT_URI.buildUpon().appendQueryParameter("caller_is_syncadapter", "true").build())
-                            .withSelection(ContactsContract.RawContacts._ID + "=?", new String[]{String.valueOf(deleted_contact.get(i).getId())})
-                            .withValue(ContactsContract.RawContacts.DELETED, 0)
-                            .withYieldAllowed(true)
-                            .build());
-                    try {
-                        contentResolver.applyBatch(ContactsContract.AUTHORITY, ops);
-                    } catch (RemoteException e) {
-                        e.printStackTrace();
-                    } catch (OperationApplicationException e) {
-                        e.printStackTrace();
-                    }
+            for (int i = 0; i < deleted_contact.size(); i++) {
+                ArrayList<ContentProviderOperation> ops = new ArrayList();
+                ops.add(ContentProviderOperation.newUpdate(ContactsContract.RawContacts.CONTENT_URI.buildUpon().appendQueryParameter("caller_is_syncadapter", "true").build())
+                        .withSelection(ContactsContract.RawContacts._ID + "=?", new String[]{String.valueOf(deleted_contact.get(i).getId())})
+                        .withValue(ContactsContract.RawContacts.DELETED, 0)
+                        .withYieldAllowed(true)
+                        .build());
+                try {
+                    contentResolver.applyBatch(ContactsContract.AUTHORITY, ops);
+                } catch (RemoteException e) {
+                    e.printStackTrace();
+                } catch (OperationApplicationException e) {
+                    e.printStackTrace();
                 }
             }
             refreshing = true;
