@@ -47,13 +47,13 @@ import java.util.Random;
  */
 public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
 
-    private static final int DO_NOT_FINISH_REQUEST_CODE = 143, REQUEST_READ_CONTACTS_ALL_CONTACT = 1431;
+    private static final int DO_NOT_FINISH_REQUEST_CODE = 143,
+            REQUEST_READ_CONTACTS_CONTACT = 1431;
     private MainActivity mainActivity;
     private Context context;
     private boolean rtl = false;
     private Random rnd;
     private Paint paint;
-    private org.dbhatt.d_deleted_contact.Data.Contact contact;
     private ContentResolver resolver;
     private ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> all_contact;
 
@@ -80,7 +80,7 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
     @Override
     public void onBindViewHolder(Contact holder, int position) {
         try {
-            contact = all_contact.get(position);
+            org.dbhatt.d_deleted_contact.Data.Contact contact = all_contact.get(position);
             holder.contact_name.setText(contact.getName());
             holder.account_type.setText(contact.getAccount_type());
             new Load_Contact_Photo(holder.contact_photo, contact.getName()).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, String.valueOf(contact.getId()));
@@ -161,13 +161,13 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
                                                                             public void onClick(DialogInterface dialog, int which) {
                                                                                 ActivityCompat.requestPermissions(mainActivity,
                                                                                         new String[]{Manifest.permission.READ_CONTACTS},
-                                                                                        REQUEST_READ_CONTACTS_ALL_CONTACT);
+                                                                                        REQUEST_READ_CONTACTS_CONTACT);
                                                                             }
                                                                         }).create().show();
                                                             } else {
                                                                 ActivityCompat.requestPermissions(mainActivity,
                                                                         new String[]{Manifest.permission.READ_CONTACTS},
-                                                                        REQUEST_READ_CONTACTS_ALL_CONTACT);
+                                                                        REQUEST_READ_CONTACTS_CONTACT);
                                                             }
                                                         } else share_contact_photo();
                                                     } else share_contact_photo();
@@ -209,7 +209,7 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
                                 ContactsContract.CommonDataKinds.Phone.CONTENT_URI,
                                 null,
                                 ContactsContract.CommonDataKinds.Phone.CONTACT_ID + " = ?",
-                                new String[]{String.valueOf(all_contact.get(getAdapterPosition()).getId())},
+                                new String[]{String.valueOf(all_contact.get(getAdapterPosition()).getRaw_id())},
                                 null);
                         if (info_cursor != null) {
                             View view = ((LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE)).inflate(R.layout.contact_about, null);

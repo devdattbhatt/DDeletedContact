@@ -50,4 +50,5 @@
     <string name="permission_message_read_contact">READ_CONTACTS permission is needed</string>
     <string name="permission_message_write_contact">WRITE_CONTACTS permission is needed</string>
     <string name="permission_grant">Grant</string>
+    <string name="restore">Restore</string>
 </resources>

@@ -9,7 +9,7 @@
         android:id="@+id/adapter_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/dbhatt_org"
+        android:layout_alignParentTop="true"
         android:scrollbarSize="7dp"
         android:scrollbarThumbVertical="@color/colorPrimary"
         android:scrollbars="vertical" />
@@ -22,14 +22,5 @@
         android:layout_centerVertical="true"
         android:gravity="center"
         android:text="@string/no_data_found" />
-
-    <TextView
-        android:id="@+id/dbhatt_org"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:gravity="center"
-        android:text="@string/splash_dbhatt_org"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
 </RelativeLayout>
 

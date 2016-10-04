@@ -5,7 +5,6 @@ import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.OperationApplicationException;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
@@ -13,10 +12,9 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
-import android.os.RemoteException;
 import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
@@ -26,16 +24,10 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.appinvite.AppInvite;
@@ -44,6 +36,8 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import org.dbhatt.d_deleted_contact.Data.Contact;
+import org.dbhatt.d_deleted_contact.Fragment.All_contact;
+import org.dbhatt.d_deleted_contact.Fragment.Deleted_contact;
 import org.dbhatt.d_deleted_contact.R;
 
 import java.io.File;
@@ -54,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int DO_NOT_FINISH_REQUEST_CODE = 143,
             APP_INVITE = 9211,
             SHARE_APP = 142,
+            REQUEST_WRITE_EXTERNAL_STORAGE = 1433,
             REQUEST_READ_CONTACTS_CONTACT = 1431,
             REQUEST_WRITE_CONTACTS_CONTACT = 1432;
     private static boolean refreshing = false;
@@ -66,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
 
         fragment_all_contact = new All_contact();
@@ -82,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         SectionsPagerAdapter mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+
+        ((AppBarLayout.LayoutParams) toolbar.getLayoutParams()).setScrollFlags(0);
 
         ViewPager mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
@@ -314,14 +312,12 @@ public class MainActivity extends AppCompatActivity {
                             deleted_contact.add(new Contact(cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts._ID)),
                                     cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.CONTACT_ID)),
                                     cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY)),
-                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE)),
-                                    "1"));
+                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE))));
                         } else {
                             all_contact.add(new Contact(cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts._ID)),
                                     cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.CONTACT_ID)),
                                     cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY)),
-                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE)),
-                                    "0"));
+                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE))));
                         }
                     }
                 }
@@ -353,10 +349,9 @@ public class MainActivity extends AppCompatActivity {
                         .build());
                 try {
                     contentResolver.applyBatch(ContactsContract.AUTHORITY, ops);
-                } catch (RemoteException e) {
+                } catch (Exception e) {
                     e.printStackTrace();
-                } catch (OperationApplicationException e) {
-                    e.printStackTrace();
+                    Toast.makeText(getApplicationContext(), R.string.contact_developer, Toast.LENGTH_SHORT).show();
                 }
             }
             refreshing = true;
@@ -370,14 +365,12 @@ public class MainActivity extends AppCompatActivity {
                             deleted_contact.add(new Contact(cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts._ID)),
                                     cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.CONTACT_ID)),
                                     cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY)),
-                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE)),
-                                    "1"));
+                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE))));
                         } else {
                             all_contact.add(new Contact(cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts._ID)),
                                     cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.CONTACT_ID)),
                                     cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY)),
-                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE)),
-                                    "0"));
+                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE))));
                         }
                     }
                 }
@@ -409,97 +402,17 @@ public class MainActivity extends AppCompatActivity {
         this.finish_activity = finish_activity;
     }
 
-    public static class All_contact extends Fragment {
+    public void update_delete() {
+        fragment_deleted_contact.update();
+    }
 
-        View view;
-        ArrayList<Contact> all_contact;
-        RecyclerView recyclerView;
-        TextView data_not_found;
-
-        @Nullable
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
-
-            all_contact = ((MainActivity) getActivity()).get_all_contact();
-            view = inflater.inflate(R.layout.recyclerview, container, false);
-            recyclerView = (RecyclerView) view.findViewById(R.id.adapter_recycler_view);
-            data_not_found = (TextView) view.findViewById(R.id.no_data_found);
-
-            if (all_contact.size() > 0) {
-                data_not_found.setVisibility(View.GONE);
-                recyclerView.setVisibility(View.VISIBLE);
-                recyclerView.setHasFixedSize(true);
-                recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-                recyclerView.setAdapter(new org.dbhatt.d_deleted_contact.Data.All_contact(all_contact, getContext(), ((MainActivity) getActivity())));
-                recyclerView.setNestedScrollingEnabled(false);
-            } else {
-                data_not_found.setVisibility(View.VISIBLE);
-                recyclerView.setVisibility(View.GONE);
-            }
-            return view;
-        }
-
-        public void update() {
-            all_contact = ((MainActivity) getActivity()).get_all_contact();
-            if (all_contact.size() > 0) {
-                data_not_found.setVisibility(View.GONE);
-                recyclerView.setVisibility(View.VISIBLE);
-                recyclerView.setHasFixedSize(true);
-                recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-                recyclerView.setAdapter(new org.dbhatt.d_deleted_contact.Data.All_contact(all_contact, getContext(), ((MainActivity) getActivity())));
-                recyclerView.setNestedScrollingEnabled(false);
-            } else {
-                data_not_found.setVisibility(View.VISIBLE);
-                recyclerView.setVisibility(View.GONE);
-            }
+    public void add_to_all_contact(Contact contact) {
+        if (all_contact.size() > 0)
+            fragment_all_contact.add_contact(contact);
+        else {
+            all_contact.add(contact);
+            fragment_all_contact.update();
         }
     }
 
-    public static class Deleted_contact extends Fragment {
-
-        RecyclerView recyclerView;
-        View view;
-        ArrayList<Contact> deleted_contact;
-        TextView data_not_found;
-
-        @Nullable
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
-            view = inflater.inflate(R.layout.recyclerview, container, false);
-
-            recyclerView = (RecyclerView) view.findViewById(R.id.adapter_recycler_view);
-            data_not_found = (TextView) view.findViewById(R.id.no_data_found);
-            deleted_contact = ((MainActivity) getActivity()).get_deleted_contact();
-
-            if (deleted_contact.size() > 0) {
-                data_not_found.setVisibility(View.GONE);
-                recyclerView.setVisibility(View.VISIBLE);
-                recyclerView.setHasFixedSize(true);
-                recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-                recyclerView.setAdapter(new org.dbhatt.d_deleted_contact.Data.Deleted_contact(deleted_contact, getContext()));
-                recyclerView.setNestedScrollingEnabled(false);
-            } else {
-                data_not_found.setVisibility(View.VISIBLE);
-                recyclerView.setVisibility(View.GONE);
-            }
-            return view;
-        }
-
-        public void update() {
-            deleted_contact = ((MainActivity) getActivity()).get_deleted_contact();
-            if (deleted_contact.size() > 0) {
-                data_not_found.setVisibility(View.GONE);
-                recyclerView.setVisibility(View.VISIBLE);
-                recyclerView.setHasFixedSize(true);
-                recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-                recyclerView.setAdapter(new org.dbhatt.d_deleted_contact.Data.All_contact(deleted_contact, getContext(), ((MainActivity) getActivity())));
-                recyclerView.setNestedScrollingEnabled(false);
-            } else {
-                data_not_found.setVisibility(View.VISIBLE);
-                recyclerView.setVisibility(View.GONE);
-            }
-        }
-    }
 }
