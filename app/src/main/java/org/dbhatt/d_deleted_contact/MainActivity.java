@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
     private static ContentResolver contentResolver;
     private boolean finish_activity = true;
     private ArrayList<Contact> all_contact, deleted_contact;
-    All_contact fragment_all_contact;
-    Deleted_contact fragment_deleted_contact;
+    All_contact_fragment fragment_all_contact;
+    Deleted_contact_fragment fragment_deleted_contact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        fragment_all_contact = new All_contact();
-        fragment_deleted_contact = new Deleted_contact();
+        fragment_all_contact = new All_contact_fragment();
+        fragment_deleted_contact = new Deleted_contact_fragment();
 
         finish_activity = false;
         new Thread(new Runnable() {
