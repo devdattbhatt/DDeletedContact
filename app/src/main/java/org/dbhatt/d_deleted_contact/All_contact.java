@@ -55,7 +55,7 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
     private ContentResolver resolver;
     private ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> all_contact;
 
-    public All_contact(ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> all_contact, Context context, MainActivity mainActivity) {
+    All_contact(ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> all_contact, Context context, MainActivity mainActivity) {
         try {
             this.all_contact = all_contact;
             resolver = context.getContentResolver();

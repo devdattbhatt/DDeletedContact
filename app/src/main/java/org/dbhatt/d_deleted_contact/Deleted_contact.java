@@ -47,7 +47,7 @@ public class Deleted_contact extends RecyclerView.Adapter<Deleted_contact.Contac
     private ContentResolver resolver;
     private ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> deleted_contact;
 
-    public Deleted_contact(ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> all_contact, Context context, MainActivity mainActivity) {
+    Deleted_contact(ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> all_contact, Context context, MainActivity mainActivity) {
         try {
             this.deleted_contact = all_contact;
             resolver = context.getContentResolver();
@@ -93,7 +93,6 @@ public class Deleted_contact extends RecyclerView.Adapter<Deleted_contact.Contac
 
         Contact(View itemView) {
             super(itemView);
-
             try {
                 contact_raw = (CardView) itemView.findViewById(R.id.contact_raw);
                 contact_name = (TextView) itemView.findViewById(R.id.contact_name);
@@ -167,7 +166,7 @@ public class Deleted_contact extends RecyclerView.Adapter<Deleted_contact.Contac
                 context.getContentResolver().applyBatch(ContactsContract.AUTHORITY, ops);
             } catch (Exception e) {
                 e.printStackTrace();
-                Toast.makeText(context, R.string.contact_developer, Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, e.toString(), Toast.LENGTH_SHORT).show();
             }
             mainActivity.add_to_all_contact(deleted_contact.get(getAdapterPosition()));
             deleted_contact.remove(getAdapterPosition());

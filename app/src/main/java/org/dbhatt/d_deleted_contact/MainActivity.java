@@ -401,12 +401,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void add_to_all_contact(Contact contact) {
-        if (all_contact.size() > 0)
-            fragment_all_contact.add_contact(contact);
-        else {
-            all_contact.add(contact);
-            fragment_all_contact.update();
-        }
+        fragment_all_contact.add_contact(contact);
     }
 
 }
