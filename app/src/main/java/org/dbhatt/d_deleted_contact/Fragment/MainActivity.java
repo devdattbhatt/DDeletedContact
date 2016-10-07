@@ -1,4 +1,4 @@
-package org.dbhatt.d_deleted_contact.Activity;
+package org.dbhatt.d_deleted_contact.Fragment;
 
 import android.Manifest;
 import android.content.ContentProviderOperation;
@@ -35,9 +35,9 @@ import com.google.android.gms.appinvite.AppInviteInvitation;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 
+import org.dbhatt.d_deleted_contact.Activity.Contact_us;
+import org.dbhatt.d_deleted_contact.Activity.Splash;
 import org.dbhatt.d_deleted_contact.Data.Contact;
-import org.dbhatt.d_deleted_contact.Fragment.All_contact;
-import org.dbhatt.d_deleted_contact.Fragment.Deleted_contact;
 import org.dbhatt.d_deleted_contact.R;
 
 import java.io.File;
@@ -263,20 +263,15 @@ public class MainActivity extends AppCompatActivity {
 
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
-        public SectionsPagerAdapter(FragmentManager fm) {
+        SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
         }
 
         @Override
         public Fragment getItem(int position) {
-            switch (position) {
-                case 0:
-                    return fragment_all_contact;
-                case 1:
-                    return fragment_deleted_contact;
-                default:
-                    return fragment_all_contact;
-            }
+            if (position == 0)
+                return fragment_all_contact;
+            else return fragment_deleted_contact;
         }
 
         @Override
@@ -390,15 +385,15 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public ArrayList<Contact> get_all_contact() {
+    protected ArrayList<Contact> get_all_contact() {
         return all_contact;
     }
 
-    public ArrayList<Contact> get_deleted_contact() {
+    protected ArrayList<Contact> get_deleted_contact() {
         return deleted_contact;
     }
 
-    public void setFinish_activity(boolean finish_activity) {
+    protected void setFinish_activity(boolean finish_activity) {
         this.finish_activity = finish_activity;
     }
 

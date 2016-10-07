@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.dbhatt.d_deleted_contact.Activity.MainActivity;
 import org.dbhatt.d_deleted_contact.Data.Contact;
 import org.dbhatt.d_deleted_contact.R;
 

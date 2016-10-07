@@ -2,6 +2,7 @@ package org.dbhatt.d_deleted_contact.Data;
 
 import android.Manifest;
 import android.content.ContentResolver;
+import android.content.ContentUris;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -30,7 +31,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.dbhatt.d_deleted_contact.Activity.MainActivity;
+import org.dbhatt.d_deleted_contact.Fragment.MainActivity;
 import org.dbhatt.d_deleted_contact.R;
 
 import java.io.ByteArrayInputStream;
@@ -128,74 +129,66 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
                     break;
                 case R.id.contact_photo:
                     try {
-                        final Cursor cursor = resolver.query(ContactsContract.Data.CONTENT_URI, new String[]{ContactsContract.Data.DATA15},
-                                ContactsContract.Data.RAW_CONTACT_ID + "=? AND " + ContactsContract.Data.MIMETYPE + " =?",
-                                new String[]{String.valueOf(all_contact.get(getAdapterPosition()).getId()), android.provider.ContactsContract.CommonDataKinds.Photo.CONTENT_ITEM_TYPE}
-                                , null);
-                        if (cursor != null)
-                            if (cursor.moveToFirst()) {
-                                final byte[] photo = cursor.getBlob(0);
-                                cursor.close();
-                                if (photo != null) {
-                                    final InputStream inputStream = new ByteArrayInputStream(photo);
-                                    final Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
-                                    View view = ((LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE)).inflate(R.layout.alert_dialog_photo, null);
-                                    ((ImageView) view.findViewById(R.id.contact_photo)).setImageBitmap(bitmap);
-                                    AlertDialog.Builder builder = new AlertDialog.Builder(context)
-                                            .setNegativeButton(R.string.dismiss, null)
-                                            .setView(view)
-                                            .setPositiveButton(R.string.share, new DialogInterface.OnClickListener() {
-                                                @Override
-                                                public void onClick(DialogInterface dialog, int which) {
+                        Uri contactUri = ContentUris.withAppendedId(ContactsContract.Contacts.CONTENT_URI, all_contact.get(getAdapterPosition()).getRaw_id());
+                        InputStream inputStream = ContactsContract.Contacts.openContactPhotoInputStream(resolver, contactUri, true);
+                        if (inputStream != null) {
+                            final Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
+                            View view = ((LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE)).inflate(R.layout.alert_dialog_photo, null);
+                            ((ImageView) view.findViewById(R.id.contact_photo)).setImageBitmap(bitmap);
+                            AlertDialog.Builder builder = new AlertDialog.Builder(context)
+                                    .setNegativeButton(R.string.dismiss, null)
+                                    .setView(view)
+                                    .setPositiveButton(R.string.share, new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialog, int which) {
 
-                                                    if (Build.VERSION.SDK_INT > 22) {
-                                                        if (ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-                                                            if (ActivityCompat.shouldShowRequestPermissionRationale(mainActivity,
-                                                                    Manifest.permission.READ_CONTACTS)) {
+                                            if (Build.VERSION.SDK_INT > 22) {
+                                                if (ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                                                    if (ActivityCompat.shouldShowRequestPermissionRationale(mainActivity,
+                                                            Manifest.permission.READ_CONTACTS)) {
 
-                                                                new AlertDialog.Builder(context)
-                                                                        .setTitle(R.string.permission)
-                                                                        .setMessage(R.string.permission_message_write_external_storage)
-                                                                        .setPositiveButton(R.string.permission_grant, new DialogInterface.OnClickListener() {
-                                                                            @Override
-                                                                            public void onClick(DialogInterface dialog, int which) {
-                                                                                ActivityCompat.requestPermissions(mainActivity,
-                                                                                        new String[]{Manifest.permission.READ_CONTACTS},
-                                                                                        REQUEST_READ_CONTACTS_CONTACT);
-                                                                            }
-                                                                        }).create().show();
-                                                            } else {
-                                                                ActivityCompat.requestPermissions(mainActivity,
-                                                                        new String[]{Manifest.permission.READ_CONTACTS},
-                                                                        REQUEST_READ_CONTACTS_CONTACT);
-                                                            }
-                                                        } else share_contact_photo();
-                                                    } else share_contact_photo();
-                                                }
-
-                                                private void share_contact_photo() {
-                                                    mainActivity.setFinish_activity(false);
-                                                    File tmp_file = null;
-                                                    try {
-                                                        tmp_file = new File(Environment.getExternalStorageDirectory(), "tmp.png");
-                                                        FileOutputStream outputStream = new FileOutputStream(tmp_file);
-                                                        bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream);
-                                                        outputStream.flush();
-                                                        outputStream.close();
-                                                    } catch (IOException e) {
-                                                        e.printStackTrace();
-                                                        Toast.makeText(context, R.string.contact_developer, Toast.LENGTH_SHORT).show();
+                                                        new AlertDialog.Builder(context)
+                                                                .setTitle(R.string.permission)
+                                                                .setMessage(R.string.permission_message_write_external_storage)
+                                                                .setPositiveButton(R.string.permission_grant, new DialogInterface.OnClickListener() {
+                                                                    @Override
+                                                                    public void onClick(DialogInterface dialog, int which) {
+                                                                        ActivityCompat.requestPermissions(mainActivity,
+                                                                                new String[]{Manifest.permission.READ_CONTACTS},
+                                                                                REQUEST_READ_CONTACTS_CONTACT);
+                                                                    }
+                                                                }).create().show();
+                                                    } else {
+                                                        ActivityCompat.requestPermissions(mainActivity,
+                                                                new String[]{Manifest.permission.READ_CONTACTS},
+                                                                REQUEST_READ_CONTACTS_CONTACT);
                                                     }
-                                                    Intent sendIntent = new Intent();
-                                                    sendIntent.setAction(Intent.ACTION_SEND);
-                                                    sendIntent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(tmp_file));
-                                                    sendIntent.setType("image/png");
-                                                    mainActivity.startActivityForResult(Intent.createChooser(sendIntent, context.getText(R.string.share)), DO_NOT_FINISH_REQUEST_CODE);
-                                                }
-                                            });
-                                    builder.create().show();
-                                }
-                            }
+                                                } else share_contact_photo();
+                                            } else share_contact_photo();
+                                        }
+
+                                        private void share_contact_photo() {
+                                            mainActivity.setFinish_activity(false);
+                                            File tmp_file = null;
+                                            try {
+                                                tmp_file = new File(Environment.getExternalStorageDirectory(), "tmp.png");
+                                                FileOutputStream outputStream = new FileOutputStream(tmp_file);
+                                                bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream);
+                                                outputStream.flush();
+                                                outputStream.close();
+                                            } catch (IOException e) {
+                                                e.printStackTrace();
+                                                Toast.makeText(context, R.string.contact_developer, Toast.LENGTH_SHORT).show();
+                                            }
+                                            Intent sendIntent = new Intent();
+                                            sendIntent.setAction(Intent.ACTION_SEND);
+                                            sendIntent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(tmp_file));
+                                            sendIntent.setType("image/png");
+                                            mainActivity.startActivityForResult(Intent.createChooser(sendIntent, context.getText(R.string.share)), DO_NOT_FINISH_REQUEST_CODE);
+                                        }
+                                    });
+                            builder.create().show();
+                        }
                     } catch (Exception e) {
                         e.printStackTrace();
                         Toast.makeText(context, R.string.contact_developer, Toast.LENGTH_LONG).show();
@@ -250,11 +243,11 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
         @Override
         protected Bitmap doInBackground(String... strings) {
             try {
-                final Cursor cursor = resolver.query(ContactsContract.Data.CONTENT_URI, new String[]{ContactsContract.Data.DATA15},
-                        ContactsContract.Data.RAW_CONTACT_ID + "=? AND " + ContactsContract.Data.MIMETYPE + " =?",
-                        new String[]{strings[0], android.provider.ContactsContract.CommonDataKinds.Photo.CONTENT_ITEM_TYPE}
+                final Cursor cursor = resolver.query(ContactsContract.Data.CONTENT_URI,
+                        new String[]{ContactsContract.Data.DATA15},
+                        ContactsContract.Data.RAW_CONTACT_ID + "=?",
+                        new String[]{strings[0]}
                         , null);
-
                 InputStream inputStream = null;
                 if (cursor.moveToFirst()) {
                     byte[] photo = cursor.getBlob(0);
