@@ -1,4 +1,4 @@
-package org.dbhatt.d_deleted_contact.Fragment;
+package org.dbhatt.d_deleted_contact;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,7 +11,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import org.dbhatt.d_deleted_contact.Data.Contact;
-import org.dbhatt.d_deleted_contact.R;
 
 import java.util.ArrayList;
 
@@ -19,7 +18,7 @@ import java.util.ArrayList;
  * Created by dev on 4/10/16.
  */
 
-public class All_contact extends Fragment {
+public class All_contact_fragment extends Fragment {
 
     View view;
     ArrayList<Contact> all_contact;
@@ -42,7 +41,7 @@ public class All_contact extends Fragment {
             recyclerView.setVisibility(View.VISIBLE);
             recyclerView.setHasFixedSize(true);
             recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-            adapter = new org.dbhatt.d_deleted_contact.Data.All_contact(all_contact, getContext(), ((MainActivity) getActivity()));
+            adapter = new All_contact(all_contact, getContext(), ((MainActivity) getActivity()));
             recyclerView.setAdapter(adapter);
         } else {
             data_not_found.setVisibility(View.VISIBLE);
@@ -58,7 +57,7 @@ public class All_contact extends Fragment {
             recyclerView.setVisibility(View.VISIBLE);
             recyclerView.setHasFixedSize(true);
             recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-            recyclerView.setAdapter(new org.dbhatt.d_deleted_contact.Data.All_contact(all_contact, getContext(), ((MainActivity) getActivity())));
+            recyclerView.setAdapter(new All_contact(all_contact, getContext(), ((MainActivity) getActivity())));
             recyclerView.setNestedScrollingEnabled(false);
         } else {
             data_not_found.setVisibility(View.VISIBLE);
@@ -75,7 +74,7 @@ public class All_contact extends Fragment {
             recyclerView.setVisibility(View.VISIBLE);
             recyclerView.setHasFixedSize(true);
             recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-            recyclerView.setAdapter(new org.dbhatt.d_deleted_contact.Data.All_contact(all_contact, getContext(), ((MainActivity) getActivity())));
+            recyclerView.setAdapter(new All_contact(all_contact, getContext(), ((MainActivity) getActivity())));
             recyclerView.setNestedScrollingEnabled(false);
         }
     }

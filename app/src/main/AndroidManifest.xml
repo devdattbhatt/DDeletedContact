@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.AppBarOverlay">
         <activity
-            android:name="org.dbhatt.d_deleted_contact.Fragment.MainActivity"
+            android:name="org.dbhatt.d_deleted_contact.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -28,12 +28,12 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activity.Contact_us"
-            android:parentActivityName=".Fragment.MainActivity"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Fragment.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
     </application>
 </manifest>

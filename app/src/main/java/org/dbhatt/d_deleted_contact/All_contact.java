@@ -1,4 +1,4 @@
-package org.dbhatt.d_deleted_contact.Data;
+package org.dbhatt.d_deleted_contact;
 
 import android.Manifest;
 import android.content.ContentResolver;
@@ -30,9 +30,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import org.dbhatt.d_deleted_contact.Fragment.MainActivity;
-import org.dbhatt.d_deleted_contact.R;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;

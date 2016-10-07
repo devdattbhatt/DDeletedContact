@@ -1,4 +1,4 @@
-package org.dbhatt.d_deleted_contact.Fragment;
+package org.dbhatt.d_deleted_contact;
 
 import android.Manifest;
 import android.content.ContentProviderOperation;
@@ -38,7 +38,6 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import org.dbhatt.d_deleted_contact.Activity.Contact_us;
 import org.dbhatt.d_deleted_contact.Activity.Splash;
 import org.dbhatt.d_deleted_contact.Data.Contact;
-import org.dbhatt.d_deleted_contact.R;
 
 import java.io.File;
 import java.util.ArrayList;
