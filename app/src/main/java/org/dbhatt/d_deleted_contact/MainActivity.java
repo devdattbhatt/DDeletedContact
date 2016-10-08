@@ -36,7 +36,6 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import org.dbhatt.d_deleted_contact.Activity.Contact_us;
-import org.dbhatt.d_deleted_contact.Activity.Splash;
 import org.dbhatt.d_deleted_contact.Data.Contact;
 
 import java.io.File;
@@ -65,14 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
         fragment_all_contact = new All_contact_fragment();
         fragment_deleted_contact = new Deleted_contact_fragment();
-
-        finish_activity = false;
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                startActivityForResult(new Intent(getApplicationContext(), Splash.class), DO_NOT_FINISH_REQUEST_CODE);
-            }
-        }).start();
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -242,12 +233,21 @@ public class MainActivity extends AppCompatActivity {
                 if (resultCode == RESULT_OK)
                     Toast.makeText(this, R.string.thank_you, Toast.LENGTH_SHORT).show();
                 break;
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
             case REQUEST_READ_CONTACTS_CONTACT:
-                finish_activity = true;
-                if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) == PackageManager.PERMISSION_GRANTED)
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED)
                     load_contacts();
-                break;
+                return;
             case REQUEST_WRITE_CONTACTS_CONTACT:
+                finish_activity = true;
+                break;
+            case REQUEST_WRITE_EXTERNAL_STORAGE:
                 finish_activity = true;
                 break;
         }
@@ -292,7 +292,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     class Update_lists extends AsyncTask<Void, Void, Void> {
-
         @Override
         protected Void doInBackground(Void... params) {
             refreshing = true;

@@ -1,10 +1,12 @@
 package org.dbhatt.d_deleted_contact.Activity;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import org.dbhatt.d_deleted_contact.MainActivity;
 import org.dbhatt.d_deleted_contact.R;
 
 /**
@@ -32,7 +34,7 @@ public class Splash extends AppCompatActivity {
             @Override
             protected void onPostExecute(Void aVoid) {
                 super.onPostExecute(aVoid);
-                onPause();
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));
             }
         }.execute();
     }
