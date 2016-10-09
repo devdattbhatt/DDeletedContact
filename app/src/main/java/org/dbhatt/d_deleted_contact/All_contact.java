@@ -46,7 +46,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -58,7 +57,7 @@ import java.util.Random;
 /**
  * Created by devsb on 18-09-2016.
  */
-public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
+class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
 
     private static final int DO_NOT_FINISH_REQUEST_CODE = 143,
             REQUEST_READ_CONTACTS_CONTACT = 1431;
@@ -96,7 +95,7 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
             org.dbhatt.d_deleted_contact.Data.Contact contact = all_contact.get(position);
             holder.contact_name.setText(contact.getName());
             holder.account_type.setText(contact.getAccount_type());
-            new Load_Contact_Photo(holder.contact_photo, contact.getName()).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, String.valueOf(contact.getId()));
+            new Load_Contact_Photo(holder.contact_photo, contact.getName()).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, String.valueOf(contact.getRaw_id()));
         } catch (Exception e) {
             e.printStackTrace();
             Toast.makeText(context, R.string.contact_developer, Toast.LENGTH_SHORT).show();
@@ -254,7 +253,8 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
         protected Bitmap doInBackground(String... strings) {
             try {
                 Uri contactUri = ContentUris.withAppendedId(ContactsContract.Contacts.CONTENT_URI, Long.parseLong(strings[0]));
-                InputStream inputStream = ContactsContract.Contacts.openContactPhotoInputStream(resolver, contactUri, true);                if (inputStream != null)
+                InputStream inputStream = ContactsContract.Contacts.openContactPhotoInputStream(resolver, contactUri, true);
+                if (inputStream != null)
                     return BitmapFactory.decodeStream(inputStream);
                 else {
                     Bitmap bitmap_photo = null;
