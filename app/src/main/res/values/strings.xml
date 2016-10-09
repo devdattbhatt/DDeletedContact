@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">D Deleted Contact</string>
-    <string name="section_format">Hello World from section: %1$d</string>
     <string name="splash_dbhatt_org">Dbhatt.org</string>
     <string name="all_contact">Contacts</string>
     <string name="deleted_contact">Deleted</string>
@@ -9,11 +8,14 @@
     <string name="share">Share</string>
     <string name="thank_you">Thank you for share/invite</string>
     <string name="contact_developer">Error occur, contact developer.</string>
+    <string name="install_whats_app">Install Whats App first</string>
+    <string name="install">Install</string>
 
     <!-- Toast messages-->
     <string name="try_after_some_time">Try After Some Time</string>
 
     <!-- action menu -->
+    <string name="action_language">Language</string>
     <string name="action_refresh">Refresh</string>
     <string name="action_restore_all">Restore All</string>
     <string name="action_app_invite">Invite Friends</string>
@@ -23,7 +25,7 @@
 
     <!-- default value-->
     <string name="contact_name">Contact name</string>
-    <string name="contact_phone_number">contact number</string>
+    <string name="contact_phone_number">Contact number</string>
     <string name="contact_account_type">Account Type</string>
 
     <!-- descriptions -->
@@ -31,16 +33,16 @@
     <string name="description_contact_info">Contact info</string>
 
     <!--static link-->
-    <string name="static_contact_us_whats_app">Happy to talk any time as soon as possible, english only.</string>
-    <string name="static_contact_us_developer">Warmly welcome to testers together we can build best apps ever.</string>
-    <string name="static_contact_us_language">This is language group around the world.</string>
-    <string name="static_contact_us_google_plus">Reach me directly on google+ profile</string>
-    <string name="static_contact_us_linkedin">grow your connection via linkedin.</string>
-    <string name="static_contact_us_facebook">We are on facebook too.</string>
+    <string name="static_contact_us_whats_app">Contact developer directly on WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ group for Developers, Testers and contributors.</string>
+    <string name="static_contact_us_language">Google+ group for Translators and Language lovers.</string>
+    <string name="static_contact_us_google_plus">To Meet me on Google+.</string>
+    <string name="static_contact_us_linkedin">To Join as contributor and Developer.</string>
+    <string name="static_contact_us_facebook">Official Facebook Page.</string>
 
     <!-- app invite fire base-->
     <string name="invite_title">Invite Friends</string>
-    <string name="invite_message">D Deleted Contact is Open source, Freeware, Ad-free best app to recover contacts.</string>
+    <string name="invite_message">D Deleted Contact is Open source, Freeware, Advertise-free android app.</string>
     <string name="invite_email_subject">@string/app_name</string>
     <string name="invite_html_contact">%%APPINVITE_LINK_PLACEHOLDER%%</string>
 
@@ -51,4 +53,9 @@
     <string name="permission_message_write_contact">WRITE_CONTACTS permission is needed</string>
     <string name="permission_grant">Grant</string>
     <string name="restore">Restore</string>
+
+    <string-array name="languages">
+        <item>Afrikaans</item>
+        <item></item>
+    </string-array>
 </resources>

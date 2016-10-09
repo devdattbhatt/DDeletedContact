@@ -121,9 +121,6 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
         @Override
         public void onClick(View v) {
             switch (v.getId()) {
-                case R.id.contact_raw:
-
-                    break;
                 case R.id.contact_photo:
                     try {
                         Uri contactUri = ContentUris.withAppendedId(ContactsContract.Contacts.CONTENT_URI, all_contact.get(getAdapterPosition()).getRaw_id());
@@ -133,6 +130,7 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
                             View view = ((LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE)).inflate(R.layout.alert_dialog_photo, null);
                             ((ImageView) view.findViewById(R.id.contact_photo)).setImageBitmap(bitmap);
                             AlertDialog.Builder builder = new AlertDialog.Builder(context)
+                                    .setTitle(all_contact.get(getAdapterPosition()).getName())
                                     .setNegativeButton(R.string.dismiss, null)
                                     .setView(view)
                                     .setPositiveButton(R.string.share, new DialogInterface.OnClickListener() {
@@ -240,19 +238,8 @@ public class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
         @Override
         protected Bitmap doInBackground(String... strings) {
             try {
-                final Cursor cursor = resolver.query(ContactsContract.Data.CONTENT_URI,
-                        new String[]{ContactsContract.Data.DATA15},
-                        ContactsContract.Data.RAW_CONTACT_ID + "=?",
-                        new String[]{strings[0]}
-                        , null);
-                InputStream inputStream = null;
-                if (cursor.moveToFirst()) {
-                    byte[] photo = cursor.getBlob(0);
-                    if (photo != null)
-                        inputStream = new ByteArrayInputStream(photo);
-                    cursor.close();
-                }
-                if (inputStream != null)
+                Uri contactUri = ContentUris.withAppendedId(ContactsContract.Contacts.CONTENT_URI, Long.parseLong(strings[0]));
+                InputStream inputStream = ContactsContract.Contacts.openContactPhotoInputStream(resolver, contactUri, true);                if (inputStream != null)
                     return BitmapFactory.decodeStream(inputStream);
                 else {
                     Bitmap bitmap_photo = null;

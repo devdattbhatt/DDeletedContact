@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
@@ -15,7 +16,6 @@ import org.dbhatt.d_deleted_contact.R;
  */
 public class Contact_us extends AppCompatActivity implements View.OnClickListener {
 
-    private static boolean finish_activity = false;
     private static final int DO_NOT_FINISH_REQUEST_CODE = 143;
     private TextView facebook, whats_app, group_language, group_developer, linkedin, google_pluse;
 
@@ -47,50 +47,59 @@ public class Contact_us extends AppCompatActivity implements View.OnClickListene
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.contact_to_whats_app:
-                finish_activity = false;
-                startActivityForResult(new Intent(Intent.ACTION_SENDTO, Uri.parse("smsto:9427159497")).setPackage("com.whatsapp"), DO_NOT_FINISH_REQUEST_CODE);
+                try {
+                    startActivity(new Intent(Intent.ACTION_SENDTO, Uri.parse("smsto:9427159497")).setPackage("com.whatsapp"));
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Snackbar snackbar = Snackbar.make(v, R.string.install_whats_app, Snackbar.LENGTH_SHORT);
+                    snackbar.setAction(R.string.install, new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            //https://play.google.com/store/apps/details?id=com.whatsapp
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.whatsapp")));
+                        }
+                    });
+                    snackbar.show();
+                }
                 break;
             case R.id.contact_to_google_plus_developer:
-                finish_activity = false;
-                startActivityForResult(Intent.createChooser(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://groups.google.com/forum/#!forum/dbhatt_org_android/join")), getString(R.string.share)), DO_NOT_FINISH_REQUEST_CODE);
+                try {
+                    startActivity(Intent.createChooser(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://groups.google.com/forum/#!forum/dbhatt_org_android/join")), getString(R.string.share)));
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 break;
             case R.id.contact_to_language:
-                finish_activity = false;
-                startActivityForResult(Intent.createChooser(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://groups.google.com/forum/#!forum/dbhatt_org_language/join")), getString(R.string.share)), DO_NOT_FINISH_REQUEST_CODE);
+                try {
+                    startActivity(Intent.createChooser(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://groups.google.com/forum/#!forum/dbhatt_org_language/join")), getString(R.string.share)));
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 break;
             case R.id.contact_to_google_plus:
-                finish_activity = false;
-                startActivityForResult(Intent.createChooser(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://plus.google.com/114708882354058631022")), getString(R.string.share)), DO_NOT_FINISH_REQUEST_CODE);
+                try {
+                    startActivity(Intent.createChooser(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://plus.google.com/114708882354058631022")), getString(R.string.share)));
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 break;
             case R.id.contact_to_linkedin:
-                finish_activity = false;
-                startActivityForResult(Intent.createChooser(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.linkedin.com/in/devdatt-bhatt-533136109")), getString(R.string.share)), DO_NOT_FINISH_REQUEST_CODE);
+                try {
+                    startActivity(Intent.createChooser(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.linkedin.com/in/devdatt-bhatt-533136109")), getString(R.string.share)));
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 break;
             case R.id.contact_to_facebook:
-                finish_activity = false;
                 try {
                     if (getPackageManager().getPackageInfo("com.facebook.katana", 0).versionCode >= 3002850)
                         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("fb://facewebmodal/f?href=https://www.facebook.com/dbhatt.org")));
                     else
                         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/dbhatt.org")));
                 } catch (Exception e) {
-                    startActivityForResult(Intent.createChooser(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.facebook.com/dbhatt.org")), getString(R.string.share)), DO_NOT_FINISH_REQUEST_CODE);
+                    startActivity(Intent.createChooser(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.facebook.com/dbhatt.org")), getString(R.string.share)));
                 }
                 break;
         }
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        if (finish_activity)
-            finish();
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == DO_NOT_FINISH_REQUEST_CODE)
-            finish_activity = true;
     }
 }

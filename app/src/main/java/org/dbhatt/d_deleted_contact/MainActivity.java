@@ -137,10 +137,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_restore_all:
                 if (Build.VERSION.SDK_INT > 22) {
                     if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_CONTACTS) == PackageManager.PERMISSION_GRANTED) {
-                        if (deleted_contact.isEmpty())
-                            Toast.makeText(getApplicationContext(), R.string.no_data_found, Toast.LENGTH_SHORT).show();
-                        else
-                            new Restore_All_contact().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                        restore_all_contacts();
                     } else {
                         final MainActivity mainActivity = this;
                         if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.WRITE_CONTACTS)) {
@@ -162,10 +159,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 } else {
-                    if (deleted_contact.isEmpty())
-                        Toast.makeText(getApplicationContext(), R.string.no_data_found, Toast.LENGTH_SHORT).show();
-                    else
-                        new Restore_All_contact().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                    restore_all_contacts();
                 }
                 break;
             case R.id.action_app_invite:
@@ -181,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent app_invite_intent = new AppInviteInvitation.IntentBuilder(getString(R.string.invite_title))
                         .setMessage(getString(R.string.invite_message))
                         .setEmailSubject(getString(R.string.invite_email_subject))
-                        .setEmailHtmlContent(getString(R.string.invite_html_contact))
+                        .setEmailHtmlContent("<html><h2 class='h2'><a href='%%APPINVITE_LINK_PLACEHOLDER%%'>" + getString(R.string.app_name) + "</a></h2></html>")
                         .build();
                 startActivityForResult(app_invite_intent, APP_INVITE);
                 break;
@@ -206,6 +200,23 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void restore_all_contacts() {
+        if (deleted_contact.isEmpty())
+            Toast.makeText(getApplicationContext(), R.string.no_data_found, Toast.LENGTH_SHORT).show();
+        else
+            new AlertDialog.Builder(this)
+                    .setTitle(R.string.restore)
+                    .setMessage(R.string.all_contact)
+                    .setPositiveButton(R.string.restore, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            new Restore_All_contact().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                        }
+                    })
+                    .create().show();
+
     }
 
     @Override
