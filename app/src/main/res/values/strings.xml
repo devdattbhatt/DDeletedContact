@@ -25,6 +25,7 @@
     <string name="contact_developer">Error occur, contact developer.</string>
     <string name="install_whats_app">Install Whats App first</string>
     <string name="install">Install</string>
+    <string name="coming_soon">Coming soon</string>
 
     <!-- Toast messages-->
     <string name="try_after_some_time">Try After Some Time</string>

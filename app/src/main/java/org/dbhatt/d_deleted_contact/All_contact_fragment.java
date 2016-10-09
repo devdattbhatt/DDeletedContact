@@ -26,7 +26,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.dbhatt.d_deleted_contact.Data.Contact;
 
@@ -61,6 +60,7 @@ public class All_contact_fragment extends Fragment {
             recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
             adapter = new All_contact(all_contact, getContext(), ((MainActivity) getActivity()));
             recyclerView.setAdapter(adapter);
+            recyclerView.setNestedScrollingEnabled(false);
         } else {
             data_not_found.setVisibility(View.VISIBLE);
             recyclerView.setVisibility(View.GONE);
@@ -75,7 +75,8 @@ public class All_contact_fragment extends Fragment {
             recyclerView.setVisibility(View.VISIBLE);
             recyclerView.setHasFixedSize(true);
             recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-            recyclerView.setAdapter(new All_contact(all_contact, getContext(), ((MainActivity) getActivity())));
+            adapter = new All_contact(all_contact, getContext(), ((MainActivity) getActivity()));
+            recyclerView.setAdapter(adapter);
             recyclerView.setNestedScrollingEnabled(false);
         } else {
             data_not_found.setVisibility(View.VISIBLE);
@@ -85,31 +86,60 @@ public class All_contact_fragment extends Fragment {
 
     public void add_contact(Contact contact) {
         try {
-            Cursor cursor = getContext().getContentResolver().query(ContactsContract.RawContacts.CONTENT_URI,
-                    new String[]{ContactsContract.RawContacts._ID,
-                            ContactsContract.RawContacts.CONTACT_ID,
-                            ContactsContract.RawContacts.ACCOUNT_TYPE,
-                            ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY},
-                    ContactsContract.RawContacts._ID + "=?",
-                    new String[]{String.valueOf(contact.getId())},
-                    null);
-            if (cursor != null) {
-                if (cursor.moveToFirst()) {
-                    Toast.makeText(getContext(), String.valueOf(cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.CONTACT_ID))), Toast.LENGTH_SHORT).show();
-                    all_contact.add(0, new Contact(cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts._ID)),
-                            cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.CONTACT_ID)),
-                            cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY)),
-                            cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE))));
+            if (all_contact != null)
+                if (all_contact.size() <= 0) {
+                    all_contact = new ArrayList<>();
+                    Cursor cursor = getContext().getContentResolver().query(ContactsContract.RawContacts.CONTENT_URI,
+                            new String[]{ContactsContract.RawContacts._ID,
+                                    ContactsContract.RawContacts.CONTACT_ID,
+                                    ContactsContract.RawContacts.ACCOUNT_TYPE,
+                                    ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY},
+                            ContactsContract.RawContacts._ID + "=?",
+                            new String[]{String.valueOf(contact.getId())},
+                            null);
+                    if (cursor != null) {
+                        if (cursor.moveToFirst())
+                            all_contact.add(0, new Contact(cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts._ID)),
+                                    cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.CONTACT_ID)),
+                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY)),
+                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE))));
+                        if (!cursor.isClosed())
+                            cursor.close();
+                    } else {
+                        all_contact.add(0, contact);
+                    }
+                    if (all_contact.size() > 0) {
+                        data_not_found.setVisibility(View.GONE);
+                        recyclerView.setVisibility(View.VISIBLE);
+                        recyclerView.setHasFixedSize(true);
+                        recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
+                        adapter = new All_contact(all_contact, getContext(), ((MainActivity) getActivity()));
+                        recyclerView.setAdapter(adapter);
+                        recyclerView.setNestedScrollingEnabled(false);
+                    }
+                } else {
+                    Cursor cursor = getContext().getContentResolver().query(ContactsContract.RawContacts.CONTENT_URI,
+                            new String[]{ContactsContract.RawContacts._ID,
+                                    ContactsContract.RawContacts.CONTACT_ID,
+                                    ContactsContract.RawContacts.ACCOUNT_TYPE,
+                                    ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY},
+                            ContactsContract.RawContacts._ID + "=?",
+                            new String[]{String.valueOf(contact.getId())},
+                            null);
+                    if (cursor != null) {
+                        if (cursor.moveToFirst()) {
+                            all_contact.add(0, new Contact(cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts._ID)),
+                                    cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.CONTACT_ID)),
+                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY)),
+                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE))));
+                        }
+                        if (!cursor.isClosed())
+                            cursor.close();
+                    }
                 }
-                if (!cursor.isClosed())
-                    cursor.close();
-            } else {
-                all_contact.add(0, contact);
-            }
             adapter.notifyItemInserted(0);
         } catch (Exception e) {
             e.printStackTrace();
-            Toast.makeText(getContext(), e.toString(), Toast.LENGTH_SHORT).show();
         }
     }
 }

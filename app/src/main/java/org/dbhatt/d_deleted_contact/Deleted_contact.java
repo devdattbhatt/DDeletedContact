@@ -17,7 +17,6 @@ package org.dbhatt.d_deleted_contact;
 
 import android.Manifest;
 import android.content.ContentProviderOperation;
-import android.content.ContentResolver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
@@ -51,21 +50,17 @@ import java.util.Random;
  */
 public class Deleted_contact extends RecyclerView.Adapter<Deleted_contact.Contact> {
 
-    private static final int DO_NOT_FINISH_REQUEST_CODE = 143,
-            REQUEST_WRITE_EXTERNAL_STORAGE = 1433,
-            REQUEST_READ_CONTACTS_CONTACT = 1431;
+    private static final int REQUEST_WRITE_EXTERNAL_STORAGE = 1433;
     private MainActivity mainActivity;
     private Context context;
     private boolean rtl = false;
     private Random rnd;
     private Paint paint;
-    private ContentResolver resolver;
     private ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> deleted_contact;
 
     Deleted_contact(ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> all_contact, Context context, MainActivity mainActivity) {
         try {
             this.deleted_contact = all_contact;
-            resolver = context.getContentResolver();
             rnd = new Random();
             paint = new Paint();
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1)
@@ -181,7 +176,7 @@ public class Deleted_contact extends RecyclerView.Adapter<Deleted_contact.Contac
                 context.getContentResolver().applyBatch(ContactsContract.AUTHORITY, ops);
             } catch (Exception e) {
                 e.printStackTrace();
-                Toast.makeText(context, e.toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, R.string.contact_developer, Toast.LENGTH_SHORT).show();
             }
             mainActivity.add_to_all_contact(deleted_contact.get(getAdapterPosition()));
             deleted_contact.remove(getAdapterPosition());

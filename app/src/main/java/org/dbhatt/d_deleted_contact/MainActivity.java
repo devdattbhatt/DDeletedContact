@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.READ_CONTACTS)) {
                     new AlertDialog.Builder(this)
                             .setTitle(R.string.permission)
-                            .setMessage(R.string.permission_message_write_external_storage)
+                            .setMessage(R.string.permission_message_read_contact)
                             .setPositiveButton(R.string.permission_grant, new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
@@ -135,7 +135,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void load_contacts() {
         contentResolver = getContentResolver();
-        new Update_lists().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+        if (!refreshing)
+            new Update_lists().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
     }
 
 
@@ -211,7 +212,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_refresh:
                 if (refreshing)
                     Toast.makeText(this, R.string.try_after_some_time, Toast.LENGTH_SHORT).show();
-                else new Update_lists().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                else load_contacts();
+                break;
+            case R.id.action_language:
+                Toast.makeText(this, R.string.coming_soon, Toast.LENGTH_SHORT).show();
                 break;
         }
         return super.onOptionsItemSelected(item);
@@ -352,6 +356,8 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
             refreshing = false;
+            fragment_all_contact.update();
+            fragment_deleted_contact.update();
         }
     }
 
@@ -404,6 +410,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
+            refreshing = false;
             fragment_all_contact.update();
             fragment_deleted_contact.update();
         }
