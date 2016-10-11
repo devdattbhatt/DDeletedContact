@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Holoi i ka Contact</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Hoʻokaʻaʻike</string><string name="deleted_contact">holoiʻia</string><string name="no_data_found">NoʻIkepili Found</string><string name="dismiss">kāpae i</string><string name="share">Share</string><string name="thank_you">Mahalo no ka mea, kaʻana like &amp;#39;ana / kono</string><string name="contact_developer">Hewa o keia hoopunipuni ana, papa nā mea haku polokalamu.</string><string name="install_whats_app">E hoʻouka i ke ano o App mua</string><string name="install">hoʻouka</string><string name="coming_soon">Hiki koke</string><string name="try_after_some_time">E ho&amp;#39;āʻo Ma hope o kekahi Time</string><string name="action_language">&amp;#39;ōlelo</string><string name="action_refresh">kiʻi hou i</string><string name="action_restore_all">hooponopono i na</string><string name="action_app_invite">kii Friends</string><string name="action_share">Share APK</string><string name="action_feed_back">manaʻo</string><string name="action_contact_us">Kāhea iā mā˚ou</string><string name="contact_name">Hoʻokaʻaʻike inoa</string><string name="contact_phone_number">Hoʻokaʻaʻike helu</string><string name="contact_account_type">waihona moʻokākiʻAno</string><string name="description_contact_photo">Hoʻokaʻaʻike Photo</string><string name="description_contact_info">Hoʻokaʻaʻike ikepili kemu</string><string name="static_contact_us_whats_app">Hoʻokaʻaʻike nā mea haku polokalamu pololei aku ia WhatsApp.</string><string name="static_contact_us_developer">Google+ hui no ka mea, Developers,ʻia a me nā hui kōkoʻolua.</string><string name="static_contact_us_language">Google+ hui no ka mea, AaOAaXIeAePEEeIeX, a me Language aloha.</string><string name="static_contact_us_google_plus">E halawai me au ma Google+.</string><string name="static_contact_us_linkedin">E hui e like me ka hui kōkoʻolua, a me nā mea haku polokalamu.</string><string name="static_contact_us_facebook">Official Facebook Page.</string><string name="invite_title">kii Friends</string><string name="invite_message">D Holoi i ka Contact ua Open kumu, Freeware, LIKE-ole polokalamu ANDROID APP.</string><string name="invite_email_subject">@ Kui / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">ae</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE ae, ua pono ai</string><string name="permission_message_read_contact">READ_CONTACTS ae, ua pono ai</string><string name="permission_message_write_contact">WRITE_CONTACTS ae, ua pono ai</string><string name="permission_grant">Grant</string><string name="restore">e hoihoi</string></resources>
+<resources>
+    <string name="app_name">D Holoi i ka Contact</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">Hoʻokaʻaʻike</string>
+    <string name="deleted_contact">holoiʻia</string>
+    <string name="no_data_found">NoʻIkepili Found</string>
+    <string name="dismiss">kāpae i</string>
+    <string name="share">Share</string>
+    <string name="thank_you">Mahalo no ka mea, kaʻana like &amp;#39;ana / kono</string>
+    <string name="contact_developer">Hewa o keia hoopunipuni ana, papa nā mea haku polokalamu.</string>
+    <string name="install_whats_app">E hoʻouka i ke ano o App mua</string>
+    <string name="install">hoʻouka</string>
+    <string name="coming_soon">Hiki koke</string>
+    <string name="try_after_some_time">E ho&amp;#39;āʻo Ma hope o kekahi Time</string>
+    <string name="action_language">&amp;#39;ōlelo</string>
+    <string name="action_refresh">kiʻi hou i</string>
+    <string name="action_restore_all">hooponopono i na</string>
+    <string name="action_app_invite">kii Friends</string>
+    <string name="action_share">Share APK</string>
+    <string name="action_feed_back">manaʻo</string>
+    <string name="action_contact_us">Kāhea iā mā˚ou</string>
+    <string name="contact_name">Hoʻokaʻaʻike inoa</string>
+    <string name="contact_phone_number">Hoʻokaʻaʻike helu</string>
+    <string name="contact_account_type">waihona moʻokākiʻAno</string>
+    <string name="description_contact_photo">Hoʻokaʻaʻike Photo</string>
+    <string name="description_contact_info">Hoʻokaʻaʻike ikepili kemu</string>
+    <string name="static_contact_us_whats_app">Hoʻokaʻaʻike nā mea haku polokalamu pololei aku ia WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ hui no ka mea, Developers,ʻia a me nā hui kōkoʻolua.</string>
+    <string name="static_contact_us_language">Google+ hui no ka mea, AaOAaXIeAePEEeIeX, a me Language aloha.</string>
+    <string name="static_contact_us_google_plus">E halawai me au ma Google+.</string>
+    <string name="static_contact_us_linkedin">E hui e like me ka hui kōkoʻolua, a me nā mea haku polokalamu.</string>
+    <string name="static_contact_us_facebook">Official Facebook Page.</string>
+    <string name="invite_title">kii Friends</string>
+    <string name="invite_message">D Holoi i ka Contact ua Open kumu, Freeware, LIKE-ole polokalamu ANDROID APP.</string>
+    <string name="permission">ae</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE ae, ua pono ai</string>
+    <string name="permission_message_read_contact">READ_CONTACTS ae, ua pono ai</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS ae, ua pono ai</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">e hoihoi</string>
+</resources>

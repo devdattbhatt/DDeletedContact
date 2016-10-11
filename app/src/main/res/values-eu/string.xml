@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Deleted Harremanetarako</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Kontaktuak</string><string name="deleted_contact">Ezabatutako</string><string name="no_data_found">Ez da daturik aurkitu</string><string name="dismiss">Baztertu</string><string name="share">Share</string><string name="thank_you">Eskerrik asko share / gonbidatzen</string><string name="contact_developer">Errorea gertatzen, kontaktu garatzaileak.</string><string name="install_whats_app">Instalatu Whats App lehen</string><string name="install">Instalatu</string><string name="coming_soon">Laister</string><string name="try_after_some_time">Saiatu ondoren denbora pixka</string><string name="action_language">Hizkuntza</string><string name="action_refresh">Freskatu</string><string name="action_restore_all">Berreskuratu guztiak</string><string name="action_app_invite">gonbidatu lagunak</string><string name="action_share">Share apk</string><string name="action_feed_back">Feedback</string><string name="action_contact_us">Jarri gurekin harremanetan</string><string name="contact_name">Harremanetarako Izena</string><string name="contact_phone_number">Harremanetarako telefonoa</string><string name="contact_account_type">Kontu-mota</string><string name="description_contact_photo">Photo Harremanetarako</string><string name="description_contact_info">Kontaktu-informazioa</string><string name="static_contact_us_whats_app">sustatzailearen gordeak WhatsApp.</string><string name="static_contact_us_developer">Google+ Developers, probatzaile eta laguntzaileen talde.</string><string name="static_contact_us_language">Google+ Itzultzaile eta Hizkuntza zaleentzat talde.</string><string name="static_contact_us_google_plus">Ezagutu me To Google+ orrian.</string><string name="static_contact_us_linkedin">Laguntzaile eta garapen gisa egin.</string><string name="static_contact_us_facebook">Facebook Page Ofiziala.</string><string name="invite_title">gonbidatu lagunak</string><string name="invite_message">D Deleted Harremanetan Open source, Freeware, Iragarri-free Android aplikazioa da.</string><string name="invite_email_subject">@ Katea / APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">Lizentzia</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE baimena behar da</string><string name="permission_message_read_contact">READ_CONTACTS baimena behar da</string><string name="permission_message_write_contact">WRITE_CONTACTS baimena behar da</string><string name="permission_grant">Grant</string><string name="restore">Berreskuratu</string></resources>
+<resources>
+    <string name="app_name">D Deleted Harremanetarako</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">Kontaktuak</string>
+    <string name="deleted_contact">Ezabatutako</string>
+    <string name="no_data_found">Ez da daturik aurkitu</string>
+    <string name="dismiss">Baztertu</string>
+    <string name="share">Share</string>
+    <string name="thank_you">Eskerrik asko share / gonbidatzen</string>
+    <string name="contact_developer">Errorea gertatzen, kontaktu garatzaileak.</string>
+    <string name="install_whats_app">Instalatu Whats App lehen</string>
+    <string name="install">Instalatu</string>
+    <string name="coming_soon">Laister</string>
+    <string name="try_after_some_time">Saiatu ondoren denbora pixka</string>
+    <string name="action_language">Hizkuntza</string>
+    <string name="action_refresh">Freskatu</string>
+    <string name="action_restore_all">Berreskuratu guztiak</string>
+    <string name="action_app_invite">gonbidatu lagunak</string>
+    <string name="action_share">Share apk</string>
+    <string name="action_feed_back">Feedback</string>
+    <string name="action_contact_us">Jarri gurekin harremanetan</string>
+    <string name="contact_name">Harremanetarako Izena</string>
+    <string name="contact_phone_number">Harremanetarako telefonoa</string>
+    <string name="contact_account_type">Kontu-mota</string>
+    <string name="description_contact_photo">Photo Harremanetarako</string>
+    <string name="description_contact_info">Kontaktu-informazioa</string>
+    <string name="static_contact_us_whats_app">sustatzailearen gordeak WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ Developers, probatzaile eta laguntzaileen talde.</string>
+    <string name="static_contact_us_language">Google+ Itzultzaile eta Hizkuntza zaleentzat talde.</string>
+    <string name="static_contact_us_google_plus">Ezagutu me To Google+ orrian.</string>
+    <string name="static_contact_us_linkedin">Laguntzaile eta garapen gisa egin.</string>
+    <string name="static_contact_us_facebook">Facebook Page Ofiziala.</string>
+    <string name="invite_title">gonbidatu lagunak</string>
+    <string name="invite_message">D Deleted Harremanetan Open source, Freeware, Iragarri-free Android aplikazioa da.</string>
+    <string name="permission">Lizentzia</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE baimena behar da</string>
+    <string name="permission_message_read_contact">READ_CONTACTS baimena behar da</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS baimena behar da</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">Berreskuratu</string>
+</resources>

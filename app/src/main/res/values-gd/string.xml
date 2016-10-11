@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Deleted Fios</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Caraidean</string><string name="deleted_contact">a sguabadh às</string><string name="no_data_found">Chan eil Dàta Fhuaras</string><string name="dismiss">cheòl</string><string name="share">Sgaoil</string><string name="thank_you">Tapadh leibh airson share / cuireadh a thoirt do</string><string name="contact_developer">Mearachd a &amp;#39;tachairt, cuiribh fios gu leasaiche.</string><string name="install_whats_app">Stàlaich Whats App chiad</string><string name="install">Stàlaich</string><string name="coming_soon">A &amp;#39;tighinn a dh&amp;#39;aithgheàrr</string><string name="try_after_some_time">Feuch an dèidh greis</string><string name="action_language">cànain</string><string name="action_refresh">Ath-nuadhaich</string><string name="action_restore_all">air ais a h-uile</string><string name="action_app_invite">Thoir cuireadh Friends</string><string name="action_share">Sgaoil apk</string><string name="action_feed_back">Beachdan</string><string name="action_contact_us">Cuir fios thugainn</string><string name="contact_name">Fios ainm</string><string name="contact_phone_number">àireamh fòn</string><string name="contact_account_type">cunntas Type</string><string name="description_contact_photo">Fios Photo</string><string name="description_contact_info">Fios info</string><string name="static_contact_us_whats_app">Fios leasaiche dìreach air WhatsApp.</string><string name="static_contact_us_developer">Google+ airson buidheann leasachaidh, luchd-deuchainn agus na tabhartaichean.</string><string name="static_contact_us_language">Google+ buidheann airson eadar-theangairean agus Cànain leannain.</string><string name="static_contact_us_google_plus">Gus coinneachadh ri orm air Google+.</string><string name="static_contact_us_linkedin">Airson Thig còmhla mar fhiosraiche agus leasachaidh.</string><string name="static_contact_us_facebook">Ceanglaichean Duilleag Facebook.</string><string name="invite_title">Thoir cuireadh Friends</string><string name="invite_message">D Deleted Fios tha Open Source, bathar, Sanasaich-asgaidh android app.</string><string name="invite_email_subject">@ Sreang / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">cead</string><string name="permission_message_write_external_storage">Tha feum air cead WRITE_EXTERNAL_STORAGE</string><string name="permission_message_read_contact">Tha feum air cead READ_CONTACTS</string><string name="permission_message_write_contact">Tha feum air cead WRITE_CONTACTS</string><string name="permission_grant">Grant</string><string name="restore">air ais</string></resources>
+<resources>
+    <string name="app_name">D Deleted Fios</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">Caraidean</string>
+    <string name="deleted_contact">a sguabadh às</string>
+    <string name="no_data_found">Chan eil Dàta Fhuaras</string>
+    <string name="dismiss">cheòl</string>
+    <string name="share">Sgaoil</string>
+    <string name="thank_you">Tapadh leibh airson share / cuireadh a thoirt do</string>
+    <string name="contact_developer">Mearachd a &amp;#39;tachairt, cuiribh fios gu leasaiche.</string>
+    <string name="install_whats_app">Stàlaich Whats App chiad</string>
+    <string name="install">Stàlaich</string>
+    <string name="coming_soon">A &amp;#39;tighinn a dh&amp;#39;aithgheàrr</string>
+    <string name="try_after_some_time">Feuch an dèidh greis</string>
+    <string name="action_language">cànain</string>
+    <string name="action_refresh">Ath-nuadhaich</string>
+    <string name="action_restore_all">air ais a h-uile</string>
+    <string name="action_app_invite">Thoir cuireadh Friends</string>
+    <string name="action_share">Sgaoil apk</string>
+    <string name="action_feed_back">Beachdan</string>
+    <string name="action_contact_us">Cuir fios thugainn</string>
+    <string name="contact_name">Fios ainm</string>
+    <string name="contact_phone_number">àireamh fòn</string>
+    <string name="contact_account_type">cunntas Type</string>
+    <string name="description_contact_photo">Fios Photo</string>
+    <string name="description_contact_info">Fios info</string>
+    <string name="static_contact_us_whats_app">Fios leasaiche dìreach air WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ airson buidheann leasachaidh, luchd-deuchainn agus na tabhartaichean.</string>
+    <string name="static_contact_us_language">Google+ buidheann airson eadar-theangairean agus Cànain leannain.</string>
+    <string name="static_contact_us_google_plus">Gus coinneachadh ri orm air Google+.</string>
+    <string name="static_contact_us_linkedin">Airson Thig còmhla mar fhiosraiche agus leasachaidh.</string>
+    <string name="static_contact_us_facebook">Ceanglaichean Duilleag Facebook.</string>
+    <string name="invite_title">Thoir cuireadh Friends</string>
+    <string name="invite_message">D Deleted Fios tha Open Source, bathar, Sanasaich-asgaidh android app.</string>
+    <string name="permission">cead</string>
+    <string name="permission_message_write_external_storage">Tha feum air cead WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_message_read_contact">Tha feum air cead READ_CONTACTS</string>
+    <string name="permission_message_write_contact">Tha feum air cead WRITE_CONTACTS</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">air ais</string>
+</resources>

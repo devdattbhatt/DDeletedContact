@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D ລົບຕິດຕໍ່</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">ຕິດຕໍ່ພົວພັນ</string><string name="deleted_contact">ລຶບ</string><string name="no_data_found">ບໍ່ມີຂໍ້ມູນ</string><string name="dismiss">ຍົກເລີກ</string><string name="share">Share</string><string name="thank_you">ຂໍຂອບໃຈທ່ານສໍາລັບການ share / ເຊື້ອເຊີນ</string><string name="contact_developer">ຄວາມຜິດພາດເກີດຂຶ້ນ, ການພັດທະນາການຕິດຕໍ່.</string><string name="install_whats_app">ຕິດຕັ້ງ Whats App ທໍາອິດ</string><string name="install">ການຕິດຕັ້ງ</string><string name="coming_soon">ມາທັນທີ</string><string name="try_after_some_time">ພະຍາຍາມຫຼັງຈາກທີ່ໃຊ້ເວລາບາງຄົນ</string><string name="action_language">ພາສາ</string><string name="action_refresh">ໂຫຼດຫນ້າຈໍຄືນ</string><string name="action_restore_all">ການຟື້ນຟູທັງຫມົດ</string><string name="action_app_invite">ເຊີນເພື່ອນມິດຂອງ</string><string name="action_share">Share apk</string><string name="action_feed_back">ຜົນຕອບຮັບ</string><string name="action_contact_us">ຕິດ​ຕໍ່​ພວກ​ເຮົາ</string><string name="contact_name">ຊື່​ຕິດ​ຕໍ່</string><string name="contact_phone_number">ເບີຕິດຕໍ່</string><string name="contact_account_type">ປະເພດບັນຊີ</string><string name="description_contact_photo">ຕິດຕໍ່ຮູບພາບ</string><string name="description_contact_info">ຂໍ້​ມູນ​ຕິດ​ຕໍ່</string><string name="static_contact_us_whats_app">ຕິດຕໍ່ການພັດທະນາໂດຍກົງກ່ຽວກັບ WhatsApp.</string><string name="static_contact_us_developer">ກຸ່ມສໍາລັບການພັດທະນາ, ການທົດສອບແລະການປະກອບສ່ວນກູໂກພລາສ.</string><string name="static_contact_us_language">ກຸ່ມສໍາລັບການແປພາສາແລະ lovers ພາສາກູໂກພລາສ.</string><string name="static_contact_us_google_plus">ເພື່ອຕອບສະຫນອງຂ້າພະເຈົ້າກ່ຽວກັບກູໂກພລາສ.</string><string name="static_contact_us_linkedin">ໃນການເຂົ້າຮ່ວມເປັນຜູ້ປະກອບສ່ວນແລະພັດທະນາ.</string><string name="static_contact_us_facebook">ຫນ້າເຟສບຸກຢ່າງເປັນທາງການ.</string><string name="invite_title">ເຊີນເພື່ອນມິດຂອງ</string><string name="invite_message">D ລົບຕິດຕໍ່ແມ່ນແຫຼ່ງເປີດ, Freeware, ການໂຄສະນາຟຣີ app Android.</string><string name="invite_email_subject">@ ຊ່ອຍແນ່ / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">ການອະນຸຍາດ</string><string name="permission_message_write_external_storage">ການອະນຸຍາດ WRITE_EXTERNAL_STORAGE ເປັນສິ່ງຈໍາເປັນ</string><string name="permission_message_read_contact">READ_CONTACTS ການອະນຸຍາດທີ່ຈໍາເປັນ</string><string name="permission_message_write_contact">WRITE_CONTACTS ການອະນຸຍາດທີ່ຈໍາເປັນ</string><string name="permission_grant">ການຊ່ວຍເຫຼືອລ້າ</string><string name="restore">ການຟື້ນຟູ</string></resources>
+<resources>
+    <string name="app_name">D ລົບຕິດຕໍ່</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">ຕິດຕໍ່ພົວພັນ</string>
+    <string name="deleted_contact">ລຶບ</string>
+    <string name="no_data_found">ບໍ່ມີຂໍ້ມູນ</string>
+    <string name="dismiss">ຍົກເລີກ</string>
+    <string name="share">Share</string>
+    <string name="thank_you">ຂໍຂອບໃຈທ່ານສໍາລັບການ share / ເຊື້ອເຊີນ</string>
+    <string name="contact_developer">ຄວາມຜິດພາດເກີດຂຶ້ນ, ການພັດທະນາການຕິດຕໍ່.</string>
+    <string name="install_whats_app">ຕິດຕັ້ງ Whats App ທໍາອິດ</string>
+    <string name="install">ການຕິດຕັ້ງ</string>
+    <string name="coming_soon">ມາທັນທີ</string>
+    <string name="try_after_some_time">ພະຍາຍາມຫຼັງຈາກທີ່ໃຊ້ເວລາບາງຄົນ</string>
+    <string name="action_language">ພາສາ</string>
+    <string name="action_refresh">ໂຫຼດຫນ້າຈໍຄືນ</string>
+    <string name="action_restore_all">ການຟື້ນຟູທັງຫມົດ</string>
+    <string name="action_app_invite">ເຊີນເພື່ອນມິດຂອງ</string>
+    <string name="action_share">Share apk</string>
+    <string name="action_feed_back">ຜົນຕອບຮັບ</string>
+    <string name="action_contact_us">ຕິດ​ຕໍ່​ພວກ​ເຮົາ</string>
+    <string name="contact_name">ຊື່​ຕິດ​ຕໍ່</string>
+    <string name="contact_phone_number">ເບີຕິດຕໍ່</string>
+    <string name="contact_account_type">ປະເພດບັນຊີ</string>
+    <string name="description_contact_photo">ຕິດຕໍ່ຮູບພາບ</string>
+    <string name="description_contact_info">ຂໍ້​ມູນ​ຕິດ​ຕໍ່</string>
+    <string name="static_contact_us_whats_app">ຕິດຕໍ່ການພັດທະນາໂດຍກົງກ່ຽວກັບ WhatsApp.</string>
+    <string name="static_contact_us_developer">ກຸ່ມສໍາລັບການພັດທະນາ, ການທົດສອບແລະການປະກອບສ່ວນກູໂກພລາສ.</string>
+    <string name="static_contact_us_language">ກຸ່ມສໍາລັບການແປພາສາແລະ lovers ພາສາກູໂກພລາສ.</string>
+    <string name="static_contact_us_google_plus">ເພື່ອຕອບສະຫນອງຂ້າພະເຈົ້າກ່ຽວກັບກູໂກພລາສ.</string>
+    <string name="static_contact_us_linkedin">ໃນການເຂົ້າຮ່ວມເປັນຜູ້ປະກອບສ່ວນແລະພັດທະນາ.</string>
+    <string name="static_contact_us_facebook">ຫນ້າເຟສບຸກຢ່າງເປັນທາງການ.</string>
+    <string name="invite_title">ເຊີນເພື່ອນມິດຂອງ</string>
+    <string name="invite_message">D ລົບຕິດຕໍ່ແມ່ນແຫຼ່ງເປີດ, Freeware, ການໂຄສະນາຟຣີ app Android.</string>
+    <string name="permission">ການອະນຸຍາດ</string>
+    <string name="permission_message_write_external_storage">ການອະນຸຍາດ WRITE_EXTERNAL_STORAGE ເປັນສິ່ງຈໍາເປັນ</string>
+    <string name="permission_message_read_contact">READ_CONTACTS ການອະນຸຍາດທີ່ຈໍາເປັນ</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS ການອະນຸຍາດທີ່ຈໍາເປັນ</string>
+    <string name="permission_grant">ການຊ່ວຍເຫຼືອລ້າ</string>
+    <string name="restore">ການຟື້ນຟູ</string>
+</resources>

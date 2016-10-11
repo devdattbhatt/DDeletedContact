@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D حذف تماس</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">اطلاعات تماس</string><string name="deleted_contact">حذف شده</string><string name="no_data_found">داده ای یافت نشد</string><string name="dismiss">رد</string><string name="share">اشتراک گذاری</string><string name="thank_you">تشکر از شما برای به اشتراک گذاری / دعوت</string><string name="contact_developer">خطا رخ می دهد، توسعه دهنده تماس.</string><string name="install_whats_app">نصب دسته نرم افزار برای اولین بار</string><string name="install">نصب</string><string name="coming_soon">به زودی</string><string name="try_after_some_time">سعی کنید بعد از مدتی</string><string name="action_language">زبان</string><string name="action_refresh">تازه کردن</string><string name="action_restore_all">بازیابی همه</string><string name="action_app_invite">دعوت از دوستان</string><string name="action_share">به اشتراک APK</string><string name="action_feed_back">بازخورد</string><string name="action_contact_us">تماس با ما</string><string name="contact_name">نام تماس با ما</string><string name="contact_phone_number">شماره تماس</string><string name="contact_account_type">نوع حساب</string><string name="description_contact_photo">تماس با عکس</string><string name="description_contact_info">اطلاعات تماس</string><string name="static_contact_us_whats_app">تماس با توسعه به طور مستقیم در WhatsApp.</string><string name="static_contact_us_developer">گروه + Google برای توسعه دهندگان، تست و همکاران.</string><string name="static_contact_us_language">گروه + Google برای ترجمه و دوستداران زبان.</string><string name="static_contact_us_google_plus">به دیدار با من در + Google.</string><string name="static_contact_us_linkedin">به تاریخ را به عنوان کمک و توسعه.</string><string name="static_contact_us_facebook">صفحه رسمی فیس بوک.</string><string name="invite_title">دعوت از دوستان</string><string name="invite_message">D حذف تماس با منبع باز، نرم افزار رایگان، رایگان تبلیغات، برنامه های آندروید است.</string><string name="invite_email_subject">@ رشته / APP_NAME از</string><string name="invite_html_contact">٪٪ ٪٪ APPINVITE_LINK_PLACEHOLDER</string><string name="permission">اجازه</string><string name="permission_message_write_external_storage">اجازه WRITE_EXTERNAL_STORAGE مورد نیاز است</string><string name="permission_message_read_contact">اجازه READ_CONTACTS مورد نیاز است</string><string name="permission_message_write_contact">اجازه WRITE_CONTACTS مورد نیاز است</string><string name="permission_grant">اعطا کردن</string><string name="restore">بازگرداندن</string></resources>
+<resources>
+    <string name="app_name">D حذف تماس</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">اطلاعات تماس</string>
+    <string name="deleted_contact">حذف شده</string>
+    <string name="no_data_found">داده ای یافت نشد</string>
+    <string name="dismiss">رد</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="thank_you">تشکر از شما برای به اشتراک گذاری / دعوت</string>
+    <string name="contact_developer">خطا رخ می دهد، توسعه دهنده تماس.</string>
+    <string name="install_whats_app">نصب دسته نرم افزار برای اولین بار</string>
+    <string name="install">نصب</string>
+    <string name="coming_soon">به زودی</string>
+    <string name="try_after_some_time">سعی کنید بعد از مدتی</string>
+    <string name="action_language">زبان</string>
+    <string name="action_refresh">تازه کردن</string>
+    <string name="action_restore_all">بازیابی همه</string>
+    <string name="action_app_invite">دعوت از دوستان</string>
+    <string name="action_share">به اشتراک APK</string>
+    <string name="action_feed_back">بازخورد</string>
+    <string name="action_contact_us">تماس با ما</string>
+    <string name="contact_name">نام تماس با ما</string>
+    <string name="contact_phone_number">شماره تماس</string>
+    <string name="contact_account_type">نوع حساب</string>
+    <string name="description_contact_photo">تماس با عکس</string>
+    <string name="description_contact_info">اطلاعات تماس</string>
+    <string name="static_contact_us_whats_app">تماس با توسعه به طور مستقیم در WhatsApp.</string>
+    <string name="static_contact_us_developer">گروه + Google برای توسعه دهندگان، تست و همکاران.</string>
+    <string name="static_contact_us_language">گروه + Google برای ترجمه و دوستداران زبان.</string>
+    <string name="static_contact_us_google_plus">به دیدار با من در + Google.</string>
+    <string name="static_contact_us_linkedin">به تاریخ را به عنوان کمک و توسعه.</string>
+    <string name="static_contact_us_facebook">صفحه رسمی فیس بوک.</string>
+    <string name="invite_title">دعوت از دوستان</string>
+    <string name="invite_message">D حذف تماس با منبع باز، نرم افزار رایگان، رایگان تبلیغات، برنامه های آندروید است.</string>
+    <string name="permission">اجازه</string>
+    <string name="permission_message_write_external_storage">اجازه WRITE_EXTERNAL_STORAGE مورد نیاز است</string>
+    <string name="permission_message_read_contact">اجازه READ_CONTACTS مورد نیاز است</string>
+    <string name="permission_message_write_contact">اجازه WRITE_CONTACTS مورد نیاز است</string>
+    <string name="permission_grant">اعطا کردن</string>
+    <string name="restore">بازگرداندن</string>
+</resources>

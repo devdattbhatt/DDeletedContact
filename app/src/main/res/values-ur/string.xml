@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D حذف شدہ رابطہ کریں</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">رابطے</string><string name="deleted_contact">حذف شدہ</string><string name="no_data_found">کوئی ڈیٹا نہیں ملا</string><string name="dismiss">برخاست</string><string name="share">سیکنڈ اور</string><string name="thank_you">شیئر کرنے کا شکریہ / دعوت دیتے ہیں</string><string name="contact_developer">خرابی واقع ہو، رابطہ ڈیولپر.</string><string name="install_whats_app">پہلے کیا اپلی کیشن کو انسٹال کریں</string><string name="install">انسٹال کریں</string><string name="coming_soon">جلد آ رہا ہے</string><string name="try_after_some_time">کچھ وقت کے بعد کی کوشش کریں</string><string name="action_language">زبان</string><string name="action_refresh">تازہ کریں</string><string name="action_restore_all">تمام کو بحال کریں</string><string name="action_app_invite">دوستوں کو مدعو کریں</string><string name="action_share">سیکنڈ اور APK</string><string name="action_feed_back">آپ کی رائے</string><string name="action_contact_us">ہم سے رابطہ کریں</string><string name="contact_name">رابطے کا نام</string><string name="contact_phone_number">رابطہ نمبر</string><string name="contact_account_type">اکاؤنٹ کی اقسام</string><string name="description_contact_photo">رابطے کی تصویر</string><string name="description_contact_info">رابطے کی معلومات</string><string name="static_contact_us_whats_app">WhatsApp کے پر براہ راست رابطہ ڈیولپر.</string><string name="static_contact_us_developer">ڈویلپرز، testers اور یوگدانکرتاوں Google+ برائے گروپ.</string><string name="static_contact_us_language">ترجمہ کرنے اور زبان سے محبت کرنے والوں کیلئے Google+ گروپ.</string><string name="static_contact_us_google_plus">Google+ پر مجھ سے ملنے.</string><string name="static_contact_us_linkedin">یوگدانکرتا اور ڈویلپر کے طور پر شامل ہونے کی.</string><string name="static_contact_us_facebook">سرکاری فیس بک کا صفحہ.</string><string name="invite_title">دوستوں کو مدعو کریں</string><string name="invite_message">D حذف شدہ رابطہ اوپن سورس، فریویئر، اشتھاربازی-لوڈ، اتارنا Android اپلی کیشن ہے.</string><string name="invite_email_subject">@ سٹرنگ / APP_NAME</string><string name="invite_html_contact">٪٪ APPINVITE_LINK_PLACEHOLDER ٪٪</string><string name="permission">اجازت</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE اجازت درکار ہے</string><string name="permission_message_read_contact">READ_CONTACTS اجازت درکار ہے</string><string name="permission_message_write_contact">WRITE_CONTACTS اجازت درکار ہے</string><string name="permission_grant">عطا</string><string name="restore">بحال</string></resources>
+<resources>
+    <string name="app_name">D حذف شدہ رابطہ کریں</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">رابطے</string>
+    <string name="deleted_contact">حذف شدہ</string>
+    <string name="no_data_found">کوئی ڈیٹا نہیں ملا</string>
+    <string name="dismiss">برخاست</string>
+    <string name="share">سیکنڈ اور</string>
+    <string name="thank_you">شیئر کرنے کا شکریہ / دعوت دیتے ہیں</string>
+    <string name="contact_developer">خرابی واقع ہو، رابطہ ڈیولپر.</string>
+    <string name="install_whats_app">پہلے کیا اپلی کیشن کو انسٹال کریں</string>
+    <string name="install">انسٹال کریں</string>
+    <string name="coming_soon">جلد آ رہا ہے</string>
+    <string name="try_after_some_time">کچھ وقت کے بعد کی کوشش کریں</string>
+    <string name="action_language">زبان</string>
+    <string name="action_refresh">تازہ کریں</string>
+    <string name="action_restore_all">تمام کو بحال کریں</string>
+    <string name="action_app_invite">دوستوں کو مدعو کریں</string>
+    <string name="action_share">سیکنڈ اور APK</string>
+    <string name="action_feed_back">آپ کی رائے</string>
+    <string name="action_contact_us">ہم سے رابطہ کریں</string>
+    <string name="contact_name">رابطے کا نام</string>
+    <string name="contact_phone_number">رابطہ نمبر</string>
+    <string name="contact_account_type">اکاؤنٹ کی اقسام</string>
+    <string name="description_contact_photo">رابطے کی تصویر</string>
+    <string name="description_contact_info">رابطے کی معلومات</string>
+    <string name="static_contact_us_whats_app">WhatsApp کے پر براہ راست رابطہ ڈیولپر.</string>
+    <string name="static_contact_us_developer">ڈویلپرز، testers اور یوگدانکرتاوں Google+ برائے گروپ.</string>
+    <string name="static_contact_us_language">ترجمہ کرنے اور زبان سے محبت کرنے والوں کیلئے Google+ گروپ.</string>
+    <string name="static_contact_us_google_plus">Google+ پر مجھ سے ملنے.</string>
+    <string name="static_contact_us_linkedin">یوگدانکرتا اور ڈویلپر کے طور پر شامل ہونے کی.</string>
+    <string name="static_contact_us_facebook">سرکاری فیس بک کا صفحہ.</string>
+    <string name="invite_title">دوستوں کو مدعو کریں</string>
+    <string name="invite_message">D حذف شدہ رابطہ اوپن سورس، فریویئر، اشتھاربازی-لوڈ، اتارنا Android اپلی کیشن ہے.</string>
+    <string name="permission">اجازت</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE اجازت درکار ہے</string>
+    <string name="permission_message_read_contact">READ_CONTACTS اجازت درکار ہے</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS اجازت درکار ہے</string>
+    <string name="permission_grant">عطا</string>
+    <string name="restore">بحال</string>
+</resources>

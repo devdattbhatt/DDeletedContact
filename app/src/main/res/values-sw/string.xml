@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Deleted Mawasiliano</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Mawasiliano</string><string name="deleted_contact">ilifutwa</string><string name="no_data_found">Kupatikana No Data</string><string name="dismiss">kumfukuza</string><string name="share">Kushiriki</string><string name="thank_you">Asante kwa kushiriki / kukaribisha</string><string name="contact_developer">Kosa kutokea, mawasiliano developer.</string><string name="install_whats_app">Kufunga Whats App kwanza</string><string name="install">kufunga</string><string name="coming_soon">kuja hivi karibuni</string><string name="try_after_some_time">Jaribu Baada Some Time</string><string name="action_language">lugha</string><string name="action_refresh">Refresh</string><string name="action_restore_all">kurejesha All</string><string name="action_app_invite">kukaribisha Friends</string><string name="action_share">Kushiriki apk</string><string name="action_feed_back">maoni</string><string name="action_contact_us">Wasiliana nasi</string><string name="contact_name">Mawasiliano jina</string><string name="contact_phone_number">Namba ya mawasiliano</string><string name="contact_account_type">Aina ya Akaunti</string><string name="description_contact_photo">Mawasiliano Picha</string><string name="description_contact_info">Mawasiliano info</string><string name="static_contact_us_whats_app">Mawasiliano developer moja kwa moja kwenye Whatsapp.</string><string name="static_contact_us_developer">Kundi Google+ kwa Developers, Testers na wachangiaji.</string><string name="static_contact_us_language">Kundi Google+ kwa Translators na lugha wapenzi.</string><string name="static_contact_us_google_plus">Kukutana na mimi kwenye Google+.</string><string name="static_contact_us_linkedin">Kujiunga kama mchangiaji na Developer.</string><string name="static_contact_us_facebook">Ukurasa rasmi.</string><string name="invite_title">kukaribisha Friends</string><string name="invite_message">D Deleted Mawasiliano ni Open chanzo, Freeware, Kutangaza-bure android programu.</string><string name="invite_email_subject">@ Mfuatano / APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">ruhusa</string><string name="permission_message_write_external_storage">ruhusa WRITE_EXTERNAL_STORAGE inahitajika</string><string name="permission_message_read_contact">ruhusa READ_CONTACTS inahitajika</string><string name="permission_message_write_contact">ruhusa WRITE_CONTACTS inahitajika</string><string name="permission_grant">Grant</string><string name="restore">kurejesha</string></resources>
+<resources>
+    <string name="app_name">D Deleted Mawasiliano</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">Mawasiliano</string>
+    <string name="deleted_contact">ilifutwa</string>
+    <string name="no_data_found">Kupatikana No Data</string>
+    <string name="dismiss">kumfukuza</string>
+    <string name="share">Kushiriki</string>
+    <string name="thank_you">Asante kwa kushiriki / kukaribisha</string>
+    <string name="contact_developer">Kosa kutokea, mawasiliano developer.</string>
+    <string name="install_whats_app">Kufunga Whats App kwanza</string>
+    <string name="install">kufunga</string>
+    <string name="coming_soon">kuja hivi karibuni</string>
+    <string name="try_after_some_time">Jaribu Baada Some Time</string>
+    <string name="action_language">lugha</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_restore_all">kurejesha All</string>
+    <string name="action_app_invite">kukaribisha Friends</string>
+    <string name="action_share">Kushiriki apk</string>
+    <string name="action_feed_back">maoni</string>
+    <string name="action_contact_us">Wasiliana nasi</string>
+    <string name="contact_name">Mawasiliano jina</string>
+    <string name="contact_phone_number">Namba ya mawasiliano</string>
+    <string name="contact_account_type">Aina ya Akaunti</string>
+    <string name="description_contact_photo">Mawasiliano Picha</string>
+    <string name="description_contact_info">Mawasiliano info</string>
+    <string name="static_contact_us_whats_app">Mawasiliano developer moja kwa moja kwenye Whatsapp.</string>
+    <string name="static_contact_us_developer">Kundi Google+ kwa Developers, Testers na wachangiaji.</string>
+    <string name="static_contact_us_language">Kundi Google+ kwa Translators na lugha wapenzi.</string>
+    <string name="static_contact_us_google_plus">Kukutana na mimi kwenye Google+.</string>
+    <string name="static_contact_us_linkedin">Kujiunga kama mchangiaji na Developer.</string>
+    <string name="static_contact_us_facebook">Ukurasa rasmi.</string>
+    <string name="invite_title">kukaribisha Friends</string>
+    <string name="invite_message">D Deleted Mawasiliano ni Open chanzo, Freeware, Kutangaza-bure android programu.</string>
+    <string name="permission">ruhusa</string>
+    <string name="permission_message_write_external_storage">ruhusa WRITE_EXTERNAL_STORAGE inahitajika</string>
+    <string name="permission_message_read_contact">ruhusa READ_CONTACTS inahitajika</string>
+    <string name="permission_message_write_contact">ruhusa WRITE_CONTACTS inahitajika</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">kurejesha</string>
+</resources>

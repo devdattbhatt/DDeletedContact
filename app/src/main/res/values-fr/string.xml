@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Supprimé Contactez</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Contacts</string><string name="deleted_contact">supprimé</string><string name="no_data_found">Aucune donnée disponible</string><string name="dismiss">Rejeter</string><string name="share">Partager</string><string name="thank_you">Nous vous remercions de partager / inviter</string><string name="contact_developer">Erreur se produit, développeur de contact.</string><string name="install_whats_app">Installez Quoi App premier</string><string name="install">Installer</string><string name="coming_soon">Arrive bientôt</string><string name="try_after_some_time">Essayez après un certain temps</string><string name="action_language">La langue</string><string name="action_refresh">Rafraîchir</string><string name="action_restore_all">Tout restaurer</string><string name="action_app_invite">Inviter des amis</string><string name="action_share">Partager apk</string><string name="action_feed_back">Retour d&amp;#39;information</string><string name="action_contact_us">Contactez nous</string><string name="contact_name">Nom du contact</string><string name="contact_phone_number">Numéro de contact</string><string name="contact_account_type">Type de compte</string><string name="description_contact_photo">contact photo</string><string name="description_contact_info">Informations de contact</string><string name="static_contact_us_whats_app">Contactez-développeur directement sur WhatsApp.</string><string name="static_contact_us_developer">groupe Google+ pour les développeurs, testeurs et contributeurs.</string><string name="static_contact_us_language">groupe Google+ pour les traducteurs et les amateurs de langue.</string><string name="static_contact_us_google_plus">Pour me rencontrer sur Google+.</string><string name="static_contact_us_linkedin">Pour Joindre comme contributeur et développeur.</string><string name="static_contact_us_facebook">Officiel Page Facebook.</string><string name="invite_title">Inviter des amis</string><string name="invite_message">D Supprimé Contact est Open source, Freeware, Annoncez sans application Android.</string><string name="invite_email_subject">@ String / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">Autorisation</string><string name="permission_message_write_external_storage">l&amp;#39;autorisation est nécessaire WRITE_EXTERNAL_STORAGE</string><string name="permission_message_read_contact">l&amp;#39;autorisation est nécessaire READ_CONTACTS</string><string name="permission_message_write_contact">l&amp;#39;autorisation est nécessaire WRITE_CONTACTS</string><string name="permission_grant">Subvention</string><string name="restore">Restaurer</string></resources>
+<resources>
+    <string name="app_name">D Supprimé Contactez</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">Contacts</string>
+    <string name="deleted_contact">supprimé</string>
+    <string name="no_data_found">Aucune donnée disponible</string>
+    <string name="dismiss">Rejeter</string>
+    <string name="share">Partager</string>
+    <string name="thank_you">Nous vous remercions de partager / inviter</string>
+    <string name="contact_developer">Erreur se produit, développeur de contact.</string>
+    <string name="install_whats_app">Installez Quoi App premier</string>
+    <string name="install">Installer</string>
+    <string name="coming_soon">Arrive bientôt</string>
+    <string name="try_after_some_time">Essayez après un certain temps</string>
+    <string name="action_language">La langue</string>
+    <string name="action_refresh">Rafraîchir</string>
+    <string name="action_restore_all">Tout restaurer</string>
+    <string name="action_app_invite">Inviter des amis</string>
+    <string name="action_share">Partager apk</string>
+    <string name="action_feed_back">Retour d&amp;#39;information</string>
+    <string name="action_contact_us">Contactez nous</string>
+    <string name="contact_name">Nom du contact</string>
+    <string name="contact_phone_number">Numéro de contact</string>
+    <string name="contact_account_type">Type de compte</string>
+    <string name="description_contact_photo">contact photo</string>
+    <string name="description_contact_info">Informations de contact</string>
+    <string name="static_contact_us_whats_app">Contactez-développeur directement sur WhatsApp.</string>
+    <string name="static_contact_us_developer">groupe Google+ pour les développeurs, testeurs et contributeurs.</string>
+    <string name="static_contact_us_language">groupe Google+ pour les traducteurs et les amateurs de langue.</string>
+    <string name="static_contact_us_google_plus">Pour me rencontrer sur Google+.</string>
+    <string name="static_contact_us_linkedin">Pour Joindre comme contributeur et développeur.</string>
+    <string name="static_contact_us_facebook">Officiel Page Facebook.</string>
+    <string name="invite_title">Inviter des amis</string>
+    <string name="invite_message">D Supprimé Contact est Open source, Freeware, Annoncez sans application Android.</string>
+    <string name="permission">Autorisation</string>
+    <string name="permission_message_write_external_storage">l&amp;#39;autorisation est nécessaire WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_message_read_contact">l&amp;#39;autorisation est nécessaire READ_CONTACTS</string>
+    <string name="permission_message_write_contact">l&amp;#39;autorisation est nécessaire WRITE_CONTACTS</string>
+    <string name="permission_grant">Subvention</string>
+    <string name="restore">Restaurer</string>
+</resources>

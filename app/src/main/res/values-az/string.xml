@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Silinmiş Əlaqə</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Əlaqə</string><string name="deleted_contact">Silinmiş</string><string name="no_data_found">No Data tapıldı</string><string name="dismiss">at</string><string name="share">səhm</string><string name="thank_you">payı üçün təşəkkür edirik / dəvət</string><string name="contact_developer">Error əlaqə geliştirici baş verir.</string><string name="install_whats_app">ilk Whats App Install</string><string name="install">Yüklemek</string><string name="coming_soon">Tezliklə</string><string name="try_after_some_time">Bir müddət sonra cəhd edin</string><string name="action_language">dil</string><string name="action_refresh">təzələmək</string><string name="action_restore_all">bütün bərpa</string><string name="action_app_invite">Dostları Dəvət</string><string name="action_share">Share apk</string><string name="action_feed_back">Əlaqə</string><string name="action_contact_us">Bizimlə əlaqə saxlayın</string><string name="contact_name">Əlaqə adı</string><string name="contact_phone_number">Əlaqə nömrəsi</string><string name="contact_account_type">hesab növü</string><string name="description_contact_photo">Əlaqə Foto</string><string name="description_contact_info">Əlaqə info</string><string name="static_contact_us_whats_app">birbaşa WhatsApp geliştirici əlaqə saxlayın.</string><string name="static_contact_us_developer">Developers, test və ianəçilər üçün Google+ qrupu.</string><string name="static_contact_us_language">Tərcüməçilər və Dil həvəskarları üçün Google+ qrupu.</string><string name="static_contact_us_google_plus">Google məni qarşılamağa.</string><string name="static_contact_us_linkedin">töhfə və Oyunlar kimi qatılacaq.</string><string name="static_contact_us_facebook">Rəsmi Facebook Page.</string><string name="invite_title">Dostları Dəvət</string><string name="invite_message">D Silinmiş Əlaqə Açıq mənbə, pulsuz, reklam-free Android app edir.</string><string name="invite_email_subject">@ String / APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">icazə</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE icazə tələb olunur</string><string name="permission_message_read_contact">READ_CONTACTS icazə tələb olunur</string><string name="permission_message_write_contact">WRITE_CONTACTS icazə tələb olunur</string><string name="permission_grant">Grant</string><string name="restore">bərpa etmək</string></resources>
+<resources>
+    <string name="app_name">D Silinmiş Əlaqə</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">Əlaqə</string>
+    <string name="deleted_contact">Silinmiş</string>
+    <string name="no_data_found">No Data tapıldı</string>
+    <string name="dismiss">at</string>
+    <string name="share">səhm</string>
+    <string name="thank_you">payı üçün təşəkkür edirik / dəvət</string>
+    <string name="contact_developer">Error əlaqə geliştirici baş verir.</string>
+    <string name="install_whats_app">ilk Whats App Install</string>
+    <string name="install">Yüklemek</string>
+    <string name="coming_soon">Tezliklə</string>
+    <string name="try_after_some_time">Bir müddət sonra cəhd edin</string>
+    <string name="action_language">dil</string>
+    <string name="action_refresh">təzələmək</string>
+    <string name="action_restore_all">bütün bərpa</string>
+    <string name="action_app_invite">Dostları Dəvət</string>
+    <string name="action_share">Share apk</string>
+    <string name="action_feed_back">Əlaqə</string>
+    <string name="action_contact_us">Bizimlə əlaqə saxlayın</string>
+    <string name="contact_name">Əlaqə adı</string>
+    <string name="contact_phone_number">Əlaqə nömrəsi</string>
+    <string name="contact_account_type">hesab növü</string>
+    <string name="description_contact_photo">Əlaqə Foto</string>
+    <string name="description_contact_info">Əlaqə info</string>
+    <string name="static_contact_us_whats_app">birbaşa WhatsApp geliştirici əlaqə saxlayın.</string>
+    <string name="static_contact_us_developer">Developers, test və ianəçilər üçün Google+ qrupu.</string>
+    <string name="static_contact_us_language">Tərcüməçilər və Dil həvəskarları üçün Google+ qrupu.</string>
+    <string name="static_contact_us_google_plus">Google məni qarşılamağa.</string>
+    <string name="static_contact_us_linkedin">töhfə və Oyunlar kimi qatılacaq.</string>
+    <string name="static_contact_us_facebook">Rəsmi Facebook Page.</string>
+    <string name="invite_title">Dostları Dəvət</string>
+    <string name="invite_message">D Silinmiş Əlaqə Açıq mənbə, pulsuz, reklam-free Android app edir.</string>
+    <string name="permission">icazə</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE icazə tələb olunur</string>
+    <string name="permission_message_read_contact">READ_CONTACTS icazə tələb olunur</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS icazə tələb olunur</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">bərpa etmək</string>
+</resources>

@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Törölve Kapcsolat</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Kapcsolatok</string><string name="deleted_contact">törölve</string><string name="no_data_found">Nem található adat</string><string name="dismiss">elvetése</string><string name="share">Ossza meg</string><string name="thank_you">Köszönjük, hogy share / invite</string><string name="contact_developer">Hiba esetén, kapcsolat fejlesztő.</string><string name="install_whats_app">Telepítse Whats App első</string><string name="install">Telepítse</string><string name="coming_soon">Hamarosan</string><string name="try_after_some_time">Próbáld meg később</string><string name="action_language">Nyelv</string><string name="action_refresh">Frissítés</string><string name="action_restore_all">Összes visszaállítása</string><string name="action_app_invite">Meghívja barátait</string><string name="action_share">Share apk</string><string name="action_feed_back">Visszacsatolás</string><string name="action_contact_us">Lépjen kapcsolatba velünk</string><string name="contact_name">Kapcsolattartó neve</string><string name="contact_phone_number">Elérhetőség</string><string name="contact_account_type">Fiók Típus</string><string name="description_contact_photo">Contact Photo</string><string name="description_contact_info">Elérhetőségei</string><string name="static_contact_us_whats_app">Kapcsolat fejlesztő közvetlenül WhatsApp.</string><string name="static_contact_us_developer">Google+ csoport fejlesztők, tesztelők és a közreműködők.</string><string name="static_contact_us_language">Google+ csoport Fordítók és nyelv szerelmeseinek.</string><string name="static_contact_us_google_plus">Ahhoz, hogy találkozzunk a Google + -on.</string><string name="static_contact_us_linkedin">Hogy csatlakozzanak a közreműködő és Fejlesztő.</string><string name="static_contact_us_facebook">Hivatalos Facebook oldal.</string><string name="invite_title">Meghívja barátait</string><string name="invite_message">D névjegyet nyílt forráskódú, ingyenes, Hirdet nélküli Android app.</string><string name="invite_email_subject">@ String / app_name</string><string name="invite_html_contact">%% %% APPINVITE_LINK_PLACEHOLDER</string><string name="permission">Engedély</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE engedélyre van szükség</string><string name="permission_message_read_contact">READ_CONTACTS engedélyre van szükség</string><string name="permission_message_write_contact">WRITE_CONTACTS engedélyre van szükség</string><string name="permission_grant">Grant</string><string name="restore">visszaállítás</string></resources>
+<resources>
+    <string name="app_name">D Törölve Kapcsolat</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">Kapcsolatok</string>
+    <string name="deleted_contact">törölve</string>
+    <string name="no_data_found">Nem található adat</string>
+    <string name="dismiss">elvetése</string>
+    <string name="share">Ossza meg</string>
+    <string name="thank_you">Köszönjük, hogy share / invite</string>
+    <string name="contact_developer">Hiba esetén, kapcsolat fejlesztő.</string>
+    <string name="install_whats_app">Telepítse Whats App első</string>
+    <string name="install">Telepítse</string>
+    <string name="coming_soon">Hamarosan</string>
+    <string name="try_after_some_time">Próbáld meg később</string>
+    <string name="action_language">Nyelv</string>
+    <string name="action_refresh">Frissítés</string>
+    <string name="action_restore_all">Összes visszaállítása</string>
+    <string name="action_app_invite">Meghívja barátait</string>
+    <string name="action_share">Share apk</string>
+    <string name="action_feed_back">Visszacsatolás</string>
+    <string name="action_contact_us">Lépjen kapcsolatba velünk</string>
+    <string name="contact_name">Kapcsolattartó neve</string>
+    <string name="contact_phone_number">Elérhetőség</string>
+    <string name="contact_account_type">Fiók Típus</string>
+    <string name="description_contact_photo">Contact Photo</string>
+    <string name="description_contact_info">Elérhetőségei</string>
+    <string name="static_contact_us_whats_app">Kapcsolat fejlesztő közvetlenül WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ csoport fejlesztők, tesztelők és a közreműködők.</string>
+    <string name="static_contact_us_language">Google+ csoport Fordítók és nyelv szerelmeseinek.</string>
+    <string name="static_contact_us_google_plus">Ahhoz, hogy találkozzunk a Google + -on.</string>
+    <string name="static_contact_us_linkedin">Hogy csatlakozzanak a közreműködő és Fejlesztő.</string>
+    <string name="static_contact_us_facebook">Hivatalos Facebook oldal.</string>
+    <string name="invite_title">Meghívja barátait</string>
+    <string name="invite_message">D névjegyet nyílt forráskódú, ingyenes, Hirdet nélküli Android app.</string>
+    <string name="permission">Engedély</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE engedélyre van szükség</string>
+    <string name="permission_message_read_contact">READ_CONTACTS engedélyre van szükség</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS engedélyre van szükség</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">visszaállítás</string>
+</resources>

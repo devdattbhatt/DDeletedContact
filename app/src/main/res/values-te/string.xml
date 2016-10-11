@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">డి తొలగించిన సంప్రదించండి</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">కాంటాక్ట్స్</string><string name="deleted_contact">తొలగించినవి</string><string name="no_data_found">డేటా కనుగొనబడలేదు</string><string name="dismiss">రద్దుచేసే</string><string name="share">వాటా</string><string name="thank_you">వాటా ధన్యవాదాలు ఆహ్వానం /</string><string name="contact_developer">లోపం సంభవించవచ్చు, పరిచయం డెవలపర్.</string><string name="install_whats_app">మొదటి ఏమిటి App ఇన్స్టాల్</string><string name="install">ఇన్స్టాల్</string><string name="coming_soon">త్వరలో</string><string name="try_after_some_time">కొంత సమయం తర్వాత ప్రయత్నించండి</string><string name="action_language">భాషా</string><string name="action_refresh">రిఫ్రెష్</string><string name="action_restore_all">అన్ని పునరుద్ధరించడానికి</string><string name="action_app_invite">స్నేహితులను ఆహ్వానించండి</string><string name="action_share">వాటా apk</string><string name="action_feed_back">అభిప్రాయం</string><string name="action_contact_us">మమ్మల్ని సంప్రదించండి</string><string name="contact_name">సంప్రదింపు పేరు</string><string name="contact_phone_number">సంప్రదించండి సంఖ్య</string><string name="contact_account_type">ఖాతా రకం</string><string name="description_contact_photo">సంప్రదించండి ఫోటో</string><string name="description_contact_info">సంప్రదింపు సమాచారం</string><string name="static_contact_us_whats_app">WhatsApp నేరుగా సంప్రదించండి డెవలపర్.</string><string name="static_contact_us_developer">డెవలపర్లు, పరీక్షకులకు మరియు సహాయకులు కోసం Google+ సమూహం.</string><string name="static_contact_us_language">అనువాదకుల మరియు భాషా ప్రేమికులు కోసం Google+ సమూహం.</string><string name="static_contact_us_google_plus">Google+ లో నన్ను కలిసే.</string><string name="static_contact_us_linkedin">కంట్రిబ్యూటర్ మరియు డెవలపర్ గా చేరండి.</string><string name="static_contact_us_facebook">అధికారిక Facebook పేజీ.</string><string name="invite_title">స్నేహితులను ఆహ్వానించండి</string><string name="invite_message">డి తొలగించిన సంప్రదించండి ఓపెన్ సోర్స్, ఫ్రీవేర్, ప్రకటనలు లేని Android అనువర్తనం ఉంది.</string><string name="invite_email_subject">@ స్ట్రింగ్ / APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">అనుమతి</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE అనుమతి అవసరమవుతుంది</string><string name="permission_message_read_contact">READ_CONTACTS అనుమతి అవసరమవుతుంది</string><string name="permission_message_write_contact">WRITE_CONTACTS అనుమతి అవసరమవుతుంది</string><string name="permission_grant">గ్రాంట్</string><string name="restore">పునరుద్ధరించు</string></resources>
+<resources>
+    <string name="app_name">డి తొలగించిన సంప్రదించండి</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">కాంటాక్ట్స్</string>
+    <string name="deleted_contact">తొలగించినవి</string>
+    <string name="no_data_found">డేటా కనుగొనబడలేదు</string>
+    <string name="dismiss">రద్దుచేసే</string>
+    <string name="share">వాటా</string>
+    <string name="thank_you">వాటా ధన్యవాదాలు ఆహ్వానం /</string>
+    <string name="contact_developer">లోపం సంభవించవచ్చు, పరిచయం డెవలపర్.</string>
+    <string name="install_whats_app">మొదటి ఏమిటి App ఇన్స్టాల్</string>
+    <string name="install">ఇన్స్టాల్</string>
+    <string name="coming_soon">త్వరలో</string>
+    <string name="try_after_some_time">కొంత సమయం తర్వాత ప్రయత్నించండి</string>
+    <string name="action_language">భాషా</string>
+    <string name="action_refresh">రిఫ్రెష్</string>
+    <string name="action_restore_all">అన్ని పునరుద్ధరించడానికి</string>
+    <string name="action_app_invite">స్నేహితులను ఆహ్వానించండి</string>
+    <string name="action_share">వాటా apk</string>
+    <string name="action_feed_back">అభిప్రాయం</string>
+    <string name="action_contact_us">మమ్మల్ని సంప్రదించండి</string>
+    <string name="contact_name">సంప్రదింపు పేరు</string>
+    <string name="contact_phone_number">సంప్రదించండి సంఖ్య</string>
+    <string name="contact_account_type">ఖాతా రకం</string>
+    <string name="description_contact_photo">సంప్రదించండి ఫోటో</string>
+    <string name="description_contact_info">సంప్రదింపు సమాచారం</string>
+    <string name="static_contact_us_whats_app">WhatsApp నేరుగా సంప్రదించండి డెవలపర్.</string>
+    <string name="static_contact_us_developer">డెవలపర్లు, పరీక్షకులకు మరియు సహాయకులు కోసం Google+ సమూహం.</string>
+    <string name="static_contact_us_language">అనువాదకుల మరియు భాషా ప్రేమికులు కోసం Google+ సమూహం.</string>
+    <string name="static_contact_us_google_plus">Google+ లో నన్ను కలిసే.</string>
+    <string name="static_contact_us_linkedin">కంట్రిబ్యూటర్ మరియు డెవలపర్ గా చేరండి.</string>
+    <string name="static_contact_us_facebook">అధికారిక Facebook పేజీ.</string>
+    <string name="invite_title">స్నేహితులను ఆహ్వానించండి</string>
+    <string name="invite_message">డి తొలగించిన సంప్రదించండి ఓపెన్ సోర్స్, ఫ్రీవేర్, ప్రకటనలు లేని Android అనువర్తనం ఉంది.</string>
+    <string name="permission">అనుమతి</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE అనుమతి అవసరమవుతుంది</string>
+    <string name="permission_message_read_contact">READ_CONTACTS అనుమతి అవసరమవుతుంది</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS అనుమతి అవసరమవుతుంది</string>
+    <string name="permission_grant">గ్రాంట్</string>
+    <string name="restore">పునరుద్ధరించు</string>
+</resources>

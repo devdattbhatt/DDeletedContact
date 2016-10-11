@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D削除された連絡先</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">コンタクト</string><string name="deleted_contact">削除されました</string><string name="no_data_found">何もデータが見つかりませんでした</string><string name="dismiss">退けます</string><string name="share">シェア</string><string name="thank_you">共有していただきありがとうございます/招待</string><string name="contact_developer">エラーが発生、接触の開発者。</string><string name="install_whats_app">最初いただきましたアプリをインストール</string><string name="install">インストール</string><string name="coming_soon">近日公開</string><string name="try_after_some_time">しばらくしてみてください</string><string name="action_language">言語</string><string name="action_refresh">リフレッシュ</string><string name="action_restore_all">すべての復元</string><string name="action_app_invite">友達を招待</string><string name="action_share">共有のapk</string><string name="action_feed_back">フィードバック</string><string name="action_contact_us">お問い合わせ</string><string name="contact_name">連絡先</string><string name="contact_phone_number">連絡先の番号</string><string name="contact_account_type">口座の種類</string><string name="description_contact_photo">連絡先の写真</string><string name="description_contact_info">連絡先情報</string><string name="static_contact_us_whats_app">WhatsAppに直接お問い合わせ開発者。</string><string name="static_contact_us_developer">開発者、テスター、および貢献者のためのGoogle+のグループ。</string><string name="static_contact_us_language">翻訳と言語の愛好家のためのGoogle+のグループ。</string><string name="static_contact_us_google_plus">Google+で私を満たすために。</string><string name="static_contact_us_linkedin">貢献者および開発者として参加します。</string><string name="static_contact_us_facebook">公式のFacebookページ。</string><string name="invite_title">友達を招待</string><string name="invite_message">D削除された連絡先は、オープンソース、フリーウェア、宣伝、無料のAndroidアプリです。</string><string name="invite_email_subject">@文字列/ APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">許可</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE許可が必要とされています</string><string name="permission_message_read_contact">READ_CONTACTS許可が必要とされています</string><string name="permission_message_write_contact">WRITE_CONTACTS許可が必要とされています</string><string name="permission_grant">付与</string><string name="restore">リストア</string></resources>
+<resources>
+    <string name="app_name">D削除された連絡先</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">コンタクト</string>
+    <string name="deleted_contact">削除されました</string>
+    <string name="no_data_found">何もデータが見つかりませんでした</string>
+    <string name="dismiss">退けます</string>
+    <string name="share">シェア</string>
+    <string name="thank_you">共有していただきありがとうございます/招待</string>
+    <string name="contact_developer">エラーが発生、接触の開発者。</string>
+    <string name="install_whats_app">最初いただきましたアプリをインストール</string>
+    <string name="install">インストール</string>
+    <string name="coming_soon">近日公開</string>
+    <string name="try_after_some_time">しばらくしてみてください</string>
+    <string name="action_language">言語</string>
+    <string name="action_refresh">リフレッシュ</string>
+    <string name="action_restore_all">すべての復元</string>
+    <string name="action_app_invite">友達を招待</string>
+    <string name="action_share">共有のapk</string>
+    <string name="action_feed_back">フィードバック</string>
+    <string name="action_contact_us">お問い合わせ</string>
+    <string name="contact_name">連絡先</string>
+    <string name="contact_phone_number">連絡先の番号</string>
+    <string name="contact_account_type">口座の種類</string>
+    <string name="description_contact_photo">連絡先の写真</string>
+    <string name="description_contact_info">連絡先情報</string>
+    <string name="static_contact_us_whats_app">WhatsAppに直接お問い合わせ開発者。</string>
+    <string name="static_contact_us_developer">開発者、テスター、および貢献者のためのGoogle+のグループ。</string>
+    <string name="static_contact_us_language">翻訳と言語の愛好家のためのGoogle+のグループ。</string>
+    <string name="static_contact_us_google_plus">Google+で私を満たすために。</string>
+    <string name="static_contact_us_linkedin">貢献者および開発者として参加します。</string>
+    <string name="static_contact_us_facebook">公式のFacebookページ。</string>
+    <string name="invite_title">友達を招待</string>
+    <string name="invite_message">D削除された連絡先は、オープンソース、フリーウェア、宣伝、無料のAndroidアプリです。</string>
+    <string name="permission">許可</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE許可が必要とされています</string>
+    <string name="permission_message_read_contact">READ_CONTACTS許可が必要とされています</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS許可が必要とされています</string>
+    <string name="permission_grant">付与</string>
+    <string name="restore">リストア</string>
+</resources>

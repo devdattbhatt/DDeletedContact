@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Жойылған Байланыс</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Байланыс</string><string name="deleted_contact">жойылған</string><string name="no_data_found">Деректер табылған жоқ</string><string name="dismiss">қызметтен босатады</string><string name="share">үлес</string><string name="thank_you">/ Шақырамыз үлесі үшін рахмет</string><string name="contact_developer">Қате орын, байланыс әзірлеуші.</string><string name="install_whats_app">бірінші Whats App орнатыңыз</string><string name="install">орнату</string><string name="coming_soon">Жақында шығады</string><string name="try_after_some_time">Біраз уақыт өткен соң көріңіз</string><string name="action_language">тіл</string><string name="action_refresh">жаңарту</string><string name="action_restore_all">Барлығын қалпына келтіру</string><string name="action_app_invite">дос шақыру</string><string name="action_share">Акцияларды ҚХА</string><string name="action_feed_back">Кері байланыс</string><string name="action_contact_us">Бізбен хабарласыңы</string><string name="contact_name">Байланыс аты</string><string name="contact_phone_number">Байланыс телефоны</string><string name="contact_account_type">Тіркелгі түрі</string><string name="description_contact_photo">Байланыс Фото</string><string name="description_contact_info">Байланыс ақпараты</string><string name="static_contact_us_whats_app">WhatsApp тікелей Байланыс әзірлеуші.</string><string name="static_contact_us_developer">Developers, сынақшылар, салымшылар үшін Google+ тобы.</string><string name="static_contact_us_language">Аудармашылар мен тіл әуесқойлары үшін Google+ тобы.</string><string name="static_contact_us_google_plus">Google+ мені қанағаттандыру.</string><string name="static_contact_us_linkedin">салымшы мен әзірлеуші ​​ретінде қосылыңыз.</string><string name="static_contact_us_facebook">Ресми Facebook Page.</string><string name="invite_title">дос шақыру</string><string name="invite_message">D Жойылған Байланыс Ашық бастапқы, тегін, Жарнама-Free Android бағдарламасы болып табылады.</string><string name="invite_email_subject">@ Жол / APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">рұқсат</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE рұқсат қажет</string><string name="permission_message_read_contact">READ_CONTACTS рұқсат қажет</string><string name="permission_message_write_contact">WRITE_CONTACTS рұқсат қажет</string><string name="permission_grant">грант</string><string name="restore">қалпына келтіру</string></resources>
+<resources>
+    <string name="app_name">D Жойылған Байланыс</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">Байланыс</string>
+    <string name="deleted_contact">жойылған</string>
+    <string name="no_data_found">Деректер табылған жоқ</string>
+    <string name="dismiss">қызметтен босатады</string>
+    <string name="share">үлес</string>
+    <string name="thank_you">/ Шақырамыз үлесі үшін рахмет</string>
+    <string name="contact_developer">Қате орын, байланыс әзірлеуші.</string>
+    <string name="install_whats_app">бірінші Whats App орнатыңыз</string>
+    <string name="install">орнату</string>
+    <string name="coming_soon">Жақында шығады</string>
+    <string name="try_after_some_time">Біраз уақыт өткен соң көріңіз</string>
+    <string name="action_language">тіл</string>
+    <string name="action_refresh">жаңарту</string>
+    <string name="action_restore_all">Барлығын қалпына келтіру</string>
+    <string name="action_app_invite">дос шақыру</string>
+    <string name="action_share">Акцияларды ҚХА</string>
+    <string name="action_feed_back">Кері байланыс</string>
+    <string name="action_contact_us">Бізбен хабарласыңы</string>
+    <string name="contact_name">Байланыс аты</string>
+    <string name="contact_phone_number">Байланыс телефоны</string>
+    <string name="contact_account_type">Тіркелгі түрі</string>
+    <string name="description_contact_photo">Байланыс Фото</string>
+    <string name="description_contact_info">Байланыс ақпараты</string>
+    <string name="static_contact_us_whats_app">WhatsApp тікелей Байланыс әзірлеуші.</string>
+    <string name="static_contact_us_developer">Developers, сынақшылар, салымшылар үшін Google+ тобы.</string>
+    <string name="static_contact_us_language">Аудармашылар мен тіл әуесқойлары үшін Google+ тобы.</string>
+    <string name="static_contact_us_google_plus">Google+ мені қанағаттандыру.</string>
+    <string name="static_contact_us_linkedin">салымшы мен әзірлеуші ​​ретінде қосылыңыз.</string>
+    <string name="static_contact_us_facebook">Ресми Facebook Page.</string>
+    <string name="invite_title">дос шақыру</string>
+    <string name="invite_message">D Жойылған Байланыс Ашық бастапқы, тегін, Жарнама-Free Android бағдарламасы болып табылады.</string>
+    <string name="permission">рұқсат</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE рұқсат қажет</string>
+    <string name="permission_message_read_contact">READ_CONTACTS рұқсат қажет</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS рұқсат қажет</string>
+    <string name="permission_grant">грант</string>
+    <string name="restore">қалпына келтіру</string>
+</resources>

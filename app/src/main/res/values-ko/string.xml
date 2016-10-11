@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D 삭제 연락</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">콘택트 렌즈</string><string name="deleted_contact">삭제</string><string name="no_data_found">어떤 데이터를 찾을 수 없음</string><string name="dismiss">버리다</string><string name="share">몫</string><string name="thank_you">공유 주셔서 감사합니다 / 초대</string><string name="contact_developer">오류, 연락처 개발자 발생합니다.</string><string name="install_whats_app">첫 번째 뭐죠 앱 설치</string><string name="install">설치</string><string name="coming_soon">출시 예정</string><string name="try_after_some_time">잠시 후 시도</string><string name="action_language">언어</string><string name="action_refresh">새롭게 하다</string><string name="action_restore_all">모든 복원</string><string name="action_app_invite">친구를 초대</string><string name="action_share">공유 APK</string><string name="action_feed_back">피드백</string><string name="action_contact_us">저희에게 연락하십시오</string><string name="contact_name">담당자 이름</string><string name="contact_phone_number">연락 번호</string><string name="contact_account_type">계정 유형</string><string name="description_contact_photo">연락 사진</string><string name="description_contact_info">연락처 정보</string><string name="static_contact_us_whats_app">직접 또는 WhatsApp에 연락 개발자.</string><string name="static_contact_us_developer">개발자, 테스터 및 참여자 용 Google+ 그룹.</string><string name="static_contact_us_language">번역 및 언어 애호가를위한 Google+의 그룹입니다.</string><string name="static_contact_us_google_plus">Google+에서 만나합니다.</string><string name="static_contact_us_linkedin">기여 및 개발자로 가입합니다.</string><string name="static_contact_us_facebook">공식 페이스 북 페이지.</string><string name="invite_title">친구를 초대</string><string name="invite_message">D 삭제 연락 오픈 소스, 프리웨어, 광고 - 무료 안드로이드 응용 프로그램입니다.</string><string name="invite_email_subject">@ 문자열 / APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">허가</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE 권한이 필요하다</string><string name="permission_message_read_contact">READ_CONTACTS 권한이 필요하다</string><string name="permission_message_write_contact">WRITE_CONTACTS 권한이 필요하다</string><string name="permission_grant">부여</string><string name="restore">복원</string></resources>
+<resources>
+    <string name="app_name">D 삭제 연락</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">콘택트 렌즈</string>
+    <string name="deleted_contact">삭제</string>
+    <string name="no_data_found">어떤 데이터를 찾을 수 없음</string>
+    <string name="dismiss">버리다</string>
+    <string name="share">몫</string>
+    <string name="thank_you">공유 주셔서 감사합니다 / 초대</string>
+    <string name="contact_developer">오류, 연락처 개발자 발생합니다.</string>
+    <string name="install_whats_app">첫 번째 뭐죠 앱 설치</string>
+    <string name="install">설치</string>
+    <string name="coming_soon">출시 예정</string>
+    <string name="try_after_some_time">잠시 후 시도</string>
+    <string name="action_language">언어</string>
+    <string name="action_refresh">새롭게 하다</string>
+    <string name="action_restore_all">모든 복원</string>
+    <string name="action_app_invite">친구를 초대</string>
+    <string name="action_share">공유 APK</string>
+    <string name="action_feed_back">피드백</string>
+    <string name="action_contact_us">저희에게 연락하십시오</string>
+    <string name="contact_name">담당자 이름</string>
+    <string name="contact_phone_number">연락 번호</string>
+    <string name="contact_account_type">계정 유형</string>
+    <string name="description_contact_photo">연락 사진</string>
+    <string name="description_contact_info">연락처 정보</string>
+    <string name="static_contact_us_whats_app">직접 또는 WhatsApp에 연락 개발자.</string>
+    <string name="static_contact_us_developer">개발자, 테스터 및 참여자 용 Google+ 그룹.</string>
+    <string name="static_contact_us_language">번역 및 언어 애호가를위한 Google+의 그룹입니다.</string>
+    <string name="static_contact_us_google_plus">Google+에서 만나합니다.</string>
+    <string name="static_contact_us_linkedin">기여 및 개발자로 가입합니다.</string>
+    <string name="static_contact_us_facebook">공식 페이스 북 페이지.</string>
+    <string name="invite_title">친구를 초대</string>
+    <string name="invite_message">D 삭제 연락 오픈 소스, 프리웨어, 광고 - 무료 안드로이드 응용 프로그램입니다.</string>
+    <string name="permission">허가</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE 권한이 필요하다</string>
+    <string name="permission_message_read_contact">READ_CONTACTS 권한이 필요하다</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS 권한이 필요하다</string>
+    <string name="permission_grant">부여</string>
+    <string name="restore">복원</string>
+</resources>

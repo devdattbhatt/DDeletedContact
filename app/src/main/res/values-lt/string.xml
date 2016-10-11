@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Ištrinta Susisiekite</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">kontaktai</string><string name="deleted_contact">ištrinta</string><string name="no_data_found">Nėra duomenų</string><string name="dismiss">atleisti</string><string name="share">dalis</string><string name="thank_you">Dėkojame už share / pakviesti</string><string name="contact_developer">Klaida kartojasi, kreipkitės kūrėjas.</string><string name="install_whats_app">Įdiekite Whats App pirmas</string><string name="install">Diegti</string><string name="coming_soon">Netrukus</string><string name="try_after_some_time">Pabandykite po tam tikro laiko</string><string name="action_language">kalba</string><string name="action_refresh">atnaujinti</string><string name="action_restore_all">atkurti viską</string><string name="action_app_invite">Pakviesti draugus</string><string name="action_share">Dalintis APK</string><string name="action_feed_back">grįžtamasis ryšys</string><string name="action_contact_us">Susisiekite su mumis</string><string name="contact_name">Kontaktinis vardas</string><string name="contact_phone_number">Kontaktinis telefono numeris</string><string name="contact_account_type">Paskyros tipas</string><string name="description_contact_photo">Susisiekite su nuotrauka</string><string name="description_contact_info">Kontaktinė informacija</string><string name="static_contact_us_whats_app">Kontaktinė kūrėjas tiesiogiai WhatsApp.</string><string name="static_contact_us_developer">&amp;quot;Google+ grupė kūrėjams, testeriai ir bendraautorių.</string><string name="static_contact_us_language">&amp;quot;Google+ grupė raštu ir kalbos mylėtojams.</string><string name="static_contact_us_google_plus">Susitikti su manimi &amp;quot;Google+&amp;quot;.</string><string name="static_contact_us_linkedin">Norėdami prisijungti kaip prisideda ir kūrėjas.</string><string name="static_contact_us_facebook">Oficialus Facebook puslapis.</string><string name="invite_title">Pakviesti draugus</string><string name="invite_message">D Ištrinta Kontaktinė yra atviro kodo, nemokama, Reklama-nemokamai Android app.</string><string name="invite_email_subject">@ Eilutė / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">leidimas</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE leidimas yra reikalingas</string><string name="permission_message_read_contact">READ_CONTACTS leidimas yra reikalingas</string><string name="permission_message_write_contact">WRITE_CONTACTS leidimas yra reikalingas</string><string name="permission_grant">dotacijos</string><string name="restore">Atkurti</string></resources>
+<resources>
+    <string name="app_name">D Ištrinta Susisiekite</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">kontaktai</string>
+    <string name="deleted_contact">ištrinta</string>
+    <string name="no_data_found">Nėra duomenų</string>
+    <string name="dismiss">atleisti</string>
+    <string name="share">dalis</string>
+    <string name="thank_you">Dėkojame už share / pakviesti</string>
+    <string name="contact_developer">Klaida kartojasi, kreipkitės kūrėjas.</string>
+    <string name="install_whats_app">Įdiekite Whats App pirmas</string>
+    <string name="install">Diegti</string>
+    <string name="coming_soon">Netrukus</string>
+    <string name="try_after_some_time">Pabandykite po tam tikro laiko</string>
+    <string name="action_language">kalba</string>
+    <string name="action_refresh">atnaujinti</string>
+    <string name="action_restore_all">atkurti viską</string>
+    <string name="action_app_invite">Pakviesti draugus</string>
+    <string name="action_share">Dalintis APK</string>
+    <string name="action_feed_back">grįžtamasis ryšys</string>
+    <string name="action_contact_us">Susisiekite su mumis</string>
+    <string name="contact_name">Kontaktinis vardas</string>
+    <string name="contact_phone_number">Kontaktinis telefono numeris</string>
+    <string name="contact_account_type">Paskyros tipas</string>
+    <string name="description_contact_photo">Susisiekite su nuotrauka</string>
+    <string name="description_contact_info">Kontaktinė informacija</string>
+    <string name="static_contact_us_whats_app">Kontaktinė kūrėjas tiesiogiai WhatsApp.</string>
+    <string name="static_contact_us_developer">&amp;quot;Google+ grupė kūrėjams, testeriai ir bendraautorių.</string>
+    <string name="static_contact_us_language">&amp;quot;Google+ grupė raštu ir kalbos mylėtojams.</string>
+    <string name="static_contact_us_google_plus">Susitikti su manimi &amp;quot;Google+&amp;quot;.</string>
+    <string name="static_contact_us_linkedin">Norėdami prisijungti kaip prisideda ir kūrėjas.</string>
+    <string name="static_contact_us_facebook">Oficialus Facebook puslapis.</string>
+    <string name="invite_title">Pakviesti draugus</string>
+    <string name="invite_message">D Ištrinta Kontaktinė yra atviro kodo, nemokama, Reklama-nemokamai Android app.</string>
+    <string name="permission">leidimas</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE leidimas yra reikalingas</string>
+    <string name="permission_message_read_contact">READ_CONTACTS leidimas yra reikalingas</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS leidimas yra reikalingas</string>
+    <string name="permission_grant">dotacijos</string>
+    <string name="restore">Atkurti</string>
+</resources>

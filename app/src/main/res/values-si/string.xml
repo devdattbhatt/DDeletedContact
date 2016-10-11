@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">ඩී මකාදැමුවා අමතන්න</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">අප අමතන්න</string><string name="deleted_contact">මකා දමන ලදී</string><string name="no_data_found">දත්ත නොමැත</string><string name="dismiss">සේවයෙන් ඉවත්</string><string name="share">බෙදාගන්න</string><string name="thank_you">ෂෙයාර් / ආරාධනා ඔබට ස්තුතියි</string><string name="contact_developer">දෝශය, සබඳතා සංවර්ධක.</string><string name="install_whats_app">මෙමස යෙදුම පළමු ස්ථාපනය</string><string name="install">ස්ථාපනය</string><string name="coming_soon">ඉක්මණින් පැමිණෙන</string><string name="try_after_some_time">සමහර කාල පසු උත්සාහ කරන්න</string><string name="action_language">භාෂාව</string><string name="action_refresh">නැවුම් කරන්න</string><string name="action_restore_all">යථා තත්වයට පත් කිරීම සියලු</string><string name="action_app_invite">මිත්රවරුනි ආරාධනා</string><string name="action_share">මෙම දැන්වීම APK</string><string name="action_feed_back">ඔබෙන් ලැබෙන ප්රයෝජනාත්මක ප්රතිචාරය</string><string name="action_contact_us">අප අමතන්න</string><string name="contact_name">අප අමතන්න නම</string><string name="contact_phone_number">ඇමතුම් අංකය</string><string name="contact_account_type">ගිණුම් වර්ගය</string><string name="description_contact_photo">අප අමතන්න ඡායා රූප</string><string name="description_contact_info">සබඳතා තොරතුරු</string><string name="static_contact_us_whats_app">නම් WhatsApp මත සෘජුවම සම්බන්ධ සංවර්ධක.</string><string name="static_contact_us_developer">ඩෙවලොපර්ස්, පරීක්ෂකයින් සහ දායක සඳහා Google+ පිරිසක්.</string><string name="static_contact_us_language">භාෂා පරිවර්තක සහ භාෂා පෙම්වතුන් සඳහා Google+ පිරිසක්.</string><string name="static_contact_us_google_plus">Google+ හි මට සපුරාලන්නේ.</string><string name="static_contact_us_linkedin">දායකයා හා සංවර්ධක ලෙස එකතු වන්න කිරීම.</string><string name="static_contact_us_facebook">නිළ ෆේස්බුක් පිටුව.</string><string name="invite_title">මිත්රවරුනි ආරාධනා</string><string name="invite_message">ඩී මකාදැමුවා අමතන්න විවෘත කේත, පවු, ප්රචාරය-නිදහස් ඇන්ඩ්රොයිඩ් යෙදුම වේ.</string><string name="invite_email_subject">@ String / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">අවසර</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE අවසරයක් අවශ්ය වේ</string><string name="permission_message_read_contact">READ_CONTACTS අවසරයක් අවශ්ය වේ</string><string name="permission_message_write_contact">WRITE_CONTACTS අවසරයක් අවශ්ය වේ</string><string name="permission_grant">ප්රදාන</string><string name="restore">යථා තත්වයට පත් කිරීම</string></resources>
+<resources>
+    <string name="app_name">ඩී මකාදැමුවා අමතන්න</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">අප අමතන්න</string>
+    <string name="deleted_contact">මකා දමන ලදී</string>
+    <string name="no_data_found">දත්ත නොමැත</string>
+    <string name="dismiss">සේවයෙන් ඉවත්</string>
+    <string name="share">බෙදාගන්න</string>
+    <string name="thank_you">ෂෙයාර් / ආරාධනා ඔබට ස්තුතියි</string>
+    <string name="contact_developer">දෝශය, සබඳතා සංවර්ධක.</string>
+    <string name="install_whats_app">මෙමස යෙදුම පළමු ස්ථාපනය</string>
+    <string name="install">ස්ථාපනය</string>
+    <string name="coming_soon">ඉක්මණින් පැමිණෙන</string>
+    <string name="try_after_some_time">සමහර කාල පසු උත්සාහ කරන්න</string>
+    <string name="action_language">භාෂාව</string>
+    <string name="action_refresh">නැවුම් කරන්න</string>
+    <string name="action_restore_all">යථා තත්වයට පත් කිරීම සියලු</string>
+    <string name="action_app_invite">මිත්රවරුනි ආරාධනා</string>
+    <string name="action_share">මෙම දැන්වීම APK</string>
+    <string name="action_feed_back">ඔබෙන් ලැබෙන ප්රයෝජනාත්මක ප්රතිචාරය</string>
+    <string name="action_contact_us">අප අමතන්න</string>
+    <string name="contact_name">අප අමතන්න නම</string>
+    <string name="contact_phone_number">ඇමතුම් අංකය</string>
+    <string name="contact_account_type">ගිණුම් වර්ගය</string>
+    <string name="description_contact_photo">අප අමතන්න ඡායා රූප</string>
+    <string name="description_contact_info">සබඳතා තොරතුරු</string>
+    <string name="static_contact_us_whats_app">නම් WhatsApp මත සෘජුවම සම්බන්ධ සංවර්ධක.</string>
+    <string name="static_contact_us_developer">ඩෙවලොපර්ස්, පරීක්ෂකයින් සහ දායක සඳහා Google+ පිරිසක්.</string>
+    <string name="static_contact_us_language">භාෂා පරිවර්තක සහ භාෂා පෙම්වතුන් සඳහා Google+ පිරිසක්.</string>
+    <string name="static_contact_us_google_plus">Google+ හි මට සපුරාලන්නේ.</string>
+    <string name="static_contact_us_linkedin">දායකයා හා සංවර්ධක ලෙස එකතු වන්න කිරීම.</string>
+    <string name="static_contact_us_facebook">නිළ ෆේස්බුක් පිටුව.</string>
+    <string name="invite_title">මිත්රවරුනි ආරාධනා</string>
+    <string name="invite_message">ඩී මකාදැමුවා අමතන්න විවෘත කේත, පවු, ප්රචාරය-නිදහස් ඇන්ඩ්රොයිඩ් යෙදුම වේ.</string>
+    <string name="permission">අවසර</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE අවසරයක් අවශ්ය වේ</string>
+    <string name="permission_message_read_contact">READ_CONTACTS අවසරයක් අවශ්ය වේ</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS අවසරයක් අවශ්ය වේ</string>
+    <string name="permission_grant">ප්රදාන</string>
+    <string name="restore">යථා තත්වයට පත් කිරීම</string>
+</resources>

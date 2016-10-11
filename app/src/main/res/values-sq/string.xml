@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Deleted Kontakt</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Kontaktet</string><string name="deleted_contact">deleted</string><string name="no_data_found">Asnjë Data Found</string><string name="dismiss">Shkarkoj</string><string name="share">pjesë</string><string name="thank_you">Faleminderit për pjesën / ftoni</string><string name="contact_developer">Error ndodhë, zhvilluesi i kontaktit.</string><string name="install_whats_app">Install Whats App parë</string><string name="install">instaloj</string><string name="coming_soon">Vjen se shpejti</string><string name="try_after_some_time">Mundohuni pas një kohe</string><string name="action_language">Gjuhe</string><string name="action_refresh">Rifreskoj</string><string name="action_restore_all">rivendosur të gjitha</string><string name="action_app_invite">Ftoni miqtë</string><string name="action_share">Share APK</string><string name="action_feed_back">reagim</string><string name="action_contact_us">Na kontaktoni</string><string name="contact_name">Emri i kontaktit</string><string name="contact_phone_number">Numri i kontaktit</string><string name="contact_account_type">Lloji i Llogarisë</string><string name="description_contact_photo">Contact Photo</string><string name="description_contact_info">info kontakt</string><string name="static_contact_us_whats_app">zhvilluesi Kontakt direkt në WhatsApp.</string><string name="static_contact_us_developer">Grupi i Google për zhvilluesit, testers dhe kontribuesve.</string><string name="static_contact_us_language">Grupi i Google për përkthyes dhe dashamirësit e gjuhës.</string><string name="static_contact_us_google_plus">Të takohet me mua në Google+.</string><string name="static_contact_us_linkedin">Për t&amp;#39;u bashkuar si kontribues dhe Developer.</string><string name="static_contact_us_facebook">Facebook Official Page.</string><string name="invite_title">Ftoni miqtë</string><string name="invite_message">D Deleted Contact është burim i hapur, Freeware, app Advertise-free android.</string><string name="invite_email_subject">@ String / APP_NAME</string><string name="invite_html_contact">%% %% APPINVITE_LINK_PLACEHOLDER</string><string name="permission">leje</string><string name="permission_message_write_external_storage">Leja WRITE_EXTERNAL_STORAGE është e nevojshme</string><string name="permission_message_read_contact">Leja READ_CONTACTS është e nevojshme</string><string name="permission_message_write_contact">Leja WRITE_CONTACTS është e nevojshme</string><string name="permission_grant">Grant</string><string name="restore">kthej</string></resources>
+<resources>
+    <string name="app_name">D Deleted Kontakt</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">Kontaktet</string>
+    <string name="deleted_contact">deleted</string>
+    <string name="no_data_found">Asnjë Data Found</string>
+    <string name="dismiss">Shkarkoj</string>
+    <string name="share">pjesë</string>
+    <string name="thank_you">Faleminderit për pjesën / ftoni</string>
+    <string name="contact_developer">Error ndodhë, zhvilluesi i kontaktit.</string>
+    <string name="install_whats_app">Install Whats App parë</string>
+    <string name="install">instaloj</string>
+    <string name="coming_soon">Vjen se shpejti</string>
+    <string name="try_after_some_time">Mundohuni pas një kohe</string>
+    <string name="action_language">Gjuhe</string>
+    <string name="action_refresh">Rifreskoj</string>
+    <string name="action_restore_all">rivendosur të gjitha</string>
+    <string name="action_app_invite">Ftoni miqtë</string>
+    <string name="action_share">Share APK</string>
+    <string name="action_feed_back">reagim</string>
+    <string name="action_contact_us">Na kontaktoni</string>
+    <string name="contact_name">Emri i kontaktit</string>
+    <string name="contact_phone_number">Numri i kontaktit</string>
+    <string name="contact_account_type">Lloji i Llogarisë</string>
+    <string name="description_contact_photo">Contact Photo</string>
+    <string name="description_contact_info">info kontakt</string>
+    <string name="static_contact_us_whats_app">zhvilluesi Kontakt direkt në WhatsApp.</string>
+    <string name="static_contact_us_developer">Grupi i Google për zhvilluesit, testers dhe kontribuesve.</string>
+    <string name="static_contact_us_language">Grupi i Google për përkthyes dhe dashamirësit e gjuhës.</string>
+    <string name="static_contact_us_google_plus">Të takohet me mua në Google+.</string>
+    <string name="static_contact_us_linkedin">Për t&amp;#39;u bashkuar si kontribues dhe Developer.</string>
+    <string name="static_contact_us_facebook">Facebook Official Page.</string>
+    <string name="invite_title">Ftoni miqtë</string>
+    <string name="invite_message">D Deleted Contact është burim i hapur, Freeware, app Advertise-free android.</string>
+    <string name="permission">leje</string>
+    <string name="permission_message_write_external_storage">Leja WRITE_EXTERNAL_STORAGE është e nevojshme</string>
+    <string name="permission_message_read_contact">Leja READ_CONTACTS është e nevojshme</string>
+    <string name="permission_message_write_contact">Leja WRITE_CONTACTS është e nevojshme</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">kthej</string>
+</resources>

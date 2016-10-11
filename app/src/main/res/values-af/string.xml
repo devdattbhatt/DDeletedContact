@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
   ~ Copyright (c) 2016. Devdatt s bhatt
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -48,8 +47,6 @@
     <string name="static_contact_us_facebook">Amptelike Facebook Page.</string>
     <string name="invite_title">Nooi vriende</string>
     <string name="invite_message">D verwyder Kontak is open source, freeware, adverteer gratis Android app.</string>
-    <string name="invite_email_subject">@String/APP_NAME</string>
-    <string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string>
     <string name="permission">toestemming</string>
     <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE toestemming nodig</string>
     <string name="permission_message_read_contact">READ_CONTACTS toestemming nodig</string>

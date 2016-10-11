@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D kustutatud Kontakt</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">sidemed</string><string name="deleted_contact">Kustutatud</string><string name="no_data_found">Andmeid pole leitud</string><string name="dismiss">tagasi lükkama</string><string name="share">osa</string><string name="thank_you">Täname, share / kutsuda</string><string name="contact_developer">Viga esineb kontakt arendaja.</string><string name="install_whats_app">Paigaldage Whats App esimene</string><string name="install">paigaldama</string><string name="coming_soon">Tulekul</string><string name="try_after_some_time">Proovige mõne aja pärast</string><string name="action_language">keel</string><string name="action_refresh">värskendama</string><string name="action_restore_all">Taasta kõik</string><string name="action_app_invite">Kutsu sõpru</string><string name="action_share">Jaga APK</string><string name="action_feed_back">tagasiside</string><string name="action_contact_us">Võta meiega ühendust</string><string name="contact_name">Kontaktisiku nimi</string><string name="contact_phone_number">Kontakt number</string><string name="contact_account_type">Konto tüüp</string><string name="description_contact_photo">Kontakt Foto</string><string name="description_contact_info">Kontaktinfo</string><string name="static_contact_us_whats_app">Kontakt arendaja otse WhatsApp.</string><string name="static_contact_us_developer">Google + grupi arendajatele, testrid ja toetajad.</string><string name="static_contact_us_language">Google + rühma Tõlkijad ja keele armastajad.</string><string name="static_contact_us_google_plus">Meet mind Google+.</string><string name="static_contact_us_linkedin">Liituda toetaja ja arendaja.</string><string name="static_contact_us_facebook">Official Facebook Page.</string><string name="invite_title">Kutsu sõpru</string><string name="invite_message">D kustutatud Kontakt on avatud lähtekoodiga, Freeware, Reklaami-free android app.</string><string name="invite_email_subject">@ String / APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">luba</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE luba vaja</string><string name="permission_message_read_contact">READ_CONTACTS luba vaja</string><string name="permission_message_write_contact">WRITE_CONTACTS luba vaja</string><string name="permission_grant">Grant</string><string name="restore">Taastama</string></resources>
+<resources>
+    <string name="app_name">D kustutatud Kontakt</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">sidemed</string>
+    <string name="deleted_contact">Kustutatud</string>
+    <string name="no_data_found">Andmeid pole leitud</string>
+    <string name="dismiss">tagasi lükkama</string>
+    <string name="share">osa</string>
+    <string name="thank_you">Täname, share / kutsuda</string>
+    <string name="contact_developer">Viga esineb kontakt arendaja.</string>
+    <string name="install_whats_app">Paigaldage Whats App esimene</string>
+    <string name="install">paigaldama</string>
+    <string name="coming_soon">Tulekul</string>
+    <string name="try_after_some_time">Proovige mõne aja pärast</string>
+    <string name="action_language">keel</string>
+    <string name="action_refresh">värskendama</string>
+    <string name="action_restore_all">Taasta kõik</string>
+    <string name="action_app_invite">Kutsu sõpru</string>
+    <string name="action_share">Jaga APK</string>
+    <string name="action_feed_back">tagasiside</string>
+    <string name="action_contact_us">Võta meiega ühendust</string>
+    <string name="contact_name">Kontaktisiku nimi</string>
+    <string name="contact_phone_number">Kontakt number</string>
+    <string name="contact_account_type">Konto tüüp</string>
+    <string name="description_contact_photo">Kontakt Foto</string>
+    <string name="description_contact_info">Kontaktinfo</string>
+    <string name="static_contact_us_whats_app">Kontakt arendaja otse WhatsApp.</string>
+    <string name="static_contact_us_developer">Google + grupi arendajatele, testrid ja toetajad.</string>
+    <string name="static_contact_us_language">Google + rühma Tõlkijad ja keele armastajad.</string>
+    <string name="static_contact_us_google_plus">Meet mind Google+.</string>
+    <string name="static_contact_us_linkedin">Liituda toetaja ja arendaja.</string>
+    <string name="static_contact_us_facebook">Official Facebook Page.</string>
+    <string name="invite_title">Kutsu sõpru</string>
+    <string name="invite_message">D kustutatud Kontakt on avatud lähtekoodiga, Freeware, Reklaami-free android app.</string>
+    <string name="permission">luba</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE luba vaja</string>
+    <string name="permission_message_read_contact">READ_CONTACTS luba vaja</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS luba vaja</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">Taastama</string>
+</resources>

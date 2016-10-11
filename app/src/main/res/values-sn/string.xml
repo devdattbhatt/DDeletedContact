@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D dzadzimwa Contact</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Contacts</string><string name="deleted_contact">dzadzimwa</string><string name="no_data_found">No Data Found</string><string name="dismiss">dzinga</string><string name="share">mugove</string><string name="thank_you">Ndinokutendai nokuti mugove / koka</string><string name="contact_developer">Error kuitika, kuonana yokuvaka.</string><string name="install_whats_app">Dzishandise Whats App kutanga</string><string name="install">gadza</string><string name="coming_soon">Kuuya manje manje</string><string name="try_after_some_time">Edza After Vamwe Time</string><string name="action_language">mutauro</string><string name="action_refresh">fefeta</string><string name="action_restore_all">Dzosa All</string><string name="action_app_invite">Kumbirai Friends</string><string name="action_share">Share apk</string><string name="action_feed_back">Feedback</string><string name="action_contact_us">Taura nesu</string><string name="contact_name">Contact zita</string><string name="contact_phone_number">Contact nhamba</string><string name="contact_account_type">Account Type</string><string name="description_contact_photo">Contact Photo</string><string name="description_contact_info">Contact Info</string><string name="static_contact_us_whats_app">Contact yokuvaka zvakananga WhatsApp.</string><string name="static_contact_us_developer">Google+ boka nokuti Developers, Testers uye mipiro.</string><string name="static_contact_us_language">Google+ boka vashandurudzi uye vanoda Language.</string><string name="static_contact_us_google_plus">Kwandiri Meet pamusoro Google+.</string><string name="static_contact_us_linkedin">Kuti Join sezvo Contributor uye Developer.</string><string name="static_contact_us_facebook">Official Facebook Page.</string><string name="invite_title">Kumbirai Friends</string><string name="invite_message">D dzadzimwa Contact ndiko Open tsime, Freeware, Advertise-akasununguka Android Anwendung.</string><string name="invite_email_subject">@ Tambo / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">mvumo</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE mvumo kunodiwa</string><string name="permission_message_read_contact">READ_CONTACTS mvumo kunodiwa</string><string name="permission_message_write_contact">WRITE_CONTACTS mvumo kunodiwa</string><string name="permission_grant">Grant</string><string name="restore">Dzosa</string></resources>
+<resources>
+    <string name="app_name">D dzadzimwa Contact</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">Contacts</string>
+    <string name="deleted_contact">dzadzimwa</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="dismiss">dzinga</string>
+    <string name="share">mugove</string>
+    <string name="thank_you">Ndinokutendai nokuti mugove / koka</string>
+    <string name="contact_developer">Error kuitika, kuonana yokuvaka.</string>
+    <string name="install_whats_app">Dzishandise Whats App kutanga</string>
+    <string name="install">gadza</string>
+    <string name="coming_soon">Kuuya manje manje</string>
+    <string name="try_after_some_time">Edza After Vamwe Time</string>
+    <string name="action_language">mutauro</string>
+    <string name="action_refresh">fefeta</string>
+    <string name="action_restore_all">Dzosa All</string>
+    <string name="action_app_invite">Kumbirai Friends</string>
+    <string name="action_share">Share apk</string>
+    <string name="action_feed_back">Feedback</string>
+    <string name="action_contact_us">Taura nesu</string>
+    <string name="contact_name">Contact zita</string>
+    <string name="contact_phone_number">Contact nhamba</string>
+    <string name="contact_account_type">Account Type</string>
+    <string name="description_contact_photo">Contact Photo</string>
+    <string name="description_contact_info">Contact Info</string>
+    <string name="static_contact_us_whats_app">Contact yokuvaka zvakananga WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ boka nokuti Developers, Testers uye mipiro.</string>
+    <string name="static_contact_us_language">Google+ boka vashandurudzi uye vanoda Language.</string>
+    <string name="static_contact_us_google_plus">Kwandiri Meet pamusoro Google+.</string>
+    <string name="static_contact_us_linkedin">Kuti Join sezvo Contributor uye Developer.</string>
+    <string name="static_contact_us_facebook">Official Facebook Page.</string>
+    <string name="invite_title">Kumbirai Friends</string>
+    <string name="invite_message">D dzadzimwa Contact ndiko Open tsime, Freeware, Advertise-akasununguka Android Anwendung.</string>
+    <string name="permission">mvumo</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE mvumo kunodiwa</string>
+    <string name="permission_message_read_contact">READ_CONTACTS mvumo kunodiwa</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS mvumo kunodiwa</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">Dzosa</string>
+</resources>

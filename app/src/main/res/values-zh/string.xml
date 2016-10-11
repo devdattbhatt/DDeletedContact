@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D已删除联系人</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">往来</string><string name="deleted_contact">已删除</string><string name="no_data_found">没有找到数据</string><string name="dismiss">解雇</string><string name="share">分享</string><string name="thank_you">感谢您的分享/邀请</string><string name="contact_developer">发生错误，请联系开发商。</string><string name="install_whats_app">首先安装应用程序请告诉我</string><string name="install">安装</string><string name="coming_soon">快来了</string><string name="try_after_some_time">尝试一段时间后，</string><string name="action_language">语言</string><string name="action_refresh">刷新</string><string name="action_restore_all">恢复所有</string><string name="action_app_invite">邀请朋友</string><string name="action_share">分享APK</string><string name="action_feed_back">反馈</string><string name="action_contact_us">联系我们</string><string name="contact_name">联系人姓名</string><string name="contact_phone_number">联系电话</string><string name="contact_account_type">帐户类型</string><string name="description_contact_photo">联系人照片</string><string name="description_contact_info">联系方式</string><string name="static_contact_us_whats_app">联系开发商直接在WhatsApp的。</string><string name="static_contact_us_developer">Google+的组开发人员，测试人员和贡献者。</string><string name="static_contact_us_language">Google+的组翻译和语言爱好者。</string><string name="static_contact_us_google_plus">迎接我在Google+上。</string><string name="static_contact_us_linkedin">加入成为贡献者和开发人员。</string><string name="static_contact_us_facebook">官方Facebook页面。</string><string name="invite_title">邀请朋友</string><string name="invite_message">D已删除联系人是开源的，免费软件，免费的广告，Android应用程序。</string><string name="invite_email_subject">@字符串/ APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">允许</string><string name="permission_message_write_external_storage">需要WRITE_EXTERNAL_STORAGE许可</string><string name="permission_message_read_contact">需要READ_CONTACTS许可</string><string name="permission_message_write_contact">需要WRITE_CONTACTS许可</string><string name="permission_grant">格兰特</string><string name="restore">恢复</string></resources>
+<resources>
+    <string name="app_name">D已删除联系人</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">往来</string>
+    <string name="deleted_contact">已删除</string>
+    <string name="no_data_found">没有找到数据</string>
+    <string name="dismiss">解雇</string>
+    <string name="share">分享</string>
+    <string name="thank_you">感谢您的分享/邀请</string>
+    <string name="contact_developer">发生错误，请联系开发商。</string>
+    <string name="install_whats_app">首先安装应用程序请告诉我</string>
+    <string name="install">安装</string>
+    <string name="coming_soon">快来了</string>
+    <string name="try_after_some_time">尝试一段时间后，</string>
+    <string name="action_language">语言</string>
+    <string name="action_refresh">刷新</string>
+    <string name="action_restore_all">恢复所有</string>
+    <string name="action_app_invite">邀请朋友</string>
+    <string name="action_share">分享APK</string>
+    <string name="action_feed_back">反馈</string>
+    <string name="action_contact_us">联系我们</string>
+    <string name="contact_name">联系人姓名</string>
+    <string name="contact_phone_number">联系电话</string>
+    <string name="contact_account_type">帐户类型</string>
+    <string name="description_contact_photo">联系人照片</string>
+    <string name="description_contact_info">联系方式</string>
+    <string name="static_contact_us_whats_app">联系开发商直接在WhatsApp的。</string>
+    <string name="static_contact_us_developer">Google+的组开发人员，测试人员和贡献者。</string>
+    <string name="static_contact_us_language">Google+的组翻译和语言爱好者。</string>
+    <string name="static_contact_us_google_plus">迎接我在Google+上。</string>
+    <string name="static_contact_us_linkedin">加入成为贡献者和开发人员。</string>
+    <string name="static_contact_us_facebook">官方Facebook页面。</string>
+    <string name="invite_title">邀请朋友</string>
+    <string name="invite_message">D已删除联系人是开源的，免费软件，免费的广告，Android应用程序。</string>
+    <string name="permission">允许</string>
+    <string name="permission_message_write_external_storage">需要WRITE_EXTERNAL_STORAGE许可</string>
+    <string name="permission_message_read_contact">需要READ_CONTACTS许可</string>
+    <string name="permission_message_write_contact">需要WRITE_CONTACTS许可</string>
+    <string name="permission_grant">格兰特</string>
+    <string name="restore">恢复</string>
+</resources>

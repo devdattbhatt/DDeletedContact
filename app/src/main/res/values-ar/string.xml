@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D الاتصال محذوفة</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">جهات الاتصال</string><string name="deleted_contact">تم الحذف</string><string name="no_data_found">لاتوجد بيانات</string><string name="dismiss">رفض</string><string name="share">شارك</string><string name="thank_you">شكرا لمشاركة / دعوة</string><string name="contact_developer">يحدث خطأ، المطور للإتصال به.</string><string name="install_whats_app">تثبيت التطبيقات ماذا أولا</string><string name="install">تثبيت</string><string name="coming_soon">قريبا</string><string name="try_after_some_time">حاول بعد بعض الوقت</string><string name="action_language">لغة</string><string name="action_refresh">اعادة تنشيط</string><string name="action_restore_all">استعادة كل</string><string name="action_app_invite">ادعو أصدقاء</string><string name="action_share">حصة APK</string><string name="action_feed_back">ردود الفعل</string><string name="action_contact_us">اتصل بنا</string><string name="contact_name">اسم جهة الاتصال</string><string name="contact_phone_number">رقم الاتصال</string><string name="contact_account_type">نوع الحساب</string><string name="description_contact_photo">الاتصال صور</string><string name="description_contact_info">معلومات الاتصال</string><string name="static_contact_us_whats_app">الاتصال المطور مباشرة على ال WhatsApp.</string><string name="static_contact_us_developer">مجموعة + Google للمطورين، اختبار والمساهمين.</string><string name="static_contact_us_language">مجموعة + Google للمترجمين ومحبي اللغة.</string><string name="static_contact_us_google_plus">لقاء لي في + Google.</string><string name="static_contact_us_linkedin">إلى تاريخ كما المساهم والمطور.</string><string name="static_contact_us_facebook">الرسمية صفحة الفيسبوك.</string><string name="invite_title">ادعو أصدقاء</string><string name="invite_message">D الاتصال محذوفة هو المصدر المفتوح، مجانية، مجانا، أعلن الروبوت التطبيق.</string><string name="invite_email_subject">@ سلسلة / APP_NAME</string><string name="invite_html_contact">٪٪ ٪٪ APPINVITE_LINK_PLACEHOLDER</string><string name="permission">إذن</string><string name="permission_message_write_external_storage">هناك حاجة إلى إذن WRITE_EXTERNAL_STORAGE</string><string name="permission_message_read_contact">هناك حاجة إلى إذن READ_CONTACTS</string><string name="permission_message_write_contact">هناك حاجة إلى إذن WRITE_CONTACTS</string><string name="permission_grant">منحة</string><string name="restore">استعادة</string></resources>
+<resources>
+    <string name="app_name">D الاتصال محذوفة</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">جهات الاتصال</string>
+    <string name="deleted_contact">تم الحذف</string>
+    <string name="no_data_found">لاتوجد بيانات</string>
+    <string name="dismiss">رفض</string>
+    <string name="share">شارك</string>
+    <string name="thank_you">شكرا لمشاركة / دعوة</string>
+    <string name="contact_developer">يحدث خطأ، المطور للإتصال به.</string>
+    <string name="install_whats_app">تثبيت التطبيقات ماذا أولا</string>
+    <string name="install">تثبيت</string>
+    <string name="coming_soon">قريبا</string>
+    <string name="try_after_some_time">حاول بعد بعض الوقت</string>
+    <string name="action_language">لغة</string>
+    <string name="action_refresh">اعادة تنشيط</string>
+    <string name="action_restore_all">استعادة كل</string>
+    <string name="action_app_invite">ادعو أصدقاء</string>
+    <string name="action_share">حصة APK</string>
+    <string name="action_feed_back">ردود الفعل</string>
+    <string name="action_contact_us">اتصل بنا</string>
+    <string name="contact_name">اسم جهة الاتصال</string>
+    <string name="contact_phone_number">رقم الاتصال</string>
+    <string name="contact_account_type">نوع الحساب</string>
+    <string name="description_contact_photo">الاتصال صور</string>
+    <string name="description_contact_info">معلومات الاتصال</string>
+    <string name="static_contact_us_whats_app">الاتصال المطور مباشرة على ال WhatsApp.</string>
+    <string name="static_contact_us_developer">مجموعة + Google للمطورين، اختبار والمساهمين.</string>
+    <string name="static_contact_us_language">مجموعة + Google للمترجمين ومحبي اللغة.</string>
+    <string name="static_contact_us_google_plus">لقاء لي في + Google.</string>
+    <string name="static_contact_us_linkedin">إلى تاريخ كما المساهم والمطور.</string>
+    <string name="static_contact_us_facebook">الرسمية صفحة الفيسبوك.</string>
+    <string name="invite_title">ادعو أصدقاء</string>
+    <string name="invite_message">D الاتصال محذوفة هو المصدر المفتوح، مجانية، مجانا، أعلن الروبوت التطبيق.</string>
+    <string name="permission">إذن</string>
+    <string name="permission_message_write_external_storage">هناك حاجة إلى إذن WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_message_read_contact">هناك حاجة إلى إذن READ_CONTACTS</string>
+    <string name="permission_message_write_contact">هناك حاجة إلى إذن WRITE_CONTACTS</string>
+    <string name="permission_grant">منحة</string>
+    <string name="restore">استعادة</string>
+</resources>

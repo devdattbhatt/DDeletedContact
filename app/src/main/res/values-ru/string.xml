@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Исключен Связаться</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">контакты</string><string name="deleted_contact">удаленный</string><string name="no_data_found">Данные не найдены</string><string name="dismiss">отклонять</string><string name="share">Поделиться</string><string name="thank_you">Благодарим Вас за акцию / пригласить</string><string name="contact_developer">произойдет ошибка, свяжитесь с разработчиком.</string><string name="install_whats_app">Установить Whats App первый</string><string name="install">устанавливать</string><string name="coming_soon">Скоро</string><string name="try_after_some_time">Попробуйте через некоторое время</string><string name="action_language">язык</string><string name="action_refresh">обновление</string><string name="action_restore_all">Восстановить все</string><string name="action_app_invite">Пригласить друзей</string><string name="action_share">Доля APK</string><string name="action_feed_back">Обратная связь</string><string name="action_contact_us">Свяжитесь с нами</string><string name="contact_name">Контактное лицо</string><string name="contact_phone_number">Контактный номер</string><string name="contact_account_type">тип аккаунта</string><string name="description_contact_photo">Контакты Фото</string><string name="description_contact_info">Контактная информация</string><string name="static_contact_us_whats_app">Как связаться с разработчиком непосредственно на WhatsApp.</string><string name="static_contact_us_developer">группа Google+ для разработчиков, тестировщиков и участников.</string><string name="static_contact_us_language">Группа Google+ для переводчиков и любителей языка.</string><string name="static_contact_us_google_plus">Для того, чтобы встретиться со мной на Google+.</string><string name="static_contact_us_linkedin">Чтобы присоединиться в качестве вкладчика и разработчика.</string><string name="static_contact_us_facebook">Официальная страница Facebook.</string><string name="invite_title">Пригласить друзей</string><string name="invite_message">D Исключен Связаться с открытым исходным кодом, бесплатные программы, Реклама-бесплатное приложение для Android.</string><string name="invite_email_subject">@ Строка / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">разрешение</string><string name="permission_message_write_external_storage">разрешение WRITE_EXTERNAL_STORAGE требуется</string><string name="permission_message_read_contact">разрешение READ_CONTACTS требуется</string><string name="permission_message_write_contact">разрешение WRITE_CONTACTS требуется</string><string name="permission_grant">Грант</string><string name="restore">Восстановить</string></resources>
+<resources>
+    <string name="app_name">D Исключен Связаться</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">контакты</string>
+    <string name="deleted_contact">удаленный</string>
+    <string name="no_data_found">Данные не найдены</string>
+    <string name="dismiss">отклонять</string>
+    <string name="share">Поделиться</string>
+    <string name="thank_you">Благодарим Вас за акцию / пригласить</string>
+    <string name="contact_developer">произойдет ошибка, свяжитесь с разработчиком.</string>
+    <string name="install_whats_app">Установить Whats App первый</string>
+    <string name="install">устанавливать</string>
+    <string name="coming_soon">Скоро</string>
+    <string name="try_after_some_time">Попробуйте через некоторое время</string>
+    <string name="action_language">язык</string>
+    <string name="action_refresh">обновление</string>
+    <string name="action_restore_all">Восстановить все</string>
+    <string name="action_app_invite">Пригласить друзей</string>
+    <string name="action_share">Доля APK</string>
+    <string name="action_feed_back">Обратная связь</string>
+    <string name="action_contact_us">Свяжитесь с нами</string>
+    <string name="contact_name">Контактное лицо</string>
+    <string name="contact_phone_number">Контактный номер</string>
+    <string name="contact_account_type">тип аккаунта</string>
+    <string name="description_contact_photo">Контакты Фото</string>
+    <string name="description_contact_info">Контактная информация</string>
+    <string name="static_contact_us_whats_app">Как связаться с разработчиком непосредственно на WhatsApp.</string>
+    <string name="static_contact_us_developer">группа Google+ для разработчиков, тестировщиков и участников.</string>
+    <string name="static_contact_us_language">Группа Google+ для переводчиков и любителей языка.</string>
+    <string name="static_contact_us_google_plus">Для того, чтобы встретиться со мной на Google+.</string>
+    <string name="static_contact_us_linkedin">Чтобы присоединиться в качестве вкладчика и разработчика.</string>
+    <string name="static_contact_us_facebook">Официальная страница Facebook.</string>
+    <string name="invite_title">Пригласить друзей</string>
+    <string name="invite_message">D Исключен Связаться с открытым исходным кодом, бесплатные программы, Реклама-бесплатное приложение для Android.</string>
+    <string name="permission">разрешение</string>
+    <string name="permission_message_write_external_storage">разрешение WRITE_EXTERNAL_STORAGE требуется</string>
+    <string name="permission_message_read_contact">разрешение READ_CONTACTS требуется</string>
+    <string name="permission_message_write_contact">разрешение WRITE_CONTACTS требуется</string>
+    <string name="permission_grant">Грант</string>
+    <string name="restore">Восстановить</string>
+</resources>

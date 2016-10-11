@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">ডি মুছে ফেলা যোগাযোগ</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">পরিচিতি</string><string name="deleted_contact">মোছা</string><string name="no_data_found">কোন তথ্য পাওয়া যায় নি</string><string name="dismiss">বরখাস্ত করা</string><string name="share">ভাগ</string><string name="thank_you">শেয়ার করার জন্য আপনাকে ধন্যবাদ / আমন্ত্রণ</string><string name="contact_developer">ত্রুটি ঘটতে, যোগাযোগ ডেভেলপার.</string><string name="install_whats_app">প্রথম খবর App ইনস্টল</string><string name="install">ইনস্টল করুন</string><string name="coming_soon">শীঘ্রই আসছে</string><string name="try_after_some_time">কিছুক্ষণ পরে আবার চেষ্টা</string><string name="action_language">ভাষা</string><string name="action_refresh">সতেজ করা</string><string name="action_restore_all">পুনরুদ্ধার সকল</string><string name="action_app_invite">বন্ধুদের আমন্ত্রণ</string><string name="action_share">সেয়ার APK</string><string name="action_feed_back">প্রতিক্রিয়া</string><string name="action_contact_us">আমাদের সাথে যোগাযোগ করুন</string><string name="contact_name">যোগাযোগের নাম</string><string name="contact_phone_number">যোগাযোগ নম্বর</string><string name="contact_account_type">অ্যাকাউন্ট ধরন</string><string name="description_contact_photo">যোগাযোগ ছবি</string><string name="description_contact_info">যোগাযোগের তথ্য</string><string name="static_contact_us_whats_app">হোয়াটসঅ্যাপ সরাসরি যোগাযোগ ডেভেলপার.</string><string name="static_contact_us_developer">ডেভেলপারগণ, পরীক্ষকগণ এবং অবদানকারী জন্য Google+ গ্রুপ.</string><string name="static_contact_us_language">অনুবাদক ও ভাষা প্রেমীদের জন্য Google+ গ্রুপ.</string><string name="static_contact_us_google_plus">Google+ এ আমার সঙ্গে দেখা করতে.</string><string name="static_contact_us_linkedin">অবদানকারী এবং ডেভেলপার হিসেবে যোগদান করেন.</string><string name="static_contact_us_facebook">অফিসিয়াল ফেসবুক পাতা.</string><string name="invite_title">বন্ধুদের আমন্ত্রণ</string><string name="invite_message">ডি মুছে ফেলা যোগাযোগ ওপেন সোর্স, ডাউনলোড, বিজ্ঞাপন-বিনামূল্যে অ্যান্ড্রয়েড অ্যাপ্লিকেশন.</string><string name="invite_email_subject">@ স্ট্রিং / APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">অনুমতি</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE অনুমতি প্রয়োজন হয়</string><string name="permission_message_read_contact">READ_CONTACTS অনুমতি প্রয়োজন হয়</string><string name="permission_message_write_contact">WRITE_CONTACTS অনুমতি প্রয়োজন হয়</string><string name="permission_grant">প্রদান</string><string name="restore">প্রত্যর্পণ করা</string></resources>
+<resources>
+    <string name="app_name">ডি মুছে ফেলা যোগাযোগ</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">পরিচিতি</string>
+    <string name="deleted_contact">মোছা</string>
+    <string name="no_data_found">কোন তথ্য পাওয়া যায় নি</string>
+    <string name="dismiss">বরখাস্ত করা</string>
+    <string name="share">ভাগ</string>
+    <string name="thank_you">শেয়ার করার জন্য আপনাকে ধন্যবাদ / আমন্ত্রণ</string>
+    <string name="contact_developer">ত্রুটি ঘটতে, যোগাযোগ ডেভেলপার.</string>
+    <string name="install_whats_app">প্রথম খবর App ইনস্টল</string>
+    <string name="install">ইনস্টল করুন</string>
+    <string name="coming_soon">শীঘ্রই আসছে</string>
+    <string name="try_after_some_time">কিছুক্ষণ পরে আবার চেষ্টা</string>
+    <string name="action_language">ভাষা</string>
+    <string name="action_refresh">সতেজ করা</string>
+    <string name="action_restore_all">পুনরুদ্ধার সকল</string>
+    <string name="action_app_invite">বন্ধুদের আমন্ত্রণ</string>
+    <string name="action_share">সেয়ার APK</string>
+    <string name="action_feed_back">প্রতিক্রিয়া</string>
+    <string name="action_contact_us">আমাদের সাথে যোগাযোগ করুন</string>
+    <string name="contact_name">যোগাযোগের নাম</string>
+    <string name="contact_phone_number">যোগাযোগ নম্বর</string>
+    <string name="contact_account_type">অ্যাকাউন্ট ধরন</string>
+    <string name="description_contact_photo">যোগাযোগ ছবি</string>
+    <string name="description_contact_info">যোগাযোগের তথ্য</string>
+    <string name="static_contact_us_whats_app">হোয়াটসঅ্যাপ সরাসরি যোগাযোগ ডেভেলপার.</string>
+    <string name="static_contact_us_developer">ডেভেলপারগণ, পরীক্ষকগণ এবং অবদানকারী জন্য Google+ গ্রুপ.</string>
+    <string name="static_contact_us_language">অনুবাদক ও ভাষা প্রেমীদের জন্য Google+ গ্রুপ.</string>
+    <string name="static_contact_us_google_plus">Google+ এ আমার সঙ্গে দেখা করতে.</string>
+    <string name="static_contact_us_linkedin">অবদানকারী এবং ডেভেলপার হিসেবে যোগদান করেন.</string>
+    <string name="static_contact_us_facebook">অফিসিয়াল ফেসবুক পাতা.</string>
+    <string name="invite_title">বন্ধুদের আমন্ত্রণ</string>
+    <string name="invite_message">ডি মুছে ফেলা যোগাযোগ ওপেন সোর্স, ডাউনলোড, বিজ্ঞাপন-বিনামূল্যে অ্যান্ড্রয়েড অ্যাপ্লিকেশন.</string>
+    <string name="permission">অনুমতি</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE অনুমতি প্রয়োজন হয়</string>
+    <string name="permission_message_read_contact">READ_CONTACTS অনুমতি প্রয়োজন হয়</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS অনুমতি প্রয়োজন হয়</string>
+    <string name="permission_grant">প্রদান</string>
+    <string name="restore">প্রত্যর্পণ করা</string>
+</resources>

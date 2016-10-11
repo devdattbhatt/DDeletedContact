@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Schrappen Contact</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Contacten</string><string name="deleted_contact">verwijderde</string><string name="no_data_found">Geen data gevonden</string><string name="dismiss">ontslaan</string><string name="share">Delen</string><string name="thank_you">Dank u voor share / uitnodigen</string><string name="contact_developer">Fout optreden, contact ontwikkelaar.</string><string name="install_whats_app">Installeer Whats App eerste</string><string name="install">Installeren</string><string name="coming_soon">Binnenkort beschikbaar</string><string name="try_after_some_time">Probeer na enige tijd</string><string name="action_language">Taal</string><string name="action_refresh">verversen</string><string name="action_restore_all">Herstel alles</string><string name="action_app_invite">Nodig vrienden uit</string><string name="action_share">Share apk</string><string name="action_feed_back">terugkoppeling</string><string name="action_contact_us">Neem contact met ons op</string><string name="contact_name">Contactnaam</string><string name="contact_phone_number">Contact nummer</string><string name="contact_account_type">account type</string><string name="description_contact_photo">Contact Photo</string><string name="description_contact_info">Contact informatie</string><string name="static_contact_us_whats_app">Contact ontwikkelaar direct op WhatsApp.</string><string name="static_contact_us_developer">Google+ groep voor ontwikkelaars, testers en medewerkers.</string><string name="static_contact_us_language">Google+ groep voor Vertalers en taalliefhebbers.</string><string name="static_contact_us_google_plus">Om me te ontmoeten op Google+.</string><string name="static_contact_us_linkedin">Om lid te worden als donateur en Developer.</string><string name="static_contact_us_facebook">Officiële Facebook-pagina.</string><string name="invite_title">Nodig vrienden uit</string><string name="invite_message">D Schrappen Contact is open source, freeware, Adverteren-free android app.</string><string name="invite_email_subject">@ String / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">Toestemming</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE toestemming nodig</string><string name="permission_message_read_contact">READ_CONTACTS toestemming nodig</string><string name="permission_message_write_contact">WRITE_CONTACTS toestemming nodig</string><string name="permission_grant">Verlenen</string><string name="restore">Herstellen</string></resources>
+<resources>
+    <string name="app_name">D Schrappen Contact</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">Contacten</string>
+    <string name="deleted_contact">verwijderde</string>
+    <string name="no_data_found">Geen data gevonden</string>
+    <string name="dismiss">ontslaan</string>
+    <string name="share">Delen</string>
+    <string name="thank_you">Dank u voor share / uitnodigen</string>
+    <string name="contact_developer">Fout optreden, contact ontwikkelaar.</string>
+    <string name="install_whats_app">Installeer Whats App eerste</string>
+    <string name="install">Installeren</string>
+    <string name="coming_soon">Binnenkort beschikbaar</string>
+    <string name="try_after_some_time">Probeer na enige tijd</string>
+    <string name="action_language">Taal</string>
+    <string name="action_refresh">verversen</string>
+    <string name="action_restore_all">Herstel alles</string>
+    <string name="action_app_invite">Nodig vrienden uit</string>
+    <string name="action_share">Share apk</string>
+    <string name="action_feed_back">terugkoppeling</string>
+    <string name="action_contact_us">Neem contact met ons op</string>
+    <string name="contact_name">Contactnaam</string>
+    <string name="contact_phone_number">Contact nummer</string>
+    <string name="contact_account_type">account type</string>
+    <string name="description_contact_photo">Contact Photo</string>
+    <string name="description_contact_info">Contact informatie</string>
+    <string name="static_contact_us_whats_app">Contact ontwikkelaar direct op WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ groep voor ontwikkelaars, testers en medewerkers.</string>
+    <string name="static_contact_us_language">Google+ groep voor Vertalers en taalliefhebbers.</string>
+    <string name="static_contact_us_google_plus">Om me te ontmoeten op Google+.</string>
+    <string name="static_contact_us_linkedin">Om lid te worden als donateur en Developer.</string>
+    <string name="static_contact_us_facebook">Officiële Facebook-pagina.</string>
+    <string name="invite_title">Nodig vrienden uit</string>
+    <string name="invite_message">D Schrappen Contact is open source, freeware, Adverteren-free android app.</string>
+    <string name="permission">Toestemming</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE toestemming nodig</string>
+    <string name="permission_message_read_contact">READ_CONTACTS toestemming nodig</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS toestemming nodig</string>
+    <string name="permission_grant">Verlenen</string>
+    <string name="restore">Herstellen</string>
+</resources>

@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">ד אויסגעמעקט קאָנטאַקט</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">קאָנטאַקטן</string><string name="deleted_contact">אויסגעמעקט</string><string name="no_data_found">קיין דאַטן געפֿונען</string><string name="dismiss">אָפּזאָגן</string><string name="share">ייַנטיילן</string><string name="thank_you">דאנק איר פֿאַר טיילן / פאַרבעטן</string><string name="contact_developer">טעות פּאַסירן, קאָנטאַקט דעוועלאָפּער.</string><string name="install_whats_app">ינסטאַלירן ווהאַץ אַפּ ערשטער</string><string name="install">ינסטאַלירן</string><string name="coming_soon">קומענדיק באַלד</string><string name="try_after_some_time">פּרובירן נאָך עטלעכע מאָל</string><string name="action_language">שפּראַך</string><string name="action_refresh">דערפרישן</string><string name="action_restore_all">ומקערן אַלע</string><string name="action_app_invite">לאַדן Friends</string><string name="action_share">שער אַפּק</string><string name="action_feed_back">באַמערקונגען</string><string name="action_contact_us">רוף אונז</string><string name="contact_name">קאנטאקט נאמען</string><string name="contact_phone_number">קאָנטאַקט נומער</string><string name="contact_account_type">אַקאַונט טיפּע</string><string name="description_contact_photo">קאָנטאַקט Photo</string><string name="description_contact_info">קאָנטאַקט אינפֿאָרמאַציע</string><string name="static_contact_us_whats_app">קאָנטאַקט דעוועלאָפּער גלייַך אויף ווהאַצאַפּפּ.</string><string name="static_contact_us_developer">Google+ גרופּע פֿאַר דעוועלאָפּערס, טעסטערס און מיטארבעטערס.</string><string name="static_contact_us_language">Google+ גרופּע פֿאַר טראַנסלייטערז און שפּראַך ליבהאבערס.</string><string name="static_contact_us_google_plus">צו באַגעגענען מיר אויף Google+.</string><string name="static_contact_us_linkedin">צו תאריך ווי מיטארבעטער און דעוועלאָפּער.</string><string name="static_contact_us_facebook">באַאַמטער Facebook בלאַט.</string><string name="invite_title">לאַדן Friends</string><string name="invite_message">ד אויסגעמעקט קאָנטאַקט איז אָפֿן מקור, דערלויבעניש, מעלדן פּאָטער אַנדרויד אַפּ.</string><string name="invite_email_subject">@ שטריקל / אַפּפּ_נאַמע</string><string name="invite_html_contact">%% אַפּפּינוויטע_לינק_פּלאַסעהאָלדער %%</string><string name="permission">דערלויבעניש</string><string name="permission_message_write_external_storage">ווריטע_עקסטערנאַל_סטאָראַגע דערלויבעניש איז דארף</string><string name="permission_message_read_contact">רעאַד_קאָנטאַקץ דערלויבעניש איז דארף</string><string name="permission_message_write_contact">ווריטע_קאָנטאַקץ דערלויבעניש איז דארף</string><string name="permission_grant">שענקען</string><string name="restore">ומקערן</string></resources>
+<resources>
+    <string name="app_name">ד אויסגעמעקט קאָנטאַקט</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">קאָנטאַקטן</string>
+    <string name="deleted_contact">אויסגעמעקט</string>
+    <string name="no_data_found">קיין דאַטן געפֿונען</string>
+    <string name="dismiss">אָפּזאָגן</string>
+    <string name="share">ייַנטיילן</string>
+    <string name="thank_you">דאנק איר פֿאַר טיילן / פאַרבעטן</string>
+    <string name="contact_developer">טעות פּאַסירן, קאָנטאַקט דעוועלאָפּער.</string>
+    <string name="install_whats_app">ינסטאַלירן ווהאַץ אַפּ ערשטער</string>
+    <string name="install">ינסטאַלירן</string>
+    <string name="coming_soon">קומענדיק באַלד</string>
+    <string name="try_after_some_time">פּרובירן נאָך עטלעכע מאָל</string>
+    <string name="action_language">שפּראַך</string>
+    <string name="action_refresh">דערפרישן</string>
+    <string name="action_restore_all">ומקערן אַלע</string>
+    <string name="action_app_invite">לאַדן Friends</string>
+    <string name="action_share">שער אַפּק</string>
+    <string name="action_feed_back">באַמערקונגען</string>
+    <string name="action_contact_us">רוף אונז</string>
+    <string name="contact_name">קאנטאקט נאמען</string>
+    <string name="contact_phone_number">קאָנטאַקט נומער</string>
+    <string name="contact_account_type">אַקאַונט טיפּע</string>
+    <string name="description_contact_photo">קאָנטאַקט Photo</string>
+    <string name="description_contact_info">קאָנטאַקט אינפֿאָרמאַציע</string>
+    <string name="static_contact_us_whats_app">קאָנטאַקט דעוועלאָפּער גלייַך אויף ווהאַצאַפּפּ.</string>
+    <string name="static_contact_us_developer">Google+ גרופּע פֿאַר דעוועלאָפּערס, טעסטערס און מיטארבעטערס.</string>
+    <string name="static_contact_us_language">Google+ גרופּע פֿאַר טראַנסלייטערז און שפּראַך ליבהאבערס.</string>
+    <string name="static_contact_us_google_plus">צו באַגעגענען מיר אויף Google+.</string>
+    <string name="static_contact_us_linkedin">צו תאריך ווי מיטארבעטער און דעוועלאָפּער.</string>
+    <string name="static_contact_us_facebook">באַאַמטער Facebook בלאַט.</string>
+    <string name="invite_title">לאַדן Friends</string>
+    <string name="invite_message">ד אויסגעמעקט קאָנטאַקט איז אָפֿן מקור, דערלויבעניש, מעלדן פּאָטער אַנדרויד אַפּ.</string>
+    <string name="permission">דערלויבעניש</string>
+    <string name="permission_message_write_external_storage">ווריטע_עקסטערנאַל_סטאָראַגע דערלויבעניש איז דארף</string>
+    <string name="permission_message_read_contact">רעאַד_קאָנטאַקץ דערלויבעניש איז דארף</string>
+    <string name="permission_message_write_contact">ווריטע_קאָנטאַקץ דערלויבעניש איז דארף</string>
+    <string name="permission_grant">שענקען</string>
+    <string name="restore">ומקערן</string>
+</resources>

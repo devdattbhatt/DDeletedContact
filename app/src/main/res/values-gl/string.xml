@@ -13,4 +13,44 @@
   ~ permissions and limitations under the License.
   -->
 
-<resources><string name="app_name">D Deleted Contact</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">contactos</string><string name="deleted_contact">excluídos</string><string name="no_data_found">Non se encontraron datos</string><string name="dismiss">dimitir</string><string name="share">acción</string><string name="thank_you">Grazas por share / convida</string><string name="contact_developer">Erro ocorrer, creador contacto.</string><string name="install_whats_app">Instalar Que é App primeiro</string><string name="install">instalar</string><string name="coming_soon">Proximamente</string><string name="try_after_some_time">Probe despois de moito tempo</string><string name="action_language">Lingua</string><string name="action_refresh">refrescar</string><string name="action_restore_all">recuperar todo</string><string name="action_app_invite">Invitar amigos</string><string name="action_share">compartir apk</string><string name="action_feed_back">Suxestións</string><string name="action_contact_us">Contacta connosco</string><string name="contact_name">Nome de contacto</string><string name="contact_phone_number">número de contacto</string><string name="contact_account_type">Tipo de conta</string><string name="description_contact_photo">contacto Foto</string><string name="description_contact_info">información de contacto</string><string name="static_contact_us_whats_app">Contactar creador directamente sobre WhatsApp.</string><string name="static_contact_us_developer">grupo de Google+ para desenvolvedores, testadores e colaboradores.</string><string name="static_contact_us_language">grupo de Google+ para Tradutores e amantes da lingua.</string><string name="static_contact_us_google_plus">Para me atopar en Google+.</string><string name="static_contact_us_linkedin">Para participar como colaborador e Developer.</string><string name="static_contact_us_facebook">Oficial Page Facebook.</string><string name="invite_title">Invitar amigos</string><string name="invite_message">D Deleted contacto é de código aberto, freeware, app android Anúnciate free.</string><string name="invite_email_subject">@ Cordas / app_name</string><string name="invite_html_contact">%% %% APPINVITE_LINK_PLACEHOLDER</string><string name="permission">permiso</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE permiso é necesaria</string><string name="permission_message_read_contact">READ_CONTACTS permiso é necesaria</string><string name="permission_message_write_contact">WRITE_CONTACTS permiso é necesaria</string><string name="permission_grant">Grant</string><string name="restore">restaurar</string></resources>
+<resources>
+    <string name="app_name">D Deleted Contact</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">contactos</string>
+    <string name="deleted_contact">excluídos</string>
+    <string name="no_data_found">Non se encontraron datos</string>
+    <string name="dismiss">dimitir</string>
+    <string name="share">acción</string>
+    <string name="thank_you">Grazas por share / convida</string>
+    <string name="contact_developer">Erro ocorrer, creador contacto.</string>
+    <string name="install_whats_app">Instalar Que é App primeiro</string>
+    <string name="install">instalar</string>
+    <string name="coming_soon">Proximamente</string>
+    <string name="try_after_some_time">Probe despois de moito tempo</string>
+    <string name="action_language">Lingua</string>
+    <string name="action_refresh">refrescar</string>
+    <string name="action_restore_all">recuperar todo</string>
+    <string name="action_app_invite">Invitar amigos</string>
+    <string name="action_share">compartir apk</string>
+    <string name="action_feed_back">Suxestións</string>
+    <string name="action_contact_us">Contacta connosco</string>
+    <string name="contact_name">Nome de contacto</string>
+    <string name="contact_phone_number">número de contacto</string>
+    <string name="contact_account_type">Tipo de conta</string>
+    <string name="description_contact_photo">contacto Foto</string>
+    <string name="description_contact_info">información de contacto</string>
+    <string name="static_contact_us_whats_app">Contactar creador directamente sobre WhatsApp.</string>
+    <string name="static_contact_us_developer">grupo de Google+ para desenvolvedores, testadores e colaboradores.</string>
+    <string name="static_contact_us_language">grupo de Google+ para Tradutores e amantes da lingua.</string>
+    <string name="static_contact_us_google_plus">Para me atopar en Google+.</string>
+    <string name="static_contact_us_linkedin">Para participar como colaborador e Developer.</string>
+    <string name="static_contact_us_facebook">Oficial Page Facebook.</string>
+    <string name="invite_title">Invitar amigos</string>
+    <string name="invite_message">D Deleted contacto é de código aberto, freeware, app android Anúnciate free.</string>
+    <string name="permission">permiso</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE permiso é necesaria</string>
+    <string name="permission_message_read_contact">READ_CONTACTS permiso é necesaria</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS permiso é necesaria</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">restaurar</string>
+</resources>
