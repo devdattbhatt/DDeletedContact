@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D Geläschte Contact</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Kontakter</string><string name="deleted_contact">geläscht</string><string name="no_data_found">Nee Data fonnt</string><string name="dismiss">entloossen</string><string name="share">Deelen</string><string name="thank_you">Merci fir deelen / invitéieren</string><string name="contact_developer">Feeler geschéien, Kontakt programméieren.</string><string name="install_whats_app">Installéieren verduebelt App éischt</string><string name="install">installéieren</string><string name="coming_soon">Kënnt geschwënn</string><string name="try_after_some_time">Probéiert No puer Time</string><string name="action_language">Sprooch</string><string name="action_refresh">Frëscht</string><string name="action_restore_all">restauréieren All</string><string name="action_app_invite">invitéiert Frënn</string><string name="action_share">Deelen apk</string><string name="action_feed_back">Feedback</string><string name="action_contact_us">Kontaktéiert eis</string><string name="contact_name">Kontakt Numm</string><string name="contact_phone_number">Kontakt Zuel</string><string name="contact_account_type">Kont Type</string><string name="description_contact_photo">Kontakt Photo</string><string name="description_contact_info">Kontakt Infoen</string><string name="static_contact_us_whats_app">Kontakt Entwéckler direkt op WhatsApp.</string><string name="static_contact_us_developer">Google+ Grupp fir Entwéckler, gedopt a Beiträg.</string><string name="static_contact_us_language">Google+ Grupp fir Iwwersetzer a Language belaascht.</string><string name="static_contact_us_google_plus">Fir trefft mech op Google+.</string><string name="static_contact_us_linkedin">Fir Join als Auteur a Entwéckler.</string><string name="static_contact_us_facebook">Offiziell Facebook Page.</string><string name="invite_title">invitéiert Frënn</string><string name="invite_message">D Geläschte Contact ass Open Source, Basis, Gëschter-gratis Android App.</string><string name="invite_email_subject">@ String / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">Autorisatioun</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE Autorisatioun ass néideg</string><string name="permission_message_read_contact">READ_CONTACTS Autorisatioun ass néideg</string><string name="permission_message_write_contact">WRITE_CONTACTS Autorisatioun ass néideg</string><string name="permission_grant">Grant</string><string name="restore">restauréieren</string></resources>

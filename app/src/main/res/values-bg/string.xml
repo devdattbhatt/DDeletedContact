@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D на изтрити контакти</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Контакти</string><string name="deleted_contact">Изтрити</string><string name="no_data_found">Няма данни</string><string name="dismiss">Отхвърляне</string><string name="share">Дял</string><string name="thank_you">Благодаря ви за акция / покани</string><string name="contact_developer">Грешка случи, контакт разработчик.</string><string name="install_whats_app">Инсталирайте Whats App първи</string><string name="install">Инсталирай</string><string name="coming_soon">Очаквайте скоро</string><string name="try_after_some_time">Опитайте след известно време</string><string name="action_language">език</string><string name="action_refresh">Обновяване</string><string name="action_restore_all">Restore All</string><string name="action_app_invite">Покани приятели</string><string name="action_share">Сподели APK</string><string name="action_feed_back">Обратна връзка</string><string name="action_contact_us">Свържете се с нас</string><string name="contact_name">Име за контакт</string><string name="contact_phone_number">Свържи номер</string><string name="contact_account_type">Тип на профила</string><string name="description_contact_photo">Контакт Фото</string><string name="description_contact_info">Информация за контакт</string><string name="static_contact_us_whats_app">Свържи се с разработчика директно на WhatsApp.</string><string name="static_contact_us_developer">Google+ група за разработчици, тестери и сътрудници.</string><string name="static_contact_us_language">Google+ група за преводачи и любители език.</string><string name="static_contact_us_google_plus">Да ме посрещне на Google+.</string><string name="static_contact_us_linkedin">За присъединяване като сътрудник и разработчици.</string><string name="static_contact_us_facebook">Официален Facebook Page.</string><string name="invite_title">Покани приятели</string><string name="invite_message">D на изтрити контакти е с отворен код, Freeware, реклама-свободен андроид ап.</string><string name="invite_email_subject">@ Низ / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">разрешение</string><string name="permission_message_write_external_storage">е необходимо разрешение WRITE_EXTERNAL_STORAGE</string><string name="permission_message_read_contact">е необходимо разрешение READ_CONTACTS</string><string name="permission_message_write_contact">е необходимо разрешение WRITE_CONTACTS</string><string name="permission_grant">Грант</string><string name="restore">Възстанови</string></resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">د ختم سان رابطو ڪريو</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">رابطا</string><string name="deleted_contact">ختم ٿيل</string><string name="no_data_found">ڪابه ڊيٽا ڏٺائين</string><string name="dismiss">ويچار</string><string name="share">کي مشهور ڪريو</string><string name="thank_you">حصيداري / دعوت لاء توهان جي مهرباني</string><string name="contact_developer">غلطي ھتي ھجي، رابطي ڊولپر.</string><string name="install_whats_app">پهريون حال آهن ائپ تنصيب</string><string name="install">انسٽال</string><string name="coming_soon">جلد اچي رهيو آهي</string><string name="try_after_some_time">ڪجهه وقت کان پوء ڪوشش ڪريو</string><string name="action_language">لئنگئيج</string><string name="action_refresh">ريفريش</string><string name="action_restore_all">بحال سڀ</string><string name="action_app_invite">دوستن کي دعوت ڏيو</string><string name="action_share">مشهور apk</string><string name="action_feed_back">راء</string><string name="action_contact_us">اسان سان رابطو ڪريو</string><string name="contact_name">رابطو نالو</string><string name="contact_phone_number">رابطي جو نمبر</string><string name="contact_account_type">اڪائونٽ قسم</string><string name="description_contact_photo">سان رابطو ڪريو تصوير</string><string name="description_contact_info">رابطي جي ڄاڻ</string><string name="static_contact_us_whats_app">سڌو رابطو ڪريو ڊولپر WhatsApp تي.</string><string name="static_contact_us_developer">ٺاهيندڙ، Testers ۽ تعاون لاء گوگل گروپ.</string><string name="static_contact_us_language">ترجمو ۽ ٻوليء جي عاشق لاء گوگل گروپ.</string><string name="static_contact_us_google_plus">Google+ تي مون کي ملن ٿا.</string><string name="static_contact_us_linkedin">يوگدان ۽ ڊولپر طور تي شامل ٿيڻ لاء.</string><string name="static_contact_us_facebook">سرڪاري ڪريو صفحي کي.</string><string name="invite_title">دوستن کي دعوت ڏيو</string><string name="invite_message">د ختم سان رابطو ڪريو کليل ذريعو، Freeware، مشھوري-آزاد Android ايپ آهي.</string><string name="invite_email_subject">: جملو / app_name</string><string name="invite_html_contact">٪٪ APPINVITE_LINK_PLACEHOLDER ٪٪</string><string name="permission">حڪم</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE جي اجازت جي ضرورت آهي</string><string name="permission_message_read_contact">READ_CONTACTS جي اجازت جي ضرورت آهي</string><string name="permission_message_write_contact">WRITE_CONTACTS جي اجازت جي ضرورت آهي</string><string name="permission_grant">ڏي</string><string name="restore">بحال</string></resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D Deleted კონტაქტი</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">კონტაქტი</string><string name="deleted_contact">ამოღებულია</string><string name="no_data_found">მონაცემი ვერ მოიძებნა</string><string name="dismiss">დათხოვნა</string><string name="share">Share</string><string name="thank_you">დიდი მადლობა share / მოიწვიოს</string><string name="contact_developer">შეცდომა ხდება, საკონტაქტო დეველოპერი.</string><string name="install_whats_app">დააინსტალირეთ Whats App პირველი</string><string name="install">დაინსტალირება</string><string name="coming_soon">მალე</string><string name="try_after_some_time">სცადეთ გარკვეული დროის შემდეგ</string><string name="action_language">ენა</string><string name="action_refresh">განახლება</string><string name="action_restore_all">აღდგენა ყველა</string><string name="action_app_invite">მოიწვიე მეგობრები</string><string name="action_share">Share apk</string><string name="action_feed_back">კავშირი</string><string name="action_contact_us">დაგვიკავშირდით</string><string name="contact_name">საკონტაქტო სახელი</string><string name="contact_phone_number">საკონტაქტო ნომერი</string><string name="contact_account_type">ანგარიშის ტიპი</string><string name="description_contact_photo">საკონტაქტო ფოტო</string><string name="description_contact_info">საკონტაქტო ინფორმაცია</string><string name="static_contact_us_whats_app">საკონტაქტო დეველოპერი პირდაპირ WhatsApp.</string><string name="static_contact_us_developer">Google+ ჯგუფი დეველოპერები, ტესტერები და ავტორები.</string><string name="static_contact_us_language">Google+ ჯგუფი მთარგმნელები და ენა მოყვარულებს.</string><string name="static_contact_us_google_plus">ჩემთან შეხვედრაზე Google+.</string><string name="static_contact_us_linkedin">შეუერთდეს როგორც წვლილი და შემქმნელი.</string><string name="static_contact_us_facebook">ოფიციალური Facebook გვერდი.</string><string name="invite_title">მოიწვიე მეგობრები</string><string name="invite_message">D Deleted საკონტაქტო არის ღია, უფასოდ, რეკლამა უფასო android app.</string><string name="invite_email_subject">@ სიმებიანი / APP_NAME- ს</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">ნებართვა</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE საჭიროა ნებართვა</string><string name="permission_message_read_contact">READ_CONTACTS საჭიროა ნებართვა</string><string name="permission_message_write_contact">WRITE_CONTACTS საჭიროა ნებართვა</string><string name="permission_grant">Grant</string><string name="restore">აღდგენა</string></resources>

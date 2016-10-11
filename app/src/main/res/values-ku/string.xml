@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D Deleted Contact</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Têkilî</string><string name="deleted_contact">deleted</string><string name="no_data_found">No Data dîtin.Di</string><string name="dismiss">Berdan</string><string name="share">Par</string><string name="thank_you">Spas dikim ji bo re / gazî</string><string name="contact_developer">Error biqewime, developer têkiliyê.</string><string name="install_whats_app">Install Whats App yekem</string><string name="install">Lêkirin</string><string name="coming_soon">Ji nêzda</string><string name="try_after_some_time">Try piştî demekê</string><string name="action_language">Ziman</string><string name="action_refresh">Hênikkirin</string><string name="action_restore_all">restore All</string><string name="action_app_invite">Invite Friends</string><string name="action_share">share apk</string><string name="action_feed_back">Feedback</string><string name="action_contact_us">Paqij bûn</string><string name="contact_name">Têkilî navê</string><string name="contact_phone_number">hejmara Contact</string><string name="contact_account_type">Type account</string><string name="description_contact_photo">Contact Photo</string><string name="description_contact_info">contact info</string><string name="static_contact_us_whats_app">Contact developer yekser li ser WhatsApp.</string><string name="static_contact_us_developer">koma Google+ bo Developers, Testers û contributors.</string><string name="static_contact_us_language">koma Google+ bo Translators û evîndaran Ziman.</string><string name="static_contact_us_google_plus">Hevdîtin ji min re li ser Google+.</string><string name="static_contact_us_linkedin">To Join wek bikarhêner û Developer.</string><string name="static_contact_us_facebook">Official Page Facebook.</string><string name="invite_title">Invite Friends</string><string name="invite_message">D Deleted Contact çavkaniya vekirî, Freeware, free bo reklamên-app Android e.</string><string name="invite_email_subject">@ String / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">Destûr</string><string name="permission_message_write_external_storage">destûr WRITE_EXTERNAL_STORAGE pêwîst e</string><string name="permission_message_read_contact">destûr READ_CONTACTS pêwîst e</string><string name="permission_message_write_contact">destûr WRITE_CONTACTS pêwîst e</string><string name="permission_grant">Pişgirî</string><string name="restore">Nûvdekirin</string></resources>

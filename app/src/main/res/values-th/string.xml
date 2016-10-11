@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D ลบติดต่อ</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">รายชื่อผู้ติดต่อ</string><string name="deleted_contact">ที่ถูกลบ</string><string name="no_data_found">ไม่พบข้อมูล</string><string name="dismiss">ยกเลิก</string><string name="share">หุ้น</string><string name="thank_you">ขอขอบคุณสำหรับการแบ่งปัน / เชิญ</string><string name="contact_developer">ข้อผิดพลาดเกิดขึ้น developer ติดต่อ</string><string name="install_whats_app">ติดตั้ง Whats App แรก</string><string name="install">ติดตั้ง</string><string name="coming_soon">เร็ว ๆ นี้</string><string name="try_after_some_time">ลองหลังจากที่บางเวลา</string><string name="action_language">ภาษา</string><string name="action_refresh">รีเฟรช</string><string name="action_restore_all">เรียกคืนทั้งหมด</string><string name="action_app_invite">เชิญเพื่อน ๆ</string><string name="action_share">แบ่งปัน apk</string><string name="action_feed_back">ข้อเสนอแนะ</string><string name="action_contact_us">ติดต่อเรา</string><string name="contact_name">ชื่อผู้ติดต่อ</string><string name="contact_phone_number">เบอร์ติดต่อ</string><string name="contact_account_type">ประเภทบัญชี</string><string name="description_contact_photo">ติดต่อรูปภาพ</string><string name="description_contact_info">ข้อมูลติดต่อ</string><string name="static_contact_us_whats_app">ติดต่อนักพัฒนาซอฟต์แวร์โดยตรงบน WhatsApp</string><string name="static_contact_us_developer">กลุ่ม Google+ สำหรับนักพัฒนาทดสอบและผู้ร่วมสมทบ</string><string name="static_contact_us_language">กลุ่ม Google+ สำหรับนักแปลและคนรักภาษา</string><string name="static_contact_us_google_plus">ให้มาพบเราใน Google+</string><string name="static_contact_us_linkedin">ในการเข้าร่วมเป็นผู้สนับสนุนและนักพัฒนา</string><string name="static_contact_us_facebook">อย่างเป็นทางการหน้า Facebook ของ</string><string name="invite_title">เชิญเพื่อน ๆ</string><string name="invite_message">D ลบติดต่อเปิดแหล่งที่มา, ฟรีแวร์, โฆษณาฟรี Android app</string><string name="invite_email_subject">@ สตริง / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">การอนุญาต</string><string name="permission_message_write_external_storage">ได้รับอนุญาต WRITE_EXTERNAL_STORAG ​​E ที่เป็นสิ่งจำเป็น</string><string name="permission_message_read_contact">READ_CONTACTS ได้รับอนุญาตเป็นสิ่งจำเป็น</string><string name="permission_message_write_contact">WRITE_CONTACTS ได้รับอนุญาตเป็นสิ่งจำเป็น</string><string name="permission_grant">แกรนท์</string><string name="restore">ฟื้นฟู</string></resources>

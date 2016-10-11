@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D Deleted Contact</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">kontak</string><string name="deleted_contact">dibusak</string><string name="no_data_found">Ora Data Found</string><string name="dismiss">nolak</string><string name="share">Share</string><string name="thank_you">Matur nuwun kanggo nuduhake / ngajak</string><string name="contact_developer">Error dumadi, pangembang kontak.</string><string name="install_whats_app">Instal Whats App pisanan</string><string name="install">Instal</string><string name="coming_soon">teka rauh</string><string name="try_after_some_time">Coba Sawise Sawetara Wektu</string><string name="action_language">Language</string><string name="action_refresh">Refresh</string><string name="action_restore_all">mulihake Kabeh</string><string name="action_app_invite">ngajak Friends</string><string name="action_share">Share apk</string><string name="action_feed_back">Komentar</string><string name="action_contact_us">Hubungi kita</string><string name="contact_name">Jeneng kontak</string><string name="contact_phone_number">contact number</string><string name="contact_account_type">akun Koleksi</string><string name="description_contact_photo">Contact Photo</string><string name="description_contact_info">info kontak</string><string name="static_contact_us_whats_app">Contact pangembang langsung ing Tampilan.</string><string name="static_contact_us_developer">grup Google+ kanggo Developers, Testers lan kontributor.</string><string name="static_contact_us_language">grup Google+ kanggo Penerjemah lan penyayang Language.</string><string name="static_contact_us_google_plus">Kanggo Ketemu kula ing Google.</string><string name="static_contact_us_linkedin">Kanggo Gabung minangka kontributor lan Developer.</string><string name="static_contact_us_facebook">Page Facebook resmi.</string><string name="invite_title">ngajak Friends</string><string name="invite_message">D Deleted Contact iku Open source, Perangkat sing aman, Panggenan-free app Android.</string><string name="invite_email_subject">@ Senar / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">Idin</string><string name="permission_message_write_external_storage">ijin WRITE_EXTERNAL_STORAGE perlu</string><string name="permission_message_read_contact">READ_CONTACTS ijin perlu</string><string name="permission_message_write_contact">WRITE_CONTACTS ijin perlu</string><string name="permission_grant">Grant</string><string name="restore">mulihake</string></resources>

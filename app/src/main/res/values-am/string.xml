@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D ተሰርዟል ያግኙን</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">እውቂያዎች</string><string name="deleted_contact">ተሰርዟል</string><string name="no_data_found">ምንም ውሂብ አልተገኘም</string><string name="dismiss">አሰናበተ</string><string name="share">አጋራ</string><string name="thank_you">ድርሻ እናመሰግናለን / መጋበዝ</string><string name="contact_developer">ስህተት, የእውቂያ ገንቢ አይከሰትም.</string><string name="install_whats_app">በመጀመሪያ ተጫዋቾቻችን መተግበሪያ ጫን</string><string name="install">ጫን</string><string name="coming_soon">በቅርብ ቀን</string><string name="try_after_some_time">አንዳንድ ጊዜ በኋላ ይሞክሩ</string><string name="action_language">ቋንቋ</string><string name="action_refresh">አዝናና</string><string name="action_restore_all">ሁሉንም ወደነበረበት መልስ</string><string name="action_app_invite">ጓደኞች ይጋብዙ</string><string name="action_share">አጋራ apk</string><string name="action_feed_back">ግብረ-መልስ</string><string name="action_contact_us">አግኙን</string><string name="contact_name">የዕውቂያ ስም</string><string name="contact_phone_number">የእውቂያ ቁጥር</string><string name="contact_account_type">የመለያ አይነት</string><string name="description_contact_photo">የእውቂያ ፎቶ</string><string name="description_contact_info">የመገኛ አድራሻ</string><string name="static_contact_us_whats_app">በቀጥታ WhatsApp ላይ የእውቂያ ገንቢ.</string><string name="static_contact_us_developer">ገንቢዎች, ሞካሪዎች እና አስተዋጽዖ የ Google+ ቡድን.</string><string name="static_contact_us_language">ተርጓሚዎች እና የቋንቋ የሚወዱ የ Google+ ቡድን.</string><string name="static_contact_us_google_plus">Google+ ላይ እኔን ለመገናኘት.</string><string name="static_contact_us_linkedin">አስተዋፅዖ እና የገንቢ እንደ ተቀላቀል ነው.</string><string name="static_contact_us_facebook">Official Facebook Page.</string><string name="invite_title">ጓደኞች ይጋብዙ</string><string name="invite_message">D ተሰርዟል ያግኙን ክፍት ምንጭ, ፍሪዌር, ያስተዋውቁ-ነጻ የ Android መተግበሪያ ነው.</string><string name="invite_email_subject">@ ሕብረቁምፊ / APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">ፈቃድ</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE ፍቃድ አስፈላጊ ነው</string><string name="permission_message_read_contact">READ_CONTACTS ፍቃድ አስፈላጊ ነው</string><string name="permission_message_write_contact">WRITE_CONTACTS ፍቃድ አስፈላጊ ነው</string><string name="permission_grant">ይስጠው</string><string name="restore">እነበረበት መልስ</string></resources>

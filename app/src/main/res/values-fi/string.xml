@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D Poistettu Yhteydenotto</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Yhteydet</string><string name="deleted_contact">poistettu</string><string name="no_data_found">Dataa ei löytynyt</string><string name="dismiss">erottaa</string><string name="share">Jakaa</string><string name="thank_you">Kiitos osake / kutsu</string><string name="contact_developer">Virhe tapahtuu, yhteystiedot kehittäjä.</string><string name="install_whats_app">Asenna Mikä sovellus ensin</string><string name="install">Asentaa</string><string name="coming_soon">Tulossa pian</string><string name="try_after_some_time">Yritä jonkin ajan kuluttua</string><string name="action_language">Kieli</string><string name="action_refresh">virkistää</string><string name="action_restore_all">Palauta kaikki</string><string name="action_app_invite">Kutsua ystäviä</string><string name="action_share">Jaa apk</string><string name="action_feed_back">palaute</string><string name="action_contact_us">Ota meihin yhteyttä</string><string name="contact_name">yhteyshenkilön nimi</string><string name="contact_phone_number">Yhteysnumero</string><string name="contact_account_type">Tilin tyyppi</string><string name="description_contact_photo">Yhteydenotto Photo</string><string name="description_contact_info">Yhteystiedot</string><string name="static_contact_us_whats_app">Ota kehittäjä suoraan WhatsApp.</string><string name="static_contact_us_developer">Google+ ryhmä kehittäjille, Testaajat ja avustajat.</string><string name="static_contact_us_language">Google+ ryhmä kääntäjille ja kielen ystäville.</string><string name="static_contact_us_google_plus">Tavata minut Google+.</string><string name="static_contact_us_linkedin">Liittyä avustaja ja Developer.</string><string name="static_contact_us_facebook">Virallinen Facebook Page.</string><string name="invite_title">Kutsua ystäviä</string><string name="invite_message">D Poistettu yhteyttä on avoimen lähdekoodin, freeware, Mainosta vapaa Android app.</string><string name="invite_email_subject">@ String / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">Lupa</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE tarvitaan lupa</string><string name="permission_message_read_contact">READ_CONTACTS tarvitaan lupa</string><string name="permission_message_write_contact">WRITE_CONTACTS tarvitaan lupa</string><string name="permission_grant">Myöntää</string><string name="restore">Palauttaa</string></resources>

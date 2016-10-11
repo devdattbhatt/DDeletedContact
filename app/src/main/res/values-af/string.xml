@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">D verwyder Kontak</string>
+    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="all_contact">kontakte</string>
+    <string name="deleted_contact">geskrap</string>
+    <string name="no_data_found">Geen data wat gevind is</string>
+    <string name="dismiss">ontslaan</string>
+    <string name="share">Deel</string>
+    <string name="thank_you">Dankie vir share / nooi</string>
+    <string name="contact_developer">Fout voorkom, kontak ontwikkelaar.</string>
+    <string name="install_whats_app">Installeer Wat App eerste</string>
+    <string name="install">Installeer</string>
+    <string name="coming_soon">Kom binnekort</string>
+    <string name="try_after_some_time">Probeer na &amp;#39;n tyd</string>
+    <string name="action_language">taal</string>
+    <string name="action_refresh">Verfris</string>
+    <string name="action_restore_all">Alle herstel</string>
+    <string name="action_app_invite">Nooi vriende</string>
+    <string name="action_share">Deel APK</string>
+    <string name="action_feed_back">terugvoer</string>
+    <string name="action_contact_us">Kontak Ons</string>
+    <string name="contact_name">Kontak naam</string>
+    <string name="contact_phone_number">Kontak nommer</string>
+    <string name="contact_account_type">Soort Rekening</string>
+    <string name="description_contact_photo">Kontak Fotos</string>
+    <string name="description_contact_info">Kontakbesonderhede</string>
+    <string name="static_contact_us_whats_app">Kontak ontwikkelaar direk op WhatsApp.</string>
+    <string name="static_contact_us_developer">Google-groep vir ontwikkelaars, testers en bydraers.</string>
+    <string name="static_contact_us_language">Google-groep vir Vertalers en taal liefhebbers.</string>
+    <string name="static_contact_us_google_plus">Om my te ontmoet op Google.</string>
+    <string name="static_contact_us_linkedin">Aan te sluit as bydraer en ontwikkelaar.</string>
+    <string name="static_contact_us_facebook">Amptelike Facebook Page.</string>
+    <string name="invite_title">Nooi vriende</string>
+    <string name="invite_message">D verwyder Kontak is open source, freeware, adverteer gratis Android app.</string>
+    <string name="invite_email_subject">@String/APP_NAME</string>
+    <string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string>
+    <string name="permission">toestemming</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE toestemming nodig</string>
+    <string name="permission_message_read_contact">READ_CONTACTS toestemming nodig</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS toestemming nodig</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">herstel</string>
+</resources>

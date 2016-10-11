@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">डी हटविले संपर्क</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">संपर्क</string><string name="deleted_contact">हटविले</string><string name="no_data_found">डेटा आढळला नाही</string><string name="dismiss">डिसमिस करा</string><string name="share">सामायिक करा</string><string name="thank_you">शेअर धन्यवाद / आमंत्रित</string><string name="contact_developer">त्रुटी उद्भवू, संपर्क विकसक.</string><string name="install_whats_app">पहिल्या काय वाट्टेल ते अनुप्रयोग स्थापित</string><string name="install">स्थापित</string><string name="coming_soon">लवकरच येत आहे</string><string name="try_after_some_time">झाल्यानंतर काही काळ प्रयत्न</string><string name="action_language">भाषा</string><string name="action_refresh">रिफ्रेश</string><string name="action_restore_all">सर्व पुनर्संचयित करा</string><string name="action_app_invite">मित्रांना आमंत्रित करा</string><string name="action_share">apk सामायिक करा</string><string name="action_feed_back">अभिप्राय</string><string name="action_contact_us">आमच्याशी संपर्क साधा</string><string name="contact_name">संपर्क नाव</string><string name="contact_phone_number">संपर्क क्रमांक</string><string name="contact_account_type">खाते प्रकार</string><string name="description_contact_photo">संपर्क फोटो</string><string name="description_contact_info">संपर्क माहिती</string><string name="static_contact_us_whats_app">WhatsApp वर थेट संपर्क साधा विकसक.</string><string name="static_contact_us_developer">विकासक, परीक्षक आणि योगदान Google+ गट.</string><string name="static_contact_us_language">अनुवादक आणि भाषा प्रेमी Google+ गट.</string><string name="static_contact_us_google_plus">Google+ वर मला भेटायला.</string><string name="static_contact_us_linkedin">वर्गणीदार आणि विकसक म्हणून सामील व्हा करा.</string><string name="static_contact_us_facebook">अधिकृत फेसबुक पृष्ठ.</string><string name="invite_title">मित्रांना आमंत्रित करा</string><string name="invite_message">डी हटविले संपर्क ओपन सोअर्स, फ्रीवेअर, जाहिरात-मुक्त Android अनुप्रयोग आहे.</string><string name="invite_email_subject">@ स्ट्रिंग / APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">परवानगी</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE परवानगी आवश्यक आहे</string><string name="permission_message_read_contact">READ_CONTACTS परवानगी आवश्यक आहे</string><string name="permission_message_write_contact">WRITE_CONTACTS परवानगी आवश्यक आहे</string><string name="permission_grant">अनुदान</string><string name="restore">पुनर्संचयित करा</string></resources>

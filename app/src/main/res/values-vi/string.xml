@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D Deleted Liên hệ</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Liên hệ</string><string name="deleted_contact">Đã bị xóa</string><string name="no_data_found">Không tìm thấy dữ liệu nào</string><string name="dismiss">Bỏ qua</string><string name="share">Chia sẻ</string><string name="thank_you">Cảm ơn bạn đã share / mời</string><string name="contact_developer">Lỗi xảy ra, nhà phát triển liên lạc.</string><string name="install_whats_app">Cài đặt Whats App đầu tiên</string><string name="install">cài đặt, dựng lên</string><string name="coming_soon">sắp có</string><string name="try_after_some_time">Hãy thử Sau một thời gian</string><string name="action_language">ngôn ngữ</string><string name="action_refresh">Làm tươi</string><string name="action_restore_all">Khôi phục lại tất cả</string><string name="action_app_invite">Mời bạn bè</string><string name="action_share">Chia sẻ apk</string><string name="action_feed_back">Phản hồi</string><string name="action_contact_us">Liên hệ chúng tôi</string><string name="contact_name">Tên Liên lạc</string><string name="contact_phone_number">Số liên lạc</string><string name="contact_account_type">Kiểu tài khoản</string><string name="description_contact_photo">ảnh Liên hệ</string><string name="description_contact_info">Thông tin liên lạc</string><string name="static_contact_us_whats_app">phát triển Liên hệ trực tiếp trên WhatsApp.</string><string name="static_contact_us_developer">nhóm Google+ cho phát triển, xét nghiệm và đóng góp.</string><string name="static_contact_us_language">nhóm Google+ cho dịch giả và những người yêu thích ngôn ngữ.</string><string name="static_contact_us_google_plus">Để gặp tôi trên Google+.</string><string name="static_contact_us_linkedin">Để tham gia như đóng góp và phát triển.</string><string name="static_contact_us_facebook">Chính thức trang Facebook.</string><string name="invite_title">Mời bạn bè</string><string name="invite_message">D Deleted Liên là mã nguồn mở, miễn phí, Quảng cáo miễn phí ứng dụng Android.</string><string name="invite_email_subject">@ String / app_name</string><string name="invite_html_contact">%% %% APPINVITE_LINK_PLACEHOLDER</string><string name="permission">sự cho phép</string><string name="permission_message_write_external_storage">phép WRITE_EXTERNAL_STORAGE là cần thiết</string><string name="permission_message_read_contact">READ_CONTACTS phép là cần thiết</string><string name="permission_message_write_contact">WRITE_CONTACTS phép là cần thiết</string><string name="permission_grant">Ban cho</string><string name="restore">khôi phục</string></resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">ડી કાઢી સંપર્ક</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">સંપર્કો</string><string name="deleted_contact">ડિલીટ</string><string name="no_data_found">કોઈ માહિતી મળી</string><string name="dismiss">કાઢી નાખો</string><string name="share">શેર</string><string name="thank_you">શેર કરવા બદલ આભાર / આમંત્રિત</string><string name="contact_developer">ભૂલ થાય, સંપર્ક વિકાસકર્તા.</string><string name="install_whats_app">પ્રથમ Whats એપ્લિકેશન ઇન્સ્ટોલ કરો</string><string name="install">સ્થાપિત</string><string name="coming_soon">ટૂક સમયમાં આવી રહ્યું છે</string><string name="try_after_some_time">થોડીવાર પછી ફરી પ્રયાસ</string><string name="action_language">ભાષા</string><string name="action_refresh">પુનઃતાજું</string><string name="action_restore_all">પુનઃસ્થાપિત બધા</string><string name="action_app_invite">મિત્રોને આમંત્રિત કરો</string><string name="action_share">શેર apk</string><string name="action_feed_back">પ્રતિસાદ</string><string name="action_contact_us">અમારો સંપર્ક કરો</string><string name="contact_name">સંપર્ક નામ</string><string name="contact_phone_number">સંપર્ક નંબર</string><string name="contact_account_type">ખાતાનો પ્રકાર</string><string name="description_contact_photo">સંપર્ક ફોટો</string><string name="description_contact_info">સંપર્ક માહિતી</string><string name="static_contact_us_whats_app">WhatsApp પર સીધા સંપર્ક વિકાસકર્તા.</string><string name="static_contact_us_developer">ડેવલપર્સ, પરીક્ષણ અને ફાળકો માટે Google+ જૂથ.</string><string name="static_contact_us_language">અનુવાદકો અને ભાષા પ્રેમીઓ માટે Google+ જૂથ.</string><string name="static_contact_us_google_plus">Google+ પર મને મળવા.</string><string name="static_contact_us_linkedin">ફાળો આપનાર અને વિકાસકર્તા તરીકે જોડાવા માટે.</string><string name="static_contact_us_facebook">અધિકૃત ફેસબુક પેજમાં.</string><string name="invite_title">મિત્રોને આમંત્રિત કરો</string><string name="invite_message">ડી કાઢી સંપર્ક ઓપન સોર્સ, ફ્રિવેર, જાહેરાત મુક્ત Android એપ્લિકેશન છે.</string><string name="invite_email_subject">@ શબ્દમાળા / APP_NAME</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">પરવાનગી</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE પરવાનગી જરૂરી છે</string><string name="permission_message_read_contact">READ_CONTACTS પરવાનગી જરૂરી છે</string><string name="permission_message_write_contact">WRITE_CONTACTS પરવાનગી જરૂરી છે</string><string name="permission_grant">અનુદાન</string><string name="restore">પુનઃસ્થાપિત</string></resources>

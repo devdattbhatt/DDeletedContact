@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D deleted Kontakte</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Kontak</string><string name="deleted_contact">efase</string><string name="no_data_found">Pa gen Done Twouve</string><string name="dismiss">rejte</string><string name="share">pataje</string><string name="thank_you">Mèsi pou pataje / envite</string><string name="contact_developer">Erè yo fè fèt, pwomotè kontak.</string><string name="install_whats_app">Enstale Sak App premye</string><string name="install">enstale</string><string name="coming_soon">Vini byento</string><string name="try_after_some_time">Eseye apre kèk tan</string><string name="action_language">Lang</string><string name="action_refresh">Refresh</string><string name="action_restore_all">renmèt tout</string><string name="action_app_invite">envite Zanmi</string><string name="action_share">pataje APK</string><string name="action_feed_back">Commentaires</string><string name="action_contact_us">Kontakte nou</string><string name="contact_name">Kontakte non</string><string name="contact_phone_number">nimewo Kontakte</string><string name="contact_account_type">Kalite Kont</string><string name="description_contact_photo">Kontakte Photo</string><string name="description_contact_info">Kontakte enfòmasyon</string><string name="static_contact_us_whats_app">Kontakte pwomotè dirèkteman sou WhatsApp.</string><string name="static_contact_us_developer">Google + gwoup pou Devlopè Tester, ak kontribye.</string><string name="static_contact_us_language">Google + gwoup pou Tradiktè ak rayisab lang.</string><string name="static_contact_us_google_plus">Pou Satisfè Kondisyon m &amp;#39;sou Google +.</string><string name="static_contact_us_linkedin">Pou Join kòm kontribitè ak Developer.</string><string name="static_contact_us_facebook">Ofisyèl Page Facebook.</string><string name="invite_title">envite Zanmi</string><string name="invite_message">D deleted Kontakte se louvri sous, friwar, Fè Piblisite-gratis android app.</string><string name="invite_email_subject">@ Fisèl / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">pèmisyon</string><string name="permission_message_write_external_storage">se WRITE_EXTERNAL_STORAGE pèmisyon nesesè</string><string name="permission_message_read_contact">se READ_CONTACTS pèmisyon nesesè</string><string name="permission_message_write_contact">se WRITE_CONTACTS pèmisyon nesesè</string><string name="permission_grant">Grant</string><string name="restore">renmèt</string></resources>

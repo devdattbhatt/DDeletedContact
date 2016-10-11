@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D Imħassar Kuntatt</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">kuntatti</string><string name="deleted_contact">imħassar</string><string name="no_data_found">Ebda Data Found</string><string name="dismiss">tiċħad</string><string name="share">Aqsam</string><string name="thank_you">Grazzi għal sehem / jistiednu</string><string name="contact_developer">Error jseħħu, iżviluppatur kuntatt.</string><string name="install_whats_app">Installa X&amp;#39;qed App ewwel</string><string name="install">jinstallaw</string><string name="coming_soon">Ġej dalwaqt</string><string name="try_after_some_time">Ipprova wara ċertu żmien</string><string name="action_language">lingwa</string><string name="action_refresh">riffriskar</string><string name="action_restore_all">Restore kollha</string><string name="action_app_invite">jistiednu Ħbieb</string><string name="action_share">Aqsam APK</string><string name="action_feed_back">feedback</string><string name="action_contact_us">Ikkuntatjana</string><string name="contact_name">Isem tal-Kuntatt</string><string name="contact_phone_number">numru tal-kuntatt</string><string name="contact_account_type">kont Tip</string><string name="description_contact_photo">kuntatt Ritratt</string><string name="description_contact_info">info kuntatt</string><string name="static_contact_us_whats_app">iżviluppatur Kuntatt direttament fuq WhatsApp.</string><string name="static_contact_us_developer">grupp Google + għall Developers, jittestjaw u kontributuri.</string><string name="static_contact_us_language">grupp Google + għall Tradutturi u min iħobb Lingwa.</string><string name="static_contact_us_google_plus">Biex Jintlaħqu lili fuq Google +.</string><string name="static_contact_us_linkedin">Biex Join bħala kontributur u Developer.</string><string name="static_contact_us_facebook">Page Facebook Uffiċjali.</string><string name="invite_title">jistiednu Ħbieb</string><string name="invite_message">D Imħassar kuntatt huwa sors miftuħ, Freeware, Irreklama ħielsa app android.</string><string name="invite_email_subject">@ String / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">permess</string><string name="permission_message_write_external_storage">permess WRITE_EXTERNAL_STORAGE hija meħtieġa</string><string name="permission_message_read_contact">permess READ_CONTACTS hija meħtieġa</string><string name="permission_message_write_contact">permess WRITE_CONTACTS hija meħtieġa</string><string name="permission_grant">għotja</string><string name="restore">Restore</string></resources>

@@ -22,8 +22,8 @@ android {
         applicationId 'org.dbhatt.d_deleted_contact'
         minSdkVersion 15
         targetSdkVersion 24
-        versionCode 99999
-        versionName "99.999"
+        versionCode 1
+        versionName "1.000"
     }
     buildTypes {
         release {

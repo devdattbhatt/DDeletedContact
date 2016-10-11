@@ -59,8 +59,8 @@
     <!-- app invite fire base-->
     <string name="invite_title">Invite Friends</string>
     <string name="invite_message">D Deleted Contact is Open source, Freeware, Advertise-free android app.</string>
-    <string name="invite_email_subject">@string/app_name</string>
-    <string name="invite_html_contact">%%APPINVITE_LINK_PLACEHOLDER%%</string>
+    <string name="invite_email_subject" translatable="false">@string/app_name</string>
+    <string name="invite_html_contact" translatable="false">%%APPINVITE_LINK_PLACEHOLDER%%</string>
 
     <!-- Alert dialog box-->
     <string name="permission">Permission</string>
@@ -70,8 +70,4 @@
     <string name="permission_grant">Grant</string>
     <string name="restore">Restore</string>
 
-    <string-array name="languages">
-        <item>Afrikaans</item>
-        <item></item>
-    </string-array>
 </resources>

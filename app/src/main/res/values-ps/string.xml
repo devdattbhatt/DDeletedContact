@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D ړنګ سره اړيکي</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">د اړيکې</string><string name="deleted_contact">ړنګ</string><string name="no_data_found">نه د معلوماتو موندل</string><string name="dismiss">ګوښه</string><string name="share">Share</string><string name="thank_you">تاسو د ونډه مننه / بلنه</string><string name="contact_developer">تېروتنه رامنځته شي، د اړیکو د پراختیا.</string><string name="install_whats_app">لومړی ولګوه وکړي.دا ددفتروسایل</string><string name="install">ولګوه</string><string name="coming_soon">ډېر ژر</string><string name="try_after_some_time">ځينې وخت وروسته هڅه وکړئ</string><string name="action_language">ژبه</string><string name="action_refresh">تاندول</string><string name="action_restore_all">ټول بيازېرمل</string><string name="action_app_invite">ملګري ته بلنه</string><string name="action_share">Share پالاس</string><string name="action_feed_back">Feedback</string><string name="action_contact_us">مونږ سره اریکه ونیسی</string><string name="contact_name">د تماس په نوم</string><string name="contact_phone_number">د اړیکې شمیره</string><string name="contact_account_type">د حساب ډول</string><string name="description_contact_photo">تماس عکس</string><string name="description_contact_info">د تماس معلومات</string><string name="static_contact_us_whats_app">په مستقیم ډول پر WhatsApp تماس د پراختیا.</string><string name="static_contact_us_developer">لپاره پرمخ، Testers او تمويلوونکي ګوګل ډله.</string><string name="static_contact_us_language">د ژباړونکي او ژبه مينه ګوګل ډله.</string><string name="static_contact_us_google_plus">ماته پر ګوګل سره ګوري.</string><string name="static_contact_us_linkedin">په توګه مرسته او پراختیا سره یو ځای شول.</string><string name="static_contact_us_facebook">رسمي Facebook Page.</string><string name="invite_title">ملګري ته بلنه</string><string name="invite_message">D ړنګ تماس ده پرانیستې سرچينې، Freeware، اعلانونه پاک اپلیکیشن اندروید.</string><string name="invite_email_subject">@ تار / app_name</string><string name="invite_html_contact">٪ APPINVITE_LINK_PLACEHOLDER٪</string><string name="permission">د اجازې د</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE اجازې ته اړتیا ده</string><string name="permission_message_read_contact">READ_CONTACTS اجازې ته اړتیا ده</string><string name="permission_message_write_contact">WRITE_CONTACTS اجازې ته اړتیا ده</string><string name="permission_grant">وړيا مرسته</string><string name="restore">بيازېرمل</string></resources>

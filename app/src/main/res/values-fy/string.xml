@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D Deleted Contact</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">kontakten</string><string name="deleted_contact">wiske</string><string name="no_data_found">Gjin gegevens fûn</string><string name="dismiss">dismiss</string><string name="share">Diele</string><string name="thank_you">Thank you for share / invite</string><string name="contact_developer">Flater foarkomme, kontakt developer.</string><string name="install_whats_app">Ynstallearje Whats App earst</string><string name="install">Ynstallearje</string><string name="coming_soon">Meikoarten</string><string name="try_after_some_time">Besykje Nei Guon Tiid</string><string name="action_language">Taal</string><string name="action_refresh">Opfrisse</string><string name="action_restore_all">weromsette Alle</string><string name="action_app_invite">Freonen útnoegje</string><string name="action_share">share apk</string><string name="action_feed_back">Tebekwurd</string><string name="action_contact_us">Kontakt mei ús opnimme</string><string name="contact_name">Kontakt namme</string><string name="contact_phone_number">Kontakt nûmer</string><string name="contact_account_type">Akkount Type</string><string name="description_contact_photo">Kontakt Photo</string><string name="description_contact_info">Kontakt ynformaasje</string><string name="static_contact_us_whats_app">Kontakt ûntwikkeler direkt op WhatsApp.</string><string name="static_contact_us_developer">Google+ groep foar Untwikkelers, Testers en meiwurkers.</string><string name="static_contact_us_language">Google+ groep foar Oersetters en Taal leafhawwers.</string><string name="static_contact_us_google_plus">Om Meet my op Google+.</string><string name="static_contact_us_linkedin">Om Join as bewurker en Untwikkelder.</string><string name="static_contact_us_facebook">Offisjele Facebook Page.</string><string name="invite_title">Freonen útnoegje</string><string name="invite_message">D Deleted Kontakt is Iepen boarne, Freeware, Advertise-frije android app.</string><string name="invite_email_subject">@ String / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">tastimming</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE tastimming nedich is</string><string name="permission_message_read_contact">READ_CONTACTS tastimming nedich is</string><string name="permission_message_write_contact">WRITE_CONTACTS tastimming nedich is</string><string name="permission_grant">Subsydzje</string><string name="restore">weromsette</string></resources>

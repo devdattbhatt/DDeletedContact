@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources><string name="app_name">D Slettet Kontakt</string><string name="splash_dbhatt_org">Dbhatt.org</string><string name="all_contact">Kontakter</string><string name="deleted_contact">slettet</string><string name="no_data_found">Ingen data fundet</string><string name="dismiss">Afskedige</string><string name="share">Del</string><string name="thank_you">Tak for aktie / invitere</string><string name="contact_developer">Fejl opstår, kontakt udvikler.</string><string name="install_whats_app">Installer Whats App først</string><string name="install">Installere</string><string name="coming_soon">Kommer snart</string><string name="try_after_some_time">Prøv efter nogen tid</string><string name="action_language">Sprog</string><string name="action_refresh">Opfriske</string><string name="action_restore_all">Restore All</string><string name="action_app_invite">Inviter venner</string><string name="action_share">Del apk</string><string name="action_feed_back">Feedback</string><string name="action_contact_us">Kontakt os</string><string name="contact_name">Kontakt navn</string><string name="contact_phone_number">Kontakt nummer</string><string name="contact_account_type">Kontotype</string><string name="description_contact_photo">Kontakt Foto</string><string name="description_contact_info">Kontaktoplysninger</string><string name="static_contact_us_whats_app">Kontakt udvikleren direkte på WhatsApp.</string><string name="static_contact_us_developer">Google+ gruppe for udviklere, testere og bidragydere.</string><string name="static_contact_us_language">Google+ gruppe for oversættere og sprog elskere.</string><string name="static_contact_us_google_plus">Mød mig på Google+.</string><string name="static_contact_us_linkedin">At deltage som medlem og Developer.</string><string name="static_contact_us_facebook">Officiel Facebook-side.</string><string name="invite_title">Inviter venner</string><string name="invite_message">D Slettet Kontakt er Open source, freeware, Annoncer-fri Android app.</string><string name="invite_email_subject">@ String / app_name</string><string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string><string name="permission">Tilladelse</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE tilladelse er nødvendig</string><string name="permission_message_read_contact">READ_CONTACTS tilladelse er nødvendig</string><string name="permission_message_write_contact">WRITE_CONTACTS tilladelse er nødvendig</string><string name="permission_grant">Give</string><string name="restore">Gendan</string></resources>
