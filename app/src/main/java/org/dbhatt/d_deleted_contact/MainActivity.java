@@ -21,6 +21,7 @@ import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -51,10 +52,12 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import org.dbhatt.d_deleted_contact.Activity.Contact_us;
+import org.dbhatt.d_deleted_contact.Activity.Splash;
 import org.dbhatt.d_deleted_contact.Data.Contact;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -215,7 +218,27 @@ public class MainActivity extends AppCompatActivity {
                 else load_contacts();
                 break;
             case R.id.action_language:
-                Toast.makeText(this, R.string.coming_soon, Toast.LENGTH_SHORT).show();
+                try {
+                    new AlertDialog.Builder(this)
+                            .setTitle(R.string.action_language)
+                            .setNegativeButton(R.string.dismiss, null)
+                            .setItems(R.array.languages, new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    Locale locale = new Locale(getApplicationContext().getResources().getStringArray(R.array.language_code)[which]);
+                                    Locale.setDefault(locale);
+                                    Configuration config = new Configuration();
+                                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1)
+                                        config.setLocale(locale);
+                                    else config.locale = locale;
+                                    getApplicationContext().getResources().updateConfiguration(config, null);
+                                    startActivity(new Intent(getApplicationContext(), Splash.class));
+                                    finish();
+                                }
+                            }).create().show();
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
                 break;
         }
         return super.onOptionsItemSelected(item);

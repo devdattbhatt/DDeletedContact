@@ -47,7 +47,6 @@
     <string name="static_contact_us_facebook">Official Facebook Page.</string>
     <string name="invite_title">Bjóða vinum</string>
     <string name="invite_message">D eytt samband er Open Source, Ókeypis hugbúnaður, Auglýsa-frjáls Android app.</string>
-    <string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string>
     <string name="permission">leyfi</string>
     <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE leyfi þarf</string>
     <string name="permission_message_read_contact">READ_CONTACTS leyfi þarf</string>

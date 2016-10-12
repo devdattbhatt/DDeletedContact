@@ -28,7 +28,6 @@ import org.dbhatt.d_deleted_contact.R;
  * Created by devsb on 18-09-2016.
  */
 public class Splash extends AppCompatActivity {
-    private static final int DO_NOT_FINISH_REQUEST_CODE = 143;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -37,7 +36,6 @@ public class Splash extends AppCompatActivity {
         new AsyncTask<Void, Void, Void>() {
             @Override
             protected Void doInBackground(Void... params) {
-                setResult(DO_NOT_FINISH_REQUEST_CODE);
                 try {
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {

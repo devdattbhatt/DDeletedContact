@@ -47,7 +47,6 @@
     <string name="static_contact_us_facebook">Official Facebook Page.</string>
     <string name="invite_title">agba Enyi</string>
     <string name="invite_message">D ehichapụ Kpọtụrụ bụ Open iyi, Freeware, Kpọsaanụ-free android ngwa.</string>
-    <string name="invite_html_contact">%% APPINVITE_LINK_PLACEHOLDER %%</string>
     <string name="permission">ikike</string>
     <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE ikike dị mkpa</string>
     <string name="permission_message_read_contact">READ_CONTACTS ikike dị mkpa</string>

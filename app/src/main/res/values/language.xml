@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) 2016. Devdatt s bhatt
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<resources>
+    <string-array name="languages">
+        <item>English</item>
+        <item>ગુજરાતી</item>
+        <item>हिंदी</item>
+        <item>Afrikaans</item>
+        <item>አማርኛ</item>
+        <item>العربية</item>
+        <item>Azərbaycan</item>
+        <item>беларускі</item>
+        <item>български</item>
+        <item>বাঙালি</item>
+        <item>bosanski</item>
+        <item>Català (valencià)</item>
+        <item>Cebuano</item>
+        <item>Corsu</item>
+        <item>čeština</item>
+        <item>Cymraeg</item>
+        <item>dansk</item>
+        <item>Deutsche</item>
+        <item>ελληνικά</item>
+        <item>esperanto</item>
+        <item>Español</item>
+        <item>eesti</item>
+        <item>Euskal</item>
+        <item>فارسی</item>
+        <item>suomalainen</item>
+        <item>français</item>
+        <item>Frysk</item>
+        <item>Gaeilge</item>
+        <item>Gàidhlig (Alba)</item>
+        <item>galego)</item>
+        <item>Hausa</item>
+        <item>ʻŌlelo Hawaiʻi</item>
+        <item>hrvatski</item>
+        <item>ayisyen</item>
+        <item>Magyar</item>
+        <item>haitian Creole</item>
+        <item>bahasa Indonesia</item>
+        <item>Igbo</item>
+        <item>icelandic</item>
+        <item>italiano</item>
+        <item>עִברִית</item>
+        <item>日本語</item>
+        <item>Jawa</item>
+        <item>ქართული</item>
+        <item>Қазақ</item>
+        <item>កម្ពុជា</item>
+        <item>한국어</item>
+        <item>Kurdî</item>
+        <item>киргизский</item>
+        <item>Latinae</item>
+        <item>Lëtzebuergesch (Letzeburgesch)</item>
+        <item>ພາສາລາວ</item>
+        <item>Lietuvos</item>
+        <item>Latvijas (latviešu)</item>
+        <item>Malagasy</item>
+        <item>Maori</item>
+        <item>Македонски</item>
+        <item>മലയാളം</item>
+        <item>Монгол</item>
+        <item>मराठी</item>
+        <item>Malay</item>
+        <item>Malti</item>
+        <item>မြန်မာ</item>
+        <item>नेपाली</item>
+        <item>Nederlands</item>
+        <item>norsk</item>
+        <item>Chichewa (Chewa, Nyanja)</item>
+        <item>norsk</item>
+        <item>ਪੰਜਾਬੀ ਦੇ</item>
+        <item>Polskie</item>
+        <item>پښتو (پښتو)</item>
+        <item>português</item>
+        <item>Română</item>
+        <item>русский</item>
+        <item>سنڌي</item>
+        <item>සිංහල</item>
+        <item>slovenský</item>
+        <item>slovenski</item>
+        <item>Samoa</item>
+        <item>Shona</item>
+        <item>Soomaali</item>
+        <item>shqiptar</item>
+        <item>Српски</item>
+        <item>Sesotho</item>
+        <item>Sunda</item>
+        <item>svenska</item>
+        <item>Kiswahili (Kiswahili)</item>
+        <item>தமிழ்</item>
+        <item>తెలుగు</item>
+        <item>Тоҷикистон</item>
+        <item>ไทย</item>
+        <item>tagalog</item>
+        <item>Türk</item>
+        <item>український</item>
+        <item>اردو</item>
+        <item>O&amp;#39;zbekiston</item>
+        <item>Tiếng Việt</item>
+        <item>isiXhosa</item>
+        <item>ייִדיש</item>
+        <item>yorùbá</item>
+        <item>中文</item>
+        <item>Zulu</item>
+    </string-array>
+    <string-array name="language_code">
+        <item>en-us</item>
+        <item>gu</item>
+        <item>hi</item>
+        <item>af</item>
+        <item>am</item>
+        <item>ar</item>
+        <item>az</item>
+        <item>be</item>
+        <item>bg</item>
+        <item>bn</item>
+        <item>bs</item>
+        <item>ca</item>
+        <item>ceb</item>
+        <item>co</item>
+        <item>cs</item>
+        <item>cy</item>
+        <item>da</item>
+        <item>de</item>
+        <item>el</item>
+        <item>eo</item>
+        <item>es</item>
+        <item>et</item>
+        <item>eu</item>
+        <item>fa</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>fy</item>
+        <item>ga</item>
+        <item>gd</item>
+        <item>gl</item>
+        <item>ha</item>
+        <item>haw</item>
+        <item>hr</item>
+        <item>ht</item>
+        <item>hu</item>
+        <item>hy</item>
+        <item>id</item>
+        <item>ig</item>
+        <item>is</item>
+        <item>is</item>
+        <item>it</item>
+        <item>iw</item>
+        <item>ja</item>
+        <item>jw</item>
+        <item>ka</item>
+        <item>kk</item>
+        <item>km</item>
+        <item>ko</item>
+        <item>ku</item>
+        <item>ky</item>
+        <item>la</item>
+        <item>lb</item>
+        <item>lo</item>
+        <item>lt</item>
+        <item>lv</item>
+        <item>mg</item>
+        <item>mi</item>
+        <item>mk</item>
+        <item>ml</item>
+        <item>mn</item>
+        <item>mr</item>
+        <item>ms</item>
+        <item>mt</item>
+        <item>my</item>
+        <item>ne</item>
+        <item>nl</item>
+        <item>no</item>
+        <item>ny</item>
+        <item>pa</item>
+        <item>pl</item>
+        <item>ps</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>sd</item>
+        <item>si</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>sm</item>
+        <item>sn</item>
+        <item>so</item>
+        <item>sq</item>
+        <item>sr</item>
+        <item>st</item>
+        <item>su</item>
+        <item>sv</item>
+        <item>sw</item>
+        <item>ta</item>
+        <item>te</item>
+        <item>tg</item>
+        <item>th</item>
+        <item>tl</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>ur</item>
+        <item>uz</item>
+        <item>vi</item>
+        <item>xh</item>
+        <item>yi</item>
+        <item>yo</item>
+        <item>zh</item>
+        <item>zu</item>
+    </string-array>
+</resources>
