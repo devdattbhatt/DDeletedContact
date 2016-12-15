@@ -14,7 +14,7 @@
   -->
 
 <resources>
-    <string-array name="languages">
+    <string-array name="languages" translatable="false">
         <item>English</item>
         <item>ગુજરાતી</item>
         <item>हिंदी</item>
@@ -118,7 +118,7 @@
         <item>中文</item>
         <item>Zulu</item>
     </string-array>
-    <string-array name="language_code">
+    <string-array name="language_code" translatable="false">
         <item>en-us</item>
         <item>gu</item>
         <item>hi</item>
