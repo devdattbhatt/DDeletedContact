@@ -16,12 +16,14 @@
 
 package org.dbhatt.d_deleted_contact.Activity;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.telephony.PhoneNumberUtils;
 import android.view.View;
 import android.widget.TextView;
 
@@ -64,7 +66,10 @@ public class Contact_us extends AppCompatActivity implements View.OnClickListene
         switch (v.getId()) {
             case R.id.contact_to_whats_app:
                 try {
-                    startActivity(new Intent(Intent.ACTION_SENDTO, Uri.parse("smsto:9427159497")).setPackage("com.whatsapp"));
+                    startActivity(new Intent("android.intent.action.MAIN")
+                            .setComponent(new ComponentName("com.whatsapp", "com.whatsapp.Conversation"))
+                            .putExtra("jid", PhoneNumberUtils.stripSeparators("919427159497") + "@s.whatsapp.net")
+                            .setPackage("com.whatsapp"));
                 } catch (Exception e) {
                     e.printStackTrace();
                     Snackbar snackbar = Snackbar.make(v, R.string.install_whats_app, Snackbar.LENGTH_SHORT);
