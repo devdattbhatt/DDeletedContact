@@ -13,15 +13,13 @@
  * permissions and limitations under the License.
  */
 
-package org.dbhatt.d_deleted_contact.Activity;
+package org.dbhatt.d_deleted_contact.activity;
 
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 
 import org.dbhatt.d_deleted_contact.MainActivity;
 import org.dbhatt.d_deleted_contact.R;

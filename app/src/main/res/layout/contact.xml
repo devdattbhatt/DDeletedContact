@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <org.dbhatt.d_deleted_contact.Custum_view.CircleImageView
+            <org.dbhatt.d_deleted_contact.custum_view.CircleImageView
                 android:id="@+id/contact_photo"
                 android:layout_width="60dp"
                 android:layout_height="60dp"

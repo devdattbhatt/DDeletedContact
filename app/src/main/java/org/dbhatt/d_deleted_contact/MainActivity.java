@@ -51,9 +51,9 @@ import com.google.android.gms.appinvite.AppInviteInvitation;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 
-import org.dbhatt.d_deleted_contact.Activity.Contact_us;
-import org.dbhatt.d_deleted_contact.Activity.Splash;
-import org.dbhatt.d_deleted_contact.Data.Contact;
+import org.dbhatt.d_deleted_contact.activity.Contact_us;
+import org.dbhatt.d_deleted_contact.activity.Splash;
+import org.dbhatt.d_deleted_contact.data.Contact;
 
 import java.io.File;
 import java.util.ArrayList;

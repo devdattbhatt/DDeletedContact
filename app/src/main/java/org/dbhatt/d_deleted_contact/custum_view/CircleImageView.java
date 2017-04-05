@@ -12,7 +12,7 @@
  * ANY KIND, either express or implied. See the License for the specific language governing
  * permissions and limitations under the License.
  */
-package org.dbhatt.d_deleted_contact.Custum_view;
+package org.dbhatt.d_deleted_contact.custum_view;
 
 import android.content.Context;
 import android.graphics.Bitmap;

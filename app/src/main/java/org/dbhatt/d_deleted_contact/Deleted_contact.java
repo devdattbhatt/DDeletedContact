@@ -56,9 +56,9 @@ public class Deleted_contact extends RecyclerView.Adapter<Deleted_contact.Contac
     private boolean rtl = false;
     private Random rnd;
     private Paint paint;
-    private ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> deleted_contact;
+    private ArrayList<org.dbhatt.d_deleted_contact.data.Contact> deleted_contact;
 
-    Deleted_contact(ArrayList<org.dbhatt.d_deleted_contact.Data.Contact> all_contact, Context context, MainActivity mainActivity) {
+    Deleted_contact(ArrayList<org.dbhatt.d_deleted_contact.data.Contact> all_contact, Context context, MainActivity mainActivity) {
         try {
             this.deleted_contact = all_contact;
             rnd = new Random();
@@ -80,7 +80,7 @@ public class Deleted_contact extends RecyclerView.Adapter<Deleted_contact.Contac
     @Override
     public void onBindViewHolder(Contact holder, int position) {
         try {
-            org.dbhatt.d_deleted_contact.Data.Contact contact = deleted_contact.get(position);
+            org.dbhatt.d_deleted_contact.data.Contact contact = deleted_contact.get(position);
             holder.contact_name.setText(contact.getName());
             holder.account_type.setText(contact.getAccount_type());
             new Load_Contact_Photo(holder.contact_photo, contact.getName()).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);

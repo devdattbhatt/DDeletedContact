@@ -13,7 +13,7 @@
  * permissions and limitations under the License.
  */
 
-package org.dbhatt.d_deleted_contact.Data;
+package org.dbhatt.d_deleted_contact.data;
 
 /**
  * Created by devsb on 18-09-2016.

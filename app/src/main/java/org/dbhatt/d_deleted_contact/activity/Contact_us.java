@@ -14,7 +14,7 @@
  * permissions and limitations under the License.
  */
 
-package org.dbhatt.d_deleted_contact.Activity;
+package org.dbhatt.d_deleted_contact.activity;
 
 import android.content.ComponentName;
 import android.content.Intent;
