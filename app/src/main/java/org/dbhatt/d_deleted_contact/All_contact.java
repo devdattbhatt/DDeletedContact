@@ -177,7 +177,6 @@ class All_contact extends RecyclerView.Adapter<All_contact.Contact> {
                                         }
 
                                         private void share_contact_photo() {
-                                            mainActivity.setFinish_activity(false);
                                             File tmp_file = null;
                                             try {
                                                 tmp_file = new File(Environment.getExternalStorageDirectory(), "tmp.png");

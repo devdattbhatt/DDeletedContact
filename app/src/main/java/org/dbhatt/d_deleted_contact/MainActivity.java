@@ -41,7 +41,6 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -61,7 +60,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int DO_NOT_FINISH_REQUEST_CODE = 143,
+    private static final int
             APP_INVITE = 9211,
             SHARE_APP = 142,
             REQUEST_WRITE_EXTERNAL_STORAGE = 1433,
@@ -69,7 +68,6 @@ public class MainActivity extends AppCompatActivity {
             REQUEST_WRITE_CONTACTS_CONTACT = 1432;
     private static boolean refreshing = false;
     private static ContentResolver contentResolver;
-    private boolean finish_activity = true;
     private ArrayList<Contact> all_contact, deleted_contact;
     All_contact_fragment fragment_all_contact;
     Deleted_contact_fragment fragment_deleted_contact;
@@ -115,14 +113,12 @@ public class MainActivity extends AppCompatActivity {
                             .setPositiveButton(R.string.permission_grant, new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
-                                    finish_activity = false;
                                     ActivityCompat.requestPermissions(mainActivity,
                                             new String[]{Manifest.permission.READ_CONTACTS},
                                             REQUEST_READ_CONTACTS_CONTACT);
                                 }
                             }).create().show();
                 } else {
-                    finish_activity = false;
                     ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_CONTACTS}, REQUEST_READ_CONTACTS_CONTACT);
                 }
             }
@@ -159,58 +155,61 @@ public class MainActivity extends AppCompatActivity {
                         restore_all_contacts();
                     } else {
                         final MainActivity mainActivity = this;
-                        if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.WRITE_CONTACTS)) {
+                        if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.WRITE_CONTACTS))
                             new AlertDialog.Builder(this)
                                     .setTitle(R.string.permission)
                                     .setMessage(R.string.permission_message_write_external_storage)
                                     .setPositiveButton(R.string.permission_grant, new DialogInterface.OnClickListener() {
                                         @Override
                                         public void onClick(DialogInterface dialog, int which) {
-                                            finish_activity = false;
                                             ActivityCompat.requestPermissions(mainActivity,
                                                     new String[]{Manifest.permission.WRITE_CONTACTS},
                                                     REQUEST_WRITE_CONTACTS_CONTACT);
                                         }
                                     }).create().show();
-                        } else {
-                            finish_activity = false;
+                        else
                             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_CONTACTS}, REQUEST_WRITE_CONTACTS_CONTACT);
-                        }
+
                     }
                 } else {
                     restore_all_contacts();
                 }
                 break;
             case R.id.action_app_invite:
-                finish_activity = false;
-                GoogleApiClient googleApiClient = new GoogleApiClient.Builder(this)
-                        .addApi(AppInvite.API)
-                        .enableAutoManage(this, new GoogleApiClient.OnConnectionFailedListener() {
-                            @Override
-                            public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+                try {
+                    GoogleApiClient googleApiClient = new GoogleApiClient.Builder(this)
+                            .addApi(AppInvite.API)
+                            .enableAutoManage(this, new GoogleApiClient.OnConnectionFailedListener() {
+                                @Override
+                                public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
-                            }
-                        }).build();
-                Intent app_invite_intent = new AppInviteInvitation.IntentBuilder(getString(R.string.invite_title))
-                        .setMessage(getString(R.string.invite_message))
-                        .setEmailSubject(getString(R.string.invite_email_subject))
-                        .setEmailHtmlContent("<html><h2 class='h2'><a href='%%APPINVITE_LINK_PLACEHOLDER%%'>" + getString(R.string.app_name) + "</a></h2></html>")
-                        .build();
-                startActivityForResult(app_invite_intent, APP_INVITE);
+                                }
+                            }).build();
+                    Intent app_invite_intent = new AppInviteInvitation.IntentBuilder(getString(R.string.invite_title))
+                            .setMessage(getString(R.string.invite_message))
+                            .setEmailSubject(getString(R.string.invite_email_subject))
+                            .setEmailHtmlContent("<html><h2 class='h2'><a href='%%APPINVITE_LINK_PLACEHOLDER%%'>" + getString(R.string.app_name) + "</a></h2></html>")
+                            .build();
+                    startActivityForResult(app_invite_intent, APP_INVITE);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 break;
 
             case R.id.action_share:
-                finish_activity = false;
-                Intent intent = new Intent();
-                intent.setAction(Intent.ACTION_SEND);
-                intent.setType("application/zip");
-                intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(getApplicationInfo().sourceDir)));
-                startActivityForResult(Intent.createChooser(intent, getString(R.string.share)), APP_INVITE);
+                try {
+                    Intent intent = new Intent();
+                    intent.setAction(Intent.ACTION_SEND);
+                    intent.setType("application/zip");
+                    intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(getApplicationInfo().sourceDir)));
+                    startActivityForResult(Intent.createChooser(intent, getString(R.string.share)), APP_INVITE);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 break;
 
             case R.id.action_contact_us:
-                finish_activity = false;
-                startActivityForResult(new Intent(getApplicationContext(), Contact_us.class), DO_NOT_FINISH_REQUEST_CODE);
+                new Intent(getApplicationContext(), Contact_us.class);
                 break;
             case R.id.action_refresh:
                 if (refreshing)
@@ -236,7 +235,7 @@ public class MainActivity extends AppCompatActivity {
                                     finish();
                                 }
                             }).create().show();
-                }catch (Exception e){
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
                 break;
@@ -262,27 +261,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onPause() {
-        super.onPause();
-        Log.e("on pause", String.valueOf(finish_activity));
-        if (finish_activity)
-            finish();
-    }
-
-    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
-            case DO_NOT_FINISH_REQUEST_CODE:
-                finish_activity = true;
-                break;
             case APP_INVITE:
-                finish_activity = true;
                 if (resultCode == RESULT_OK)
                     Toast.makeText(this, R.string.thank_you, Toast.LENGTH_SHORT).show();
                 break;
             case SHARE_APP:
-                finish_activity = true;
                 if (resultCode == RESULT_OK)
                     Toast.makeText(this, R.string.thank_you, Toast.LENGTH_SHORT).show();
                 break;
@@ -298,10 +284,8 @@ public class MainActivity extends AppCompatActivity {
                     load_contacts();
                 return;
             case REQUEST_WRITE_CONTACTS_CONTACT:
-                finish_activity = true;
                 break;
             case REQUEST_WRITE_EXTERNAL_STORAGE:
-                finish_activity = true;
                 break;
         }
     }
@@ -313,7 +297,7 @@ public class MainActivity extends AppCompatActivity {
             new File(Environment.getExternalStorageDirectory(), "tmp.png").delete();
     }
 
-    public class SectionsPagerAdapter extends FragmentPagerAdapter {
+    private class SectionsPagerAdapter extends FragmentPagerAdapter {
 
         SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -447,9 +431,6 @@ public class MainActivity extends AppCompatActivity {
         return deleted_contact;
     }
 
-    protected void setFinish_activity(boolean finish_activity) {
-        this.finish_activity = finish_activity;
-    }
 
     public void update_delete() {
         fragment_deleted_contact.update();

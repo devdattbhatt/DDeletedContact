@@ -130,14 +130,12 @@ public class Deleted_contact extends RecyclerView.Adapter<Deleted_contact.Contac
                                                             .setPositiveButton(R.string.permission_grant, new DialogInterface.OnClickListener() {
                                                                 @Override
                                                                 public void onClick(DialogInterface dialog, int which) {
-                                                                    mainActivity.setFinish_activity(false);
                                                                     ActivityCompat.requestPermissions(mainActivity,
                                                                             new String[]{Manifest.permission.WRITE_CONTACTS},
                                                                             REQUEST_WRITE_EXTERNAL_STORAGE);
                                                                 }
                                                             }).create().show();
                                                 } else {
-                                                    mainActivity.setFinish_activity(false);
                                                     ActivityCompat.requestPermissions(mainActivity, new String[]{Manifest.permission.WRITE_CONTACTS}, REQUEST_WRITE_EXTERNAL_STORAGE);
                                                 }
                                             }
