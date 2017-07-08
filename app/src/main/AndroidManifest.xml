@@ -30,7 +30,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
+        <meta-data android:name="android.support.VERSION" android:value="26.0.0-beta2" />
 
         <activity
             android:name="org.dbhatt.d_deleted_contact.MainActivity"
