@@ -16,6 +16,7 @@
 package org.dbhatt.d_deleted_contact;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
@@ -66,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             REQUEST_WRITE_EXTERNAL_STORAGE = 1433,
             REQUEST_READ_CONTACTS_CONTACT = 1431,
             REQUEST_WRITE_CONTACTS_CONTACT = 1432;
-    private static boolean refreshing = false;
+    private static boolean refreshing = false, crash = false;
     private static ContentResolver contentResolver;
     private ArrayList<Contact> all_contact, deleted_contact;
     All_contact_fragment fragment_all_contact;
@@ -362,12 +363,21 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
-            refreshing = false;
-            fragment_all_contact.update();
-            fragment_deleted_contact.update();
+            try {
+                fragment_all_contact.update();
+                fragment_deleted_contact.update();
+                refreshing = false;
+            } catch (Exception e) {
+                if (!crash) {
+                    crash = true;
+                    new Update_lists().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                }
+                e.printStackTrace();
+            }
         }
     }
 
+    @SuppressLint("StaticFieldLeak")
     class Restore_All_contact extends AsyncTask<Void, Void, Void> {
 
         @Override
