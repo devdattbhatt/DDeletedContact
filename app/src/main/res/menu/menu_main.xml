@@ -41,11 +41,6 @@
         android:title="@string/action_app_invite"
         app:showAsAction="never" />
     <item
-        android:id="@+id/action_share"
-        android:orderInCategory="3"
-        android:title="@string/action_share"
-        app:showAsAction="never" />
-    <item
         android:id="@+id/action_contact_us"
         android:orderInCategory="99"
         android:title="@string/action_contact_us"

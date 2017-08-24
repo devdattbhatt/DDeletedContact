@@ -196,21 +196,8 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 break;
-
-            case R.id.action_share:
-                try {
-                    Intent intent = new Intent();
-                    intent.setAction(Intent.ACTION_SEND);
-                    intent.setType("application/zip");
-                    intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(getApplicationInfo().sourceDir)));
-                    startActivityForResult(Intent.createChooser(intent, getString(R.string.share)), APP_INVITE);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-                break;
-
             case R.id.action_contact_us:
-                new Intent(getApplicationContext(), Contact_us.class);
+                startActivity(new Intent(getApplicationContext(), Contact_us.class));
                 break;
             case R.id.action_refresh:
                 if (refreshing)
