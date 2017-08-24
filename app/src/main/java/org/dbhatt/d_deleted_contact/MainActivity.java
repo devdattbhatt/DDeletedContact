@@ -24,7 +24,6 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.database.Cursor;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -69,9 +68,9 @@ public class MainActivity extends AppCompatActivity {
             REQUEST_WRITE_CONTACTS_CONTACT = 1432;
     private static boolean refreshing = false, crash = false;
     private static ContentResolver contentResolver;
-    private ArrayList<Contact> all_contact, deleted_contact;
     All_contact_fragment fragment_all_contact;
     Deleted_contact_fragment fragment_deleted_contact;
+    private ArrayList<Contact> all_contact, deleted_contact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -143,6 +142,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
+        try {
+            if (deleted_contact.size() > 0)
+                getMenuInflater().inflate(R.menu.menu_main_with_rate_app, menu);
+            else getMenuInflater().inflate(R.menu.menu_main, menu);
+        } catch (Exception e) {
+            getMenuInflater().inflate(R.menu.menu_main, menu);
+            e.printStackTrace();
+        }
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
@@ -203,6 +210,20 @@ public class MainActivity extends AppCompatActivity {
                 if (refreshing)
                     Toast.makeText(this, R.string.try_after_some_time, Toast.LENGTH_SHORT).show();
                 else load_contacts();
+                break;
+            case R.id.action_rate_app:
+                new AlertDialog.Builder(this)
+                        .setTitle(R.string.rate_us_title)
+                        .setMessage(R.string.rate_us_message)
+                        .setPositiveButton(R.string.rate_us_negative_button, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+
+                            }
+                        })
+                        .setNegativeButton(R.string.rate_us_negative_button, null)
+                        .create()
+                        .show();
                 break;
             case R.id.action_language:
                 try {
@@ -285,6 +306,22 @@ public class MainActivity extends AppCompatActivity {
             new File(Environment.getExternalStorageDirectory(), "tmp.png").delete();
     }
 
+    protected ArrayList<Contact> get_all_contact() {
+        return all_contact;
+    }
+
+    protected ArrayList<Contact> get_deleted_contact() {
+        return deleted_contact;
+    }
+
+    public void update_delete() {
+        fragment_deleted_contact.update();
+    }
+
+    public void add_to_all_contact(Contact contact) {
+        fragment_all_contact.add_contact(contact);
+    }
+
     private class SectionsPagerAdapter extends FragmentPagerAdapter {
 
         SectionsPagerAdapter(FragmentManager fm) {
@@ -314,7 +351,6 @@ public class MainActivity extends AppCompatActivity {
             return null;
         }
     }
-
 
     class Update_lists extends AsyncTask<Void, Void, Void> {
         @Override
@@ -418,23 +454,6 @@ public class MainActivity extends AppCompatActivity {
             fragment_all_contact.update();
             fragment_deleted_contact.update();
         }
-    }
-
-    protected ArrayList<Contact> get_all_contact() {
-        return all_contact;
-    }
-
-    protected ArrayList<Contact> get_deleted_contact() {
-        return deleted_contact;
-    }
-
-
-    public void update_delete() {
-        fragment_deleted_contact.update();
-    }
-
-    public void add_to_all_contact(Contact contact) {
-        fragment_all_contact.add_contact(contact);
     }
 
 }
