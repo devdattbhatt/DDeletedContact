@@ -68,7 +68,7 @@ public class Contact_us extends AppCompatActivity implements View.OnClickListene
                 try {
                     startActivity(new Intent("android.intent.action.MAIN")
                             .setComponent(new ComponentName("com.whatsapp", "com.whatsapp.Conversation"))
-                            .putExtra("jid", PhoneNumberUtils.stripSeparators("919427159497") + "@s.whatsapp.net")
+                            .putExtra("jid", PhoneNumberUtils.stripSeparators("918000741919") + "@s.whatsapp.net")
                             .setPackage("com.whatsapp"));
                 } catch (Exception e) {
                     e.printStackTrace();
