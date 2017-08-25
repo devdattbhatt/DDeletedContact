@@ -69,18 +69,28 @@ public class All_contact_fragment extends Fragment {
     }
 
     public void update() {
-        all_contact = ((MainActivity) getActivity()).get_all_contact();
-        if (all_contact.size() > 0) {
-            data_not_found.setVisibility(View.GONE);
-            recyclerView.setVisibility(View.VISIBLE);
-            recyclerView.setHasFixedSize(true);
-            recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-            adapter = new All_contact(all_contact, getContext(), ((MainActivity) getActivity()));
-            recyclerView.setAdapter(adapter);
-            recyclerView.setNestedScrollingEnabled(false);
-        } else {
-            data_not_found.setVisibility(View.VISIBLE);
-            recyclerView.setVisibility(View.GONE);
+        try {
+            all_contact = ((MainActivity) getActivity()).get_all_contact();
+            if (all_contact.size() > 0) {
+                data_not_found.setVisibility(View.GONE);
+                recyclerView.setVisibility(View.VISIBLE);
+                recyclerView.setHasFixedSize(true);
+                recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
+                adapter = new All_contact(all_contact, getContext(), ((MainActivity) getActivity()));
+                recyclerView.setAdapter(adapter);
+                recyclerView.setNestedScrollingEnabled(false);
+            } else {
+                data_not_found.setVisibility(View.VISIBLE);
+                recyclerView.setVisibility(View.GONE);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            try {
+                data_not_found.setVisibility(View.VISIBLE);
+                recyclerView.setVisibility(View.GONE);
+            } catch (Exception ee) {
+                ee.printStackTrace();
+            }
         }
     }
 
