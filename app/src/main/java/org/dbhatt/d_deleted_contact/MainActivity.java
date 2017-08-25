@@ -60,13 +60,14 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static Menu menu;
     private static final int
             APP_INVITE = 9211,
             SHARE_APP = 142,
             REQUEST_WRITE_EXTERNAL_STORAGE = 1433,
             REQUEST_READ_CONTACTS_CONTACT = 1431,
             REQUEST_WRITE_CONTACTS_CONTACT = 1432;
-    private static boolean refreshing = false, crash = false;
+    private static boolean refreshing = false;
     private static ContentResolver contentResolver;
     All_contact_fragment fragment_all_contact;
     Deleted_contact_fragment fragment_deleted_contact;
@@ -134,14 +135,19 @@ public class MainActivity extends AppCompatActivity {
 
     private void load_contacts() {
         contentResolver = getContentResolver();
-        if (!refreshing)
-            new Update_lists().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+        try {
+            if (!refreshing)
+                new Update_lists().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
+        MainActivity.menu = menu;
         try {
             if (deleted_contact.size() > 0)
                 getMenuInflater().inflate(R.menu.menu_main_with_rate_app, menu);
@@ -150,7 +156,6 @@ public class MainActivity extends AppCompatActivity {
             getMenuInflater().inflate(R.menu.menu_main, menu);
             e.printStackTrace();
         }
-        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
@@ -391,10 +396,11 @@ public class MainActivity extends AppCompatActivity {
                 fragment_deleted_contact.update();
                 refreshing = false;
             } catch (Exception e) {
-                if (!crash) {
-                    crash = true;
-                    new Update_lists().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-                }
+                e.printStackTrace();
+            }
+            try {
+                onCreateOptionsMenu(menu);
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
@@ -405,42 +411,46 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected Void doInBackground(Void... params) {
-            for (int i = 0; i < deleted_contact.size(); i++) {
-                ArrayList<ContentProviderOperation> ops = new ArrayList();
-                ops.add(ContentProviderOperation.newUpdate(ContactsContract.RawContacts.CONTENT_URI.buildUpon().appendQueryParameter("caller_is_syncadapter", "true").build())
-                        .withSelection(ContactsContract.RawContacts._ID + "=?", new String[]{String.valueOf(deleted_contact.get(i).getId())})
-                        .withValue(ContactsContract.RawContacts.DELETED, 0)
-                        .withYieldAllowed(true)
-                        .build());
-                try {
-                    contentResolver.applyBatch(ContactsContract.AUTHORITY, ops);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                    Toast.makeText(getApplicationContext(), R.string.contact_developer, Toast.LENGTH_SHORT).show();
-                }
-            }
-            refreshing = true;
-            deleted_contact.clear();
-            all_contact.clear();
             try {
-                Cursor cursor = contentResolver.query(ContactsContract.RawContacts.CONTENT_URI, null, "DISPLAY_NAME IS NOT NULL", null, "display_name COLLATE LOCALIZED ASC");
-                if (cursor != null && cursor.getCount() > 0 && cursor.moveToFirst()) {
-                    while (cursor.moveToNext()) {
-                        if (cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.DELETED)) == 1) {
-                            deleted_contact.add(new Contact(cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts._ID)),
-                                    cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.CONTACT_ID)),
-                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY)),
-                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE))));
-                        } else {
-                            all_contact.add(new Contact(cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts._ID)),
-                                    cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.CONTACT_ID)),
-                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY)),
-                                    cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE))));
-                        }
+                for (int i = 0; i < deleted_contact.size(); i++) {
+                    ArrayList<ContentProviderOperation> ops = new ArrayList();
+                    ops.add(ContentProviderOperation.newUpdate(ContactsContract.RawContacts.CONTENT_URI.buildUpon().appendQueryParameter("caller_is_syncadapter", "true").build())
+                            .withSelection(ContactsContract.RawContacts._ID + "=?", new String[]{String.valueOf(deleted_contact.get(i).getId())})
+                            .withValue(ContactsContract.RawContacts.DELETED, 0)
+                            .withYieldAllowed(true)
+                            .build());
+                    try {
+                        contentResolver.applyBatch(ContactsContract.AUTHORITY, ops);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        Toast.makeText(getApplicationContext(), R.string.contact_developer, Toast.LENGTH_SHORT).show();
                     }
                 }
-                if (cursor != null && !cursor.isClosed())
-                    cursor.close();
+                refreshing = true;
+                deleted_contact.clear();
+                all_contact.clear();
+                try {
+                    Cursor cursor = contentResolver.query(ContactsContract.RawContacts.CONTENT_URI, null, "DISPLAY_NAME IS NOT NULL", null, "display_name COLLATE LOCALIZED ASC");
+                    if (cursor != null && cursor.getCount() > 0 && cursor.moveToFirst()) {
+                        while (cursor.moveToNext()) {
+                            if (cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.DELETED)) == 1) {
+                                deleted_contact.add(new Contact(cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts._ID)),
+                                        cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.CONTACT_ID)),
+                                        cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY)),
+                                        cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE))));
+                            } else {
+                                all_contact.add(new Contact(cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts._ID)),
+                                        cursor.getInt(cursor.getColumnIndex(ContactsContract.RawContacts.CONTACT_ID)),
+                                        cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY)),
+                                        cursor.getString(cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE))));
+                            }
+                        }
+                    }
+                    if (cursor != null && !cursor.isClosed())
+                        cursor.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             } catch (Exception e) {
                 e.printStackTrace();
             }
