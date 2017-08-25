@@ -60,7 +60,6 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static Menu menu;
     private static final int
             APP_INVITE = 9211,
             SHARE_APP = 142,
@@ -147,7 +146,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        MainActivity.menu = menu;
         try {
             if (deleted_contact.size() > 0)
                 getMenuInflater().inflate(R.menu.menu_main_with_rate_app, menu);
@@ -395,11 +393,6 @@ public class MainActivity extends AppCompatActivity {
                 fragment_all_contact.update();
                 fragment_deleted_contact.update();
                 refreshing = false;
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            try {
-                onCreateOptionsMenu(menu);
             } catch (Exception e) {
                 e.printStackTrace();
             }
