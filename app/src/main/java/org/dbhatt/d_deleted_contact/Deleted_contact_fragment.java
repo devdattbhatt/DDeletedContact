@@ -52,17 +52,21 @@ public class Deleted_contact_fragment extends Fragment {
     }
 
     public void update() {
-        deleted_contact = ((MainActivity) getActivity()).get_deleted_contact();
-        if (deleted_contact.size() > 0) {
-            data_not_found.setVisibility(View.GONE);
-            recyclerView.setVisibility(View.VISIBLE);
-            recyclerView.setHasFixedSize(true);
-            recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-            recyclerView.setAdapter(new Deleted_contact(deleted_contact, getContext(), ((MainActivity) getActivity())));
-            recyclerView.setNestedScrollingEnabled(false);
-        } else {
-            data_not_found.setVisibility(View.VISIBLE);
-            recyclerView.setVisibility(View.GONE);
+        try {
+            deleted_contact = ((MainActivity) getActivity()).get_deleted_contact();
+            if (deleted_contact.size() > 0) {
+                data_not_found.setVisibility(View.GONE);
+                recyclerView.setVisibility(View.VISIBLE);
+                recyclerView.setHasFixedSize(true);
+                recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
+                recyclerView.setAdapter(new Deleted_contact(deleted_contact, getContext(), ((MainActivity) getActivity())));
+                recyclerView.setNestedScrollingEnabled(false);
+            } else {
+                data_not_found.setVisibility(View.VISIBLE);
+                recyclerView.setVisibility(View.GONE);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }

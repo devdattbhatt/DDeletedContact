@@ -344,7 +344,6 @@ public class MainActivity extends AppCompatActivity {
     class Update_lists extends AsyncTask<Void, Void, Void> {
         @Override
         protected Void doInBackground(Void... params) {
-            refreshing = true;
             deleted_contact.clear();
             all_contact.clear();
             try {
@@ -378,7 +377,6 @@ public class MainActivity extends AppCompatActivity {
             try {
                 fragment_all_contact.update();
                 fragment_deleted_contact.update();
-                refreshing = false;
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -405,7 +403,6 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), R.string.contact_developer, Toast.LENGTH_SHORT).show();
                     }
                 }
-                refreshing = true;
                 deleted_contact.clear();
                 all_contact.clear();
                 try {
@@ -439,9 +436,12 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
-            refreshing = false;
-            fragment_all_contact.update();
-            fragment_deleted_contact.update();
+            try {
+                fragment_all_contact.update();
+                fragment_deleted_contact.update();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -475,6 +475,5 @@ public class MainActivity extends AppCompatActivity {
                 .setNeutralButton(R.string.rate_us_neutral_button, null)
                 .create()
                 .show();
-
     }
 }

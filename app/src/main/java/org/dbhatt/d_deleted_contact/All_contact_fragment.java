@@ -47,23 +47,27 @@ public class All_contact_fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-
         all_contact = ((MainActivity) getActivity()).get_all_contact();
         view = inflater.inflate(R.layout.recyclerview, container, false);
-        recyclerView = (RecyclerView) view.findViewById(R.id.adapter_recycler_view);
-        data_not_found = (TextView) view.findViewById(R.id.no_data_found);
+        try {
+            recyclerView = (RecyclerView) view.findViewById(R.id.adapter_recycler_view);
+            data_not_found = (TextView) view.findViewById(R.id.no_data_found);
 
-        if (all_contact.size() > 0) {
-            data_not_found.setVisibility(View.GONE);
-            recyclerView.setVisibility(View.VISIBLE);
-            recyclerView.setHasFixedSize(true);
-            recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-            adapter = new All_contact(all_contact, getContext(), ((MainActivity) getActivity()));
-            recyclerView.setAdapter(adapter);
-            recyclerView.setNestedScrollingEnabled(false);
-        } else {
-            data_not_found.setVisibility(View.VISIBLE);
-            recyclerView.setVisibility(View.GONE);
+            if (all_contact.size() > 0) {
+                data_not_found.setVisibility(View.GONE);
+                recyclerView.setVisibility(View.VISIBLE);
+                recyclerView.setHasFixedSize(true);
+                recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
+                adapter = new All_contact(all_contact, getContext(), ((MainActivity) getActivity()));
+                recyclerView.setAdapter(adapter);
+                recyclerView.setNestedScrollingEnabled(false);
+            } else {
+                data_not_found.setVisibility(View.VISIBLE);
+                recyclerView.setVisibility(View.GONE);
+            }
+            return view;
+        } catch (Exception e) {
+            e.printStackTrace();
         }
         return view;
     }
