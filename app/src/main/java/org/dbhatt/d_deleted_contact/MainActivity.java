@@ -24,6 +24,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -66,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
             REQUEST_WRITE_EXTERNAL_STORAGE = 1433,
             REQUEST_READ_CONTACTS_CONTACT = 1431,
             REQUEST_WRITE_CONTACTS_CONTACT = 1432;
-    private static boolean refreshing = false;
     private static ContentResolver contentResolver;
     All_contact_fragment fragment_all_contact;
     Deleted_contact_fragment fragment_deleted_contact;
@@ -95,6 +95,8 @@ public class MainActivity extends AppCompatActivity {
 
         all_contact = new ArrayList<>();
         deleted_contact = new ArrayList<>();
+
+        contentResolver = getContentResolver();
 
         if (Build.VERSION.SDK_INT > 22) {
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) == PackageManager.PERMISSION_GRANTED) {
@@ -130,13 +132,12 @@ public class MainActivity extends AppCompatActivity {
                 }
             }).start();
         }
+        ask_for_ratings();
     }
 
     private void load_contacts() {
-        contentResolver = getContentResolver();
         try {
-            if (!refreshing)
-                new Update_lists().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+            new Update_lists().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -147,11 +148,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         try {
-            if (deleted_contact.size() > 0)
-                getMenuInflater().inflate(R.menu.menu_main_with_rate_app, menu);
-            else getMenuInflater().inflate(R.menu.menu_main, menu);
-        } catch (Exception e) {
             getMenuInflater().inflate(R.menu.menu_main, menu);
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return true;
@@ -210,23 +208,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), Contact_us.class));
                 break;
             case R.id.action_refresh:
-                if (refreshing)
-                    Toast.makeText(this, R.string.try_after_some_time, Toast.LENGTH_SHORT).show();
-                else load_contacts();
-                break;
-            case R.id.action_rate_app:
-                new AlertDialog.Builder(this)
-                        .setTitle(R.string.rate_us_title)
-                        .setMessage(R.string.rate_us_message)
-                        .setPositiveButton(R.string.rate_us_negative_button, new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
-
-                            }
-                        })
-                        .setNegativeButton(R.string.rate_us_negative_button, null)
-                        .create()
-                        .show();
+                try {
+                    load_contacts();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 break;
             case R.id.action_language:
                 try {
@@ -459,4 +445,36 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    private void ask_for_ratings() {
+        new AlertDialog.Builder(this)
+                .setTitle(R.string.rate_us_title)
+                .setMessage(R.string.rate_us_message)
+                .setPositiveButton(R.string.rate_us_positive_button, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        startActivity(
+                                new Intent(
+                                        Intent.ACTION_VIEW,
+                                        Uri.parse(
+                                                "market://details?id=org.dbhatt.d_deleted_contact"
+                                        )
+                                )
+                        );
+                    }
+                })
+                .setNegativeButton(R.string.rate_us_negative_button, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        try {
+                            startActivity(new Intent(getApplicationContext(), Contact_us.class));
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                    }
+                })
+                .setNeutralButton(R.string.rate_us_neutral_button, null)
+                .create()
+                .show();
+
+    }
 }

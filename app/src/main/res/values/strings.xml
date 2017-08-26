@@ -26,7 +26,6 @@
     <string name="install_whats_app">Install Whats App first</string>
     <string name="install">Install</string>
     <string name="coming_soon">Coming soon</string>
-    <string name="contact_update_error"></string>
 
     <!-- Toast messages-->
     <string name="try_after_some_time">Try After Some Time</string>
@@ -70,8 +69,9 @@
     <string name="permission_grant">Grant</string>
     <string name="restore">Restore</string>
     <string name="rate_us_title">Rate us</string>
-    <string name="rate_us_message">congratulations ..!!! \n your contacts is recovered.\n your review is very very important.\n please review us.</string>
-    <string name="rate_us_positive_button">Rate us.</string>
-    <string name="rate_us_negative_button">Not now</string>
+    <string name="rate_us_message">congratulations ..!!! \n\n your contacts is recovered.\n\n please review us.</string>
+    <string name="rate_us_positive_button">Rate us</string>
+    <string name="rate_us_negative_button">Contact us</string>
+    <string name="rate_us_neutral_button">Not now</string>
 
 </resources>
