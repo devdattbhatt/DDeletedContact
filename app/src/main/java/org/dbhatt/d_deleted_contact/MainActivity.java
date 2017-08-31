@@ -138,7 +138,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }).start();
         }
-
     }
 
     private void load_contacts() {
@@ -302,8 +301,20 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if (new File(Environment.getExternalStorageDirectory(), "tmp.png").exists())
-            new File(Environment.getExternalStorageDirectory(), "tmp.png").delete();
+        try {
+            if (new File(Environment.getExternalStorageDirectory(), "tmp.png").exists())
+                new File(Environment.getExternalStorageDirectory(), "tmp.png").delete();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        try {
+            editor.putBoolean(
+                    "not_now",
+                    false
+            ).apply();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     protected ArrayList<Contact> get_all_contact() {
@@ -450,6 +461,7 @@ public class MainActivity extends AppCompatActivity {
             try {
                 fragment_all_contact.update();
                 fragment_deleted_contact.update();
+                ask_for_ratings();
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -457,34 +469,57 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void ask_for_ratings() {
-        new AlertDialog.Builder(this)
-                .setTitle(R.string.rate_us_title)
-                .setMessage(R.string.rate_us_message)
-                .setPositiveButton(R.string.rate_us_positive_button, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        startActivity(
-                                new Intent(
-                                        Intent.ACTION_VIEW,
-                                        Uri.parse(
-                                                "market://details?id=org.dbhatt.d_deleted_contact"
+        if (!sp.getBoolean("ratings", false)) {
+            if (!sp.getBoolean("not_now", false)) {
+                new AlertDialog.Builder(this)
+                        .setTitle(R.string.rate_us_title)
+                        .setMessage(R.string.rate_us_message)
+                        .setPositiveButton(R.string.rate_us_positive_button, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                try {
+                                    editor.putBoolean("ratings", false).commit();
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+                                startActivity(
+                                        new Intent(
+                                                Intent.ACTION_VIEW,
+                                                Uri.parse(
+                                                        "market://details?id=org.dbhatt.d_deleted_contact"
+                                                )
                                         )
-                                )
-                        );
-                    }
-                })
-                .setNegativeButton(R.string.rate_us_negative_button, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        try {
-                            startActivity(new Intent(getApplicationContext(), Contact_us.class));
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
-                    }
-                })
-                .setNeutralButton(R.string.rate_us_neutral_button, null)
-                .create()
-                .show();
+                                );
+                                Toast.makeText(getApplicationContext(),R.string.rating_thenk_you_message,Toast.LENGTH_SHORT).show();
+                            }
+                        })
+                        .setNegativeButton(R.string.rate_us_negative_button, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                try {
+                                    startActivity(new Intent(getApplicationContext(), Contact_us.class));
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        })
+                        .setNeutralButton(R.string.rate_us_neutral_button, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                try {
+                                    editor
+                                            .putBoolean(
+                                                    "not_now",
+                                                    true
+                                            ).commit();
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        })
+                        .create()
+                        .show();
+            }
+        }
     }
 }

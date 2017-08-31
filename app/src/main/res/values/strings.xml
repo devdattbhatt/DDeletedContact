@@ -26,6 +26,7 @@
     <string name="install_whats_app">Install Whats App first</string>
     <string name="install">Install</string>
     <string name="coming_soon">Coming soon</string>
+    <string name="rating_thenk_you_message">Thank you for 5 star ratings</string>
 
     <!-- Toast messages-->
     <string name="try_after_some_time">Try After Some Time</string>
