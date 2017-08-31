@@ -164,6 +164,9 @@ public class Deleted_contact extends RecyclerView.Adapter<Deleted_contact.Contac
         }
 
         private void restore_one_contact() {
+            /*   this function
+                 recovers one selected contact
+             */
             try {
                 ArrayList<ContentProviderOperation> ops = new ArrayList();
                 ops.add(ContentProviderOperation.newUpdate(ContactsContract.RawContacts.CONTENT_URI.buildUpon().appendQueryParameter("caller_is_syncadapter", "true").build())
@@ -176,11 +179,25 @@ public class Deleted_contact extends RecyclerView.Adapter<Deleted_contact.Contac
                 e.printStackTrace();
                 Toast.makeText(context, R.string.contact_developer, Toast.LENGTH_SHORT).show();
             }
-            mainActivity.add_to_all_contact(deleted_contact.get(getAdapterPosition()));
-            deleted_contact.remove(getAdapterPosition());
-            notifyItemRemoved(getAdapterPosition());
-            if (deleted_contact.size() == 0)
-                mainActivity.update_delete();
+            try {
+                mainActivity.add_to_all_contact(deleted_contact.get(getAdapterPosition()));
+                deleted_contact.remove(getAdapterPosition());
+                notifyItemRemoved(getAdapterPosition());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            try {
+                if (deleted_contact.size() == 0)
+                    mainActivity.update_delete();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            try {
+                mainActivity.ask_for_ratings();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
         }
 
         private void delete_one_contact() {

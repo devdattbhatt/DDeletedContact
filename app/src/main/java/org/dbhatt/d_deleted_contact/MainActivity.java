@@ -468,7 +468,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void ask_for_ratings() {
+    protected void ask_for_ratings() {
         if (!sp.getBoolean("ratings", false)) {
             if (!sp.getBoolean("not_now", false)) {
                 new AlertDialog.Builder(this)
