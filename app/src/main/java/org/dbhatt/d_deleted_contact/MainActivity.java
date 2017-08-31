@@ -21,6 +21,7 @@ import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.database.Cursor;
@@ -29,6 +30,7 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.preference.PreferenceManager;
 import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.design.widget.AppBarLayout;
@@ -68,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
             REQUEST_READ_CONTACTS_CONTACT = 1431,
             REQUEST_WRITE_CONTACTS_CONTACT = 1432;
     private static ContentResolver contentResolver;
+    private static SharedPreferences sp;
+    private static SharedPreferences.Editor editor;
     All_contact_fragment fragment_all_contact;
     Deleted_contact_fragment fragment_deleted_contact;
     private ArrayList<Contact> all_contact, deleted_contact;
@@ -97,6 +101,8 @@ public class MainActivity extends AppCompatActivity {
         deleted_contact = new ArrayList<>();
 
         contentResolver = getContentResolver();
+        sp = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        editor = sp.edit();
 
         if (Build.VERSION.SDK_INT > 22) {
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) == PackageManager.PERMISSION_GRANTED) {
@@ -132,12 +138,17 @@ public class MainActivity extends AppCompatActivity {
                 }
             }).start();
         }
-        ask_for_ratings();
+
     }
 
     private void load_contacts() {
         try {
             new Update_lists().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        try {
+
         } catch (Exception e) {
             e.printStackTrace();
         }

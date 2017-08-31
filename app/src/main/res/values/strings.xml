@@ -74,4 +74,11 @@
     <string name="rate_us_negative_button">Contact us</string>
     <string name="rate_us_neutral_button">Not now</string>
 
+    <!-- hidden string
+        variable    data_type
+        ##########################################################
+        ratings     boolean
+        not_now     boolean
+        never       boolean
+    -->
 </resources>
