@@ -490,7 +490,7 @@ public class MainActivity extends AppCompatActivity {
                                                 )
                                         )
                                 );
-                                Toast.makeText(getApplicationContext(),R.string.rating_thenk_you_message,Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), R.string.rating_thenk_you_message, Toast.LENGTH_LONG).show();
                             }
                         })
                         .setNegativeButton(R.string.rate_us_negative_button, new DialogInterface.OnClickListener() {
