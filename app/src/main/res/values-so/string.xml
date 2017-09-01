@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D tirtiray Contact</string><string name="all_contact">Nala Xiriir</string><string name="deleted_contact">tirtiray</string><string name="no_data_found">Data No Found</string><string name="dismiss">ka qaadista</string><string name="share">Share</string><string name="thank_you">Waad ku mahadsan tahay share / yeedhi</string><string name="contact_developer">Error dhacaan, sameeysa xiriir.</string><string name="install_whats_app">Ku rakib Dhadkan App ugu horeysay</string><string name="install">Ku rakib</string><string name="coming_soon">Imaatinka ugu dhakhsaha badan</string><string name="rating_thank_you_message">Waad ku mahadsan tahay 5 ratings star</string><string name="press_again_to_exit">Fadlan dib u riix mar kale uga baxdo</string><string name="try_after_some_time">Isku day inaad dib markii Time Qaar ka mid ah</string><string name="action_language">Language</string><string name="action_rate_us">na Rate</string><string name="action_refresh">Refresh</string><string name="action_restore_all">Soo Celinta All</string><string name="action_app_invite">martiqaad Friends</string><string name="action_contact_us">Nala soo xiriir</string><string name="contact_name">magaca Contact</string><string name="contact_phone_number">tirada Contact</string><string name="contact_account_type">account Type</string><string name="description_contact_photo">Contact Photo</string><string name="description_contact_info">info Contact</string><string name="static_contact_us_whats_app">sameeysa Contact si toos ah on WhatsApp.</string><string name="static_contact_us_developer">Kooxda Google+ waayo, Horumarinta, tijaabiyeyaal oo ka qayb galay.</string><string name="static_contact_us_language">Kooxda Google+ Turjumaanada Afka iyo Luqadda caashaqi jiray.</string><string name="static_contact_us_google_plus">Inaad iga hor timaadid on Google+.</string><string name="static_contact_us_linkedin">Si aad u soo biir sida geysato iyo Developer.</string><string name="static_contact_us_facebook">Official Page Facebook.</string><string name="invite_title">martiqaad Friends</string><string name="invite_message">Contact tirtiray waa Open-il, freeware, app android xayeysiiso-free.</string><string name="permission">Ogolaanshaha</string><string name="permission_message_write_external_storage">ogolaansho WRITE_EXTERNAL_STORAGE loo baahan yahay</string><string name="permission_message_read_contact">READ_CONTACTS fasax loo baahan yahay</string><string name="permission_message_write_contact">WRITE_CONTACTS fasax loo baahan yahay</string><string name="permission_grant">Grant</string><string name="restore">Soo Celinta</string><string name="rate_us_title">rating waa muhiim inoo ah</string><string name="rate_us_message">Hambalyo .. !!! \ N \ n xiriir la soo kabsaday. \ N \ n fadlan nala dib u eegaan.</string><string name="rate_us_positive_button">na Rate.</string><string name="rate_us_negative_button">Nala soo xiriir.</string><string name="rate_us_neutral_button">Ma aha hadda.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D tirtiray Contact</string>
+    <string name="all_contact">Nala Xiriir</string>
+    <string name="deleted_contact">tirtiray</string>
+    <string name="no_data_found">Data No Found</string>
+    <string name="dismiss">ka qaadista</string>
+    <string name="share">Share</string>
+    <string name="thank_you">Waad ku mahadsan tahay share / yeedhi</string>
+    <string name="contact_developer">Error dhacaan, sameeysa xiriir.</string>
+    <string name="install_whats_app">Ku rakib Dhadkan App ugu horeysay</string>
+    <string name="install">Ku rakib</string>
+    <string name="coming_soon">Imaatinka ugu dhakhsaha badan</string>
+    <string name="rating_thank_you_message">Waad ku mahadsan tahay 5 ratings star</string>
+    <string name="press_again_to_exit">Fadlan dib u riix mar kale uga baxdo</string>
+    <string name="try_after_some_time">Isku day inaad dib markii Time Qaar ka mid ah</string>
+    <string name="action_language">Language</string>
+    <string name="action_rate_us">na Rate</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_restore_all">Soo Celinta All</string>
+    <string name="action_app_invite">martiqaad Friends</string>
+    <string name="action_contact_us">Nala soo xiriir</string>
+    <string name="contact_name">magaca Contact</string>
+    <string name="contact_phone_number">tirada Contact</string>
+    <string name="contact_account_type">account Type</string>
+    <string name="description_contact_photo">Contact Photo</string>
+    <string name="description_contact_info">info Contact</string>
+    <string name="static_contact_us_whats_app">sameeysa Contact si toos ah on WhatsApp.</string>
+    <string name="static_contact_us_developer">Kooxda Google+ waayo, Horumarinta, tijaabiyeyaal oo ka qayb galay.</string>
+    <string name="static_contact_us_language">Kooxda Google+ Turjumaanada Afka iyo Luqadda caashaqi jiray.</string>
+    <string name="static_contact_us_google_plus">Inaad iga hor timaadid on Google+.</string>
+    <string name="static_contact_us_linkedin">Si aad u soo biir sida geysato iyo Developer.</string>
+    <string name="static_contact_us_facebook">Official Page Facebook.</string>
+    <string name="invite_title">martiqaad Friends</string>
+    <string name="invite_message">Contact tirtiray waa Open-il, freeware, app android xayeysiiso-free.</string>
+    <string name="permission">Ogolaanshaha</string>
+    <string name="permission_message_write_external_storage">ogolaansho WRITE_EXTERNAL_STORAGE loo baahan yahay</string>
+    <string name="permission_message_read_contact">READ_CONTACTS fasax loo baahan yahay</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS fasax loo baahan yahay</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">Soo Celinta</string>
+    <string name="rate_us_title">rating waa muhiim inoo ah</string>
+    <string name="rate_us_message">Hambalyo .. !!! \ N \ n xiriir la soo kabsaday. \ N \ n fadlan nala dib u eegaan.</string>
+    <string name="rate_us_positive_button">na Rate.</string>
+    <string name="rate_us_negative_button">Nala soo xiriir.</string>
+    <string name="rate_us_neutral_button">Ma aha hadda.</string>
+</resources>

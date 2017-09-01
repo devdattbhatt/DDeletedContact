@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D Liên hệ đã Xóa</string><string name="all_contact">Liên hệ</string><string name="deleted_contact">Bị xóa</string><string name="no_data_found">Không tìm thấy dữ liệu nào</string><string name="dismiss">Bỏ qua</string><string name="share">Chia sẻ</string><string name="thank_you">Cảm ơn bạn đã chia sẻ / mời</string><string name="contact_developer">Lỗi xảy ra, liên hệ với nhà phát triển.</string><string name="install_whats_app">Cài đặt Whats App đầu tiên</string><string name="install">cài đặt, dựng lên</string><string name="coming_soon">Sắp ra mắt</string><string name="rating_thank_you_message">Cảm ơn bạn về xếp hạng 5 sao</string><string name="press_again_to_exit">Vui lòng nhấp lại vào để thoát</string><string name="try_after_some_time">Thử sau một thời gian</string><string name="action_language">Ngôn ngữ</string><string name="action_rate_us">Đánh giá chúng tôi</string><string name="action_refresh">Làm tươi</string><string name="action_restore_all">Khôi phục lại tất cả</string><string name="action_app_invite">Mời bạn bè</string><string name="action_contact_us">Liên hệ chúng tôi</string><string name="contact_name">Tên Liên lạc</string><string name="contact_phone_number">Số liên lạc</string><string name="contact_account_type">Kiểu tài khoản</string><string name="description_contact_photo">Liên hệ Photo</string><string name="description_contact_info">Thông tin liên lạc</string><string name="static_contact_us_whats_app">Liên hệ với nhà phát triển trực tiếp trên WhatsApp.</string><string name="static_contact_us_developer">Nhóm dành cho Nhà phát triển, Người kiểm tra và cộng tác trên Google+.</string><string name="static_contact_us_language">Nhóm Google+ dành cho Người dịch và Người yêu ngôn ngữ trên Google+.</string><string name="static_contact_us_google_plus">Để Gặp tôi trên Google+.</string><string name="static_contact_us_linkedin">Tham gia với tư cách là cộng tác viên và nhà phát triển.</string><string name="static_contact_us_facebook">Trang chính thức của Facebook.</string><string name="invite_title">Mời bạn bè</string><string name="invite_message">Liên lạc đã xóa là ứng dụng Android, miễn phí, Quảng cáo miễn phí.</string><string name="permission">Sự cho phép</string><string name="permission_message_write_external_storage">Yêu cầu WRITE_EXTERNAL_STORAGE</string><string name="permission_message_read_contact">READ_CONTACTS quyền là cần thiết</string><string name="permission_message_write_contact">WRITE_CONTACTS quyền là cần thiết</string><string name="permission_grant">Ban cho</string><string name="restore">Khôi phục</string><string name="rate_us_title">Đánh giá là quan trọng đối với chúng tôi</string><string name="rate_us_message">Xin chúc mừng ..!!! \ n \ n địa chỉ liên hệ của bạn đã được phục hồi. \ n \ n vui lòng xem lại chúng tôi.</string><string name="rate_us_positive_button">Đánh giá chúng tôi.</string><string name="rate_us_negative_button">Liên hệ chúng tôi.</string><string name="rate_us_neutral_button">Không phải bây giờ.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Liên hệ đã Xóa</string>
+    <string name="all_contact">Liên hệ</string>
+    <string name="deleted_contact">Bị xóa</string>
+    <string name="no_data_found">Không tìm thấy dữ liệu nào</string>
+    <string name="dismiss">Bỏ qua</string>
+    <string name="share">Chia sẻ</string>
+    <string name="thank_you">Cảm ơn bạn đã chia sẻ / mời</string>
+    <string name="contact_developer">Lỗi xảy ra, liên hệ với nhà phát triển.</string>
+    <string name="install_whats_app">Cài đặt Whats App đầu tiên</string>
+    <string name="install">cài đặt, dựng lên</string>
+    <string name="coming_soon">Sắp ra mắt</string>
+    <string name="rating_thank_you_message">Cảm ơn bạn về xếp hạng 5 sao</string>
+    <string name="press_again_to_exit">Vui lòng nhấp lại vào để thoát</string>
+    <string name="try_after_some_time">Thử sau một thời gian</string>
+    <string name="action_language">Ngôn ngữ</string>
+    <string name="action_rate_us">Đánh giá chúng tôi</string>
+    <string name="action_refresh">Làm tươi</string>
+    <string name="action_restore_all">Khôi phục lại tất cả</string>
+    <string name="action_app_invite">Mời bạn bè</string>
+    <string name="action_contact_us">Liên hệ chúng tôi</string>
+    <string name="contact_name">Tên Liên lạc</string>
+    <string name="contact_phone_number">Số liên lạc</string>
+    <string name="contact_account_type">Kiểu tài khoản</string>
+    <string name="description_contact_photo">Liên hệ Photo</string>
+    <string name="description_contact_info">Thông tin liên lạc</string>
+    <string name="static_contact_us_whats_app">Liên hệ với nhà phát triển trực tiếp trên WhatsApp.</string>
+    <string name="static_contact_us_developer">Nhóm dành cho Nhà phát triển, Người kiểm tra và cộng tác trên Google+.</string>
+    <string name="static_contact_us_language">Nhóm Google+ dành cho Người dịch và Người yêu ngôn ngữ trên Google+.</string>
+    <string name="static_contact_us_google_plus">Để Gặp tôi trên Google+.</string>
+    <string name="static_contact_us_linkedin">Tham gia với tư cách là cộng tác viên và nhà phát triển.</string>
+    <string name="static_contact_us_facebook">Trang chính thức của Facebook.</string>
+    <string name="invite_title">Mời bạn bè</string>
+    <string name="invite_message">Liên lạc đã xóa là ứng dụng Android, miễn phí, Quảng cáo miễn phí.</string>
+    <string name="permission">Sự cho phép</string>
+    <string name="permission_message_write_external_storage">Yêu cầu WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_message_read_contact">READ_CONTACTS quyền là cần thiết</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS quyền là cần thiết</string>
+    <string name="permission_grant">Ban cho</string>
+    <string name="restore">Khôi phục</string>
+    <string name="rate_us_title">Đánh giá là quan trọng đối với chúng tôi</string>
+    <string name="rate_us_message">Xin chúc mừng ..!!! \ n \ n địa chỉ liên hệ của bạn đã được phục hồi. \ n \ n vui lòng xem lại chúng tôi.</string>
+    <string name="rate_us_positive_button">Đánh giá chúng tôi.</string>
+    <string name="rate_us_negative_button">Liên hệ chúng tôi.</string>
+    <string name="rate_us_neutral_button">Không phải bây giờ.</string>
+</resources>

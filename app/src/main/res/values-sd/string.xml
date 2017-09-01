@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">ڊي کي رابطو ڪيو ويو</string><string name="all_contact">رابطا</string><string name="deleted_contact">ختم ٿيل</string><string name="no_data_found">ڪوبه ڊيٽا نه مليو</string><string name="dismiss">بيقرار ڪريو</string><string name="share">شيئر ڪريو</string><string name="thank_you">حصيداري / دعوت ڏيڻ لاء مهرباني</string><string name="contact_developer">مسئلو ٿي سگھي ٿي، ڊولپر ترقيڪار سان رابطو ڪريو.</string><string name="install_whats_app">پهرين انسٽالٽ ايپ سيٽ ڪريو</string><string name="install">انسٽال ڪريو</string><string name="coming_soon">جلد اچي رهيو آهي</string><string name="rating_thank_you_message">توهان جي 5 ستارن جي درجه بندي جي مهرباني</string><string name="press_again_to_exit">مهرباني ڪري نڪرڻ لاء ٻيهر واپس ڪلڪ ڪريو</string><string name="try_after_some_time">ڪجهه وقت کان پوء ڪوشش ڪريو</string><string name="action_language">ٻولي</string><string name="action_rate_us">اسان جي درجه بندي ڪريو</string><string name="action_refresh">ريفريش</string><string name="action_restore_all">سڀني کي بحال ڪريو</string><string name="action_app_invite">دعوت نامو دوست</string><string name="action_contact_us">اسان سان رابطو ڪريو</string><string name="contact_name">رابطو نالو</string><string name="contact_phone_number">رابطي جو نمبر</string><string name="contact_account_type">اڪائونٽ جو قسم</string><string name="description_contact_photo">رابطو فوٽو</string><string name="description_contact_info">رابطي جي ڄاڻ</string><string name="static_contact_us_whats_app">رابطي سان سڌو سنئون ايپ تي رابطو ڪريو.</string><string name="static_contact_us_developer">ڊولپرز، ٽرينرز ۽ مدد ڏيڻ لاء گوگل گروپ.</string><string name="static_contact_us_language">Translators and Language Lovers for Google+ گروپ.</string><string name="static_contact_us_google_plus">Google+ تي مون سان ملڻ لاء.</string><string name="static_contact_us_linkedin">شراکت ۽ ڊولپر طور شامل ٿيڻ لاء.</string><string name="static_contact_us_facebook">سرڪاري فيسفري صفحو.</string><string name="invite_title">دعوت نامو دوست</string><string name="invite_message">رابطي سان ختم ٿيل آهي اوپن منبع، فريائيئر، اشتهارسازي مفت ۽ ايپليڪيشن ايپ.</string><string name="permission">اجازت</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE اجازت جي ضرورت آهي</string><string name="permission_message_read_contact">READ_CONTACTS اجازت جي ضرورت آهي</string><string name="permission_message_write_contact">WRITE_CONTACTS اجازت جي ضرورت آهي</string><string name="permission_grant">خليفو</string><string name="restore">بحال ڪريو</string><string name="rate_us_title">اسان جي لاء ريٽي اهم آهي</string><string name="rate_us_message">مبارڪون ..!!! \ n \ n توھان جي رابطن ۾ ورجايل آھي. \ n \ n مهرباني ڪري اسان جو جائزو وٺو.</string><string name="rate_us_positive_button">اسان جي درجه بندي ڪريو.</string><string name="rate_us_negative_button">اسان سان رابطو ڪريو.</string><string name="rate_us_neutral_button">هاڻ نه.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">ڊي کي رابطو ڪيو ويو</string>
+    <string name="all_contact">رابطا</string>
+    <string name="deleted_contact">ختم ٿيل</string>
+    <string name="no_data_found">ڪوبه ڊيٽا نه مليو</string>
+    <string name="dismiss">بيقرار ڪريو</string>
+    <string name="share">شيئر ڪريو</string>
+    <string name="thank_you">حصيداري / دعوت ڏيڻ لاء مهرباني</string>
+    <string name="contact_developer">مسئلو ٿي سگھي ٿي، ڊولپر ترقيڪار سان رابطو ڪريو.</string>
+    <string name="install_whats_app">پهرين انسٽالٽ ايپ سيٽ ڪريو</string>
+    <string name="install">انسٽال ڪريو</string>
+    <string name="coming_soon">جلد اچي رهيو آهي</string>
+    <string name="rating_thank_you_message">توهان جي 5 ستارن جي درجه بندي جي مهرباني</string>
+    <string name="press_again_to_exit">مهرباني ڪري نڪرڻ لاء ٻيهر واپس ڪلڪ ڪريو</string>
+    <string name="try_after_some_time">ڪجهه وقت کان پوء ڪوشش ڪريو</string>
+    <string name="action_language">ٻولي</string>
+    <string name="action_rate_us">اسان جي درجه بندي ڪريو</string>
+    <string name="action_refresh">ريفريش</string>
+    <string name="action_restore_all">سڀني کي بحال ڪريو</string>
+    <string name="action_app_invite">دعوت نامو دوست</string>
+    <string name="action_contact_us">اسان سان رابطو ڪريو</string>
+    <string name="contact_name">رابطو نالو</string>
+    <string name="contact_phone_number">رابطي جو نمبر</string>
+    <string name="contact_account_type">اڪائونٽ جو قسم</string>
+    <string name="description_contact_photo">رابطو فوٽو</string>
+    <string name="description_contact_info">رابطي جي ڄاڻ</string>
+    <string name="static_contact_us_whats_app">رابطي سان سڌو سنئون ايپ تي رابطو ڪريو.</string>
+    <string name="static_contact_us_developer">ڊولپرز، ٽرينرز ۽ مدد ڏيڻ لاء گوگل گروپ.</string>
+    <string name="static_contact_us_language">Translators and Language Lovers for Google+ گروپ.</string>
+    <string name="static_contact_us_google_plus">Google+ تي مون سان ملڻ لاء.</string>
+    <string name="static_contact_us_linkedin">شراکت ۽ ڊولپر طور شامل ٿيڻ لاء.</string>
+    <string name="static_contact_us_facebook">سرڪاري فيسفري صفحو.</string>
+    <string name="invite_title">دعوت نامو دوست</string>
+    <string name="invite_message">رابطي سان ختم ٿيل آهي اوپن منبع، فريائيئر، اشتهارسازي مفت ۽ ايپليڪيشن ايپ.</string>
+    <string name="permission">اجازت</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE اجازت جي ضرورت آهي</string>
+    <string name="permission_message_read_contact">READ_CONTACTS اجازت جي ضرورت آهي</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS اجازت جي ضرورت آهي</string>
+    <string name="permission_grant">خليفو</string>
+    <string name="restore">بحال ڪريو</string>
+    <string name="rate_us_title">اسان جي لاء ريٽي اهم آهي</string>
+    <string name="rate_us_message">مبارڪون ..!!! \ n \ n توھان جي رابطن ۾ ورجايل آھي. \ n \ n مهرباني ڪري اسان جو جائزو وٺو.</string>
+    <string name="rate_us_positive_button">اسان جي درجه بندي ڪريو.</string>
+    <string name="rate_us_negative_button">اسان سان رابطو ڪريو.</string>
+    <string name="rate_us_neutral_button">هاڻ نه.</string>
+</resources>

@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D Odstránený kontakt</string><string name="all_contact">kontakty</string><string name="deleted_contact">vypúšťa</string><string name="no_data_found">Neboli nájdené žiadne údaje</string><string name="dismiss">zamietnuť</string><string name="share">zdieľam</string><string name="thank_you">Ďakujeme za zdieľanie / pozvanie</string><string name="contact_developer">Vyskytne sa chyba, kontaktujte vývojára.</string><string name="install_whats_app">Najprv nainštalujte aplikáciu Whats App</string><string name="install">Inštalovať</string><string name="coming_soon">Už čoskoro</string><string name="rating_thank_you_message">Ďakujeme za hodnotenie 5 hviezdičiek</string><string name="press_again_to_exit">Ak chcete opustiť, kliknite opäť na tlačidlo Späť</string><string name="try_after_some_time">Skúste po určitom čase</string><string name="action_language">Jazyk</string><string name="action_rate_us">Ohodnoť nás</string><string name="action_refresh">Obnoviť</string><string name="action_restore_all">Obnoviť všetky</string><string name="action_app_invite">Pozvať priateľov</string><string name="action_contact_us">Kontaktuj nás</string><string name="contact_name">Kontaktné meno</string><string name="contact_phone_number">Kontaktné číslo</string><string name="contact_account_type">Typ účtu</string><string name="description_contact_photo">Kontaktovať fotografiu</string><string name="description_contact_info">Kontaktné informácie</string><string name="static_contact_us_whats_app">Kontaktujte vývojára priamo na stránke WhatsApp.</string><string name="static_contact_us_developer">Skupina Google+ pre vývojárov, skúšajúcich a prispievateľov.</string><string name="static_contact_us_language">Skupina Google+ pre prekladateľov a milovníkov jazyka.</string><string name="static_contact_us_google_plus">Spoznajte ma na Google+.</string><string name="static_contact_us_linkedin">Pripojiť sa ako prispievateľ a vývojár.</string><string name="static_contact_us_facebook">Oficiálna Facebooková stránka.</string><string name="invite_title">Pozvať priateľov</string><string name="invite_message">Odstránený kontakt je Open Source, Freeware, Inzercia bez aplikácie pre Android.</string><string name="permission">dovolenia</string><string name="permission_message_write_external_storage">Povolenie WRITE_EXTERNAL_STORAGE je potrebné</string><string name="permission_message_read_contact">Povolenie READ_CONTACTS je potrebné</string><string name="permission_message_write_contact">Povolenie WRITE_CONTACTS je potrebné</string><string name="permission_grant">grant</string><string name="restore">obnoviť</string><string name="rate_us_title">hodnotenie je pre nás dôležité</string><string name="rate_us_message">gratulujeme .. !!! \ n \ n vaše kontakty sa obnovia. \ n \ n nás prosím prečítajte.</string><string name="rate_us_positive_button">Ohodnoť nás.</string><string name="rate_us_negative_button">Kontaktuj nás.</string><string name="rate_us_neutral_button">Teraz nie.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Odstránený kontakt</string>
+    <string name="all_contact">kontakty</string>
+    <string name="deleted_contact">vypúšťa</string>
+    <string name="no_data_found">Neboli nájdené žiadne údaje</string>
+    <string name="dismiss">zamietnuť</string>
+    <string name="share">zdieľam</string>
+    <string name="thank_you">Ďakujeme za zdieľanie / pozvanie</string>
+    <string name="contact_developer">Vyskytne sa chyba, kontaktujte vývojára.</string>
+    <string name="install_whats_app">Najprv nainštalujte aplikáciu Whats App</string>
+    <string name="install">Inštalovať</string>
+    <string name="coming_soon">Už čoskoro</string>
+    <string name="rating_thank_you_message">Ďakujeme za hodnotenie 5 hviezdičiek</string>
+    <string name="press_again_to_exit">Ak chcete opustiť, kliknite opäť na tlačidlo Späť</string>
+    <string name="try_after_some_time">Skúste po určitom čase</string>
+    <string name="action_language">Jazyk</string>
+    <string name="action_rate_us">Ohodnoť nás</string>
+    <string name="action_refresh">Obnoviť</string>
+    <string name="action_restore_all">Obnoviť všetky</string>
+    <string name="action_app_invite">Pozvať priateľov</string>
+    <string name="action_contact_us">Kontaktuj nás</string>
+    <string name="contact_name">Kontaktné meno</string>
+    <string name="contact_phone_number">Kontaktné číslo</string>
+    <string name="contact_account_type">Typ účtu</string>
+    <string name="description_contact_photo">Kontaktovať fotografiu</string>
+    <string name="description_contact_info">Kontaktné informácie</string>
+    <string name="static_contact_us_whats_app">Kontaktujte vývojára priamo na stránke WhatsApp.</string>
+    <string name="static_contact_us_developer">Skupina Google+ pre vývojárov, skúšajúcich a prispievateľov.</string>
+    <string name="static_contact_us_language">Skupina Google+ pre prekladateľov a milovníkov jazyka.</string>
+    <string name="static_contact_us_google_plus">Spoznajte ma na Google+.</string>
+    <string name="static_contact_us_linkedin">Pripojiť sa ako prispievateľ a vývojár.</string>
+    <string name="static_contact_us_facebook">Oficiálna Facebooková stránka.</string>
+    <string name="invite_title">Pozvať priateľov</string>
+    <string name="invite_message">Odstránený kontakt je Open Source, Freeware, Inzercia bez aplikácie pre Android.</string>
+    <string name="permission">dovolenia</string>
+    <string name="permission_message_write_external_storage">Povolenie WRITE_EXTERNAL_STORAGE je potrebné</string>
+    <string name="permission_message_read_contact">Povolenie READ_CONTACTS je potrebné</string>
+    <string name="permission_message_write_contact">Povolenie WRITE_CONTACTS je potrebné</string>
+    <string name="permission_grant">grant</string>
+    <string name="restore">obnoviť</string>
+    <string name="rate_us_title">hodnotenie je pre nás dôležité</string>
+    <string name="rate_us_message">gratulujeme .. !!! \ n \ n vaše kontakty sa obnovia. \ n \ n nás prosím prečítajte.</string>
+    <string name="rate_us_positive_button">Ohodnoť nás.</string>
+    <string name="rate_us_negative_button">Kontaktuj nás.</string>
+    <string name="rate_us_neutral_button">Teraz nie.</string>
+</resources>

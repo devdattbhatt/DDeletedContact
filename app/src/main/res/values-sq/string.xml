@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D Deleted Kontakt</string><string name="all_contact">Kontaktet</string><string name="deleted_contact">deleted</string><string name="no_data_found">Nuk gjetën të dhëna</string><string name="dismiss">shkarkoj</string><string name="share">pjesë</string><string name="thank_you">Faleminderit për pjesën / ftesën</string><string name="contact_developer">Gabim ndodh, zhvilluesi i kontaktit.</string><string name="install_whats_app">Instaloni Whats App fillimisht</string><string name="install">instaloj</string><string name="coming_soon">Vjen së shpejti</string><string name="rating_thank_you_message">Faleminderit për 5 yje ratings</string><string name="press_again_to_exit">Ju lutemi klikoni përsëri për të dalë</string><string name="try_after_some_time">Provoni pas disa kohe</string><string name="action_language">Gjuhe</string><string name="action_rate_us">Na vleresoni</string><string name="action_refresh">Rifreskoj</string><string name="action_restore_all">Rivendos të gjitha</string><string name="action_app_invite">Ftoni miqtë</string><string name="action_contact_us">Na kontaktoni</string><string name="contact_name">Emri i kontaktit</string><string name="contact_phone_number">Numri i kontaktit</string><string name="contact_account_type">Lloji i Llogarisë</string><string name="description_contact_photo">Kontaktoni foton</string><string name="description_contact_info">Kontakt info</string><string name="static_contact_us_whats_app">Kontaktoni zhvilluesin direkt në WhatsApp.</string><string name="static_contact_us_developer">Grupi Google + për zhvilluesit, testuesit dhe kontribuesit.</string><string name="static_contact_us_language">Grupi Google+ për përkthyesit dhe për ata që duan gjuhë.</string><string name="static_contact_us_google_plus">Të takohemi në Google+.</string><string name="static_contact_us_linkedin">Për t&amp;#39;u bashkuar si kontribues dhe zhvillues.</string><string name="static_contact_us_facebook">Faqja zyrtare në Facebook.</string><string name="invite_title">Ftoni miqtë</string><string name="invite_message">Fshirja e kontaktit është Open-source, Freeware, Adware-free app android.</string><string name="permission">leje</string><string name="permission_message_write_external_storage">Leja WRITE_EXTERNAL_STORAGE është e nevojshme</string><string name="permission_message_read_contact">Leja READ_CONTACTS është e nevojshme</string><string name="permission_message_write_contact">Leja WRITE_CONTACTS është e nevojshme</string><string name="permission_grant">Grant</string><string name="restore">kthej</string><string name="rate_us_title">Vlerësimi është i rëndësishëm për ne</string><string name="rate_us_message">Urime ..!!! \ n \ n kontaktet tuaja janë rikuperuar. \ n \ n ju ​​lutem na shikoni.</string><string name="rate_us_positive_button">Na vleresoni.</string><string name="rate_us_negative_button">Na kontaktoni.</string><string name="rate_us_neutral_button">Jo tani.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Deleted Kontakt</string>
+    <string name="all_contact">Kontaktet</string>
+    <string name="deleted_contact">deleted</string>
+    <string name="no_data_found">Nuk gjetën të dhëna</string>
+    <string name="dismiss">shkarkoj</string>
+    <string name="share">pjesë</string>
+    <string name="thank_you">Faleminderit për pjesën / ftesën</string>
+    <string name="contact_developer">Gabim ndodh, zhvilluesi i kontaktit.</string>
+    <string name="install_whats_app">Instaloni Whats App fillimisht</string>
+    <string name="install">instaloj</string>
+    <string name="coming_soon">Vjen së shpejti</string>
+    <string name="rating_thank_you_message">Faleminderit për 5 yje ratings</string>
+    <string name="press_again_to_exit">Ju lutemi klikoni përsëri për të dalë</string>
+    <string name="try_after_some_time">Provoni pas disa kohe</string>
+    <string name="action_language">Gjuhe</string>
+    <string name="action_rate_us">Na vleresoni</string>
+    <string name="action_refresh">Rifreskoj</string>
+    <string name="action_restore_all">Rivendos të gjitha</string>
+    <string name="action_app_invite">Ftoni miqtë</string>
+    <string name="action_contact_us">Na kontaktoni</string>
+    <string name="contact_name">Emri i kontaktit</string>
+    <string name="contact_phone_number">Numri i kontaktit</string>
+    <string name="contact_account_type">Lloji i Llogarisë</string>
+    <string name="description_contact_photo">Kontaktoni foton</string>
+    <string name="description_contact_info">Kontakt info</string>
+    <string name="static_contact_us_whats_app">Kontaktoni zhvilluesin direkt në WhatsApp.</string>
+    <string name="static_contact_us_developer">Grupi Google + për zhvilluesit, testuesit dhe kontribuesit.</string>
+    <string name="static_contact_us_language">Grupi Google+ për përkthyesit dhe për ata që duan gjuhë.</string>
+    <string name="static_contact_us_google_plus">Të takohemi në Google+.</string>
+    <string name="static_contact_us_linkedin">Për t&amp;#39;u bashkuar si kontribues dhe zhvillues.</string>
+    <string name="static_contact_us_facebook">Faqja zyrtare në Facebook.</string>
+    <string name="invite_title">Ftoni miqtë</string>
+    <string name="invite_message">Fshirja e kontaktit është Open-source, Freeware, Adware-free app android.</string>
+    <string name="permission">leje</string>
+    <string name="permission_message_write_external_storage">Leja WRITE_EXTERNAL_STORAGE është e nevojshme</string>
+    <string name="permission_message_read_contact">Leja READ_CONTACTS është e nevojshme</string>
+    <string name="permission_message_write_contact">Leja WRITE_CONTACTS është e nevojshme</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">kthej</string>
+    <string name="rate_us_title">Vlerësimi është i rëndësishëm për ne</string>
+    <string name="rate_us_message">Urime ..!!! \ n \ n kontaktet tuaja janë rikuperuar. \ n \ n ju ​​lutem na shikoni.</string>
+    <string name="rate_us_positive_button">Na vleresoni.</string>
+    <string name="rate_us_negative_button">Na kontaktoni.</string>
+    <string name="rate_us_neutral_button">Jo tani.</string>
+</resources>

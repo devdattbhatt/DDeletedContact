@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D Dzingwa Kukurukurirana</string><string name="all_contact">Vatengi</string><string name="deleted_contact">Kucheneswa</string><string name="no_data_found">Kwete Dhina Dzakawanikwa</string><string name="dismiss">Dzinga</string><string name="share">Share</string><string name="thank_you">Ndinokutendai nokuda kwekugovera / kukoka</string><string name="contact_developer">Kukanganisa kunoitika, taura neunyanzvi.</string><string name="install_whats_app">Isa Whats App kutanga</string><string name="install">Isa</string><string name="coming_soon">Kuuya manje manje</string><string name="rating_thank_you_message">Ndinokutendai nokuda kwe 5 nyota nyanzvi</string><string name="press_again_to_exit">Ndapota chengetera zvakare kuti uende</string><string name="try_after_some_time">Edza Mushure Mimwe Nguva</string><string name="action_language">Mutauro</string><string name="action_rate_us">Rate us</string><string name="action_refresh">Zororazve</string><string name="action_restore_all">Dzoserai Zvose</string><string name="action_app_invite">Kumbira Shamwari</string><string name="action_contact_us">Taura nesu</string><string name="contact_name">Zita rekubatana</string><string name="contact_phone_number">Nhamba yekubatanidza</string><string name="contact_account_type">Tsika Yenyaya</string><string name="description_contact_photo">Contact Photo</string><string name="description_contact_info">Contact contact</string><string name="static_contact_us_whats_app">Bata nyanzvi zvakananga pane WhatsApp.</string><string name="static_contact_us_developer">Gulu reGoogle + reVatadziri, Testers uye vanopa.</string><string name="static_contact_us_language">Gulu reGoogle + reVashanduri neLimi vanodiwa.</string><string name="static_contact_us_google_plus">Kuti andisangane neni paGoogle +.</string><string name="static_contact_us_linkedin">Kubatana sevatsigiri neMusununguri.</string><string name="static_contact_us_facebook">Official Facebook Page.</string><string name="invite_title">Kumbira Shamwari</string><string name="invite_message">Deleted Contact Neshoko re Open-source, Freeware, Advertise-free app yeAndroid.</string><string name="permission">Chirevo</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE mvumo inodiwa</string><string name="permission_message_read_contact">READ_CONTACTS mvumo inodiwa</string><string name="permission_message_write_contact">WRITE_CONTACTS mvumo inodiwa</string><string name="permission_grant">Grant</string><string name="restore">Dzorera</string><string name="rate_us_title">chiyero chinokosha kwatiri</string><string name="rate_us_message">makorokoto ..!!! \ n \ n nhare dzako dzinodzorerwa. \ n \ n tapota tiongorore isu.</string><string name="rate_us_positive_button">Rate us.</string><string name="rate_us_negative_button">Taura nesu.</string><string name="rate_us_neutral_button">Kwete izvozvi.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Dzingwa Kukurukurirana</string>
+    <string name="all_contact">Vatengi</string>
+    <string name="deleted_contact">Kucheneswa</string>
+    <string name="no_data_found">Kwete Dhina Dzakawanikwa</string>
+    <string name="dismiss">Dzinga</string>
+    <string name="share">Share</string>
+    <string name="thank_you">Ndinokutendai nokuda kwekugovera / kukoka</string>
+    <string name="contact_developer">Kukanganisa kunoitika, taura neunyanzvi.</string>
+    <string name="install_whats_app">Isa Whats App kutanga</string>
+    <string name="install">Isa</string>
+    <string name="coming_soon">Kuuya manje manje</string>
+    <string name="rating_thank_you_message">Ndinokutendai nokuda kwe 5 nyota nyanzvi</string>
+    <string name="press_again_to_exit">Ndapota chengetera zvakare kuti uende</string>
+    <string name="try_after_some_time">Edza Mushure Mimwe Nguva</string>
+    <string name="action_language">Mutauro</string>
+    <string name="action_rate_us">Rate us</string>
+    <string name="action_refresh">Zororazve</string>
+    <string name="action_restore_all">Dzoserai Zvose</string>
+    <string name="action_app_invite">Kumbira Shamwari</string>
+    <string name="action_contact_us">Taura nesu</string>
+    <string name="contact_name">Zita rekubatana</string>
+    <string name="contact_phone_number">Nhamba yekubatanidza</string>
+    <string name="contact_account_type">Tsika Yenyaya</string>
+    <string name="description_contact_photo">Contact Photo</string>
+    <string name="description_contact_info">Contact contact</string>
+    <string name="static_contact_us_whats_app">Bata nyanzvi zvakananga pane WhatsApp.</string>
+    <string name="static_contact_us_developer">Gulu reGoogle + reVatadziri, Testers uye vanopa.</string>
+    <string name="static_contact_us_language">Gulu reGoogle + reVashanduri neLimi vanodiwa.</string>
+    <string name="static_contact_us_google_plus">Kuti andisangane neni paGoogle +.</string>
+    <string name="static_contact_us_linkedin">Kubatana sevatsigiri neMusununguri.</string>
+    <string name="static_contact_us_facebook">Official Facebook Page.</string>
+    <string name="invite_title">Kumbira Shamwari</string>
+    <string name="invite_message">Deleted Contact Neshoko re Open-source, Freeware, Advertise-free app yeAndroid.</string>
+    <string name="permission">Chirevo</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE mvumo inodiwa</string>
+    <string name="permission_message_read_contact">READ_CONTACTS mvumo inodiwa</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS mvumo inodiwa</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">Dzorera</string>
+    <string name="rate_us_title">chiyero chinokosha kwatiri</string>
+    <string name="rate_us_message">makorokoto ..!!! \ n \ n nhare dzako dzinodzorerwa. \ n \ n tapota tiongorore isu.</string>
+    <string name="rate_us_positive_button">Rate us.</string>
+    <string name="rate_us_negative_button">Taura nesu.</string>
+    <string name="rate_us_neutral_button">Kwete izvozvi.</string>
+</resources>

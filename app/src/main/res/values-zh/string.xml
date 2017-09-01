@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D已删除联系人</string><string name="all_contact">往来</string><string name="deleted_contact">删除</string><string name="no_data_found">没有找到数据</string><string name="dismiss">解雇</string><string name="share">分享</string><string name="thank_you">感谢您的分享/邀请</string><string name="contact_developer">发生错误，联系开发人员。</string><string name="install_whats_app">首先安装Whats App</string><string name="install">安装</string><string name="coming_soon">快来了</string><string name="rating_thank_you_message">感谢您的5星级评分</string><string name="press_again_to_exit">请再次点击返回退出</string><string name="try_after_some_time">尝试一段时间后</string><string name="action_language">语言</string><string name="action_rate_us">给我们评分</string><string name="action_refresh">刷新</string><string name="action_restore_all">恢复所有</string><string name="action_app_invite">邀请朋友</string><string name="action_contact_us">联系我们</string><string name="contact_name">联系人姓名</string><string name="contact_phone_number">联系电话</string><string name="contact_account_type">帐户类型</string><string name="description_contact_photo">联系照片</string><string name="description_contact_info">联系方式</string><string name="static_contact_us_whats_app">直接联系developerWorks的WhatsApp。</string><string name="static_contact_us_developer">开发人员，测试人员和贡献者的Google+小组。</string><string name="static_contact_us_language">翻译者和语言爱好者的Google+小组。</string><string name="static_contact_us_google_plus">在Google+上认识我</string><string name="static_contact_us_linkedin">加入作为贡献者和开发者。</string><string name="static_contact_us_facebook">官方Facebook页面。</string><string name="invite_title">邀请朋友</string><string name="invite_message">删除的联系人是开放源代码，免费软件，免费的Android应用程序。</string><string name="permission">允许</string><string name="permission_message_write_external_storage">需要WRITE_EXTERNAL_STORAGE权限</string><string name="permission_message_read_contact">需要READ_CONTACTS权限</string><string name="permission_message_write_contact">需要WRITE_CONTACTS权限</string><string name="permission_grant">格兰特</string><string name="restore">恢复</string><string name="rate_us_title">评级对我们很重要</string><string name="rate_us_message">恭喜！ \ n \ n您的联系人已恢复。 \ n \ n请查看我们。</string><string name="rate_us_positive_button">给我们评分</string><string name="rate_us_negative_button">联系我们。</string><string name="rate_us_neutral_button">不是现在。</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D已删除联系人</string>
+    <string name="all_contact">往来</string>
+    <string name="deleted_contact">删除</string>
+    <string name="no_data_found">没有找到数据</string>
+    <string name="dismiss">解雇</string>
+    <string name="share">分享</string>
+    <string name="thank_you">感谢您的分享/邀请</string>
+    <string name="contact_developer">发生错误，联系开发人员。</string>
+    <string name="install_whats_app">首先安装Whats App</string>
+    <string name="install">安装</string>
+    <string name="coming_soon">快来了</string>
+    <string name="rating_thank_you_message">感谢您的5星级评分</string>
+    <string name="press_again_to_exit">请再次点击返回退出</string>
+    <string name="try_after_some_time">尝试一段时间后</string>
+    <string name="action_language">语言</string>
+    <string name="action_rate_us">给我们评分</string>
+    <string name="action_refresh">刷新</string>
+    <string name="action_restore_all">恢复所有</string>
+    <string name="action_app_invite">邀请朋友</string>
+    <string name="action_contact_us">联系我们</string>
+    <string name="contact_name">联系人姓名</string>
+    <string name="contact_phone_number">联系电话</string>
+    <string name="contact_account_type">帐户类型</string>
+    <string name="description_contact_photo">联系照片</string>
+    <string name="description_contact_info">联系方式</string>
+    <string name="static_contact_us_whats_app">直接联系developerWorks的WhatsApp。</string>
+    <string name="static_contact_us_developer">开发人员，测试人员和贡献者的Google+小组。</string>
+    <string name="static_contact_us_language">翻译者和语言爱好者的Google+小组。</string>
+    <string name="static_contact_us_google_plus">在Google+上认识我</string>
+    <string name="static_contact_us_linkedin">加入作为贡献者和开发者。</string>
+    <string name="static_contact_us_facebook">官方Facebook页面。</string>
+    <string name="invite_title">邀请朋友</string>
+    <string name="invite_message">删除的联系人是开放源代码，免费软件，免费的Android应用程序。</string>
+    <string name="permission">允许</string>
+    <string name="permission_message_write_external_storage">需要WRITE_EXTERNAL_STORAGE权限</string>
+    <string name="permission_message_read_contact">需要READ_CONTACTS权限</string>
+    <string name="permission_message_write_contact">需要WRITE_CONTACTS权限</string>
+    <string name="permission_grant">格兰特</string>
+    <string name="restore">恢复</string>
+    <string name="rate_us_title">评级对我们很重要</string>
+    <string name="rate_us_message">恭喜！ \ n \ n您的联系人已恢复。 \ n \ n请查看我们。</string>
+    <string name="rate_us_positive_button">给我们评分</string>
+    <string name="rate_us_negative_button">联系我们。</string>
+    <string name="rate_us_neutral_button">不是现在。</string>
+</resources>

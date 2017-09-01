@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">Д Избрисан контакт</string><string name="all_contact">Контакти</string><string name="deleted_contact">Избрисан</string><string name="no_data_found">Није пронађен ниједан Подаци</string><string name="dismiss">Одбиј</string><string name="share">Објави</string><string name="thank_you">Хвала вам што сте поделили / позвали</string><string name="contact_developer">Појавила се грешка, контактирајте програмера.</string><string name="install_whats_app">Инсталирајте апликацију Вхатс Апп</string><string name="install">Инсталирај</string><string name="coming_soon">Долази ускоро</string><string name="rating_thank_you_message">Хвала на 5 звездица</string><string name="press_again_to_exit">Кликните поново да бисте изашли</string><string name="try_after_some_time">Покушајте после неког времена</string><string name="action_language">Језик</string><string name="action_rate_us">Оцените нас</string><string name="action_refresh">Обнови</string><string name="action_restore_all">Вратити све</string><string name="action_app_invite">Позовите пријатеље</string><string name="action_contact_us">Контактирајте нас</string><string name="contact_name">Контакт Име</string><string name="contact_phone_number">Контакт број</string><string name="contact_account_type">Тип налога</string><string name="description_contact_photo">Контактирајте фотографију</string><string name="description_contact_info">Контакт информације</string><string name="static_contact_us_whats_app">Контактирајте програмера директно на ВхатсАпп-у.</string><string name="static_contact_us_developer">Гоогле+ група за програмера, тестере и доприносе.</string><string name="static_contact_us_language">Гоогле+ група за љубитеље превода и љубитеља језика.</string><string name="static_contact_us_google_plus">Да ме упознате на Гоогле+.</string><string name="static_contact_us_linkedin">Да бисте се придружили као сарадник и програмер.</string><string name="static_contact_us_facebook">Службена Фацебоок страница.</string><string name="invite_title">Позовите пријатеље</string><string name="invite_message">Избрисан контакт је Опен-Соурце, Фрееваре, апликација за андроид без оглашавања.</string><string name="permission">Дозвола</string><string name="permission_message_write_external_storage">Потребна је дозвола ВРИТЕ_ЕКСТЕРНАЛ_СТОРАГЕ</string><string name="permission_message_read_contact">РЕАД_ЦОНТАЦТС дозвола је потребна</string><string name="permission_message_write_contact">Потребна је ВРИТЕ_ЦОНТАЦТС дозвола</string><string name="permission_grant">Грант</string><string name="restore">Вратите се</string><string name="rate_us_title">оцена је важна за нас</string><string name="rate_us_message">Честитам ..!!! \ н \ н ваши контакти се обнављају. \ н \ н Молимо вас да нас прегледате.</string><string name="rate_us_positive_button">Оцените нас.</string><string name="rate_us_negative_button">Контактирајте нас.</string><string name="rate_us_neutral_button">Не сада.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Д Избрисан контакт</string>
+    <string name="all_contact">Контакти</string>
+    <string name="deleted_contact">Избрисан</string>
+    <string name="no_data_found">Није пронађен ниједан Подаци</string>
+    <string name="dismiss">Одбиј</string>
+    <string name="share">Објави</string>
+    <string name="thank_you">Хвала вам што сте поделили / позвали</string>
+    <string name="contact_developer">Појавила се грешка, контактирајте програмера.</string>
+    <string name="install_whats_app">Инсталирајте апликацију Вхатс Апп</string>
+    <string name="install">Инсталирај</string>
+    <string name="coming_soon">Долази ускоро</string>
+    <string name="rating_thank_you_message">Хвала на 5 звездица</string>
+    <string name="press_again_to_exit">Кликните поново да бисте изашли</string>
+    <string name="try_after_some_time">Покушајте после неког времена</string>
+    <string name="action_language">Језик</string>
+    <string name="action_rate_us">Оцените нас</string>
+    <string name="action_refresh">Обнови</string>
+    <string name="action_restore_all">Вратити све</string>
+    <string name="action_app_invite">Позовите пријатеље</string>
+    <string name="action_contact_us">Контактирајте нас</string>
+    <string name="contact_name">Контакт Име</string>
+    <string name="contact_phone_number">Контакт број</string>
+    <string name="contact_account_type">Тип налога</string>
+    <string name="description_contact_photo">Контактирајте фотографију</string>
+    <string name="description_contact_info">Контакт информације</string>
+    <string name="static_contact_us_whats_app">Контактирајте програмера директно на ВхатсАпп-у.</string>
+    <string name="static_contact_us_developer">Гоогле+ група за програмера, тестере и доприносе.</string>
+    <string name="static_contact_us_language">Гоогле+ група за љубитеље превода и љубитеља језика.</string>
+    <string name="static_contact_us_google_plus">Да ме упознате на Гоогле+.</string>
+    <string name="static_contact_us_linkedin">Да бисте се придружили као сарадник и програмер.</string>
+    <string name="static_contact_us_facebook">Службена Фацебоок страница.</string>
+    <string name="invite_title">Позовите пријатеље</string>
+    <string name="invite_message">Избрисан контакт је Опен-Соурце, Фрееваре, апликација за андроид без оглашавања.</string>
+    <string name="permission">Дозвола</string>
+    <string name="permission_message_write_external_storage">Потребна је дозвола ВРИТЕ_ЕКСТЕРНАЛ_СТОРАГЕ</string>
+    <string name="permission_message_read_contact">РЕАД_ЦОНТАЦТС дозвола је потребна</string>
+    <string name="permission_message_write_contact">Потребна је ВРИТЕ_ЦОНТАЦТС дозвола</string>
+    <string name="permission_grant">Грант</string>
+    <string name="restore">Вратите се</string>
+    <string name="rate_us_title">оцена је важна за нас</string>
+    <string name="rate_us_message">Честитам ..!!! \ н \ н ваши контакти се обнављају. \ н \ н Молимо вас да нас прегледате.</string>
+    <string name="rate_us_positive_button">Оцените нас.</string>
+    <string name="rate_us_negative_button">Контактирајте нас.</string>
+    <string name="rate_us_neutral_button">Не сада.</string>
+</resources>

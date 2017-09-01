@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">$ D Ҳазф шуд барои тамос</string><string name="all_contact">Тамос</string><string name="deleted_contact">Филтри барчасбҳо</string><string name="no_data_found">Не маълумот ёфт</string><string name="dismiss">кушодан</string><string name="share">саҳм</string><string name="thank_you">Ташаккур ба шумо барои ҳиссаи / даъват</string><string name="contact_developer">Хато меоянд, таҳиякунанда тамос.</string><string name="install_whats_app">Install Whats Барномасозони аввал</string><string name="install">Install</string><string name="coming_soon">Ба зудӣ</string><string name="rating_thank_you_message">Ташаккур ба шумо барои рейтинги 5 ситора</string><string name="press_again_to_exit">Лутфан тугмаи бозгашт боз ба ростиву</string><string name="try_after_some_time">Кӯшиш кунед, ки баъд аз Баъзе Time</string><string name="action_language">забон</string><string name="action_rate_us">баҳо мо</string><string name="action_refresh">тару тоза кардан</string><string name="action_restore_all">барқарор Ҳамаи</string><string name="action_app_invite">даъват Дӯстони</string><string name="action_contact_us">Бо мо тамос гиред</string><string name="contact_name">номи мухотиб</string><string name="contact_phone_number">Телефон барои тамос</string><string name="contact_account_type">Намуди ҳисоб</string><string name="description_contact_photo">Тамос Аксҳо</string><string name="description_contact_info">маълумоти тамос</string><string name="static_contact_us_whats_app">Тамос таҳиякунанда бевосита дар Сайтҳо.</string><string name="static_contact_us_developer">Гурӯҳи Google+ барои лоиҳакашон, Testers ва саҳмгузорон.</string><string name="static_contact_us_language">Гурӯҳи Google+ барои тарҷумонҳо ва дӯстдорони забони.</string><string name="static_contact_us_google_plus">Барои ҷавобгӯ ман дар бораи Google+.</string><string name="static_contact_us_linkedin">Барои ҳамроҳ ҳамчун ҳиссагузор ва ташкилкунанда.</string><string name="static_contact_us_facebook">Расмии Page Facebook.</string><string name="invite_title">даъват Дӯстони</string><string name="invite_message">Филтри барчасбҳо Тамос бо Open-манбаъ, Freeware, озод Садо барнома-андроид аст.</string><string name="permission">Иљозати</string><string name="permission_message_write_external_storage">иҷозат WRITE_EXTERNAL_STORAGE зарур аст</string><string name="permission_message_read_contact">иҷозат READ_CONTACTS зарур аст</string><string name="permission_message_write_contact">иҷозат WRITE_CONTACTS зарур аст</string><string name="permission_grant">Гранти</string><string name="restore">барқарор</string><string name="rate_us_title">Рейтинги Барои мо муҳим аст</string><string name="rate_us_message">Табрикоти .. !!! \ Н \ н алоқаҳои худ ситонида мешавад. \ О \ о, лутфан ба мо аз назар гузаронед.</string><string name="rate_us_positive_button">Қурби.</string><string name="rate_us_negative_button">Бо мо тамос гиред.</string><string name="rate_us_neutral_button">Ҳозир не.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">$ D Ҳазф шуд барои тамос</string>
+    <string name="all_contact">Тамос</string>
+    <string name="deleted_contact">Филтри барчасбҳо</string>
+    <string name="no_data_found">Не маълумот ёфт</string>
+    <string name="dismiss">кушодан</string>
+    <string name="share">саҳм</string>
+    <string name="thank_you">Ташаккур ба шумо барои ҳиссаи / даъват</string>
+    <string name="contact_developer">Хато меоянд, таҳиякунанда тамос.</string>
+    <string name="install_whats_app">Install Whats Барномасозони аввал</string>
+    <string name="install">Install</string>
+    <string name="coming_soon">Ба зудӣ</string>
+    <string name="rating_thank_you_message">Ташаккур ба шумо барои рейтинги 5 ситора</string>
+    <string name="press_again_to_exit">Лутфан тугмаи бозгашт боз ба ростиву</string>
+    <string name="try_after_some_time">Кӯшиш кунед, ки баъд аз Баъзе Time</string>
+    <string name="action_language">забон</string>
+    <string name="action_rate_us">баҳо мо</string>
+    <string name="action_refresh">тару тоза кардан</string>
+    <string name="action_restore_all">барқарор Ҳамаи</string>
+    <string name="action_app_invite">даъват Дӯстони</string>
+    <string name="action_contact_us">Бо мо тамос гиред</string>
+    <string name="contact_name">номи мухотиб</string>
+    <string name="contact_phone_number">Телефон барои тамос</string>
+    <string name="contact_account_type">Намуди ҳисоб</string>
+    <string name="description_contact_photo">Тамос Аксҳо</string>
+    <string name="description_contact_info">маълумоти тамос</string>
+    <string name="static_contact_us_whats_app">Тамос таҳиякунанда бевосита дар Сайтҳо.</string>
+    <string name="static_contact_us_developer">Гурӯҳи Google+ барои лоиҳакашон, Testers ва саҳмгузорон.</string>
+    <string name="static_contact_us_language">Гурӯҳи Google+ барои тарҷумонҳо ва дӯстдорони забони.</string>
+    <string name="static_contact_us_google_plus">Барои ҷавобгӯ ман дар бораи Google+.</string>
+    <string name="static_contact_us_linkedin">Барои ҳамроҳ ҳамчун ҳиссагузор ва ташкилкунанда.</string>
+    <string name="static_contact_us_facebook">Расмии Page Facebook.</string>
+    <string name="invite_title">даъват Дӯстони</string>
+    <string name="invite_message">Филтри барчасбҳо Тамос бо Open-манбаъ, Freeware, озод Садо барнома-андроид аст.</string>
+    <string name="permission">Иљозати</string>
+    <string name="permission_message_write_external_storage">иҷозат WRITE_EXTERNAL_STORAGE зарур аст</string>
+    <string name="permission_message_read_contact">иҷозат READ_CONTACTS зарур аст</string>
+    <string name="permission_message_write_contact">иҷозат WRITE_CONTACTS зарур аст</string>
+    <string name="permission_grant">Гранти</string>
+    <string name="restore">барқарор</string>
+    <string name="rate_us_title">Рейтинги Барои мо муҳим аст</string>
+    <string name="rate_us_message">Табрикоти .. !!! \ Н \ н алоқаҳои худ ситонида мешавад. \ О \ о, лутфан ба мо аз назар гузаронед.</string>
+    <string name="rate_us_positive_button">Қурби.</string>
+    <string name="rate_us_negative_button">Бо мо тамос гиред.</string>
+    <string name="rate_us_neutral_button">Ҳозир не.</string>
+</resources>
