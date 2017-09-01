@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D মুছে ফেলা পরিচিতি</string><string name="all_contact">যোগাযোগ</string><string name="deleted_contact">মোছা</string><string name="no_data_found">কোনও ডেটা পাওয়া যায়নি</string><string name="dismiss">খারিজ করা</string><string name="share">ভাগ</string><string name="thank_you">ভাগ / আমন্ত্রণের জন্য আপনাকে ধন্যবাদ</string><string name="contact_developer">ত্রুটি ঘটেছে, যোগাযোগ বিকাশকারী।</string><string name="install_whats_app">Whats অ্যাপ প্রথম ইনস্টল করুন</string><string name="install">ইনস্টল করুন</string><string name="coming_soon">শীঘ্রই আসছে</string><string name="rating_thank_you_message">5 তারকা রেটিংগুলির জন্য আপনাকে ধন্যবাদ</string><string name="press_again_to_exit">প্রস্থান করার জন্য দয়া করে আবার ক্লিক করুন</string><string name="try_after_some_time">কিছু সময় পরে চেষ্টা করুন</string><string name="action_language">ভাষা</string><string name="action_rate_us">আমাদের ব্যাপারে আপনার মতামত দিন</string><string name="action_refresh">সতেজ করা</string><string name="action_restore_all">সব পুনরুদ্ধার করুন</string><string name="action_app_invite">বন্ধুদের আমন্ত্রণ</string><string name="action_contact_us">আমাদের সাথে যোগাযোগ করুন</string><string name="contact_name">যোগাযোগের নাম</string><string name="contact_phone_number">যোগাযোগের নম্বর</string><string name="contact_account_type">অ্যাকাউন্ট ধরন</string><string name="description_contact_photo">যোগাযোগ</string><string name="description_contact_info">যোগাযোগের তথ্য</string><string name="static_contact_us_whats_app">হোয়াটসঅ্যাপ সরাসরি ডেভেলপার যোগাযোগ করুন।</string><string name="static_contact_us_developer">ডেভালোপার, পরীক্ষক এবং অবদানকারীর জন্য Google+ গোষ্ঠী।</string><string name="static_contact_us_language">অনুবাদক এবং ভাষা প্রেমীদের জন্য Google+ গ্রুপ</string><string name="static_contact_us_google_plus">আমাকে Google+ এ দেখা করতে</string><string name="static_contact_us_linkedin">অবদানকারী এবং বিকাশকারী হিসাবে যোগদান করতে</string><string name="static_contact_us_facebook">অফিসিয়াল ফেসবুক পাতা</string><string name="invite_title">বন্ধুদের আমন্ত্রণ</string><string name="invite_message">মুছে ফেলা পরিচিতি ওপেন সোর্স, ফ্রিওয়্যার, বিজ্ঞাপন-বিনামূল্যে অ্যান্ড্রয়েড অ্যাপ</string><string name="permission">অনুমতি</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE অনুমতি প্রয়োজন</string><string name="permission_message_read_contact">READ_CONTACTS অনুমতি প্রয়োজন</string><string name="permission_message_write_contact">WRITE_CONTACTS অনুমতি প্রয়োজন</string><string name="permission_grant">প্রদান</string><string name="restore">প্রত্যর্পণ করা</string><string name="rate_us_title">রেটিং আমাদের জন্য গুরুত্বপূর্ণ</string><string name="rate_us_message">অভিনন্দন .. !!! \ n \ n আপনার পরিচিতি পুনরুদ্ধার করা হয়। \ n \ n দয়া করে আমাদের পর্যালোচনা করুন।</string><string name="rate_us_positive_button">আমাদের ব্যাপারে আপনার মতামত দিন.</string><string name="rate_us_negative_button">আমাদের সাথে যোগাযোগ করুন.</string><string name="rate_us_neutral_button">এখন না.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D মুছে ফেলা পরিচিতি</string>
+    <string name="all_contact">যোগাযোগ</string>
+    <string name="deleted_contact">মোছা</string>
+    <string name="no_data_found">কোনও ডেটা পাওয়া যায়নি</string>
+    <string name="dismiss">খারিজ করা</string>
+    <string name="share">ভাগ</string>
+    <string name="thank_you">ভাগ / আমন্ত্রণের জন্য আপনাকে ধন্যবাদ</string>
+    <string name="contact_developer">ত্রুটি ঘটেছে, যোগাযোগ বিকাশকারী।</string>
+    <string name="install_whats_app">Whats অ্যাপ প্রথম ইনস্টল করুন</string>
+    <string name="install">ইনস্টল করুন</string>
+    <string name="coming_soon">শীঘ্রই আসছে</string>
+    <string name="rating_thank_you_message">5 তারকা রেটিংগুলির জন্য আপনাকে ধন্যবাদ</string>
+    <string name="press_again_to_exit">প্রস্থান করার জন্য দয়া করে আবার ক্লিক করুন</string>
+    <string name="try_after_some_time">কিছু সময় পরে চেষ্টা করুন</string>
+    <string name="action_language">ভাষা</string>
+    <string name="action_rate_us">আমাদের ব্যাপারে আপনার মতামত দিন</string>
+    <string name="action_refresh">সতেজ করা</string>
+    <string name="action_restore_all">সব পুনরুদ্ধার করুন</string>
+    <string name="action_app_invite">বন্ধুদের আমন্ত্রণ</string>
+    <string name="action_contact_us">আমাদের সাথে যোগাযোগ করুন</string>
+    <string name="contact_name">যোগাযোগের নাম</string>
+    <string name="contact_phone_number">যোগাযোগের নম্বর</string>
+    <string name="contact_account_type">অ্যাকাউন্ট ধরন</string>
+    <string name="description_contact_photo">যোগাযোগ</string>
+    <string name="description_contact_info">যোগাযোগের তথ্য</string>
+    <string name="static_contact_us_whats_app">হোয়াটসঅ্যাপ সরাসরি ডেভেলপার যোগাযোগ করুন।</string>
+    <string name="static_contact_us_developer">ডেভালোপার, পরীক্ষক এবং অবদানকারীর জন্য Google+ গোষ্ঠী।</string>
+    <string name="static_contact_us_language">অনুবাদক এবং ভাষা প্রেমীদের জন্য Google+ গ্রুপ</string>
+    <string name="static_contact_us_google_plus">আমাকে Google+ এ দেখা করতে</string>
+    <string name="static_contact_us_linkedin">অবদানকারী এবং বিকাশকারী হিসাবে যোগদান করতে</string>
+    <string name="static_contact_us_facebook">অফিসিয়াল ফেসবুক পাতা</string>
+    <string name="invite_title">বন্ধুদের আমন্ত্রণ</string>
+    <string name="invite_message">মুছে ফেলা পরিচিতি ওপেন সোর্স, ফ্রিওয়্যার, বিজ্ঞাপন-বিনামূল্যে অ্যান্ড্রয়েড অ্যাপ</string>
+    <string name="permission">অনুমতি</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE অনুমতি প্রয়োজন</string>
+    <string name="permission_message_read_contact">READ_CONTACTS অনুমতি প্রয়োজন</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS অনুমতি প্রয়োজন</string>
+    <string name="permission_grant">প্রদান</string>
+    <string name="restore">প্রত্যর্পণ করা</string>
+    <string name="rate_us_title">রেটিং আমাদের জন্য গুরুত্বপূর্ণ</string>
+    <string name="rate_us_message">অভিনন্দন .. !!! \ n \ n আপনার পরিচিতি পুনরুদ্ধার করা হয়। \ n \ n দয়া করে আমাদের পর্যালোচনা করুন।</string>
+    <string name="rate_us_positive_button">আমাদের ব্যাপারে আপনার মতামত দিন.</string>
+    <string name="rate_us_negative_button">আমাদের সাথে যোগাযোগ করুন.</string>
+    <string name="rate_us_neutral_button">এখন না.</string>
+</resources>

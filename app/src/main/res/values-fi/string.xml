@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D poistettu yhteystieto</string><string name="all_contact">Yhteydet</string><string name="deleted_contact">poistettu</string><string name="no_data_found">Dataa ei löytynyt</string><string name="dismiss">erottaa</string><string name="share">Jaa</string><string name="thank_you">Kiitos osuudesta / kutsusta</string><string name="contact_developer">Virhe esiintyy, ota yhteyttä kehittäjään.</string><string name="install_whats_app">Asenna ensin Whats App</string><string name="install">Asentaa</string><string name="coming_soon">Tulossa pian</string><string name="rating_thank_you_message">Kiitos 5 tähden arviosta</string><string name="press_again_to_exit">Poistu käytöstä napsauttamalla takaisin</string><string name="try_after_some_time">Kokeile jonkin ajan kuluttua</string><string name="action_language">Kieli</string><string name="action_rate_us">Anna meille arvosana</string><string name="action_refresh">virkistää</string><string name="action_restore_all">Palauta kaikki</string><string name="action_app_invite">Kutsua ystäviä</string><string name="action_contact_us">Ota meihin yhteyttä</string><string name="contact_name">Yhteyshenkilön nimi</string><string name="contact_phone_number">Yhteysnumero</string><string name="contact_account_type">Tilin tyyppi</string><string name="description_contact_photo">Ota yhteyttä valokuvaan</string><string name="description_contact_info">Yhteystiedot</string><string name="static_contact_us_whats_app">Ota yhteyttä kehittäjään suoraan WhatsApp-palvelussa.</string><string name="static_contact_us_developer">Google+ -ryhmä kehittäjille, testaajille ja osallistujille.</string><string name="static_contact_us_language">Google+ -ryhmä kääntäjille ja kielten ystäville.</string><string name="static_contact_us_google_plus">Tapaa minut Google+ -palvelussa.</string><string name="static_contact_us_linkedin">Liity osallistujaksi ja kehittäjänä.</string><string name="static_contact_us_facebook">Virallinen Facebook-sivu.</string><string name="invite_title">Kutsua ystäviä</string><string name="invite_message">Poistettu yhteystieto on avoin lähdekoodi, freeware, mainosta vapaa Android-sovellus.</string><string name="permission">Lupa</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE lupaa tarvitaan</string><string name="permission_message_read_contact">READ_CONTACTS-lupa tarvitaan</string><string name="permission_message_write_contact">WRITE_CONTACTS-lupa tarvitaan</string><string name="permission_grant">Myöntää</string><string name="restore">Palauttaa</string><string name="rate_us_title">luokitus on meille tärkeä</string><string name="rate_us_message">onnea ..!!! \ n \ n yhteystietosi palautetaan. \ n \ n ota meihin yhteyttä.</string><string name="rate_us_positive_button">Anna meille arvosana.</string><string name="rate_us_negative_button">Ota meihin yhteyttä.</string><string name="rate_us_neutral_button">Ei nyt.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D poistettu yhteystieto</string>
+    <string name="all_contact">Yhteydet</string>
+    <string name="deleted_contact">poistettu</string>
+    <string name="no_data_found">Dataa ei löytynyt</string>
+    <string name="dismiss">erottaa</string>
+    <string name="share">Jaa</string>
+    <string name="thank_you">Kiitos osuudesta / kutsusta</string>
+    <string name="contact_developer">Virhe esiintyy, ota yhteyttä kehittäjään.</string>
+    <string name="install_whats_app">Asenna ensin Whats App</string>
+    <string name="install">Asentaa</string>
+    <string name="coming_soon">Tulossa pian</string>
+    <string name="rating_thank_you_message">Kiitos 5 tähden arviosta</string>
+    <string name="press_again_to_exit">Poistu käytöstä napsauttamalla takaisin</string>
+    <string name="try_after_some_time">Kokeile jonkin ajan kuluttua</string>
+    <string name="action_language">Kieli</string>
+    <string name="action_rate_us">Anna meille arvosana</string>
+    <string name="action_refresh">virkistää</string>
+    <string name="action_restore_all">Palauta kaikki</string>
+    <string name="action_app_invite">Kutsua ystäviä</string>
+    <string name="action_contact_us">Ota meihin yhteyttä</string>
+    <string name="contact_name">Yhteyshenkilön nimi</string>
+    <string name="contact_phone_number">Yhteysnumero</string>
+    <string name="contact_account_type">Tilin tyyppi</string>
+    <string name="description_contact_photo">Ota yhteyttä valokuvaan</string>
+    <string name="description_contact_info">Yhteystiedot</string>
+    <string name="static_contact_us_whats_app">Ota yhteyttä kehittäjään suoraan WhatsApp-palvelussa.</string>
+    <string name="static_contact_us_developer">Google+ -ryhmä kehittäjille, testaajille ja osallistujille.</string>
+    <string name="static_contact_us_language">Google+ -ryhmä kääntäjille ja kielten ystäville.</string>
+    <string name="static_contact_us_google_plus">Tapaa minut Google+ -palvelussa.</string>
+    <string name="static_contact_us_linkedin">Liity osallistujaksi ja kehittäjänä.</string>
+    <string name="static_contact_us_facebook">Virallinen Facebook-sivu.</string>
+    <string name="invite_title">Kutsua ystäviä</string>
+    <string name="invite_message">Poistettu yhteystieto on avoin lähdekoodi, freeware, mainosta vapaa Android-sovellus.</string>
+    <string name="permission">Lupa</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE lupaa tarvitaan</string>
+    <string name="permission_message_read_contact">READ_CONTACTS-lupa tarvitaan</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS-lupa tarvitaan</string>
+    <string name="permission_grant">Myöntää</string>
+    <string name="restore">Palauttaa</string>
+    <string name="rate_us_title">luokitus on meille tärkeä</string>
+    <string name="rate_us_message">onnea ..!!! \ n \ n yhteystietosi palautetaan. \ n \ n ota meihin yhteyttä.</string>
+    <string name="rate_us_positive_button">Anna meille arvosana.</string>
+    <string name="rate_us_negative_button">Ota meihin yhteyttä.</string>
+    <string name="rate_us_neutral_button">Ei nyt.</string>
+</resources>

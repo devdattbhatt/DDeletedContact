@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D Cuntattate micca</string><string name="all_contact">Cuntatti</string><string name="deleted_contact">Deleted</string><string name="no_data_found">No Data Found</string><string name="dismiss">Caccia</string><string name="share">Share</string><string name="thank_you">Grazie per a parte / invita</string><string name="contact_developer">Errore si trova, cuntattate u sviluppatore.</string><string name="install_whats_app">Installa l&amp;#39;App iPhone 1</string><string name="install">Installa</string><string name="coming_soon">Prestu</string><string name="rating_thank_you_message">Grazie per i 5 stelle</string><string name="press_again_to_exit">Cliccate dopu per salir</string><string name="try_after_some_time">Pruvate dopu qualchì tempu</string><string name="action_language">Lingua</string><string name="action_rate_us">Valore a noi</string><string name="action_refresh">Refresh</string><string name="action_restore_all">Restore Tutti</string><string name="action_app_invite">Invita Amici</string><string name="action_contact_us">Cuntatta ci</string><string name="contact_name">U nome di cuntattu</string><string name="contact_phone_number">Numaru di cuntattu</string><string name="contact_account_type">Type de Account</string><string name="description_contact_photo">Contact Photo</string><string name="description_contact_info">Infurmazione di cuntattu</string><string name="static_contact_us_whats_app">Cuntattà à u sviluppatore direttamente nantu à WhatsApp.</string><string name="static_contact_us_developer">Gruppu di Google + per Developers, Testers è contributtori.</string><string name="static_contact_us_language">Gruppu di Google per i amatorii di Traduttori è Linguisti.</string><string name="static_contact_us_google_plus">Per meetà in Google+.</string><string name="static_contact_us_linkedin">Per Unisce cumportatore è sviluppatore.</string><string name="static_contact_us_facebook">Pagina Facebook ufficiale.</string><string name="invite_title">Invita Amici</string><string name="invite_message">U cuntattu hè abertitu Open-source, Freeware, App Android-free.</string><string name="permission">Permission</string><string name="permission_message_write_external_storage">Esse scrive permessu WRITE_EXTERNAL_STORAGE</string><string name="permission_message_read_contact">A permission hè READ_CONTACTS hè necessariu</string><string name="permission_message_write_contact">A permission hè WRITE_CONTACTS hè necessariu</string><string name="permission_grant">Grant</string><string name="restore">Restore</string><string name="rate_us_title">Unità hè impurtante per noi</string><string name="rate_us_message">felicità ... \ n \ n i vostri cuntatti sò ricuperati. \ n \ n vi ritenemu per noi.</string><string name="rate_us_positive_button">Valore a noi.</string><string name="rate_us_negative_button">Cuntatta ci.</string><string name="rate_us_neutral_button">Micca avà.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Cuntattate micca</string>
+    <string name="all_contact">Cuntatti</string>
+    <string name="deleted_contact">Deleted</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="dismiss">Caccia</string>
+    <string name="share">Share</string>
+    <string name="thank_you">Grazie per a parte / invita</string>
+    <string name="contact_developer">Errore si trova, cuntattate u sviluppatore.</string>
+    <string name="install_whats_app">Installa l&amp;#39;App iPhone 1</string>
+    <string name="install">Installa</string>
+    <string name="coming_soon">Prestu</string>
+    <string name="rating_thank_you_message">Grazie per i 5 stelle</string>
+    <string name="press_again_to_exit">Cliccate dopu per salir</string>
+    <string name="try_after_some_time">Pruvate dopu qualchì tempu</string>
+    <string name="action_language">Lingua</string>
+    <string name="action_rate_us">Valore a noi</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_restore_all">Restore Tutti</string>
+    <string name="action_app_invite">Invita Amici</string>
+    <string name="action_contact_us">Cuntatta ci</string>
+    <string name="contact_name">U nome di cuntattu</string>
+    <string name="contact_phone_number">Numaru di cuntattu</string>
+    <string name="contact_account_type">Type de Account</string>
+    <string name="description_contact_photo">Contact Photo</string>
+    <string name="description_contact_info">Infurmazione di cuntattu</string>
+    <string name="static_contact_us_whats_app">Cuntattà à u sviluppatore direttamente nantu à WhatsApp.</string>
+    <string name="static_contact_us_developer">Gruppu di Google + per Developers, Testers è contributtori.</string>
+    <string name="static_contact_us_language">Gruppu di Google per i amatorii di Traduttori è Linguisti.</string>
+    <string name="static_contact_us_google_plus">Per meetà in Google+.</string>
+    <string name="static_contact_us_linkedin">Per Unisce cumportatore è sviluppatore.</string>
+    <string name="static_contact_us_facebook">Pagina Facebook ufficiale.</string>
+    <string name="invite_title">Invita Amici</string>
+    <string name="invite_message">U cuntattu hè abertitu Open-source, Freeware, App Android-free.</string>
+    <string name="permission">Permission</string>
+    <string name="permission_message_write_external_storage">Esse scrive permessu WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_message_read_contact">A permission hè READ_CONTACTS hè necessariu</string>
+    <string name="permission_message_write_contact">A permission hè WRITE_CONTACTS hè necessariu</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">Restore</string>
+    <string name="rate_us_title">Unità hè impurtante per noi</string>
+    <string name="rate_us_message">felicità ... \ n \ n i vostri cuntatti sò ricuperati. \ n \ n vi ritenemu per noi.</string>
+    <string name="rate_us_positive_button">Valore a noi.</string>
+    <string name="rate_us_negative_button">Cuntatta ci.</string>
+    <string name="rate_us_neutral_button">Micca avà.</string>
+</resources>

@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D Izbrisan kontakt</string><string name="all_contact">kontakti</string><string name="deleted_contact">izbrisana</string><string name="no_data_found">Nisu pronađeni podaci</string><string name="dismiss">Odbaciti</string><string name="share">Podjeli</string><string name="thank_you">Hvala vam što ste podijelili / pozvali</string><string name="contact_developer">Došlo je do pogreške, kontaktirajte razvojnog programera.</string><string name="install_whats_app">Najprije instalirajte Whats App</string><string name="install">Instaliranje</string><string name="coming_soon">Dolazi uskoro</string><string name="rating_thank_you_message">Hvala vam na 5 zvjezdica</string><string name="press_again_to_exit">Ponovno kliknite natrag da biste izašli</string><string name="try_after_some_time">Pokušajte nakon nekog vremena</string><string name="action_language">Jezik</string><string name="action_rate_us">Ocijeni nas</string><string name="action_refresh">Osvježiti</string><string name="action_restore_all">Vraćanje svih</string><string name="action_app_invite">Pozvati prijatelje</string><string name="action_contact_us">Kontaktirajte nas</string><string name="contact_name">Ime kontakta</string><string name="contact_phone_number">Kontakt broj</string><string name="contact_account_type">Vrsta računa</string><string name="description_contact_photo">Kontaktirajte fotografiju</string><string name="description_contact_info">Kontakt informacije</string><string name="static_contact_us_whats_app">Obratite se programeru izravno na programu WhatsApp.</string><string name="static_contact_us_developer">Google+ grupa za razvojne programere, testere i suradnike.</string><string name="static_contact_us_language">Google+ grupa za prevoditelje i ljubitelje jezika.</string><string name="static_contact_us_google_plus">Da biste me upoznali na usluzi Google+.</string><string name="static_contact_us_linkedin">Pridruživanje kao suradnik i razvojni programer.</string><string name="static_contact_us_facebook">Službena Facebook stranica.</string><string name="invite_title">Pozvati prijatelje</string><string name="invite_message">Izbrisani kontakt je Open-source, freeware, aplikacija za androide bez oglasa.</string><string name="permission">Dopuštenje</string><string name="permission_message_write_external_storage">Potrebna je dopuštenje za WRITE_EXTERNAL_STORAGE</string><string name="permission_message_read_contact">READ_CONTACTS dopuštenje je potrebno</string><string name="permission_message_write_contact">Potrebna je dopuštenje za WRITE_CONTACTS</string><string name="permission_grant">Grant</string><string name="restore">Vratiti</string><string name="rate_us_title">ocjena je važna za nas</string><string name="rate_us_message">Čestitamo ..!!! \ n \ n vaši se kontakti oporavljaju. \ n \ n molimo pregledajte nas.</string><string name="rate_us_positive_button">Ocijeni nas.</string><string name="rate_us_negative_button">Kontaktirajte nas.</string><string name="rate_us_neutral_button">Ne sada.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Izbrisan kontakt</string>
+    <string name="all_contact">kontakti</string>
+    <string name="deleted_contact">izbrisana</string>
+    <string name="no_data_found">Nisu pronađeni podaci</string>
+    <string name="dismiss">Odbaciti</string>
+    <string name="share">Podjeli</string>
+    <string name="thank_you">Hvala vam što ste podijelili / pozvali</string>
+    <string name="contact_developer">Došlo je do pogreške, kontaktirajte razvojnog programera.</string>
+    <string name="install_whats_app">Najprije instalirajte Whats App</string>
+    <string name="install">Instaliranje</string>
+    <string name="coming_soon">Dolazi uskoro</string>
+    <string name="rating_thank_you_message">Hvala vam na 5 zvjezdica</string>
+    <string name="press_again_to_exit">Ponovno kliknite natrag da biste izašli</string>
+    <string name="try_after_some_time">Pokušajte nakon nekog vremena</string>
+    <string name="action_language">Jezik</string>
+    <string name="action_rate_us">Ocijeni nas</string>
+    <string name="action_refresh">Osvježiti</string>
+    <string name="action_restore_all">Vraćanje svih</string>
+    <string name="action_app_invite">Pozvati prijatelje</string>
+    <string name="action_contact_us">Kontaktirajte nas</string>
+    <string name="contact_name">Ime kontakta</string>
+    <string name="contact_phone_number">Kontakt broj</string>
+    <string name="contact_account_type">Vrsta računa</string>
+    <string name="description_contact_photo">Kontaktirajte fotografiju</string>
+    <string name="description_contact_info">Kontakt informacije</string>
+    <string name="static_contact_us_whats_app">Obratite se programeru izravno na programu WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ grupa za razvojne programere, testere i suradnike.</string>
+    <string name="static_contact_us_language">Google+ grupa za prevoditelje i ljubitelje jezika.</string>
+    <string name="static_contact_us_google_plus">Da biste me upoznali na usluzi Google+.</string>
+    <string name="static_contact_us_linkedin">Pridruživanje kao suradnik i razvojni programer.</string>
+    <string name="static_contact_us_facebook">Službena Facebook stranica.</string>
+    <string name="invite_title">Pozvati prijatelje</string>
+    <string name="invite_message">Izbrisani kontakt je Open-source, freeware, aplikacija za androide bez oglasa.</string>
+    <string name="permission">Dopuštenje</string>
+    <string name="permission_message_write_external_storage">Potrebna je dopuštenje za WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_message_read_contact">READ_CONTACTS dopuštenje je potrebno</string>
+    <string name="permission_message_write_contact">Potrebna je dopuštenje za WRITE_CONTACTS</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">Vratiti</string>
+    <string name="rate_us_title">ocjena je važna za nas</string>
+    <string name="rate_us_message">Čestitamo ..!!! \ n \ n vaši se kontakti oporavljaju. \ n \ n molimo pregledajte nas.</string>
+    <string name="rate_us_positive_button">Ocijeni nas.</string>
+    <string name="rate_us_negative_button">Kontaktirajte nas.</string>
+    <string name="rate_us_neutral_button">Ne sada.</string>
+</resources>

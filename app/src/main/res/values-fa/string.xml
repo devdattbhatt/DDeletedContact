@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D حذف تماس</string><string name="all_contact">اطلاعات تماس</string><string name="deleted_contact">حذف شده</string><string name="no_data_found">داده ای یافت نشد</string><string name="dismiss">رد</string><string name="share">اشتراک گذاری</string><string name="thank_you">با تشکر از شما برای اشتراک / دعوت</string><string name="contact_developer">خطا رخ می دهد، با توسعه دهنده تماس بگیرید</string><string name="install_whats_app">اولین برنامه Whats App را نصب کنید</string><string name="install">نصب</string><string name="coming_soon">به زودی</string><string name="rating_thank_you_message">تشکر از شما برای رتبه 5 ستاره</string><string name="press_again_to_exit">برای خروج لطفا دوباره کلیک کنید</string><string name="try_after_some_time">بعد از مدتی سعی کنید</string><string name="action_language">زبان</string><string name="action_rate_us">به ما رای دهید</string><string name="action_refresh">تازه کردن</string><string name="action_restore_all">بازگرداندن همه</string><string name="action_app_invite">دعوت دوستان</string><string name="action_contact_us">تماس با ما</string><string name="contact_name">نام تماس</string><string name="contact_phone_number">شماره تماس</string><string name="contact_account_type">نوع حساب</string><string name="description_contact_photo">عکس تماس بگیرید</string><string name="description_contact_info">اطلاعات تماس</string><string name="static_contact_us_whats_app">تماس با توسعه دهنده به طور مستقیم در WhatsApp.</string><string name="static_contact_us_developer">گروه Google+ برای توسعه دهندگان، آزمایشکنندگان و همکاران.</string><string name="static_contact_us_language">گروه Google+ برای مترجمان و دوستداران زبان.</string><string name="static_contact_us_google_plus">برای دیدار با من در + Google</string><string name="static_contact_us_linkedin">برای عضویت به عنوان همکار و توسعه دهنده باشید</string><string name="static_contact_us_facebook">صفحه فیس بوک رسمی</string><string name="invite_title">دعوت دوستان</string><string name="invite_message">تماس حذف شده است Open-source، Freeware، برنامه تبلیغاتی رایگان اندروید است.</string><string name="permission">مجوز</string><string name="permission_message_write_external_storage">مجوز WRITE_EXTERNAL_STORAGE مورد نیاز است</string><string name="permission_message_read_contact">READ_CONTACTS اجازه مورد نیاز است</string><string name="permission_message_write_contact">مجوز WRITE_CONTACTS مورد نیاز است</string><string name="permission_grant">اعطا کردن</string><string name="restore">بازگرداندن</string><string name="rate_us_title">رتبه بندی برای ما مهم است</string><string name="rate_us_message">مبارك باشد ..!!! \ n \ n مخاطبین شما بازیابی می شوند. \ n \ n لطفا ما را بررسی کنید.</string><string name="rate_us_positive_button">به ما رای دهید.</string><string name="rate_us_negative_button">تماس با ما.</string><string name="rate_us_neutral_button">الان نه.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D حذف تماس</string>
+    <string name="all_contact">اطلاعات تماس</string>
+    <string name="deleted_contact">حذف شده</string>
+    <string name="no_data_found">داده ای یافت نشد</string>
+    <string name="dismiss">رد</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="thank_you">با تشکر از شما برای اشتراک / دعوت</string>
+    <string name="contact_developer">خطا رخ می دهد، با توسعه دهنده تماس بگیرید</string>
+    <string name="install_whats_app">اولین برنامه Whats App را نصب کنید</string>
+    <string name="install">نصب</string>
+    <string name="coming_soon">به زودی</string>
+    <string name="rating_thank_you_message">تشکر از شما برای رتبه 5 ستاره</string>
+    <string name="press_again_to_exit">برای خروج لطفا دوباره کلیک کنید</string>
+    <string name="try_after_some_time">بعد از مدتی سعی کنید</string>
+    <string name="action_language">زبان</string>
+    <string name="action_rate_us">به ما رای دهید</string>
+    <string name="action_refresh">تازه کردن</string>
+    <string name="action_restore_all">بازگرداندن همه</string>
+    <string name="action_app_invite">دعوت دوستان</string>
+    <string name="action_contact_us">تماس با ما</string>
+    <string name="contact_name">نام تماس</string>
+    <string name="contact_phone_number">شماره تماس</string>
+    <string name="contact_account_type">نوع حساب</string>
+    <string name="description_contact_photo">عکس تماس بگیرید</string>
+    <string name="description_contact_info">اطلاعات تماس</string>
+    <string name="static_contact_us_whats_app">تماس با توسعه دهنده به طور مستقیم در WhatsApp.</string>
+    <string name="static_contact_us_developer">گروه Google+ برای توسعه دهندگان، آزمایشکنندگان و همکاران.</string>
+    <string name="static_contact_us_language">گروه Google+ برای مترجمان و دوستداران زبان.</string>
+    <string name="static_contact_us_google_plus">برای دیدار با من در + Google</string>
+    <string name="static_contact_us_linkedin">برای عضویت به عنوان همکار و توسعه دهنده باشید</string>
+    <string name="static_contact_us_facebook">صفحه فیس بوک رسمی</string>
+    <string name="invite_title">دعوت دوستان</string>
+    <string name="invite_message">تماس حذف شده است Open-source، Freeware، برنامه تبلیغاتی رایگان اندروید است.</string>
+    <string name="permission">مجوز</string>
+    <string name="permission_message_write_external_storage">مجوز WRITE_EXTERNAL_STORAGE مورد نیاز است</string>
+    <string name="permission_message_read_contact">READ_CONTACTS اجازه مورد نیاز است</string>
+    <string name="permission_message_write_contact">مجوز WRITE_CONTACTS مورد نیاز است</string>
+    <string name="permission_grant">اعطا کردن</string>
+    <string name="restore">بازگرداندن</string>
+    <string name="rate_us_title">رتبه بندی برای ما مهم است</string>
+    <string name="rate_us_message">مبارك باشد ..!!! \ n \ n مخاطبین شما بازیابی می شوند. \ n \ n لطفا ما را بررسی کنید.</string>
+    <string name="rate_us_positive_button">به ما رای دهید.</string>
+    <string name="rate_us_negative_button">تماس با ما.</string>
+    <string name="rate_us_neutral_button">الان نه.</string>
+</resources>

@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D изтрит контакт</string><string name="all_contact">Контакти</string><string name="deleted_contact">Изтрити</string><string name="no_data_found">Няма намерени данни</string><string name="dismiss">Отхвърляне</string><string name="share">Дял</string><string name="thank_you">Благодаря ви за споделянето / поканата</string><string name="contact_developer">Възникна грешка, създател на контакти.</string><string name="install_whats_app">Инсталирайте първо приложението Whats App</string><string name="install">инсталирам</string><string name="coming_soon">Очаквайте скоро</string><string name="rating_thank_you_message">Благодарим ви за оценките от 5 звезди</string><string name="press_again_to_exit">Моля, кликнете отново назад, за да излезете</string><string name="try_after_some_time">Опитайте след известно време</string><string name="action_language">език</string><string name="action_rate_us">Оцени ни</string><string name="action_refresh">Обновяване</string><string name="action_restore_all">Възстановяване на всички</string><string name="action_app_invite">Покани приятели</string><string name="action_contact_us">Свържете се с нас</string><string name="contact_name">Име за контакт</string><string name="contact_phone_number">Номер на контакта</string><string name="contact_account_type">Тип на профила</string><string name="description_contact_photo">Контакт Снимка</string><string name="description_contact_info">Информация за контакт</string><string name="static_contact_us_whats_app">Контакт разработчик директно на WhatsApp.</string><string name="static_contact_us_developer">Група Google+ за програмисти, тестери и сътрудници.</string><string name="static_contact_us_language">Група Google+ за преводачи и любители на езици.</string><string name="static_contact_us_google_plus">За да се запознаете с мен в Google+.</string><string name="static_contact_us_linkedin">Да се ​​присъедините като сътрудник и програмист.</string><string name="static_contact_us_facebook">Официално Facebook страница.</string><string name="invite_title">Покани приятели</string><string name="invite_message">Изтритият контакт е с отворен код, Freeware, без реклами.</string><string name="permission">разрешение</string><string name="permission_message_write_external_storage">Необходимо е WRITE_EXTERNAL_STORAGE разрешение</string><string name="permission_message_read_contact">READ_CONTACTS е необходимо разрешение</string><string name="permission_message_write_contact">WRITE_CONTACTS е необходимо разрешение</string><string name="permission_grant">Грант</string><string name="restore">Възстановяване</string><string name="rate_us_title">рейтингът е важен за нас</string><string name="rate_us_message">поздравления ..!!! \ n \ n контактите ви се възстановяват. \ n \ n моля, прегледайте ни.</string><string name="rate_us_positive_button">Оцени ни.</string><string name="rate_us_negative_button">Свържете се с нас.</string><string name="rate_us_neutral_button">Не сега.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D изтрит контакт</string>
+    <string name="all_contact">Контакти</string>
+    <string name="deleted_contact">Изтрити</string>
+    <string name="no_data_found">Няма намерени данни</string>
+    <string name="dismiss">Отхвърляне</string>
+    <string name="share">Дял</string>
+    <string name="thank_you">Благодаря ви за споделянето / поканата</string>
+    <string name="contact_developer">Възникна грешка, създател на контакти.</string>
+    <string name="install_whats_app">Инсталирайте първо приложението Whats App</string>
+    <string name="install">инсталирам</string>
+    <string name="coming_soon">Очаквайте скоро</string>
+    <string name="rating_thank_you_message">Благодарим ви за оценките от 5 звезди</string>
+    <string name="press_again_to_exit">Моля, кликнете отново назад, за да излезете</string>
+    <string name="try_after_some_time">Опитайте след известно време</string>
+    <string name="action_language">език</string>
+    <string name="action_rate_us">Оцени ни</string>
+    <string name="action_refresh">Обновяване</string>
+    <string name="action_restore_all">Възстановяване на всички</string>
+    <string name="action_app_invite">Покани приятели</string>
+    <string name="action_contact_us">Свържете се с нас</string>
+    <string name="contact_name">Име за контакт</string>
+    <string name="contact_phone_number">Номер на контакта</string>
+    <string name="contact_account_type">Тип на профила</string>
+    <string name="description_contact_photo">Контакт Снимка</string>
+    <string name="description_contact_info">Информация за контакт</string>
+    <string name="static_contact_us_whats_app">Контакт разработчик директно на WhatsApp.</string>
+    <string name="static_contact_us_developer">Група Google+ за програмисти, тестери и сътрудници.</string>
+    <string name="static_contact_us_language">Група Google+ за преводачи и любители на езици.</string>
+    <string name="static_contact_us_google_plus">За да се запознаете с мен в Google+.</string>
+    <string name="static_contact_us_linkedin">Да се ​​присъедините като сътрудник и програмист.</string>
+    <string name="static_contact_us_facebook">Официално Facebook страница.</string>
+    <string name="invite_title">Покани приятели</string>
+    <string name="invite_message">Изтритият контакт е с отворен код, Freeware, без реклами.</string>
+    <string name="permission">разрешение</string>
+    <string name="permission_message_write_external_storage">Необходимо е WRITE_EXTERNAL_STORAGE разрешение</string>
+    <string name="permission_message_read_contact">READ_CONTACTS е необходимо разрешение</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS е необходимо разрешение</string>
+    <string name="permission_grant">Грант</string>
+    <string name="restore">Възстановяване</string>
+    <string name="rate_us_title">рейтингът е важен за нас</string>
+    <string name="rate_us_message">поздравления ..!!! \ n \ n контактите ви се възстановяват. \ n \ n моля, прегледайте ни.</string>
+    <string name="rate_us_positive_button">Оцени ни.</string>
+    <string name="rate_us_negative_button">Свържете се с нас.</string>
+    <string name="rate_us_neutral_button">Не сега.</string>
+</resources>

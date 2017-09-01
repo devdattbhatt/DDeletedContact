@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D Deleted Contact</string><string name="all_contact">Lambobin sadarwa</string><string name="deleted_contact">share</string><string name="no_data_found">Babu Data Found</string><string name="dismiss">tsayar</string><string name="share">Share</string><string name="thank_you">Gode ​​da rabo / gayyata</string><string name="contact_developer">Kuskuren faruwa, contact developer.</string><string name="install_whats_app">Shigar Wane hali App farko</string><string name="install">shigar</string><string name="coming_soon">dawo nan da nan</string><string name="rating_thank_you_message">Gode ​​5 star ratings</string><string name="press_again_to_exit">Don Allah danna baya sake don fita</string><string name="try_after_some_time">Gwada Bayan Wasu Lokaci</string><string name="action_language">harshe</string><string name="action_rate_us">Rate mu</string><string name="action_refresh">Refresh</string><string name="action_restore_all">Dawo da All</string><string name="action_app_invite">gayyaci Abokai</string><string name="action_contact_us">Saduwa da mu</string><string name="contact_name">Contact sunan</string><string name="contact_phone_number">Contact yawan</string><string name="contact_account_type">account Type</string><string name="description_contact_photo">Contact Photo</string><string name="description_contact_info">Contact info</string><string name="static_contact_us_whats_app">Contact developer kai tsaye a kan WhatsApp.</string><string name="static_contact_us_developer">Google+ kungiyar for Developers, testers da kuma bayar da gudunmawa.</string><string name="static_contact_us_language">Google+ kungiyar for Translators da kuma Harshe masoya.</string><string name="static_contact_us_google_plus">Don Sadu da ni a kan Google+.</string><string name="static_contact_us_linkedin">Don Join a matsayin gudummawa da Developer.</string><string name="static_contact_us_facebook">Official Facebook Page.</string><string name="invite_title">gayyaci Abokai</string><string name="invite_message">Share Contact ne Open-source, Shareware, Tallata-free android app.</string><string name="permission">izni</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE izni ake bukata</string><string name="permission_message_read_contact">READ_CONTACTS izni ake bukata</string><string name="permission_message_write_contact">WRITE_CONTACTS izni ake bukata</string><string name="permission_grant">Grant</string><string name="restore">Dawo da</string><string name="rate_us_title">rating ne mai muhimmanci a gare mu mu</string><string name="rate_us_message">taya murna .. !!! \ N \ n lambobinka aka dawo dasu. \ N \ n don Allah a duba mu.</string><string name="rate_us_positive_button">Rate mu.</string><string name="rate_us_negative_button">Saduwa da mu.</string><string name="rate_us_neutral_button">Ba yanzu.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Deleted Contact</string>
+    <string name="all_contact">Lambobin sadarwa</string>
+    <string name="deleted_contact">share</string>
+    <string name="no_data_found">Babu Data Found</string>
+    <string name="dismiss">tsayar</string>
+    <string name="share">Share</string>
+    <string name="thank_you">Gode ​​da rabo / gayyata</string>
+    <string name="contact_developer">Kuskuren faruwa, contact developer.</string>
+    <string name="install_whats_app">Shigar Wane hali App farko</string>
+    <string name="install">shigar</string>
+    <string name="coming_soon">dawo nan da nan</string>
+    <string name="rating_thank_you_message">Gode ​​5 star ratings</string>
+    <string name="press_again_to_exit">Don Allah danna baya sake don fita</string>
+    <string name="try_after_some_time">Gwada Bayan Wasu Lokaci</string>
+    <string name="action_language">harshe</string>
+    <string name="action_rate_us">Rate mu</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_restore_all">Dawo da All</string>
+    <string name="action_app_invite">gayyaci Abokai</string>
+    <string name="action_contact_us">Saduwa da mu</string>
+    <string name="contact_name">Contact sunan</string>
+    <string name="contact_phone_number">Contact yawan</string>
+    <string name="contact_account_type">account Type</string>
+    <string name="description_contact_photo">Contact Photo</string>
+    <string name="description_contact_info">Contact info</string>
+    <string name="static_contact_us_whats_app">Contact developer kai tsaye a kan WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ kungiyar for Developers, testers da kuma bayar da gudunmawa.</string>
+    <string name="static_contact_us_language">Google+ kungiyar for Translators da kuma Harshe masoya.</string>
+    <string name="static_contact_us_google_plus">Don Sadu da ni a kan Google+.</string>
+    <string name="static_contact_us_linkedin">Don Join a matsayin gudummawa da Developer.</string>
+    <string name="static_contact_us_facebook">Official Facebook Page.</string>
+    <string name="invite_title">gayyaci Abokai</string>
+    <string name="invite_message">Share Contact ne Open-source, Shareware, Tallata-free android app.</string>
+    <string name="permission">izni</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE izni ake bukata</string>
+    <string name="permission_message_read_contact">READ_CONTACTS izni ake bukata</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS izni ake bukata</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">Dawo da</string>
+    <string name="rate_us_title">rating ne mai muhimmanci a gare mu mu</string>
+    <string name="rate_us_message">taya murna .. !!! \ N \ n lambobinka aka dawo dasu. \ N \ n don Allah a duba mu.</string>
+    <string name="rate_us_positive_button">Rate mu.</string>
+    <string name="rate_us_negative_button">Saduwa da mu.</string>
+    <string name="rate_us_neutral_button">Ba yanzu.</string>
+</resources>

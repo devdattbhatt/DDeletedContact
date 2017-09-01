@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D Deleted Tiv tauj</string><string name="all_contact">Muaj mob</string><string name="deleted_contact">deleted</string><string name="no_data_found">Tsis ntaub ntawv pom</string><string name="dismiss">Lawb tawm</string><string name="share">Qhia</string><string name="thank_you">Ua tsaug rau koj share / caw</string><string name="contact_developer">Yuam kev tshwm sim, hu rau tsim tawm.</string><string name="install_whats_app">Nruab Whats App thawj</string><string name="install">Nruab</string><string name="coming_soon">tab tom yuav tuaj</string><string name="rating_thank_you_message">Ua tsaug rau koj rau 5 lub hnub qub kev</string><string name="press_again_to_exit">Thov nias rov mus tawm</string><string name="try_after_some_time">Sim Tom qab ib txhia lub sij hawm</string><string name="action_language">lus</string><string name="action_rate_us">Npaum peb</string><string name="action_refresh">refresh</string><string name="action_restore_all">restore Tag nrho</string><string name="action_app_invite">caw phooj ywg</string><string name="action_contact_us">Tiv tauj peb</string><string name="contact_name">Tiv tauj lub npe</string><string name="contact_phone_number">Tiv tauj xov tooj</string><string name="contact_account_type">account hom</string><string name="description_contact_photo">Tiv tauj Photo</string><string name="description_contact_info">Kev sib cuag</string><string name="static_contact_us_whats_app">Tiv tauj tsim tawm ncaj qha rau WhatsApp.</string><string name="static_contact_us_developer">Google pab pawg neeg rau Developers, Testers thiab contributors.</string><string name="static_contact_us_language">Google pab pawg neeg rau neeg txhais lus thiab lus lovers.</string><string name="static_contact_us_google_plus">Yuav kom tau raws li kuv nyob rau hauv Google.</string><string name="static_contact_us_linkedin">Yuav kom Koom nrog rau raws li contributor thiab tsim tawm.</string><string name="static_contact_us_facebook">Official Facebook Page.</string><string name="invite_title">caw phooj ywg</string><string name="invite_message">Deleted Tiv tauj yog Open-qhov chaw, Freeware, Thab muag khoom dawb hauv xov tooj ntawd app.</string><string name="permission">Tso Cai</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE tso cai uas yuav tsum tau</string><string name="permission_message_read_contact">READ_CONTACTS tso cai uas yuav tsum tau</string><string name="permission_message_write_contact">WRITE_CONTACTS tso cai uas yuav tsum tau</string><string name="permission_grant">Grant</string><string name="restore">restore</string><string name="rate_us_title">ntsuam xyuas yog ib qho tseem ceeb rau peb</string><string name="rate_us_message">nrog koj zoo siab .. !!! \ N \ n koj muaj mob yog zoo tu qab tso. \ N \ n thov saib peb.</string><string name="rate_us_positive_button">Npaum peb.</string><string name="rate_us_negative_button">Tiv tauj peb.</string><string name="rate_us_neutral_button">Tsis tam sim no.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Deleted Tiv tauj</string>
+    <string name="all_contact">Muaj mob</string>
+    <string name="deleted_contact">deleted</string>
+    <string name="no_data_found">Tsis ntaub ntawv pom</string>
+    <string name="dismiss">Lawb tawm</string>
+    <string name="share">Qhia</string>
+    <string name="thank_you">Ua tsaug rau koj share / caw</string>
+    <string name="contact_developer">Yuam kev tshwm sim, hu rau tsim tawm.</string>
+    <string name="install_whats_app">Nruab Whats App thawj</string>
+    <string name="install">Nruab</string>
+    <string name="coming_soon">tab tom yuav tuaj</string>
+    <string name="rating_thank_you_message">Ua tsaug rau koj rau 5 lub hnub qub kev</string>
+    <string name="press_again_to_exit">Thov nias rov mus tawm</string>
+    <string name="try_after_some_time">Sim Tom qab ib txhia lub sij hawm</string>
+    <string name="action_language">lus</string>
+    <string name="action_rate_us">Npaum peb</string>
+    <string name="action_refresh">refresh</string>
+    <string name="action_restore_all">restore Tag nrho</string>
+    <string name="action_app_invite">caw phooj ywg</string>
+    <string name="action_contact_us">Tiv tauj peb</string>
+    <string name="contact_name">Tiv tauj lub npe</string>
+    <string name="contact_phone_number">Tiv tauj xov tooj</string>
+    <string name="contact_account_type">account hom</string>
+    <string name="description_contact_photo">Tiv tauj Photo</string>
+    <string name="description_contact_info">Kev sib cuag</string>
+    <string name="static_contact_us_whats_app">Tiv tauj tsim tawm ncaj qha rau WhatsApp.</string>
+    <string name="static_contact_us_developer">Google pab pawg neeg rau Developers, Testers thiab contributors.</string>
+    <string name="static_contact_us_language">Google pab pawg neeg rau neeg txhais lus thiab lus lovers.</string>
+    <string name="static_contact_us_google_plus">Yuav kom tau raws li kuv nyob rau hauv Google.</string>
+    <string name="static_contact_us_linkedin">Yuav kom Koom nrog rau raws li contributor thiab tsim tawm.</string>
+    <string name="static_contact_us_facebook">Official Facebook Page.</string>
+    <string name="invite_title">caw phooj ywg</string>
+    <string name="invite_message">Deleted Tiv tauj yog Open-qhov chaw, Freeware, Thab muag khoom dawb hauv xov tooj ntawd app.</string>
+    <string name="permission">Tso Cai</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE tso cai uas yuav tsum tau</string>
+    <string name="permission_message_read_contact">READ_CONTACTS tso cai uas yuav tsum tau</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS tso cai uas yuav tsum tau</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">restore</string>
+    <string name="rate_us_title">ntsuam xyuas yog ib qho tseem ceeb rau peb</string>
+    <string name="rate_us_message">nrog koj zoo siab .. !!! \ N \ n koj muaj mob yog zoo tu qab tso. \ N \ n thov saib peb.</string>
+    <string name="rate_us_positive_button">Npaum peb.</string>
+    <string name="rate_us_negative_button">Tiv tauj peb.</string>
+    <string name="rate_us_neutral_button">Tsis tam sim no.</string>
+</resources>

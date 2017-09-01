@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D kustutatud kontakt</string><string name="all_contact">Kontaktid</string><string name="deleted_contact">Kustutatud</string><string name="no_data_found">Andmeid ei leitud</string><string name="dismiss">Vabaks laskma</string><string name="share">Jaga</string><string name="thank_you">Täname teid jagamise / kutsumise eest</string><string name="contact_developer">Ilmub viga, pöörduge arendaja poole.</string><string name="install_whats_app">Esmalt installige Whats App</string><string name="install">Installi</string><string name="coming_soon">Tulekul</string><string name="rating_thank_you_message">Tänan teid 5 tärni hinnangu eest</string><string name="press_again_to_exit">Väljumiseks klõpsake uuesti</string><string name="try_after_some_time">Proovige mõne aja pärast</string><string name="action_language">Keele</string><string name="action_rate_us">Hinda meid</string><string name="action_refresh">Värskenda</string><string name="action_restore_all">Taasta kõik</string><string name="action_app_invite">Kutsu sõpru</string><string name="action_contact_us">Võta meiega ühendust</string><string name="contact_name">Kontaktisiku nimi</string><string name="contact_phone_number">Kontaktnumber</string><string name="contact_account_type">Konto tüüp</string><string name="description_contact_photo">Kontakt Photo</string><string name="description_contact_info">Kontaktinfo</string><string name="static_contact_us_whats_app">Võtke ühendust arendajaga otse WhatsApp.</string><string name="static_contact_us_developer">Google+ grupp arendajatele, testeritele ja kaasautoritele.</string><string name="static_contact_us_language">Google+ grupp tõlkijatele ja keeleõpradele.</string><string name="static_contact_us_google_plus">Tutvuge mulle teenuses Google+.</string><string name="static_contact_us_linkedin">Liituma kaasautorina ja arendajaga.</string><string name="static_contact_us_facebook">Ametlik Facebook lehekülg.</string><string name="invite_title">Kutsu sõpru</string><string name="invite_message">Kustutatud kontakt on avatud lähtekoodiga, tasuta rakendus, reklaamivaba Android-rakendus.</string><string name="permission">Luba</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE luba on vaja</string><string name="permission_message_read_contact">READ_CONTACTSi luba on vaja</string><string name="permission_message_write_contact">WRITE_CONTACTSi luba on vaja</string><string name="permission_grant">Grant</string><string name="restore">Taastama</string><string name="rate_us_title">reiting on meie jaoks oluline</string><string name="rate_us_message">õnnitleme .. !!! \ n \ n teie kontaktid taastatakse. \ n \ n Palun vaadake meid üle.</string><string name="rate_us_positive_button">Hinda meid.</string><string name="rate_us_negative_button">Võta meiega ühendust.</string><string name="rate_us_neutral_button">Mitte praegu.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D kustutatud kontakt</string>
+    <string name="all_contact">Kontaktid</string>
+    <string name="deleted_contact">Kustutatud</string>
+    <string name="no_data_found">Andmeid ei leitud</string>
+    <string name="dismiss">Vabaks laskma</string>
+    <string name="share">Jaga</string>
+    <string name="thank_you">Täname teid jagamise / kutsumise eest</string>
+    <string name="contact_developer">Ilmub viga, pöörduge arendaja poole.</string>
+    <string name="install_whats_app">Esmalt installige Whats App</string>
+    <string name="install">Installi</string>
+    <string name="coming_soon">Tulekul</string>
+    <string name="rating_thank_you_message">Tänan teid 5 tärni hinnangu eest</string>
+    <string name="press_again_to_exit">Väljumiseks klõpsake uuesti</string>
+    <string name="try_after_some_time">Proovige mõne aja pärast</string>
+    <string name="action_language">Keele</string>
+    <string name="action_rate_us">Hinda meid</string>
+    <string name="action_refresh">Värskenda</string>
+    <string name="action_restore_all">Taasta kõik</string>
+    <string name="action_app_invite">Kutsu sõpru</string>
+    <string name="action_contact_us">Võta meiega ühendust</string>
+    <string name="contact_name">Kontaktisiku nimi</string>
+    <string name="contact_phone_number">Kontaktnumber</string>
+    <string name="contact_account_type">Konto tüüp</string>
+    <string name="description_contact_photo">Kontakt Photo</string>
+    <string name="description_contact_info">Kontaktinfo</string>
+    <string name="static_contact_us_whats_app">Võtke ühendust arendajaga otse WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ grupp arendajatele, testeritele ja kaasautoritele.</string>
+    <string name="static_contact_us_language">Google+ grupp tõlkijatele ja keeleõpradele.</string>
+    <string name="static_contact_us_google_plus">Tutvuge mulle teenuses Google+.</string>
+    <string name="static_contact_us_linkedin">Liituma kaasautorina ja arendajaga.</string>
+    <string name="static_contact_us_facebook">Ametlik Facebook lehekülg.</string>
+    <string name="invite_title">Kutsu sõpru</string>
+    <string name="invite_message">Kustutatud kontakt on avatud lähtekoodiga, tasuta rakendus, reklaamivaba Android-rakendus.</string>
+    <string name="permission">Luba</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE luba on vaja</string>
+    <string name="permission_message_read_contact">READ_CONTACTSi luba on vaja</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTSi luba on vaja</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">Taastama</string>
+    <string name="rate_us_title">reiting on meie jaoks oluline</string>
+    <string name="rate_us_message">õnnitleme .. !!! \ n \ n teie kontaktid taastatakse. \ n \ n Palun vaadake meid üle.</string>
+    <string name="rate_us_positive_button">Hinda meid.</string>
+    <string name="rate_us_negative_button">Võta meiega ühendust.</string>
+    <string name="rate_us_neutral_button">Mitte praegu.</string>
+</resources>

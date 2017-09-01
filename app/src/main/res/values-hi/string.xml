@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">डी हटाए गए संपर्क</string><string name="all_contact">संपर्क</string><string name="deleted_contact">हटाए गए</string><string name="no_data_found">कोई डेटा नहीं मिला</string><string name="dismiss">खारिज</string><string name="share">शेयर</string><string name="thank_you">साझा / आमंत्रण के लिए धन्यवाद</string><string name="contact_developer">त्रुटि उत्पन्न होती है, संपर्क डेवलपर से संपर्क करें</string><string name="install_whats_app">Whats एप्लिकेशन को पहले इंस्टॉल करें</string><string name="install">इंस्टॉल करें</string><string name="coming_soon">जल्द आ रहा है</string><string name="rating_thank_you_message">5 स्टार रेटिंग के लिए धन्यवाद</string><string name="press_again_to_exit">बाहर निकलने के लिए कृपया वापस फिर से क्लिक करें</string><string name="try_after_some_time">कुछ समय के बाद की कोशिश करो</string><string name="action_language">भाषा</string><string name="action_rate_us">हमें रेटिंग दें</string><string name="action_refresh">ताज़ा करना</string><string name="action_restore_all">सभी को पुनर्स्थापित करें</string><string name="action_app_invite">मित्रों को आमंत्रित करें</string><string name="action_contact_us">हमसे संपर्क करें</string><string name="contact_name">संपर्क नाम</string><string name="contact_phone_number">संपर्क संख्या</string><string name="contact_account_type">खाते का प्रकार</string><string name="description_contact_photo">संपर्क फोटो</string><string name="description_contact_info">संपर्क सूचना</string><string name="static_contact_us_whats_app">व्हाट्सएप पर सीधे संपर्क डेवलपर से संपर्क करें</string><string name="static_contact_us_developer">डेवलपर, परीक्षक और योगदानकर्ताओं के लिए Google+ समूह।</string><string name="static_contact_us_language">अनुवादकों और भाषा प्रेमियों के लिए Google+ समूह</string><string name="static_contact_us_google_plus">मुझे Google+ पर पूरा करने के लिए</string><string name="static_contact_us_linkedin">योगदानकर्ता और डेवलपर के रूप में शामिल होने के लिए</string><string name="static_contact_us_facebook">आधिकारिक फेसबुक पेज</string><string name="invite_title">मित्रों को आमंत्रित करें</string><string name="invite_message">नष्ट कर दिया संपर्क ओपन-सोर्स, फ़्रीवेयर, विज्ञापन-रहित एंड्रॉइड ऐप है</string><string name="permission">अनुमति</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE अनुमति की आवश्यकता है</string><string name="permission_message_read_contact">READ_CONTACTS अनुमति की आवश्यकता है</string><string name="permission_message_write_contact">WRITE_CONTACTS अनुमति की आवश्यकता है</string><string name="permission_grant">अनुदान</string><string name="restore">पुनर्स्थापित</string><string name="rate_us_title">रेटिंग हमारे लिए महत्वपूर्ण है</string><string name="rate_us_message">बधाई ..!!! \ n \ n आपके संपर्क पुनर्प्राप्त किए गए हैं। \ n \ n कृपया हमें समीक्षा करें</string><string name="rate_us_positive_button">हमें रेटिंग दें।</string><string name="rate_us_negative_button">हमसे संपर्क करें।</string><string name="rate_us_neutral_button">अभी नहीं।</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">डी हटाए गए संपर्क</string>
+    <string name="all_contact">संपर्क</string>
+    <string name="deleted_contact">हटाए गए</string>
+    <string name="no_data_found">कोई डेटा नहीं मिला</string>
+    <string name="dismiss">खारिज</string>
+    <string name="share">शेयर</string>
+    <string name="thank_you">साझा / आमंत्रण के लिए धन्यवाद</string>
+    <string name="contact_developer">त्रुटि उत्पन्न होती है, संपर्क डेवलपर से संपर्क करें</string>
+    <string name="install_whats_app">Whats एप्लिकेशन को पहले इंस्टॉल करें</string>
+    <string name="install">इंस्टॉल करें</string>
+    <string name="coming_soon">जल्द आ रहा है</string>
+    <string name="rating_thank_you_message">5 स्टार रेटिंग के लिए धन्यवाद</string>
+    <string name="press_again_to_exit">बाहर निकलने के लिए कृपया वापस फिर से क्लिक करें</string>
+    <string name="try_after_some_time">कुछ समय के बाद की कोशिश करो</string>
+    <string name="action_language">भाषा</string>
+    <string name="action_rate_us">हमें रेटिंग दें</string>
+    <string name="action_refresh">ताज़ा करना</string>
+    <string name="action_restore_all">सभी को पुनर्स्थापित करें</string>
+    <string name="action_app_invite">मित्रों को आमंत्रित करें</string>
+    <string name="action_contact_us">हमसे संपर्क करें</string>
+    <string name="contact_name">संपर्क नाम</string>
+    <string name="contact_phone_number">संपर्क संख्या</string>
+    <string name="contact_account_type">खाते का प्रकार</string>
+    <string name="description_contact_photo">संपर्क फोटो</string>
+    <string name="description_contact_info">संपर्क सूचना</string>
+    <string name="static_contact_us_whats_app">व्हाट्सएप पर सीधे संपर्क डेवलपर से संपर्क करें</string>
+    <string name="static_contact_us_developer">डेवलपर, परीक्षक और योगदानकर्ताओं के लिए Google+ समूह।</string>
+    <string name="static_contact_us_language">अनुवादकों और भाषा प्रेमियों के लिए Google+ समूह</string>
+    <string name="static_contact_us_google_plus">मुझे Google+ पर पूरा करने के लिए</string>
+    <string name="static_contact_us_linkedin">योगदानकर्ता और डेवलपर के रूप में शामिल होने के लिए</string>
+    <string name="static_contact_us_facebook">आधिकारिक फेसबुक पेज</string>
+    <string name="invite_title">मित्रों को आमंत्रित करें</string>
+    <string name="invite_message">नष्ट कर दिया संपर्क ओपन-सोर्स, फ़्रीवेयर, विज्ञापन-रहित एंड्रॉइड ऐप है</string>
+    <string name="permission">अनुमति</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE अनुमति की आवश्यकता है</string>
+    <string name="permission_message_read_contact">READ_CONTACTS अनुमति की आवश्यकता है</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS अनुमति की आवश्यकता है</string>
+    <string name="permission_grant">अनुदान</string>
+    <string name="restore">पुनर्स्थापित</string>
+    <string name="rate_us_title">रेटिंग हमारे लिए महत्वपूर्ण है</string>
+    <string name="rate_us_message">बधाई ..!!! \ n \ n आपके संपर्क पुनर्प्राप्त किए गए हैं। \ n \ n कृपया हमें समीक्षा करें</string>
+    <string name="rate_us_positive_button">हमें रेटिंग दें।</string>
+    <string name="rate_us_negative_button">हमसे संपर्क करें।</string>
+    <string name="rate_us_neutral_button">अभी नहीं।</string>
+</resources>

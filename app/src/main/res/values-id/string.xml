@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D Dihapus Kontak</string><string name="all_contact">Kontak</string><string name="deleted_contact">Dihapus</string><string name="no_data_found">Data tidak ditemukan</string><string name="dismiss">Memberhentikan</string><string name="share">Bagikan</string><string name="thank_you">Terima kasih atas share / invite</string><string name="contact_developer">Terjadi kesalahan, hubungi pengembang.</string><string name="install_whats_app">Install Whats App terlebih dahulu</string><string name="install">Memasang</string><string name="coming_soon">Segera akan datang</string><string name="rating_thank_you_message">Terima kasih atas penilaian bintang 5</string><string name="press_again_to_exit">Silahkan klik kembali lagi untuk keluar</string><string name="try_after_some_time">Cobalah Beberapa Waktu</string><string name="action_language">Bahasa</string><string name="action_rate_us">Beri nilai kami</string><string name="action_refresh">Menyegarkan</string><string name="action_restore_all">Kembalikan Semua</string><string name="action_app_invite">Mengundang teman-teman</string><string name="action_contact_us">Hubungi kami</string><string name="contact_name">Nama Kontak</string><string name="contact_phone_number">Nomor kontak</string><string name="contact_account_type">Jenis akun</string><string name="description_contact_photo">Kontak foto</string><string name="description_contact_info">Info kontak</string><string name="static_contact_us_whats_app">Hubungi pengembang langsung di WhatsApp.</string><string name="static_contact_us_developer">Grup Google+ untuk Pengembang, Penguji dan kontributor.</string><string name="static_contact_us_language">Grup Google+ untuk penikmat Translators and Language.</string><string name="static_contact_us_google_plus">Untuk Temui saya di Google+.</string><string name="static_contact_us_linkedin">Bergabung sebagai kontributor dan Pengembang.</string><string name="static_contact_us_facebook">Halaman Facebook Resmi.</string><string name="invite_title">Mengundang teman-teman</string><string name="invite_message">Dihapus Kontak Open-source, Freeware, Advertise-aplikasi android gratis.</string><string name="permission">Izin</string><string name="permission_message_write_external_storage">PERSYARATAN WRITE_EXTERNAL_STORAGE diperlukan</string><string name="permission_message_read_contact">Izin READ_CONTACTS diperlukan</string><string name="permission_message_write_contact">Diperlukan izin WRITE_CONTACTS</string><string name="permission_grant">Hibah</string><string name="restore">Mengembalikan</string><string name="rate_us_title">penilaian itu penting bagi kita</string><string name="rate_us_message">selamat .. !!! \ n \ n kontak Anda sudah dipulihkan. \ n \ n harap tinjau kami.</string><string name="rate_us_positive_button">Beri nilai kami</string><string name="rate_us_negative_button">Hubungi kami.</string><string name="rate_us_neutral_button">Tidak sekarang.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Dihapus Kontak</string>
+    <string name="all_contact">Kontak</string>
+    <string name="deleted_contact">Dihapus</string>
+    <string name="no_data_found">Data tidak ditemukan</string>
+    <string name="dismiss">Memberhentikan</string>
+    <string name="share">Bagikan</string>
+    <string name="thank_you">Terima kasih atas share / invite</string>
+    <string name="contact_developer">Terjadi kesalahan, hubungi pengembang.</string>
+    <string name="install_whats_app">Install Whats App terlebih dahulu</string>
+    <string name="install">Memasang</string>
+    <string name="coming_soon">Segera akan datang</string>
+    <string name="rating_thank_you_message">Terima kasih atas penilaian bintang 5</string>
+    <string name="press_again_to_exit">Silahkan klik kembali lagi untuk keluar</string>
+    <string name="try_after_some_time">Cobalah Beberapa Waktu</string>
+    <string name="action_language">Bahasa</string>
+    <string name="action_rate_us">Beri nilai kami</string>
+    <string name="action_refresh">Menyegarkan</string>
+    <string name="action_restore_all">Kembalikan Semua</string>
+    <string name="action_app_invite">Mengundang teman-teman</string>
+    <string name="action_contact_us">Hubungi kami</string>
+    <string name="contact_name">Nama Kontak</string>
+    <string name="contact_phone_number">Nomor kontak</string>
+    <string name="contact_account_type">Jenis akun</string>
+    <string name="description_contact_photo">Kontak foto</string>
+    <string name="description_contact_info">Info kontak</string>
+    <string name="static_contact_us_whats_app">Hubungi pengembang langsung di WhatsApp.</string>
+    <string name="static_contact_us_developer">Grup Google+ untuk Pengembang, Penguji dan kontributor.</string>
+    <string name="static_contact_us_language">Grup Google+ untuk penikmat Translators and Language.</string>
+    <string name="static_contact_us_google_plus">Untuk Temui saya di Google+.</string>
+    <string name="static_contact_us_linkedin">Bergabung sebagai kontributor dan Pengembang.</string>
+    <string name="static_contact_us_facebook">Halaman Facebook Resmi.</string>
+    <string name="invite_title">Mengundang teman-teman</string>
+    <string name="invite_message">Dihapus Kontak Open-source, Freeware, Advertise-aplikasi android gratis.</string>
+    <string name="permission">Izin</string>
+    <string name="permission_message_write_external_storage">PERSYARATAN WRITE_EXTERNAL_STORAGE diperlukan</string>
+    <string name="permission_message_read_contact">Izin READ_CONTACTS diperlukan</string>
+    <string name="permission_message_write_contact">Diperlukan izin WRITE_CONTACTS</string>
+    <string name="permission_grant">Hibah</string>
+    <string name="restore">Mengembalikan</string>
+    <string name="rate_us_title">penilaian itu penting bagi kita</string>
+    <string name="rate_us_message">selamat .. !!! \ n \ n kontak Anda sudah dipulihkan. \ n \ n harap tinjau kami.</string>
+    <string name="rate_us_positive_button">Beri nilai kami</string>
+    <string name="rate_us_negative_button">Hubungi kami.</string>
+    <string name="rate_us_neutral_button">Tidak sekarang.</string>
+</resources>

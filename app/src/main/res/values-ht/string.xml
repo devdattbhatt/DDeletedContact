@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D deleted Kontakte</string><string name="all_contact">Kontak</string><string name="deleted_contact">efase</string><string name="no_data_found">Pa gen Done Twouve</string><string name="dismiss">rejte</string><string name="share">pataje</string><string name="thank_you">Mèsi pou pataje / envite</string><string name="contact_developer">Erè yo fè fèt, pwomotè kontak.</string><string name="install_whats_app">Enstale Sak App premye</string><string name="install">enstale</string><string name="coming_soon">Vini byento</string><string name="rating_thank_you_message">Mèsi pou 5 evalyasyon zetwal</string><string name="press_again_to_exit">Tanpri klike tounen lakay ou ankò sòti</string><string name="try_after_some_time">Eseye apre kèk tan</string><string name="action_language">Lang</string><string name="action_rate_us">Evalye nou</string><string name="action_refresh">Refresh</string><string name="action_restore_all">renmèt tout</string><string name="action_app_invite">envite Zanmi</string><string name="action_contact_us">Kontakte nou</string><string name="contact_name">Kontakte non</string><string name="contact_phone_number">nimewo Kontakte</string><string name="contact_account_type">Kalite Kont</string><string name="description_contact_photo">Kontakte Photo</string><string name="description_contact_info">Kontakte enfòmasyon</string><string name="static_contact_us_whats_app">Kontakte pwomotè dirèkteman sou WhatsApp.</string><string name="static_contact_us_developer">Google + gwoup pou Devlopè Tester, ak kontribye.</string><string name="static_contact_us_language">Google + gwoup pou Tradiktè ak rayisab lang.</string><string name="static_contact_us_google_plus">Pou Satisfè Kondisyon m &amp;#39;sou Google +.</string><string name="static_contact_us_linkedin">Yo rantre nan kòm kontribitè ak pwomotè.</string><string name="static_contact_us_facebook">Ofisyèl Page Facebook.</string><string name="invite_title">envite Zanmi</string><string name="invite_message">Efase Kontakte se louvri-sous, freeware, Piblisite-gratis android app.</string><string name="permission">pèmisyon</string><string name="permission_message_write_external_storage">se WRITE_EXTERNAL_STORAGE pèmisyon nesesè</string><string name="permission_message_read_contact">se READ_CONTACTS pèmisyon nesesè</string><string name="permission_message_write_contact">se WRITE_CONTACTS pèmisyon nesesè</string><string name="permission_grant">Grant</string><string name="restore">renmèt</string><string name="rate_us_title">Rating enpòtan pou nou</string><string name="rate_us_message">Felisitasyon .. !!! \ N \ N kontak ou se refè. \ N \ N tanpri revize nou.</string><string name="rate_us_positive_button">Evalye nou.</string><string name="rate_us_negative_button">Kontakte nou.</string><string name="rate_us_neutral_button">Pa kounye a.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D deleted Kontakte</string>
+    <string name="all_contact">Kontak</string>
+    <string name="deleted_contact">efase</string>
+    <string name="no_data_found">Pa gen Done Twouve</string>
+    <string name="dismiss">rejte</string>
+    <string name="share">pataje</string>
+    <string name="thank_you">Mèsi pou pataje / envite</string>
+    <string name="contact_developer">Erè yo fè fèt, pwomotè kontak.</string>
+    <string name="install_whats_app">Enstale Sak App premye</string>
+    <string name="install">enstale</string>
+    <string name="coming_soon">Vini byento</string>
+    <string name="rating_thank_you_message">Mèsi pou 5 evalyasyon zetwal</string>
+    <string name="press_again_to_exit">Tanpri klike tounen lakay ou ankò sòti</string>
+    <string name="try_after_some_time">Eseye apre kèk tan</string>
+    <string name="action_language">Lang</string>
+    <string name="action_rate_us">Evalye nou</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_restore_all">renmèt tout</string>
+    <string name="action_app_invite">envite Zanmi</string>
+    <string name="action_contact_us">Kontakte nou</string>
+    <string name="contact_name">Kontakte non</string>
+    <string name="contact_phone_number">nimewo Kontakte</string>
+    <string name="contact_account_type">Kalite Kont</string>
+    <string name="description_contact_photo">Kontakte Photo</string>
+    <string name="description_contact_info">Kontakte enfòmasyon</string>
+    <string name="static_contact_us_whats_app">Kontakte pwomotè dirèkteman sou WhatsApp.</string>
+    <string name="static_contact_us_developer">Google + gwoup pou Devlopè Tester, ak kontribye.</string>
+    <string name="static_contact_us_language">Google + gwoup pou Tradiktè ak rayisab lang.</string>
+    <string name="static_contact_us_google_plus">Pou Satisfè Kondisyon m &amp;#39;sou Google +.</string>
+    <string name="static_contact_us_linkedin">Yo rantre nan kòm kontribitè ak pwomotè.</string>
+    <string name="static_contact_us_facebook">Ofisyèl Page Facebook.</string>
+    <string name="invite_title">envite Zanmi</string>
+    <string name="invite_message">Efase Kontakte se louvri-sous, freeware, Piblisite-gratis android app.</string>
+    <string name="permission">pèmisyon</string>
+    <string name="permission_message_write_external_storage">se WRITE_EXTERNAL_STORAGE pèmisyon nesesè</string>
+    <string name="permission_message_read_contact">se READ_CONTACTS pèmisyon nesesè</string>
+    <string name="permission_message_write_contact">se WRITE_CONTACTS pèmisyon nesesè</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">renmèt</string>
+    <string name="rate_us_title">Rating enpòtan pou nou</string>
+    <string name="rate_us_message">Felisitasyon .. !!! \ N \ N kontak ou se refè. \ N \ N tanpri revize nou.</string>
+    <string name="rate_us_positive_button">Evalye nou.</string>
+    <string name="rate_us_negative_button">Kontakte nou.</string>
+    <string name="rate_us_neutral_button">Pa kounye a.</string>
+</resources>

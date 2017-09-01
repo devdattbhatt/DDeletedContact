@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D törölt kapcsolattartó</string><string name="all_contact">Kapcsolatok</string><string name="deleted_contact">törölve</string><string name="no_data_found">Nem található adat</string><string name="dismiss">elvetése</string><string name="share">Ossza meg</string><string name="thank_you">Köszönjük a megosztást / meghívást</string><string name="contact_developer">Hiba lép fel, forduljon fejlesztőhöz.</string><string name="install_whats_app">Telepítse először a Whats App alkalmazást</string><string name="install">Telepítés</string><string name="coming_soon">Hamarosan</string><string name="rating_thank_you_message">Köszönjük az 5 csillagos értékelést</string><string name="press_again_to_exit">A kilépéshez kattintson újra a gombra</string><string name="try_after_some_time">Próbáld ki később</string><string name="action_language">Nyelv</string><string name="action_rate_us">Értékelj minket</string><string name="action_refresh">Frissítés</string><string name="action_restore_all">Mindent visszaállít</string><string name="action_app_invite">Meghívja barátait</string><string name="action_contact_us">Lépjen kapcsolatba velünk</string><string name="contact_name">Kapcsolattartó neve</string><string name="contact_phone_number">Elérhetőség</string><string name="contact_account_type">Fiók Típus</string><string name="description_contact_photo">Kapcsolatfelvétel</string><string name="description_contact_info">Elérhetőségei</string><string name="static_contact_us_whats_app">Lépjen kapcsolatba a fejlesztővel közvetlenül a WhatsApp-on.</string><string name="static_contact_us_developer">Google + -csoport fejlesztőknek, tesztelőknek és közreműködőknek.</string><string name="static_contact_us_language">A Google + -csoport a fordítóknak és a nyelv szerelmeseinek.</string><string name="static_contact_us_google_plus">Találkozni a Google + -on.</string><string name="static_contact_us_linkedin">Hozzáféréshez és fejlesztőhöz való csatlakozáshoz.</string><string name="static_contact_us_facebook">Hivatalos Facebook oldal.</string><string name="invite_title">Meghívja barátait</string><string name="invite_message">A törölt kapcsolat nyílt forráskódú, ingyenes, hirdetés nélküli Android alkalmazás.</string><string name="permission">Engedély</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE engedély szükséges</string><string name="permission_message_read_contact">READ_CONTACTS engedély szükséges</string><string name="permission_message_write_contact">WRITE_CONTACTS engedély szükséges</string><string name="permission_grant">Grant</string><string name="restore">visszaállítás</string><string name="rate_us_title">a minősítés fontos számunkra</string><string name="rate_us_message">Gratulálok ..!!! \ n \ n a névjegyek helyreállítása. \ n \ n kérjük, tekintse át nekünk.</string><string name="rate_us_positive_button">Értékelj minket.</string><string name="rate_us_negative_button">Lépjen kapcsolatba velünk.</string><string name="rate_us_neutral_button">Nem most.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D törölt kapcsolattartó</string>
+    <string name="all_contact">Kapcsolatok</string>
+    <string name="deleted_contact">törölve</string>
+    <string name="no_data_found">Nem található adat</string>
+    <string name="dismiss">elvetése</string>
+    <string name="share">Ossza meg</string>
+    <string name="thank_you">Köszönjük a megosztást / meghívást</string>
+    <string name="contact_developer">Hiba lép fel, forduljon fejlesztőhöz.</string>
+    <string name="install_whats_app">Telepítse először a Whats App alkalmazást</string>
+    <string name="install">Telepítés</string>
+    <string name="coming_soon">Hamarosan</string>
+    <string name="rating_thank_you_message">Köszönjük az 5 csillagos értékelést</string>
+    <string name="press_again_to_exit">A kilépéshez kattintson újra a gombra</string>
+    <string name="try_after_some_time">Próbáld ki később</string>
+    <string name="action_language">Nyelv</string>
+    <string name="action_rate_us">Értékelj minket</string>
+    <string name="action_refresh">Frissítés</string>
+    <string name="action_restore_all">Mindent visszaállít</string>
+    <string name="action_app_invite">Meghívja barátait</string>
+    <string name="action_contact_us">Lépjen kapcsolatba velünk</string>
+    <string name="contact_name">Kapcsolattartó neve</string>
+    <string name="contact_phone_number">Elérhetőség</string>
+    <string name="contact_account_type">Fiók Típus</string>
+    <string name="description_contact_photo">Kapcsolatfelvétel</string>
+    <string name="description_contact_info">Elérhetőségei</string>
+    <string name="static_contact_us_whats_app">Lépjen kapcsolatba a fejlesztővel közvetlenül a WhatsApp-on.</string>
+    <string name="static_contact_us_developer">Google + -csoport fejlesztőknek, tesztelőknek és közreműködőknek.</string>
+    <string name="static_contact_us_language">A Google + -csoport a fordítóknak és a nyelv szerelmeseinek.</string>
+    <string name="static_contact_us_google_plus">Találkozni a Google + -on.</string>
+    <string name="static_contact_us_linkedin">Hozzáféréshez és fejlesztőhöz való csatlakozáshoz.</string>
+    <string name="static_contact_us_facebook">Hivatalos Facebook oldal.</string>
+    <string name="invite_title">Meghívja barátait</string>
+    <string name="invite_message">A törölt kapcsolat nyílt forráskódú, ingyenes, hirdetés nélküli Android alkalmazás.</string>
+    <string name="permission">Engedély</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE engedély szükséges</string>
+    <string name="permission_message_read_contact">READ_CONTACTS engedély szükséges</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS engedély szükséges</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">visszaállítás</string>
+    <string name="rate_us_title">a minősítés fontos számunkra</string>
+    <string name="rate_us_message">Gratulálok ..!!! \ n \ n a névjegyek helyreállítása. \ n \ n kérjük, tekintse át nekünk.</string>
+    <string name="rate_us_positive_button">Értékelj minket.</string>
+    <string name="rate_us_negative_button">Lépjen kapcsolatba velünk.</string>
+    <string name="rate_us_neutral_button">Nem most.</string>
+</resources>
