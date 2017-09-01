@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D Verwijderd contact</string><string name="all_contact">Contacten</string><string name="deleted_contact">verwijderde</string><string name="no_data_found">Geen data gevonden</string><string name="dismiss">ontslaan</string><string name="share">Delen</string><string name="thank_you">Bedankt voor het delen / uitnodigen</string><string name="contact_developer">Er is een fout opgetreden, contact ontwikkelaar.</string><string name="install_whats_app">Installeer Welke App eerst</string><string name="install">Installeren</string><string name="coming_soon">Binnenkort beschikbaar</string><string name="rating_thank_you_message">Bedankt voor 5 sterren</string><string name="press_again_to_exit">Klik alstublieft nogmaals op om af te sluiten</string><string name="try_after_some_time">Probeer na enige tijd</string><string name="action_language">Taal</string><string name="action_rate_us">Beoordeel ons</string><string name="action_refresh">verversen</string><string name="action_restore_all">Herstel alles</string><string name="action_app_invite">Nodig vrienden uit</string><string name="action_contact_us">Neem contact met ons op</string><string name="contact_name">Contactnaam</string><string name="contact_phone_number">Contact nummer</string><string name="contact_account_type">account type</string><string name="description_contact_photo">Contact Foto</string><string name="description_contact_info">Contact informatie</string><string name="static_contact_us_whats_app">Neem contact op met ontwikkelaar direct op WhatsApp.</string><string name="static_contact_us_developer">Google+ groep voor Developers, Testers en contributors.</string><string name="static_contact_us_language">Google+ groep voor vertalers en taalliefhebbers.</string><string name="static_contact_us_google_plus">Ontmoet mij op Google+.</string><string name="static_contact_us_linkedin">Om deel te nemen als bijdrager en ontwikkelaar.</string><string name="static_contact_us_facebook">Officiele Facebook-pagina.</string><string name="invite_title">Nodig vrienden uit</string><string name="invite_message">Verwijderd contact is open source, freeware, adverterenvrije android app.</string><string name="permission">Toestemming</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE toestemming is nodig</string><string name="permission_message_read_contact">READ_CONTACTS toestemming is nodig</string><string name="permission_message_write_contact">WRITE_CONTACTS toestemming is nodig</string><string name="permission_grant">Verlenen</string><string name="restore">Herstellen</string><string name="rate_us_title">rating is belangrijk voor ons</string><string name="rate_us_message">hartelijk gefeliciteerd ..!!! \ n \ n je contacten worden hersteld. \ n \ n raadpleeg ons alsjeblieft.</string><string name="rate_us_positive_button">Beoordeel ons.</string><string name="rate_us_negative_button">Neem contact met ons op.</string><string name="rate_us_neutral_button">Niet nu.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Verwijderd contact</string>
+    <string name="all_contact">Contacten</string>
+    <string name="deleted_contact">verwijderde</string>
+    <string name="no_data_found">Geen data gevonden</string>
+    <string name="dismiss">ontslaan</string>
+    <string name="share">Delen</string>
+    <string name="thank_you">Bedankt voor het delen / uitnodigen</string>
+    <string name="contact_developer">Er is een fout opgetreden, contact ontwikkelaar.</string>
+    <string name="install_whats_app">Installeer Welke App eerst</string>
+    <string name="install">Installeren</string>
+    <string name="coming_soon">Binnenkort beschikbaar</string>
+    <string name="rating_thank_you_message">Bedankt voor 5 sterren</string>
+    <string name="press_again_to_exit">Klik alstublieft nogmaals op om af te sluiten</string>
+    <string name="try_after_some_time">Probeer na enige tijd</string>
+    <string name="action_language">Taal</string>
+    <string name="action_rate_us">Beoordeel ons</string>
+    <string name="action_refresh">verversen</string>
+    <string name="action_restore_all">Herstel alles</string>
+    <string name="action_app_invite">Nodig vrienden uit</string>
+    <string name="action_contact_us">Neem contact met ons op</string>
+    <string name="contact_name">Contactnaam</string>
+    <string name="contact_phone_number">Contact nummer</string>
+    <string name="contact_account_type">account type</string>
+    <string name="description_contact_photo">Contact Foto</string>
+    <string name="description_contact_info">Contact informatie</string>
+    <string name="static_contact_us_whats_app">Neem contact op met ontwikkelaar direct op WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ groep voor Developers, Testers en contributors.</string>
+    <string name="static_contact_us_language">Google+ groep voor vertalers en taalliefhebbers.</string>
+    <string name="static_contact_us_google_plus">Ontmoet mij op Google+.</string>
+    <string name="static_contact_us_linkedin">Om deel te nemen als bijdrager en ontwikkelaar.</string>
+    <string name="static_contact_us_facebook">Officiele Facebook-pagina.</string>
+    <string name="invite_title">Nodig vrienden uit</string>
+    <string name="invite_message">Verwijderd contact is open source, freeware, adverterenvrije android app.</string>
+    <string name="permission">Toestemming</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE toestemming is nodig</string>
+    <string name="permission_message_read_contact">READ_CONTACTS toestemming is nodig</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS toestemming is nodig</string>
+    <string name="permission_grant">Verlenen</string>
+    <string name="restore">Herstellen</string>
+    <string name="rate_us_title">rating is belangrijk voor ons</string>
+    <string name="rate_us_message">hartelijk gefeliciteerd ..!!! \ n \ n je contacten worden hersteld. \ n \ n raadpleeg ons alsjeblieft.</string>
+    <string name="rate_us_positive_button">Beoordeel ons.</string>
+    <string name="rate_us_negative_button">Neem contact met ons op.</string>
+    <string name="rate_us_neutral_button">Niet nu.</string>
+</resources>

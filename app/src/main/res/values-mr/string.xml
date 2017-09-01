@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D हटवलेला संपर्क</string><string name="all_contact">संपर्क</string><string name="deleted_contact">हटविले</string><string name="no_data_found">डेटा आढळला नाही</string><string name="dismiss">डिसमिस करा</string><string name="share">सामायिक करा</string><string name="thank_you">शेअर / आमंत्रणासाठी धन्यवाद</string><string name="contact_developer">त्रुटी आली, संपर्क विकसक</string><string name="install_whats_app">प्रथम व्हॉट अनुप्रयोग स्थापित</string><string name="install">स्थापित करा</string><string name="coming_soon">लवकरच येत आहे</string><string name="rating_thank_you_message">5 स्टार रेटिंगबद्दल धन्यवाद</string><string name="press_again_to_exit">बाहेर पडण्यासाठी पुन्हा पुन्हा क्लिक करा</string><string name="try_after_some_time">काही वेळानंतर प्रयत्न करा</string><string name="action_language">भाषा</string><string name="action_rate_us">आम्हाला रेट करा</string><string name="action_refresh">रिफ्रेश करा</string><string name="action_restore_all">सर्व पुनर्संचयित करा</string><string name="action_app_invite">मित्रांना आमंत्रित करा</string><string name="action_contact_us">आमच्याशी संपर्क साधा</string><string name="contact_name">संपर्क नाव</string><string name="contact_phone_number">संपर्क क्रमांक</string><string name="contact_account_type">खाते प्रकार</string><string name="description_contact_photo">फोटोशी संपर्क साधा</string><string name="description_contact_info">संपर्क माहिती</string><string name="static_contact_us_whats_app">WhatsApp वर संपर्क विकासक थेट</string><string name="static_contact_us_developer">विकसक, परीक्षक आणि योगदानकर्त्यांसाठी Google+ गट.</string><string name="static_contact_us_language">अनुवादकांसाठी आणि भाषा प्रेमींसाठी Google+ गट.</string><string name="static_contact_us_google_plus">Google+ वर मला भेटण्यासाठी</string><string name="static_contact_us_linkedin">सहयोगी आणि विकासक म्हणून सामील होण्यासाठी</string><string name="static_contact_us_facebook">अधिकृत फेसबुक पेज</string><string name="invite_title">मित्रांना आमंत्रित करा</string><string name="invite_message">हटवलेला संपर्क खुल्या-स्रोत, फ्रीवेअर, जाहिरात-मुक्त Android अॅप आहे</string><string name="permission">परवानगी</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE परवानगीची आवश्यकता आहे</string><string name="permission_message_read_contact">READ_CONTACTS परवानगीची आवश्यकता आहे</string><string name="permission_message_write_contact">WRITE_CONTACTS परवानगी आवश्यक आहे</string><string name="permission_grant">अनुदान</string><string name="restore">पुनर्संचयित करा</string><string name="rate_us_title">रेटिंग आमच्यासाठी महत्त्वाचे आहे</string><string name="rate_us_message">अभिनंदन ..!!! \ n \ n आपले संपर्क पुनर्प्राप्त झाले आहेत. \ n \ n कृपया आम्हाला पुनरावलोकन करा</string><string name="rate_us_positive_button">आम्हाला रेट करा</string><string name="rate_us_negative_button">आमच्याशी संपर्क साधा.</string><string name="rate_us_neutral_button">आता नाही</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D हटवलेला संपर्क</string>
+    <string name="all_contact">संपर्क</string>
+    <string name="deleted_contact">हटविले</string>
+    <string name="no_data_found">डेटा आढळला नाही</string>
+    <string name="dismiss">डिसमिस करा</string>
+    <string name="share">सामायिक करा</string>
+    <string name="thank_you">शेअर / आमंत्रणासाठी धन्यवाद</string>
+    <string name="contact_developer">त्रुटी आली, संपर्क विकसक</string>
+    <string name="install_whats_app">प्रथम व्हॉट अनुप्रयोग स्थापित</string>
+    <string name="install">स्थापित करा</string>
+    <string name="coming_soon">लवकरच येत आहे</string>
+    <string name="rating_thank_you_message">5 स्टार रेटिंगबद्दल धन्यवाद</string>
+    <string name="press_again_to_exit">बाहेर पडण्यासाठी पुन्हा पुन्हा क्लिक करा</string>
+    <string name="try_after_some_time">काही वेळानंतर प्रयत्न करा</string>
+    <string name="action_language">भाषा</string>
+    <string name="action_rate_us">आम्हाला रेट करा</string>
+    <string name="action_refresh">रिफ्रेश करा</string>
+    <string name="action_restore_all">सर्व पुनर्संचयित करा</string>
+    <string name="action_app_invite">मित्रांना आमंत्रित करा</string>
+    <string name="action_contact_us">आमच्याशी संपर्क साधा</string>
+    <string name="contact_name">संपर्क नाव</string>
+    <string name="contact_phone_number">संपर्क क्रमांक</string>
+    <string name="contact_account_type">खाते प्रकार</string>
+    <string name="description_contact_photo">फोटोशी संपर्क साधा</string>
+    <string name="description_contact_info">संपर्क माहिती</string>
+    <string name="static_contact_us_whats_app">WhatsApp वर संपर्क विकासक थेट</string>
+    <string name="static_contact_us_developer">विकसक, परीक्षक आणि योगदानकर्त्यांसाठी Google+ गट.</string>
+    <string name="static_contact_us_language">अनुवादकांसाठी आणि भाषा प्रेमींसाठी Google+ गट.</string>
+    <string name="static_contact_us_google_plus">Google+ वर मला भेटण्यासाठी</string>
+    <string name="static_contact_us_linkedin">सहयोगी आणि विकासक म्हणून सामील होण्यासाठी</string>
+    <string name="static_contact_us_facebook">अधिकृत फेसबुक पेज</string>
+    <string name="invite_title">मित्रांना आमंत्रित करा</string>
+    <string name="invite_message">हटवलेला संपर्क खुल्या-स्रोत, फ्रीवेअर, जाहिरात-मुक्त Android अॅप आहे</string>
+    <string name="permission">परवानगी</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE परवानगीची आवश्यकता आहे</string>
+    <string name="permission_message_read_contact">READ_CONTACTS परवानगीची आवश्यकता आहे</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS परवानगी आवश्यक आहे</string>
+    <string name="permission_grant">अनुदान</string>
+    <string name="restore">पुनर्संचयित करा</string>
+    <string name="rate_us_title">रेटिंग आमच्यासाठी महत्त्वाचे आहे</string>
+    <string name="rate_us_message">अभिनंदन ..!!! \ n \ n आपले संपर्क पुनर्प्राप्त झाले आहेत. \ n \ n कृपया आम्हाला पुनरावलोकन करा</string>
+    <string name="rate_us_positive_button">आम्हाला रेट करा</string>
+    <string name="rate_us_negative_button">आमच्याशी संपर्क साधा.</string>
+    <string name="rate_us_neutral_button">आता नाही</string>
+</resources>

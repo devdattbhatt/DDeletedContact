@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">ಡಿ ಅಳಿಸಲಾಗಿದೆ ಸಂಪರ್ಕ</string><string name="all_contact">ಸಂಪರ್ಕಗಳು</string><string name="deleted_contact">ಅಳಿಸಲಾಗಿದೆ</string><string name="no_data_found">ಯಾವುದೇ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ</string><string name="dismiss">ವಜಾಗೊಳಿಸಿ</string><string name="share">ಹಂಚಿಕೊಳ್ಳಿ</string><string name="thank_you">ಹಂಚಿಕೆ / ಆಮಂತ್ರಣಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು</string><string name="contact_developer">ದೋಷ ಸಂಭವಿಸುತ್ತದೆ, ಸಂಪರ್ಕ ಡೆವಲಪರ್.</string><string name="install_whats_app">Whats ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಮೊದಲು ಸ್ಥಾಪಿಸಿ</string><string name="install">ಸ್ಥಾಪಿಸಿ</string><string name="coming_soon">ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ</string><string name="rating_thank_you_message">5 ಸ್ಟಾರ್ ರೇಟಿಂಗ್ಗಳಿಗಾಗಿ ಧನ್ಯವಾದಗಳು</string><string name="press_again_to_exit">ನಿರ್ಗಮಿಸಲು ದಯವಿಟ್ಟು ಮತ್ತೆ ಕ್ಲಿಕ್ ಮಾಡಿ</string><string name="try_after_some_time">ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಪ್ರಯತ್ನಿಸಿ</string><string name="action_language">ಭಾಷೆ</string><string name="action_rate_us">ನಮಗೆ ರೇಟ್ ಮಾಡಿ</string><string name="action_refresh">ರಿಫ್ರೆಶ್</string><string name="action_restore_all">ಎಲ್ಲಾ ಮರುಸ್ಥಾಪಿಸಿ</string><string name="action_app_invite">ಸ್ನೇಹಿತರನ್ನು ಆಹ್ವಾನಿಸಿ</string><string name="action_contact_us">ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</string><string name="contact_name">ಸಂಪರ್ಕಿಸುವ ಹೆಸರು</string><string name="contact_phone_number">ಸಂಪರ್ಕ ಸಂಖ್ಯೆ</string><string name="contact_account_type">ಖಾತೆಯ ಪ್ರಕಾರ</string><string name="description_contact_photo">ಫೋಟೋ ಸಂಪರ್ಕಿಸಿ</string><string name="description_contact_info">ಸಂಪರ್ಕ ಮಾಹಿತಿ</string><string name="static_contact_us_whats_app">ನೇರವಾಗಿ ಡೆವಲಪರ್ಗಳನ್ನು WhatsApp ನಲ್ಲಿ ಸಂಪರ್ಕಿಸಿ.</string><string name="static_contact_us_developer">ಡೆವಲಪರ್ಗಳು, ಪರೀಕ್ಷಕರು ಮತ್ತು ಕೊಡುಗೆದಾರರಿಗೆ Google+ ಗುಂಪು.</string><string name="static_contact_us_language">ಭಾಷಾಂತರಕಾರರು ಮತ್ತು ಭಾಷಾ ಪ್ರೇಮಿಗಳಿಗಾಗಿ Google+ ಗುಂಪು.</string><string name="static_contact_us_google_plus">Google+ ನಲ್ಲಿ ನನ್ನನ್ನು ಭೇಟಿ ಮಾಡಲು.</string><string name="static_contact_us_linkedin">ಕೊಡುಗೆದಾರ ಮತ್ತು ಡೆವಲಪರ್ ಆಗಿ ಸೇರಿಕೊಳ್ಳಲು.</string><string name="static_contact_us_facebook">ಅಧಿಕೃತ ಫೇಸ್ಬುಕ್ ಪುಟ.</string><string name="invite_title">ಸ್ನೇಹಿತರನ್ನು ಆಹ್ವಾನಿಸಿ</string><string name="invite_message">ಅಳಿಸಲಾದ ಸಂಪರ್ಕವು ತೆರೆದ ಮೂಲ, ಫ್ರೀವೇರ್, ಜಾಹೀರಾತು-ಮುಕ್ತ ಆಂಡ್ರಾಯ್ಡ್ ಅಪ್ಲಿಕೇಶನ್ ಆಗಿದೆ.</string><string name="permission">ಅನುಮತಿ</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string><string name="permission_message_read_contact">READ_CONTACTS ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string><string name="permission_message_write_contact">WRITE_CONTACTS ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string><string name="permission_grant">ಅನುದಾನ</string><string name="restore">ಮರುಸ್ಥಾಪಿಸಿ</string><string name="rate_us_title">ರೇಟಿಂಗ್ ನಮಗೆ ಮುಖ್ಯವಾಗಿದೆ</string><string name="rate_us_message">ಅಭಿನಂದನೆಗಳು .. !!! \ n \ n ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ಮರುಪಡೆಯಲಾಗಿದೆ. \ n \ n ದಯವಿಟ್ಟು ನಮ್ಮನ್ನು ಪರಿಶೀಲಿಸಿ.</string><string name="rate_us_positive_button">ನಮಗೆ ರೇಟ್ ಮಾಡಿ.</string><string name="rate_us_negative_button">ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.</string><string name="rate_us_neutral_button">ಈಗ ಸಾಧ್ಯವಿಲ್ಲ.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">ಡಿ ಅಳಿಸಲಾಗಿದೆ ಸಂಪರ್ಕ</string>
+    <string name="all_contact">ಸಂಪರ್ಕಗಳು</string>
+    <string name="deleted_contact">ಅಳಿಸಲಾಗಿದೆ</string>
+    <string name="no_data_found">ಯಾವುದೇ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="dismiss">ವಜಾಗೊಳಿಸಿ</string>
+    <string name="share">ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="thank_you">ಹಂಚಿಕೆ / ಆಮಂತ್ರಣಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು</string>
+    <string name="contact_developer">ದೋಷ ಸಂಭವಿಸುತ್ತದೆ, ಸಂಪರ್ಕ ಡೆವಲಪರ್.</string>
+    <string name="install_whats_app">Whats ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಮೊದಲು ಸ್ಥಾಪಿಸಿ</string>
+    <string name="install">ಸ್ಥಾಪಿಸಿ</string>
+    <string name="coming_soon">ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ</string>
+    <string name="rating_thank_you_message">5 ಸ್ಟಾರ್ ರೇಟಿಂಗ್ಗಳಿಗಾಗಿ ಧನ್ಯವಾದಗಳು</string>
+    <string name="press_again_to_exit">ನಿರ್ಗಮಿಸಲು ದಯವಿಟ್ಟು ಮತ್ತೆ ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+    <string name="try_after_some_time">ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="action_language">ಭಾಷೆ</string>
+    <string name="action_rate_us">ನಮಗೆ ರೇಟ್ ಮಾಡಿ</string>
+    <string name="action_refresh">ರಿಫ್ರೆಶ್</string>
+    <string name="action_restore_all">ಎಲ್ಲಾ ಮರುಸ್ಥಾಪಿಸಿ</string>
+    <string name="action_app_invite">ಸ್ನೇಹಿತರನ್ನು ಆಹ್ವಾನಿಸಿ</string>
+    <string name="action_contact_us">ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="contact_name">ಸಂಪರ್ಕಿಸುವ ಹೆಸರು</string>
+    <string name="contact_phone_number">ಸಂಪರ್ಕ ಸಂಖ್ಯೆ</string>
+    <string name="contact_account_type">ಖಾತೆಯ ಪ್ರಕಾರ</string>
+    <string name="description_contact_photo">ಫೋಟೋ ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="description_contact_info">ಸಂಪರ್ಕ ಮಾಹಿತಿ</string>
+    <string name="static_contact_us_whats_app">ನೇರವಾಗಿ ಡೆವಲಪರ್ಗಳನ್ನು WhatsApp ನಲ್ಲಿ ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="static_contact_us_developer">ಡೆವಲಪರ್ಗಳು, ಪರೀಕ್ಷಕರು ಮತ್ತು ಕೊಡುಗೆದಾರರಿಗೆ Google+ ಗುಂಪು.</string>
+    <string name="static_contact_us_language">ಭಾಷಾಂತರಕಾರರು ಮತ್ತು ಭಾಷಾ ಪ್ರೇಮಿಗಳಿಗಾಗಿ Google+ ಗುಂಪು.</string>
+    <string name="static_contact_us_google_plus">Google+ ನಲ್ಲಿ ನನ್ನನ್ನು ಭೇಟಿ ಮಾಡಲು.</string>
+    <string name="static_contact_us_linkedin">ಕೊಡುಗೆದಾರ ಮತ್ತು ಡೆವಲಪರ್ ಆಗಿ ಸೇರಿಕೊಳ್ಳಲು.</string>
+    <string name="static_contact_us_facebook">ಅಧಿಕೃತ ಫೇಸ್ಬುಕ್ ಪುಟ.</string>
+    <string name="invite_title">ಸ್ನೇಹಿತರನ್ನು ಆಹ್ವಾನಿಸಿ</string>
+    <string name="invite_message">ಅಳಿಸಲಾದ ಸಂಪರ್ಕವು ತೆರೆದ ಮೂಲ, ಫ್ರೀವೇರ್, ಜಾಹೀರಾತು-ಮುಕ್ತ ಆಂಡ್ರಾಯ್ಡ್ ಅಪ್ಲಿಕೇಶನ್ ಆಗಿದೆ.</string>
+    <string name="permission">ಅನುಮತಿ</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
+    <string name="permission_message_read_contact">READ_CONTACTS ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
+    <string name="permission_grant">ಅನುದಾನ</string>
+    <string name="restore">ಮರುಸ್ಥಾಪಿಸಿ</string>
+    <string name="rate_us_title">ರೇಟಿಂಗ್ ನಮಗೆ ಮುಖ್ಯವಾಗಿದೆ</string>
+    <string name="rate_us_message">ಅಭಿನಂದನೆಗಳು .. !!! \ n \ n ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ಮರುಪಡೆಯಲಾಗಿದೆ. \ n \ n ದಯವಿಟ್ಟು ನಮ್ಮನ್ನು ಪರಿಶೀಲಿಸಿ.</string>
+    <string name="rate_us_positive_button">ನಮಗೆ ರೇಟ್ ಮಾಡಿ.</string>
+    <string name="rate_us_negative_button">ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="rate_us_neutral_button">ಈಗ ಸಾಧ್ಯವಿಲ್ಲ.</string>
+</resources>

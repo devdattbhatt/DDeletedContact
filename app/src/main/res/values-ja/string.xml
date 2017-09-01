@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D削除された連絡先</string><string name="all_contact">連絡先</string><string name="deleted_contact">削除済み</string><string name="no_data_found">何もデータが見つかりませんでした</string><string name="dismiss">却下する</string><string name="share">シェア</string><string name="thank_you">共有/招待ありがとう</string><string name="contact_developer">エラーが発生し、開発者に連絡してください。</string><string name="install_whats_app">最初にWhats Appをインストールする</string><string name="install">インストール</string><string name="coming_soon">近日公開</string><string name="rating_thank_you_message">5つ星評価ありがとう</string><string name="press_again_to_exit">終了するにはもう一度戻るをクリックしてください</string><string name="try_after_some_time">しばらくしてから試してください</string><string name="action_language">言語</string><string name="action_rate_us">私たちを評価してください</string><string name="action_refresh">リフレッシュ</string><string name="action_restore_all">すべての復元</string><string name="action_app_invite">友達を招待</string><string name="action_contact_us">お問い合わせ</string><string name="contact_name">連絡先</string><string name="contact_phone_number">連絡先</string><string name="contact_account_type">口座の種類</string><string name="description_contact_photo">お問い合わせ写真</string><string name="description_contact_info">連絡先情報</string><string name="static_contact_us_whats_app">WhatsAppの開発者に直接お問い合わせください。</string><string name="static_contact_us_developer">開発者、テスト担当者、投稿者向けのGoogle+グループ</string><string name="static_contact_us_language">翻訳者と言語愛好家のためのGoogle+グループ。</string><string name="static_contact_us_google_plus">Google+で私に会う</string><string name="static_contact_us_linkedin">貢献者と開発者として参加する。</string><string name="static_contact_us_facebook">公式Facebookページ。</string><string name="invite_title">友達を招待</string><string name="invite_message">削除された連絡先は、オープンソース、フリーウェア、広告なしのアンドロイドアプリです。</string><string name="permission">許可</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE権限が必要です</string><string name="permission_message_read_contact">READ_CONTACTS権限が必要です</string><string name="permission_message_write_contact">WRITE_CONTACTS権限が必要です</string><string name="permission_grant">付与</string><string name="restore">リストア</string><string name="rate_us_title">評価は私たちにとって重要です</string><string name="rate_us_message">おめでとう.. !!! \ n \ n連絡先が復元されます。 \ n \ n私たちを見直してください。</string><string name="rate_us_positive_button">私たちを評価してください。</string><string name="rate_us_negative_button">お問い合わせ。</string><string name="rate_us_neutral_button">今はやめろ。</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D削除された連絡先</string>
+    <string name="all_contact">連絡先</string>
+    <string name="deleted_contact">削除済み</string>
+    <string name="no_data_found">何もデータが見つかりませんでした</string>
+    <string name="dismiss">却下する</string>
+    <string name="share">シェア</string>
+    <string name="thank_you">共有/招待ありがとう</string>
+    <string name="contact_developer">エラーが発生し、開発者に連絡してください。</string>
+    <string name="install_whats_app">最初にWhats Appをインストールする</string>
+    <string name="install">インストール</string>
+    <string name="coming_soon">近日公開</string>
+    <string name="rating_thank_you_message">5つ星評価ありがとう</string>
+    <string name="press_again_to_exit">終了するにはもう一度戻るをクリックしてください</string>
+    <string name="try_after_some_time">しばらくしてから試してください</string>
+    <string name="action_language">言語</string>
+    <string name="action_rate_us">私たちを評価してください</string>
+    <string name="action_refresh">リフレッシュ</string>
+    <string name="action_restore_all">すべての復元</string>
+    <string name="action_app_invite">友達を招待</string>
+    <string name="action_contact_us">お問い合わせ</string>
+    <string name="contact_name">連絡先</string>
+    <string name="contact_phone_number">連絡先</string>
+    <string name="contact_account_type">口座の種類</string>
+    <string name="description_contact_photo">お問い合わせ写真</string>
+    <string name="description_contact_info">連絡先情報</string>
+    <string name="static_contact_us_whats_app">WhatsAppの開発者に直接お問い合わせください。</string>
+    <string name="static_contact_us_developer">開発者、テスト担当者、投稿者向けのGoogle+グループ</string>
+    <string name="static_contact_us_language">翻訳者と言語愛好家のためのGoogle+グループ。</string>
+    <string name="static_contact_us_google_plus">Google+で私に会う</string>
+    <string name="static_contact_us_linkedin">貢献者と開発者として参加する。</string>
+    <string name="static_contact_us_facebook">公式Facebookページ。</string>
+    <string name="invite_title">友達を招待</string>
+    <string name="invite_message">削除された連絡先は、オープンソース、フリーウェア、広告なしのアンドロイドアプリです。</string>
+    <string name="permission">許可</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE権限が必要です</string>
+    <string name="permission_message_read_contact">READ_CONTACTS権限が必要です</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS権限が必要です</string>
+    <string name="permission_grant">付与</string>
+    <string name="restore">リストア</string>
+    <string name="rate_us_title">評価は私たちにとって重要です</string>
+    <string name="rate_us_message">おめでとう.. !!! \ n \ n連絡先が復元されます。 \ n \ n私たちを見直してください。</string>
+    <string name="rate_us_positive_button">私たちを評価してください。</string>
+    <string name="rate_us_negative_button">お問い合わせ。</string>
+    <string name="rate_us_neutral_button">今はやめろ。</string>
+</resources>

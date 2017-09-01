@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D له منځه وړل شوی تماس</string><string name="all_contact">اړیکې</string><string name="deleted_contact">ړنګ شوی</string><string name="no_data_found">هیڅ معلومات نه موندل شوي</string><string name="dismiss">خنډ</string><string name="share">شریک کړئ</string><string name="thank_you">د شریکولو / بلنې لپاره مننه</string><string name="contact_developer">تېروتنه رامنځته کیږي، د ارتباط جوړونکي.</string><string name="install_whats_app">لومړی د هټیو اپل نصب کړئ</string><string name="install">لګول</string><string name="coming_soon">ډېر ژر</string><string name="rating_thank_you_message">د 5 ستورو درجه بندي لپاره مننه</string><string name="press_again_to_exit">مهرباني وکړئ د وتلو لپاره بیا وروسته بیرته کلیک وکړئ</string><string name="try_after_some_time">ځینې ​​وخت وروسته هڅه وکړئ</string><string name="action_language">ژبه</string><string name="action_rate_us">موږ راکړه</string><string name="action_refresh">ریفریش کړئ</string><string name="action_restore_all">ټول بیرته راګرځول</string><string name="action_app_invite">ملګري بلنه وکړه</string><string name="action_contact_us">موږ سره اړیکه ونیسئ</string><string name="contact_name">د اړیکو نوم</string><string name="contact_phone_number">د اړیکې شمیره</string><string name="contact_account_type">د حساب ډول</string><string name="description_contact_photo">د اړیکو عکس</string><string name="description_contact_info">د اړیکو معلومات</string><string name="static_contact_us_whats_app">له پراختیایی سره په مستقیم ډول د WhatsApp په اړه اړیکه ونیسئ.</string><string name="static_contact_us_developer">د پراختیا ورکوونکو، ازموینې او مرسته کونکو لپاره د Google+ ګروپ.</string><string name="static_contact_us_language">د ژباړونکي او ژبې عاشقانو لپاره د Google+ ګروپ.</string><string name="static_contact_us_google_plus">په Google+ کې مې سره د لیدلو لپاره.</string><string name="static_contact_us_linkedin">د مرستندویه او پرمخ وړونکی په توګه د ګډون لپاره.</string><string name="static_contact_us_facebook">د فېسبوک رسمي پاڼه.</string><string name="invite_title">ملګري بلنه وکړه</string><string name="invite_message">له منځه وړل اړیکه د پرانیستې سرچینې، فریټریټ، اعلاناتو څخه وړیا اوپراین اېک دی.</string><string name="permission">اجازه</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE اجازه ورته اړتیا لري</string><string name="permission_message_read_contact">READ_CONTACTS اجازه ورته اړتیا ده</string><string name="permission_message_write_contact">د WRITE_CONTACTS اجازې ته اړتیا ده</string><string name="permission_grant">وړیا مرسته</string><string name="restore">بیا راګرځول</string><string name="rate_us_title">درجه زموږ لپاره مهمه ده</string><string name="rate_us_message">مبارکۍ !!! !!! \ n \ n ستاسې اړیکې بیرته راوړل شوي. \ n \ n لطفا موږ وګورئ.</string><string name="rate_us_positive_button">موږ راکړه.</string><string name="rate_us_negative_button">موږ سره اړیکه ونیسئ.</string><string name="rate_us_neutral_button">اوس نه.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D له منځه وړل شوی تماس</string>
+    <string name="all_contact">اړیکې</string>
+    <string name="deleted_contact">ړنګ شوی</string>
+    <string name="no_data_found">هیڅ معلومات نه موندل شوي</string>
+    <string name="dismiss">خنډ</string>
+    <string name="share">شریک کړئ</string>
+    <string name="thank_you">د شریکولو / بلنې لپاره مننه</string>
+    <string name="contact_developer">تېروتنه رامنځته کیږي، د ارتباط جوړونکي.</string>
+    <string name="install_whats_app">لومړی د هټیو اپل نصب کړئ</string>
+    <string name="install">لګول</string>
+    <string name="coming_soon">ډېر ژر</string>
+    <string name="rating_thank_you_message">د 5 ستورو درجه بندي لپاره مننه</string>
+    <string name="press_again_to_exit">مهرباني وکړئ د وتلو لپاره بیا وروسته بیرته کلیک وکړئ</string>
+    <string name="try_after_some_time">ځینې ​​وخت وروسته هڅه وکړئ</string>
+    <string name="action_language">ژبه</string>
+    <string name="action_rate_us">موږ راکړه</string>
+    <string name="action_refresh">ریفریش کړئ</string>
+    <string name="action_restore_all">ټول بیرته راګرځول</string>
+    <string name="action_app_invite">ملګري بلنه وکړه</string>
+    <string name="action_contact_us">موږ سره اړیکه ونیسئ</string>
+    <string name="contact_name">د اړیکو نوم</string>
+    <string name="contact_phone_number">د اړیکې شمیره</string>
+    <string name="contact_account_type">د حساب ډول</string>
+    <string name="description_contact_photo">د اړیکو عکس</string>
+    <string name="description_contact_info">د اړیکو معلومات</string>
+    <string name="static_contact_us_whats_app">له پراختیایی سره په مستقیم ډول د WhatsApp په اړه اړیکه ونیسئ.</string>
+    <string name="static_contact_us_developer">د پراختیا ورکوونکو، ازموینې او مرسته کونکو لپاره د Google+ ګروپ.</string>
+    <string name="static_contact_us_language">د ژباړونکي او ژبې عاشقانو لپاره د Google+ ګروپ.</string>
+    <string name="static_contact_us_google_plus">په Google+ کې مې سره د لیدلو لپاره.</string>
+    <string name="static_contact_us_linkedin">د مرستندویه او پرمخ وړونکی په توګه د ګډون لپاره.</string>
+    <string name="static_contact_us_facebook">د فېسبوک رسمي پاڼه.</string>
+    <string name="invite_title">ملګري بلنه وکړه</string>
+    <string name="invite_message">له منځه وړل اړیکه د پرانیستې سرچینې، فریټریټ، اعلاناتو څخه وړیا اوپراین اېک دی.</string>
+    <string name="permission">اجازه</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE اجازه ورته اړتیا لري</string>
+    <string name="permission_message_read_contact">READ_CONTACTS اجازه ورته اړتیا ده</string>
+    <string name="permission_message_write_contact">د WRITE_CONTACTS اجازې ته اړتیا ده</string>
+    <string name="permission_grant">وړیا مرسته</string>
+    <string name="restore">بیا راګرځول</string>
+    <string name="rate_us_title">درجه زموږ لپاره مهمه ده</string>
+    <string name="rate_us_message">مبارکۍ !!! !!! \ n \ n ستاسې اړیکې بیرته راوړل شوي. \ n \ n لطفا موږ وګورئ.</string>
+    <string name="rate_us_positive_button">موږ راکړه.</string>
+    <string name="rate_us_negative_button">موږ سره اړیکه ونیسئ.</string>
+    <string name="rate_us_neutral_button">اوس نه.</string>
+</resources>

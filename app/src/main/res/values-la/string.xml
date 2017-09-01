@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">Contact D Deleted</string><string name="all_contact">contactus</string><string name="deleted_contact">deletum</string><string name="no_data_found">Nulla Data Found</string><string name="dismiss">Mitte</string><string name="share">Share</string><string name="thank_you">Tibi gratias ago pro share / invitare</string><string name="contact_developer">Error contingat, contactus elit.</string><string name="install_whats_app">App primum install agis</string><string name="install">install</string><string name="coming_soon">Mox adventu</string><string name="rating_thank_you_message">Tibi gratias ago pro V stella rating</string><string name="press_again_to_exit">Please click iterum exitum,</string><string name="try_after_some_time">Try post Quidam Tempus</string><string name="action_language">Lingua</string><string name="action_rate_us">rate nobis</string><string name="action_refresh">Renovare</string><string name="action_restore_all">restituet omnia</string><string name="action_app_invite">Invitare amicos</string><string name="action_contact_us">Nobis loquere</string><string name="contact_name">Nomen Contangionis</string><string name="contact_phone_number">contactus numerus</string><string name="contact_account_type">Type Account</string><string name="description_contact_photo">Contact Image</string><string name="description_contact_info">Contactus info</string><string name="static_contact_us_whats_app">Directe contactus elit ad whatsapp.</string><string name="static_contact_us_developer">Google+ propter coetus Developers, et Testers esse.</string><string name="static_contact_us_language">Lingua enim coetus atque interpretes Google+ amantes.</string><string name="static_contact_us_google_plus">Praevenerunt me in Google+.</string><string name="static_contact_us_linkedin">Developer et contributor iungere.</string><string name="static_contact_us_facebook">Facebook Page publica.</string><string name="invite_title">Invitare amicos</string><string name="invite_message">Contact delevit aperuit fontem, Freeware, Advertise-Android app liberam.</string><string name="permission">permission</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE est opus fuerit permission</string><string name="permission_message_read_contact">READ_CONTACTS est opus fuerit permission</string><string name="permission_message_write_contact">WRITE_CONTACTS est opus fuerit permission</string><string name="permission_grant">dona</string><string name="restore">restituere</string><string name="rate_us_title">rating magni momenti est pro nobis</string><string name="rate_us_message">Gratulor .. !!! \ N \ n significatio cuncta redintegratur vestri contactus. \ N \ n review nobis placere.</string><string name="rate_us_positive_button">Rate nobis.</string><string name="rate_us_negative_button">Nobis loquere.</string><string name="rate_us_neutral_button">Non nunc.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Contact D Deleted</string>
+    <string name="all_contact">contactus</string>
+    <string name="deleted_contact">deletum</string>
+    <string name="no_data_found">Nulla Data Found</string>
+    <string name="dismiss">Mitte</string>
+    <string name="share">Share</string>
+    <string name="thank_you">Tibi gratias ago pro share / invitare</string>
+    <string name="contact_developer">Error contingat, contactus elit.</string>
+    <string name="install_whats_app">App primum install agis</string>
+    <string name="install">install</string>
+    <string name="coming_soon">Mox adventu</string>
+    <string name="rating_thank_you_message">Tibi gratias ago pro V stella rating</string>
+    <string name="press_again_to_exit">Please click iterum exitum,</string>
+    <string name="try_after_some_time">Try post Quidam Tempus</string>
+    <string name="action_language">Lingua</string>
+    <string name="action_rate_us">rate nobis</string>
+    <string name="action_refresh">Renovare</string>
+    <string name="action_restore_all">restituet omnia</string>
+    <string name="action_app_invite">Invitare amicos</string>
+    <string name="action_contact_us">Nobis loquere</string>
+    <string name="contact_name">Nomen Contangionis</string>
+    <string name="contact_phone_number">contactus numerus</string>
+    <string name="contact_account_type">Type Account</string>
+    <string name="description_contact_photo">Contact Image</string>
+    <string name="description_contact_info">Contactus info</string>
+    <string name="static_contact_us_whats_app">Directe contactus elit ad whatsapp.</string>
+    <string name="static_contact_us_developer">Google+ propter coetus Developers, et Testers esse.</string>
+    <string name="static_contact_us_language">Lingua enim coetus atque interpretes Google+ amantes.</string>
+    <string name="static_contact_us_google_plus">Praevenerunt me in Google+.</string>
+    <string name="static_contact_us_linkedin">Developer et contributor iungere.</string>
+    <string name="static_contact_us_facebook">Facebook Page publica.</string>
+    <string name="invite_title">Invitare amicos</string>
+    <string name="invite_message">Contact delevit aperuit fontem, Freeware, Advertise-Android app liberam.</string>
+    <string name="permission">permission</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE est opus fuerit permission</string>
+    <string name="permission_message_read_contact">READ_CONTACTS est opus fuerit permission</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS est opus fuerit permission</string>
+    <string name="permission_grant">dona</string>
+    <string name="restore">restituere</string>
+    <string name="rate_us_title">rating magni momenti est pro nobis</string>
+    <string name="rate_us_message">Gratulor .. !!! \ N \ n significatio cuncta redintegratur vestri contactus. \ N \ n review nobis placere.</string>
+    <string name="rate_us_positive_button">Rate nobis.</string>
+    <string name="rate_us_negative_button">Nobis loquere.</string>
+    <string name="rate_us_neutral_button">Non nunc.</string>
+</resources>

@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D nofafana Contact</string><string name="all_contact">Contacts</string><string name="deleted_contact">Fafao</string><string name="no_data_found">No Data hita</string><string name="dismiss">Dismiss</string><string name="share">Share</string><string name="thank_you">Misaotra anao anjara / manasa</string><string name="contact_developer">Error mitranga, fifandraisana developer.</string><string name="install_whats_app">Hametraka Whats App aloha</string><string name="install">hametraka</string><string name="coming_soon">Ho avy tsy ho ela</string><string name="rating_thank_you_message">Misaotra anao noho 5 kintana naoty</string><string name="press_again_to_exit">Tsindrio indray ivoahana</string><string name="try_after_some_time">Andramo Taorian&amp;#39;ny fotoana</string><string name="action_language">fiteny</string><string name="action_rate_us">Hanome naoty antsika</string><string name="action_refresh">Refresh</string><string name="action_restore_all">Ampodio rehetra</string><string name="action_app_invite">Manasa namana</string><string name="action_contact_us">Mifandraisa aminay</string><string name="contact_name">Contact anarana</string><string name="contact_phone_number">Antsoy ny laharana</string><string name="contact_account_type">Account Type</string><string name="description_contact_photo">Contact Photo</string><string name="description_contact_info">Contact Info</string><string name="static_contact_us_whats_app">Contact developer mivantana amin&amp;#39;ny WhatsApp.</string><string name="static_contact_us_developer">Google+ vondrona for Developers, Testers sy ny mpiara-miasa.</string><string name="static_contact_us_language">Google+ vondrona ho an&amp;#39;ny mpandika teny sy fiteny tia.</string><string name="static_contact_us_google_plus">Mba hitsena ahy tao amin&amp;#39;ny Google+.</string><string name="static_contact_us_linkedin">Hanatevin-daharana toy ny mpandray anjara sy ny Developer.</string><string name="static_contact_us_facebook">Official Facebook Page.</string><string name="invite_title">Manasa namana</string><string name="invite_message">Voafafa Contact dia Open-source, Freeware, ambarao-maimaim-poana android fampiharana.</string><string name="permission">Fanomezan-dàlana</string><string name="permission_message_write_external_storage">Ilaina ny fahazoan-dalana WRITE_EXTERNAL_STORAGE</string><string name="permission_message_read_contact">Ilaina ny fahazoan-dalana READ_CONTACTS</string><string name="permission_message_write_contact">Ilaina ny fahazoan-dalana WRITE_CONTACTS</string><string name="permission_grant">Grant</string><string name="restore">Ampodio</string><string name="rate_us_title">Rating Zava-dehibe ho antsika</string><string name="rate_us_message">Arahabaina .. !!! \ N \ n ny mpifandray dia sitrana. \ N \ n azafady mamerina antsika.</string><string name="rate_us_positive_button">Hanome naoty antsika.</string><string name="rate_us_negative_button">Mifandraisa aminay.</string><string name="rate_us_neutral_button">Tsy izao.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D nofafana Contact</string>
+    <string name="all_contact">Contacts</string>
+    <string name="deleted_contact">Fafao</string>
+    <string name="no_data_found">No Data hita</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="share">Share</string>
+    <string name="thank_you">Misaotra anao anjara / manasa</string>
+    <string name="contact_developer">Error mitranga, fifandraisana developer.</string>
+    <string name="install_whats_app">Hametraka Whats App aloha</string>
+    <string name="install">hametraka</string>
+    <string name="coming_soon">Ho avy tsy ho ela</string>
+    <string name="rating_thank_you_message">Misaotra anao noho 5 kintana naoty</string>
+    <string name="press_again_to_exit">Tsindrio indray ivoahana</string>
+    <string name="try_after_some_time">Andramo Taorian&amp;#39;ny fotoana</string>
+    <string name="action_language">fiteny</string>
+    <string name="action_rate_us">Hanome naoty antsika</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_restore_all">Ampodio rehetra</string>
+    <string name="action_app_invite">Manasa namana</string>
+    <string name="action_contact_us">Mifandraisa aminay</string>
+    <string name="contact_name">Contact anarana</string>
+    <string name="contact_phone_number">Antsoy ny laharana</string>
+    <string name="contact_account_type">Account Type</string>
+    <string name="description_contact_photo">Contact Photo</string>
+    <string name="description_contact_info">Contact Info</string>
+    <string name="static_contact_us_whats_app">Contact developer mivantana amin&amp;#39;ny WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ vondrona for Developers, Testers sy ny mpiara-miasa.</string>
+    <string name="static_contact_us_language">Google+ vondrona ho an&amp;#39;ny mpandika teny sy fiteny tia.</string>
+    <string name="static_contact_us_google_plus">Mba hitsena ahy tao amin&amp;#39;ny Google+.</string>
+    <string name="static_contact_us_linkedin">Hanatevin-daharana toy ny mpandray anjara sy ny Developer.</string>
+    <string name="static_contact_us_facebook">Official Facebook Page.</string>
+    <string name="invite_title">Manasa namana</string>
+    <string name="invite_message">Voafafa Contact dia Open-source, Freeware, ambarao-maimaim-poana android fampiharana.</string>
+    <string name="permission">Fanomezan-dàlana</string>
+    <string name="permission_message_write_external_storage">Ilaina ny fahazoan-dalana WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_message_read_contact">Ilaina ny fahazoan-dalana READ_CONTACTS</string>
+    <string name="permission_message_write_contact">Ilaina ny fahazoan-dalana WRITE_CONTACTS</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">Ampodio</string>
+    <string name="rate_us_title">Rating Zava-dehibe ho antsika</string>
+    <string name="rate_us_message">Arahabaina .. !!! \ N \ n ny mpifandray dia sitrana. \ N \ n azafady mamerina antsika.</string>
+    <string name="rate_us_positive_button">Hanome naoty antsika.</string>
+    <string name="rate_us_negative_button">Mifandraisa aminay.</string>
+    <string name="rate_us_neutral_button">Tsy izao.</string>
+</resources>

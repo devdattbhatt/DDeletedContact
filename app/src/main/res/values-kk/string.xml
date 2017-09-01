@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D Байланысу жойылды</string><string name="all_contact">Байланыс</string><string name="deleted_contact">Жойылды</string><string name="no_data_found">Деректер табылмады</string><string name="dismiss">Босатыңыз</string><string name="share">Бөлісу</string><string name="thank_you">Бөлісуге / шақыруға рахмет</string><string name="contact_developer">Қате пайда болғанда, әзірлеушіге хабарласыңыз.</string><string name="install_whats_app">Алдымен Whats App қолданбасын орнатыңыз</string><string name="install">Орнату</string><string name="coming_soon">Жақында шығады</string><string name="rating_thank_you_message">5 жұлдызды рейтингі үшін рахмет</string><string name="press_again_to_exit">Шығу үшін қайтадан басыңыз</string><string name="try_after_some_time">Біраз уақыттан кейін көріңіз</string><string name="action_language">Тіл</string><string name="action_rate_us">Бізге баға беріңіз</string><string name="action_refresh">Жаңарту</string><string name="action_restore_all">Барлығын қалпына келтіріңіз</string><string name="action_app_invite">Достарды шақыру</string><string name="action_contact_us">Бізбен хабарласыңы</string><string name="contact_name">Байланысу аты</string><string name="contact_phone_number">Байланыс нөмірі</string><string name="contact_account_type">Тіркелгі түрі</string><string name="description_contact_photo">Байланыс Фотосуреті</string><string name="description_contact_info">Байланыс ақпараты</string><string name="static_contact_us_whats_app">WhatsApp-та тікелей әзірлеушіге хабарласыңыз.</string><string name="static_contact_us_developer">Әзірлеушілер, тестерлер және салымшылар үшін Google+ тобы.</string><string name="static_contact_us_language">Аудармашылар мен тілдерді сүйетіндер үшін Google+ тобы.</string><string name="static_contact_us_google_plus">Мені Google+ сайтында кездестіру.</string><string name="static_contact_us_linkedin">Қатысушы және Жасақтаушы ретінде қосылу.</string><string name="static_contact_us_facebook">Ресми Facebook беті.</string><string name="invite_title">Достарды шақыру</string><string name="invite_message">Жойылған контакт - Ашық-көз, Freeware, Жарнамалайтын және Android қолданбасы.</string><string name="permission">Рұқсат</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE рұқсат қажет</string><string name="permission_message_read_contact">READ_CONTACTS рұқсат қажет</string><string name="permission_message_write_contact">WRITE_CONTACTS рұқсат қажет</string><string name="permission_grant">Грант</string><string name="restore">Қалпына келтіру</string><string name="rate_us_title">рейтинг біз үшін маңызды</string><string name="rate_us_message">құттықтау .. !!! \ n \ n байланыстар қалпына келтірілді. \ n \ n өтінеміз.</string><string name="rate_us_positive_button">Бізге баға беріңіз.</string><string name="rate_us_negative_button">Бізбен хабарласыңы.</string><string name="rate_us_neutral_button">Қазір емес.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Байланысу жойылды</string>
+    <string name="all_contact">Байланыс</string>
+    <string name="deleted_contact">Жойылды</string>
+    <string name="no_data_found">Деректер табылмады</string>
+    <string name="dismiss">Босатыңыз</string>
+    <string name="share">Бөлісу</string>
+    <string name="thank_you">Бөлісуге / шақыруға рахмет</string>
+    <string name="contact_developer">Қате пайда болғанда, әзірлеушіге хабарласыңыз.</string>
+    <string name="install_whats_app">Алдымен Whats App қолданбасын орнатыңыз</string>
+    <string name="install">Орнату</string>
+    <string name="coming_soon">Жақында шығады</string>
+    <string name="rating_thank_you_message">5 жұлдызды рейтингі үшін рахмет</string>
+    <string name="press_again_to_exit">Шығу үшін қайтадан басыңыз</string>
+    <string name="try_after_some_time">Біраз уақыттан кейін көріңіз</string>
+    <string name="action_language">Тіл</string>
+    <string name="action_rate_us">Бізге баға беріңіз</string>
+    <string name="action_refresh">Жаңарту</string>
+    <string name="action_restore_all">Барлығын қалпына келтіріңіз</string>
+    <string name="action_app_invite">Достарды шақыру</string>
+    <string name="action_contact_us">Бізбен хабарласыңы</string>
+    <string name="contact_name">Байланысу аты</string>
+    <string name="contact_phone_number">Байланыс нөмірі</string>
+    <string name="contact_account_type">Тіркелгі түрі</string>
+    <string name="description_contact_photo">Байланыс Фотосуреті</string>
+    <string name="description_contact_info">Байланыс ақпараты</string>
+    <string name="static_contact_us_whats_app">WhatsApp-та тікелей әзірлеушіге хабарласыңыз.</string>
+    <string name="static_contact_us_developer">Әзірлеушілер, тестерлер және салымшылар үшін Google+ тобы.</string>
+    <string name="static_contact_us_language">Аудармашылар мен тілдерді сүйетіндер үшін Google+ тобы.</string>
+    <string name="static_contact_us_google_plus">Мені Google+ сайтында кездестіру.</string>
+    <string name="static_contact_us_linkedin">Қатысушы және Жасақтаушы ретінде қосылу.</string>
+    <string name="static_contact_us_facebook">Ресми Facebook беті.</string>
+    <string name="invite_title">Достарды шақыру</string>
+    <string name="invite_message">Жойылған контакт - Ашық-көз, Freeware, Жарнамалайтын және Android қолданбасы.</string>
+    <string name="permission">Рұқсат</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE рұқсат қажет</string>
+    <string name="permission_message_read_contact">READ_CONTACTS рұқсат қажет</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS рұқсат қажет</string>
+    <string name="permission_grant">Грант</string>
+    <string name="restore">Қалпына келтіру</string>
+    <string name="rate_us_title">рейтинг біз үшін маңызды</string>
+    <string name="rate_us_message">құттықтау .. !!! \ n \ n байланыстар қалпына келтірілді. \ n \ n өтінеміз.</string>
+    <string name="rate_us_positive_button">Бізге баға беріңіз.</string>
+    <string name="rate_us_negative_button">Бізбен хабарласыңы.</string>
+    <string name="rate_us_neutral_button">Қазір емес.</string>
+</resources>

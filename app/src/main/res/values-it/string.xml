@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D eliminato contatto</string><string name="all_contact">Contatti</string><string name="deleted_contact">eliminata</string><string name="no_data_found">Nessun dato trovato</string><string name="dismiss">Respingere</string><string name="share">Condividere</string><string name="thank_you">Grazie per condividere / invitare</string><string name="contact_developer">Si verifica un errore, sviluppatore di contatti.</string><string name="install_whats_app">Installare Whats App in primo luogo</string><string name="install">Installare</string><string name="coming_soon">Prossimamente</string><string name="rating_thank_you_message">Grazie per i giudizi di 5 stelle</string><string name="press_again_to_exit">Fai clic su di nuovo per uscire</string><string name="try_after_some_time">Prova dopo qualche tempo</string><string name="action_language">Lingua</string><string name="action_rate_us">Votaci</string><string name="action_refresh">ricaricare</string><string name="action_restore_all">Ripristinare tutto</string><string name="action_app_invite">Invita gli amici</string><string name="action_contact_us">Contattaci</string><string name="contact_name">Nome del contatto</string><string name="contact_phone_number">Numero di contatto</string><string name="contact_account_type">Tipo di account</string><string name="description_contact_photo">Contatto Foto</string><string name="description_contact_info">Informazioni di contatto</string><string name="static_contact_us_whats_app">Contatta lo sviluppatore direttamente su WhatsApp.</string><string name="static_contact_us_developer">Gruppo Google+ per sviluppatori, tester e contributori.</string><string name="static_contact_us_language">Gruppo Google+ per traduttori e appassionati di lingue.</string><string name="static_contact_us_google_plus">Incontrarmi su Google+.</string><string name="static_contact_us_linkedin">Per iscriverti come collaboratore e sviluppatore.</string><string name="static_contact_us_facebook">Pagina ufficiale di Facebook.</string><string name="invite_title">Invita gli amici</string><string name="invite_message">Il contatto eliminato è open-source, freeware, app per android per pubblicità.</string><string name="permission">Autorizzazione</string><string name="permission_message_write_external_storage">È necessaria l&amp;#39;autorizzazione WRITE_EXTERNAL_STORAGE</string><string name="permission_message_read_contact">È necessaria l&amp;#39;autorizzazione READ_CONTACTS</string><string name="permission_message_write_contact">È necessaria l&amp;#39;autorizzazione WRITE_CONTACTS</string><string name="permission_grant">Concedere</string><string name="restore">Ristabilire</string><string name="rate_us_title">la valutazione è importante per noi</string><string name="rate_us_message">complimenti ..!!! \ n \ n i tuoi contatti vengono recuperati. \ n \ n vi preghiamo di rivederci.</string><string name="rate_us_positive_button">Votaci.</string><string name="rate_us_negative_button">Contattaci.</string><string name="rate_us_neutral_button">Non adesso.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D eliminato contatto</string>
+    <string name="all_contact">Contatti</string>
+    <string name="deleted_contact">eliminata</string>
+    <string name="no_data_found">Nessun dato trovato</string>
+    <string name="dismiss">Respingere</string>
+    <string name="share">Condividere</string>
+    <string name="thank_you">Grazie per condividere / invitare</string>
+    <string name="contact_developer">Si verifica un errore, sviluppatore di contatti.</string>
+    <string name="install_whats_app">Installare Whats App in primo luogo</string>
+    <string name="install">Installare</string>
+    <string name="coming_soon">Prossimamente</string>
+    <string name="rating_thank_you_message">Grazie per i giudizi di 5 stelle</string>
+    <string name="press_again_to_exit">Fai clic su di nuovo per uscire</string>
+    <string name="try_after_some_time">Prova dopo qualche tempo</string>
+    <string name="action_language">Lingua</string>
+    <string name="action_rate_us">Votaci</string>
+    <string name="action_refresh">ricaricare</string>
+    <string name="action_restore_all">Ripristinare tutto</string>
+    <string name="action_app_invite">Invita gli amici</string>
+    <string name="action_contact_us">Contattaci</string>
+    <string name="contact_name">Nome del contatto</string>
+    <string name="contact_phone_number">Numero di contatto</string>
+    <string name="contact_account_type">Tipo di account</string>
+    <string name="description_contact_photo">Contatto Foto</string>
+    <string name="description_contact_info">Informazioni di contatto</string>
+    <string name="static_contact_us_whats_app">Contatta lo sviluppatore direttamente su WhatsApp.</string>
+    <string name="static_contact_us_developer">Gruppo Google+ per sviluppatori, tester e contributori.</string>
+    <string name="static_contact_us_language">Gruppo Google+ per traduttori e appassionati di lingue.</string>
+    <string name="static_contact_us_google_plus">Incontrarmi su Google+.</string>
+    <string name="static_contact_us_linkedin">Per iscriverti come collaboratore e sviluppatore.</string>
+    <string name="static_contact_us_facebook">Pagina ufficiale di Facebook.</string>
+    <string name="invite_title">Invita gli amici</string>
+    <string name="invite_message">Il contatto eliminato è open-source, freeware, app per android per pubblicità.</string>
+    <string name="permission">Autorizzazione</string>
+    <string name="permission_message_write_external_storage">È necessaria l&amp;#39;autorizzazione WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_message_read_contact">È necessaria l&amp;#39;autorizzazione READ_CONTACTS</string>
+    <string name="permission_message_write_contact">È necessaria l&amp;#39;autorizzazione WRITE_CONTACTS</string>
+    <string name="permission_grant">Concedere</string>
+    <string name="restore">Ristabilire</string>
+    <string name="rate_us_title">la valutazione è importante per noi</string>
+    <string name="rate_us_message">complimenti ..!!! \ n \ n i tuoi contatti vengono recuperati. \ n \ n vi preghiamo di rivederci.</string>
+    <string name="rate_us_positive_button">Votaci.</string>
+    <string name="rate_us_negative_button">Contattaci.</string>
+    <string name="rate_us_neutral_button">Non adesso.</string>
+</resources>

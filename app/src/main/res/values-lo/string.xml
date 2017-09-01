@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D ລຶບຕິດຕໍ່</string><string name="all_contact">ຕິດຕໍ່ພົວພັນ</string><string name="deleted_contact">ລຶບ</string><string name="no_data_found">ບໍ່ພົບຂໍ້ມູນຂໍ້ມູນ</string><string name="dismiss">ປິດ</string><string name="share">Share</string><string name="thank_you">ຂໍຂອບໃຈທ່ານສໍາລັບການແບ່ງປັນ / ເຊີນ</string><string name="contact_developer">Error ເກີດຂຶ້ນ, ພັດທະນາການຕິດຕໍ່.</string><string name="install_whats_app">ຕິດຕັ້ງ Whats App ທໍາອິດ</string><string name="install">ຕິດຕັ້ງ</string><string name="coming_soon">Coming soon</string><string name="rating_thank_you_message">ຂໍຂອບໃຈທ່ານສໍາລັບການຈັດອັນດັບ 5 ດາວ</string><string name="press_again_to_exit">ກະລຸນາກົດກັບຄືນໄປບ່ອນອີກເທື່ອຫນຶ່ງເພື່ອອອກຈາກ</string><string name="try_after_some_time">ພະຍາຍາມຫຼັງຈາກທີ່ໃຊ້ເວລາບາງ</string><string name="action_language">ພາສາ</string><string name="action_rate_us">ອັດຕາພວກເຮົາ</string><string name="action_refresh">ໂຫຼດຫນ້າຈໍຄືນ</string><string name="action_restore_all">ການຟື້ນຟູທັງຫມົດ</string><string name="action_app_invite">ເຊີນຫມູ່ເພື່ອນ</string><string name="action_contact_us">ຕິດ​ຕໍ່​ພວກ​ເຮົາ</string><string name="contact_name">ຊື່​ຕິດ​ຕໍ່</string><string name="contact_phone_number">ຕິດຕໍ່ຈໍານວນ</string><string name="contact_account_type">ປະເພດບັນຊີ</string><string name="description_contact_photo">ຕິດຕໍ່ Photo</string><string name="description_contact_info">ຂໍ້​ມູນ​ຕິດ​ຕໍ່</string><string name="static_contact_us_whats_app">ຕິດຕໍ່ການພັດທະນາໂດຍກົງກ່ຽວກັບ WhatsApp.</string><string name="static_contact_us_developer">ກຸ່ມພັດທະນາ, ທົດສອບແລະການປະກອບສ່ວນກູໂກພລາສ.</string><string name="static_contact_us_language">ກຸ່ມສໍາລັບການແປພາສາແລະ lovers ພາສາກູໂກພລາສ.</string><string name="static_contact_us_google_plus">ເພື່ອຕອບສະຫນອງຂ້າພະເຈົ້າກ່ຽວກັບກູໂກພລາສ.</string><string name="static_contact_us_linkedin">ໃນການເຂົ້າຮ່ວມເປັນຜູ້ປະກອບສ່ວນແລະພັດທະນາ.</string><string name="static_contact_us_facebook">ຫນ້າເຟສບຸກຢ່າງເປັນທາງການ.</string><string name="invite_title">ເຊີນຫມູ່ເພື່ອນ</string><string name="invite_message">ລຶບຕິດຕໍ່ແມ່ນເປີດເຜີຍແຫຼ່ງ, Freeware, ໂຄສະນາຟຣີ app Android.</string><string name="permission">ການອະນຸຍາດ</string><string name="permission_message_write_external_storage">ການອະນຸຍາດ WRITE_EXTERNAL_STORAGE ທີ່ຈໍາເປັນ</string><string name="permission_message_read_contact">READ_CONTACTS ການອະນຸຍາດທີ່ຈໍາເປັນ</string><string name="permission_message_write_contact">WRITE_CONTACTS ການອະນຸຍາດທີ່ຈໍາເປັນ</string><string name="permission_grant">ການຊ່ວຍເຫຼືອລ້າ</string><string name="restore">ການຟື້ນຟູ</string><string name="rate_us_title">ແນນເປັນສິ່ງສໍາຄັນສໍາລັບພວກເຮົາ</string><string name="rate_us_message">ແດງຄວາມຍິນດີ .. !!! \ n \ n ຕິດຕໍ່ພົວພັນຂອງທ່ານແມ່ນຟື້ນຟູ. \ n \ n ກະລຸນາທົບທວນຄືນໃຫ້ພວກເຮົາ.</string><string name="rate_us_positive_button">ອັດຕາພວກເຮົາ.</string><string name="rate_us_negative_button">ຕິດ​ຕໍ່​ພວກ​ເຮົາ.</string><string name="rate_us_neutral_button">ບໍ່​ແມ່ນ​ຕອນ​ນີ້.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D ລຶບຕິດຕໍ່</string>
+    <string name="all_contact">ຕິດຕໍ່ພົວພັນ</string>
+    <string name="deleted_contact">ລຶບ</string>
+    <string name="no_data_found">ບໍ່ພົບຂໍ້ມູນຂໍ້ມູນ</string>
+    <string name="dismiss">ປິດ</string>
+    <string name="share">Share</string>
+    <string name="thank_you">ຂໍຂອບໃຈທ່ານສໍາລັບການແບ່ງປັນ / ເຊີນ</string>
+    <string name="contact_developer">Error ເກີດຂຶ້ນ, ພັດທະນາການຕິດຕໍ່.</string>
+    <string name="install_whats_app">ຕິດຕັ້ງ Whats App ທໍາອິດ</string>
+    <string name="install">ຕິດຕັ້ງ</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="rating_thank_you_message">ຂໍຂອບໃຈທ່ານສໍາລັບການຈັດອັນດັບ 5 ດາວ</string>
+    <string name="press_again_to_exit">ກະລຸນາກົດກັບຄືນໄປບ່ອນອີກເທື່ອຫນຶ່ງເພື່ອອອກຈາກ</string>
+    <string name="try_after_some_time">ພະຍາຍາມຫຼັງຈາກທີ່ໃຊ້ເວລາບາງ</string>
+    <string name="action_language">ພາສາ</string>
+    <string name="action_rate_us">ອັດຕາພວກເຮົາ</string>
+    <string name="action_refresh">ໂຫຼດຫນ້າຈໍຄືນ</string>
+    <string name="action_restore_all">ການຟື້ນຟູທັງຫມົດ</string>
+    <string name="action_app_invite">ເຊີນຫມູ່ເພື່ອນ</string>
+    <string name="action_contact_us">ຕິດ​ຕໍ່​ພວກ​ເຮົາ</string>
+    <string name="contact_name">ຊື່​ຕິດ​ຕໍ່</string>
+    <string name="contact_phone_number">ຕິດຕໍ່ຈໍານວນ</string>
+    <string name="contact_account_type">ປະເພດບັນຊີ</string>
+    <string name="description_contact_photo">ຕິດຕໍ່ Photo</string>
+    <string name="description_contact_info">ຂໍ້​ມູນ​ຕິດ​ຕໍ່</string>
+    <string name="static_contact_us_whats_app">ຕິດຕໍ່ການພັດທະນາໂດຍກົງກ່ຽວກັບ WhatsApp.</string>
+    <string name="static_contact_us_developer">ກຸ່ມພັດທະນາ, ທົດສອບແລະການປະກອບສ່ວນກູໂກພລາສ.</string>
+    <string name="static_contact_us_language">ກຸ່ມສໍາລັບການແປພາສາແລະ lovers ພາສາກູໂກພລາສ.</string>
+    <string name="static_contact_us_google_plus">ເພື່ອຕອບສະຫນອງຂ້າພະເຈົ້າກ່ຽວກັບກູໂກພລາສ.</string>
+    <string name="static_contact_us_linkedin">ໃນການເຂົ້າຮ່ວມເປັນຜູ້ປະກອບສ່ວນແລະພັດທະນາ.</string>
+    <string name="static_contact_us_facebook">ຫນ້າເຟສບຸກຢ່າງເປັນທາງການ.</string>
+    <string name="invite_title">ເຊີນຫມູ່ເພື່ອນ</string>
+    <string name="invite_message">ລຶບຕິດຕໍ່ແມ່ນເປີດເຜີຍແຫຼ່ງ, Freeware, ໂຄສະນາຟຣີ app Android.</string>
+    <string name="permission">ການອະນຸຍາດ</string>
+    <string name="permission_message_write_external_storage">ການອະນຸຍາດ WRITE_EXTERNAL_STORAGE ທີ່ຈໍາເປັນ</string>
+    <string name="permission_message_read_contact">READ_CONTACTS ການອະນຸຍາດທີ່ຈໍາເປັນ</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS ການອະນຸຍາດທີ່ຈໍາເປັນ</string>
+    <string name="permission_grant">ການຊ່ວຍເຫຼືອລ້າ</string>
+    <string name="restore">ການຟື້ນຟູ</string>
+    <string name="rate_us_title">ແນນເປັນສິ່ງສໍາຄັນສໍາລັບພວກເຮົາ</string>
+    <string name="rate_us_message">ແດງຄວາມຍິນດີ .. !!! \ n \ n ຕິດຕໍ່ພົວພັນຂອງທ່ານແມ່ນຟື້ນຟູ. \ n \ n ກະລຸນາທົບທວນຄືນໃຫ້ພວກເຮົາ.</string>
+    <string name="rate_us_positive_button">ອັດຕາພວກເຮົາ.</string>
+    <string name="rate_us_negative_button">ຕິດ​ຕໍ່​ພວກ​ເຮົາ.</string>
+    <string name="rate_us_neutral_button">ບໍ່​ແມ່ນ​ຕອນ​ນີ້.</string>
+</resources>

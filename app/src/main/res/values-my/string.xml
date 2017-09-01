@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">: D အားဖျက်သိမ်းပြီးဆက်သွယ်ပါ</string><string name="all_contact">ဆက်သွယ်ရန်</string><string name="deleted_contact">Deleted</string><string name="no_data_found">ဒေတာများတွေ့သည်အဘယ်သူမျှမ</string><string name="dismiss">ထုတ်ပစ်</string><string name="share">ဝေစု</string><string name="thank_you">/ ဖိတ်ခေါ်ဝေစုအတွက်ကျေးဇူးတင်ပါသည်</string><string name="contact_developer">မှားယွင်းနေသည်ဖြစ်ပေါ်, အဆက်အသွယ်ဆော့ဖ်ဝဲရေးသူ။</string><string name="install_whats_app">ပထမဦးဆုံးအဘယ်အရာ App ကို Install လုပ်</string><string name="install">Install</string><string name="coming_soon">မကြာမှီလာမည်</string><string name="rating_thank_you_message">5 ကြယ် ratings အတွက်ကျေးဇူးတင်ပါသည်</string><string name="press_again_to_exit">ထွက်ပေါက်မှပြန် click နှိပ်ပေးပါ</string><string name="try_after_some_time">တချို့ကအချိန်ပြီးနောက်ကြိုးစားပါ</string><string name="action_language">ဘာသာစကား</string><string name="action_rate_us">အဆင့်သတ်မှတ်ပေးပါ</string><string name="action_refresh">အားဖြည့်</string><string name="action_restore_all">အားလုံး Restore</string><string name="action_app_invite">သူငယ်ချင်းများကိုဖိတ်ကြားသည်</string><string name="action_contact_us">ကြှနျုပျတို့ကိုဆကျသှယျရနျ</string><string name="contact_name">ဆက်သွယ်ရန်အမည်</string><string name="contact_phone_number">ဆက်သွယ်ရန်အရေအတွက်ကို</string><string name="contact_account_type">အကောင့်အမျိုးအစား</string><string name="description_contact_photo">ဆက်သွယ်ရန်ဓာတ်ပုံ</string><string name="description_contact_info">ဆက်သွယ်ရန်အချက်အလက်</string><string name="static_contact_us_whats_app">WhatsApp ကိုအပေါ်ကိုတိုက်ရိုက်ဆက်သွယ်ပါ developer ။</string><string name="static_contact_us_developer">Developers, စမ်းသပ်သူများသို့နှင့်မျှဝေသူအတွက် Google+ အုပ်စုသည်။</string><string name="static_contact_us_language">ဘာသာပြန်ချက်ဘာသာစကားများချစ်သူများအတွက် Google+ အုပ်စုသည်။</string><string name="static_contact_us_google_plus">Google+ တွင်ငါ့ကိုတွေ့ဆုံရန်။</string><string name="static_contact_us_linkedin">ပံ့ပိုးနှင့်ရေးသားသူအဖြစ်ကို Join ရန်။</string><string name="static_contact_us_facebook">တရားဝင် Facebook ကစာမျက်နှာ။</string><string name="invite_title">သူငယ်ချင်းများကိုဖိတ်ကြားသည်</string><string name="invite_message">ပယ်ဖျက်ခဲ့တဲ့ဆက်သွယ်ပါပွင့်လင်းတဲ့အရင်းအမြစ်, အခမဲ့ဆော့ဗ်ဝဲ, Advertise-အခမဲ့ဟာ android App ဖြစ်ပါတယ်။</string><string name="permission">အခွင့်</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE ခွင့်ပြုချက်လိုအပ်</string><string name="permission_message_read_contact">READ_CONTACTS ခွင့်ပြုချက်လိုအပ်</string><string name="permission_message_write_contact">WRITE_CONTACTS ခွင့်ပြုချက်လိုအပ်</string><string name="permission_grant">ဂရန်</string><string name="restore">Restore</string><string name="rate_us_title">အဆင့်သတ်မှတ်ချက်သည်ငါတို့အဘို့အရေးကြီးပါတယ်</string><string name="rate_us_message">ဂုဏ်ပြုလွှာ .. !!! \ n \ n သင့်ရဲ့အဆက်အသွယ်ပြန်လည်ကောင်းမွန်ဖြစ်ပါတယ်။ \ n \ n ကျွန်တော်တို့ကိုပြန်လည်သုံးသပ်ပါ။</string><string name="rate_us_positive_button">အဆင့်သတ်မှတ်ပေးပါ။</string><string name="rate_us_negative_button">ကြှနျုပျတို့ကိုဆကျသှယျရနျ။</string><string name="rate_us_neutral_button">ယခုမဟုတ်ပါ။</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">: D အားဖျက်သိမ်းပြီးဆက်သွယ်ပါ</string>
+    <string name="all_contact">ဆက်သွယ်ရန်</string>
+    <string name="deleted_contact">Deleted</string>
+    <string name="no_data_found">ဒေတာများတွေ့သည်အဘယ်သူမျှမ</string>
+    <string name="dismiss">ထုတ်ပစ်</string>
+    <string name="share">ဝေစု</string>
+    <string name="thank_you">/ ဖိတ်ခေါ်ဝေစုအတွက်ကျေးဇူးတင်ပါသည်</string>
+    <string name="contact_developer">မှားယွင်းနေသည်ဖြစ်ပေါ်, အဆက်အသွယ်ဆော့ဖ်ဝဲရေးသူ။</string>
+    <string name="install_whats_app">ပထမဦးဆုံးအဘယ်အရာ App ကို Install လုပ်</string>
+    <string name="install">Install</string>
+    <string name="coming_soon">မကြာမှီလာမည်</string>
+    <string name="rating_thank_you_message">5 ကြယ် ratings အတွက်ကျေးဇူးတင်ပါသည်</string>
+    <string name="press_again_to_exit">ထွက်ပေါက်မှပြန် click နှိပ်ပေးပါ</string>
+    <string name="try_after_some_time">တချို့ကအချိန်ပြီးနောက်ကြိုးစားပါ</string>
+    <string name="action_language">ဘာသာစကား</string>
+    <string name="action_rate_us">အဆင့်သတ်မှတ်ပေးပါ</string>
+    <string name="action_refresh">အားဖြည့်</string>
+    <string name="action_restore_all">အားလုံး Restore</string>
+    <string name="action_app_invite">သူငယ်ချင်းများကိုဖိတ်ကြားသည်</string>
+    <string name="action_contact_us">ကြှနျုပျတို့ကိုဆကျသှယျရနျ</string>
+    <string name="contact_name">ဆက်သွယ်ရန်အမည်</string>
+    <string name="contact_phone_number">ဆက်သွယ်ရန်အရေအတွက်ကို</string>
+    <string name="contact_account_type">အကောင့်အမျိုးအစား</string>
+    <string name="description_contact_photo">ဆက်သွယ်ရန်ဓာတ်ပုံ</string>
+    <string name="description_contact_info">ဆက်သွယ်ရန်အချက်အလက်</string>
+    <string name="static_contact_us_whats_app">WhatsApp ကိုအပေါ်ကိုတိုက်ရိုက်ဆက်သွယ်ပါ developer ။</string>
+    <string name="static_contact_us_developer">Developers, စမ်းသပ်သူများသို့နှင့်မျှဝေသူအတွက် Google+ အုပ်စုသည်။</string>
+    <string name="static_contact_us_language">ဘာသာပြန်ချက်ဘာသာစကားများချစ်သူများအတွက် Google+ အုပ်စုသည်။</string>
+    <string name="static_contact_us_google_plus">Google+ တွင်ငါ့ကိုတွေ့ဆုံရန်။</string>
+    <string name="static_contact_us_linkedin">ပံ့ပိုးနှင့်ရေးသားသူအဖြစ်ကို Join ရန်။</string>
+    <string name="static_contact_us_facebook">တရားဝင် Facebook ကစာမျက်နှာ။</string>
+    <string name="invite_title">သူငယ်ချင်းများကိုဖိတ်ကြားသည်</string>
+    <string name="invite_message">ပယ်ဖျက်ခဲ့တဲ့ဆက်သွယ်ပါပွင့်လင်းတဲ့အရင်းအမြစ်, အခမဲ့ဆော့ဗ်ဝဲ, Advertise-အခမဲ့ဟာ android App ဖြစ်ပါတယ်။</string>
+    <string name="permission">အခွင့်</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE ခွင့်ပြုချက်လိုအပ်</string>
+    <string name="permission_message_read_contact">READ_CONTACTS ခွင့်ပြုချက်လိုအပ်</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS ခွင့်ပြုချက်လိုအပ်</string>
+    <string name="permission_grant">ဂရန်</string>
+    <string name="restore">Restore</string>
+    <string name="rate_us_title">အဆင့်သတ်မှတ်ချက်သည်ငါတို့အဘို့အရေးကြီးပါတယ်</string>
+    <string name="rate_us_message">ဂုဏ်ပြုလွှာ .. !!! \ n \ n သင့်ရဲ့အဆက်အသွယ်ပြန်လည်ကောင်းမွန်ဖြစ်ပါတယ်။ \ n \ n ကျွန်တော်တို့ကိုပြန်လည်သုံးသပ်ပါ။</string>
+    <string name="rate_us_positive_button">အဆင့်သတ်မှတ်ပေးပါ။</string>
+    <string name="rate_us_negative_button">ကြှနျုပျတို့ကိုဆကျသှယျရနျ။</string>
+    <string name="rate_us_neutral_button">ယခုမဟုတ်ပါ။</string>
+</resources>

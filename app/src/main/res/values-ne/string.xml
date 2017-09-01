@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">डी मेटिएको संपर्क</string><string name="all_contact">सम्पर्क</string><string name="deleted_contact">मेटिएको</string><string name="no_data_found">कुनै डाटा मिली</string><string name="dismiss">खारेज</string><string name="share">शेयर</string><string name="thank_you">शेयर लागि धन्यवाद / आमन्त्रण</string><string name="contact_developer">त्रुटि, उत्पन्न सम्पर्क विकासकर्ता।</string><string name="install_whats_app">पहिलो Whats अनुप्रयोग स्थापना</string><string name="install">स्थापना</string><string name="coming_soon">आउदैछ</string><string name="rating_thank_you_message">5 मूल्यांकन तारा लागि धन्यवाद</string><string name="press_again_to_exit">बाहिर निस्कन फेरि क्लिक गर्नुहोस्</string><string name="try_after_some_time">केही समय पछि प्रयास</string><string name="action_language">भाषा</string><string name="action_rate_us">हामीलाई दर</string><string name="action_refresh">ताजा</string><string name="action_restore_all">सबै पुनर्स्थापना</string><string name="action_app_invite">साथीहरुलाई निम्तो गर</string><string name="action_contact_us">हामीलाई सम्पर्क गर्नुहोस</string><string name="contact_name">सम्पर्क नाम</string><string name="contact_phone_number">सम्पर्क नम्बर</string><string name="contact_account_type">खाताको प्रकार</string><string name="description_contact_photo">सम्पर्क फोटो</string><string name="description_contact_info">सम्पर्क जानकारी</string><string name="static_contact_us_whats_app">सीधा WhatsApp विकासकर्ता सम्पर्क।</string><string name="static_contact_us_developer">विकासकर्ता, परीक्षकहरु र योगदानकर्ता लागि Google+ समूह।</string><string name="static_contact_us_language">अनुवादक र भाषा प्रेमीहरूको लागि Google+ समूह।</string><string name="static_contact_us_google_plus">Google+ मा मलाई भेट्न।</string><string name="static_contact_us_linkedin">योगदानकर्ता र विकासकर्ता रूपमा सामेल।</string><string name="static_contact_us_facebook">आधिकारिक फेसबुक पेज।</string><string name="invite_title">साथीहरुलाई निम्तो गर</string><string name="invite_message">मेटिएको संपर्क खुल्ला स्रोत, फ्रीवेयर, विज्ञापन-मुक्त Android अनुप्रयोग हो।</string><string name="permission">अनुमति</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE अनुमति आवश्यक छ</string><string name="permission_message_read_contact">READ_CONTACTS अनुमति आवश्यक छ</string><string name="permission_message_write_contact">WRITE_CONTACTS अनुमति आवश्यक छ</string><string name="permission_grant">अनुदान</string><string name="restore">पुनर्स्थापना</string><string name="rate_us_title">दर्जा हाम्रो लागि महत्त्वपूर्ण छ</string><string name="rate_us_message">बधाई .. !!! \ N \ n तपाईंको सम्पर्क बरामद गरिएको छ। \ N \ n हामीलाई समीक्षा गर्नुहोस्।</string><string name="rate_us_positive_button">हामीलाई दर।</string><string name="rate_us_negative_button">हामीलाई सम्पर्क गर्नुहोस।</string><string name="rate_us_neutral_button">अहिले होइन।</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">डी मेटिएको संपर्क</string>
+    <string name="all_contact">सम्पर्क</string>
+    <string name="deleted_contact">मेटिएको</string>
+    <string name="no_data_found">कुनै डाटा मिली</string>
+    <string name="dismiss">खारेज</string>
+    <string name="share">शेयर</string>
+    <string name="thank_you">शेयर लागि धन्यवाद / आमन्त्रण</string>
+    <string name="contact_developer">त्रुटि, उत्पन्न सम्पर्क विकासकर्ता।</string>
+    <string name="install_whats_app">पहिलो Whats अनुप्रयोग स्थापना</string>
+    <string name="install">स्थापना</string>
+    <string name="coming_soon">आउदैछ</string>
+    <string name="rating_thank_you_message">5 मूल्यांकन तारा लागि धन्यवाद</string>
+    <string name="press_again_to_exit">बाहिर निस्कन फेरि क्लिक गर्नुहोस्</string>
+    <string name="try_after_some_time">केही समय पछि प्रयास</string>
+    <string name="action_language">भाषा</string>
+    <string name="action_rate_us">हामीलाई दर</string>
+    <string name="action_refresh">ताजा</string>
+    <string name="action_restore_all">सबै पुनर्स्थापना</string>
+    <string name="action_app_invite">साथीहरुलाई निम्तो गर</string>
+    <string name="action_contact_us">हामीलाई सम्पर्क गर्नुहोस</string>
+    <string name="contact_name">सम्पर्क नाम</string>
+    <string name="contact_phone_number">सम्पर्क नम्बर</string>
+    <string name="contact_account_type">खाताको प्रकार</string>
+    <string name="description_contact_photo">सम्पर्क फोटो</string>
+    <string name="description_contact_info">सम्पर्क जानकारी</string>
+    <string name="static_contact_us_whats_app">सीधा WhatsApp विकासकर्ता सम्पर्क।</string>
+    <string name="static_contact_us_developer">विकासकर्ता, परीक्षकहरु र योगदानकर्ता लागि Google+ समूह।</string>
+    <string name="static_contact_us_language">अनुवादक र भाषा प्रेमीहरूको लागि Google+ समूह।</string>
+    <string name="static_contact_us_google_plus">Google+ मा मलाई भेट्न।</string>
+    <string name="static_contact_us_linkedin">योगदानकर्ता र विकासकर्ता रूपमा सामेल।</string>
+    <string name="static_contact_us_facebook">आधिकारिक फेसबुक पेज।</string>
+    <string name="invite_title">साथीहरुलाई निम्तो गर</string>
+    <string name="invite_message">मेटिएको संपर्क खुल्ला स्रोत, फ्रीवेयर, विज्ञापन-मुक्त Android अनुप्रयोग हो।</string>
+    <string name="permission">अनुमति</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE अनुमति आवश्यक छ</string>
+    <string name="permission_message_read_contact">READ_CONTACTS अनुमति आवश्यक छ</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS अनुमति आवश्यक छ</string>
+    <string name="permission_grant">अनुदान</string>
+    <string name="restore">पुनर्स्थापना</string>
+    <string name="rate_us_title">दर्जा हाम्रो लागि महत्त्वपूर्ण छ</string>
+    <string name="rate_us_message">बधाई .. !!! \ N \ n तपाईंको सम्पर्क बरामद गरिएको छ। \ N \ n हामीलाई समीक्षा गर्नुहोस्।</string>
+    <string name="rate_us_positive_button">हामीलाई दर।</string>
+    <string name="rate_us_negative_button">हामीलाई सम्पर्क गर्नुहोस।</string>
+    <string name="rate_us_neutral_button">अहिले होइन।</string>
+</resources>

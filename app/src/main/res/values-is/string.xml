@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D eytt tengilið</string><string name="all_contact">Tengiliðir</string><string name="deleted_contact">Eytt</string><string name="no_data_found">Engin gögn fundust</string><string name="dismiss">Sleppa</string><string name="share">Deila</string><string name="thank_you">Þakka þér fyrir að deila / bjóða</string><string name="contact_developer">Villa kom upp, samband verktaki.</string><string name="install_whats_app">Setjið hvað forritið er fyrst</string><string name="install">Setja upp</string><string name="coming_soon">Kemur fljótlega</string><string name="rating_thank_you_message">Þakka þér fyrir 5 stjörnur</string><string name="press_again_to_exit">Vinsamlegast smelltu aftur til að hætta</string><string name="try_after_some_time">Prófaðu eftir nokkurn tíma</string><string name="action_language">Tungumál</string><string name="action_rate_us">Gefðu okkur einkunn</string><string name="action_refresh">Uppfæra</string><string name="action_restore_all">Endurheimta alla</string><string name="action_app_invite">Bjóða vinum</string><string name="action_contact_us">Hafðu samband við okkur</string><string name="contact_name">Nafn tengiliðar</string><string name="contact_phone_number">Númer tengiliðs</string><string name="contact_account_type">Tegund reiknings</string><string name="description_contact_photo">Viltu samband við mynd</string><string name="description_contact_info">Hafðu samband</string><string name="static_contact_us_whats_app">Hafðu samband við forritara beint á WhatsApp.</string><string name="static_contact_us_developer">Google+ hópur fyrir hönnuði, prófunarmenn og þátttakendur.</string><string name="static_contact_us_language">Google+ hópur fyrir þýðendur og tungumál elskendur.</string><string name="static_contact_us_google_plus">Til að hitta mig á Google+.</string><string name="static_contact_us_linkedin">Til að taka þátt sem framlag og hönnuður.</string><string name="static_contact_us_facebook">Opinber Facebook Page.</string><string name="invite_title">Bjóða vinum</string><string name="invite_message">Eyða tengilið er Opinn uppspretta, Ókeypis hugbúnaður, Auglýsa ókeypis android app.</string><string name="permission">Leyfi</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE leyfi er þörf</string><string name="permission_message_read_contact">READ_CONTACTS leyfi er þörf</string><string name="permission_message_write_contact">WRITE_CONTACTS leyfi er þörf</string><string name="permission_grant">Grant</string><string name="restore">Endurheimta</string><string name="rate_us_title">einkunn er mikilvægt fyrir okkur</string><string name="rate_us_message">Til hamingju .. !!! \ n \ n tengiliðir þínar eru endurheimtar. \ n \ n Vinsamlegast skoðaðu okkur.</string><string name="rate_us_positive_button">Gefðu okkur einkunn.</string><string name="rate_us_negative_button">Hafðu samband við okkur.</string><string name="rate_us_neutral_button">Ekki núna.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D eytt tengilið</string>
+    <string name="all_contact">Tengiliðir</string>
+    <string name="deleted_contact">Eytt</string>
+    <string name="no_data_found">Engin gögn fundust</string>
+    <string name="dismiss">Sleppa</string>
+    <string name="share">Deila</string>
+    <string name="thank_you">Þakka þér fyrir að deila / bjóða</string>
+    <string name="contact_developer">Villa kom upp, samband verktaki.</string>
+    <string name="install_whats_app">Setjið hvað forritið er fyrst</string>
+    <string name="install">Setja upp</string>
+    <string name="coming_soon">Kemur fljótlega</string>
+    <string name="rating_thank_you_message">Þakka þér fyrir 5 stjörnur</string>
+    <string name="press_again_to_exit">Vinsamlegast smelltu aftur til að hætta</string>
+    <string name="try_after_some_time">Prófaðu eftir nokkurn tíma</string>
+    <string name="action_language">Tungumál</string>
+    <string name="action_rate_us">Gefðu okkur einkunn</string>
+    <string name="action_refresh">Uppfæra</string>
+    <string name="action_restore_all">Endurheimta alla</string>
+    <string name="action_app_invite">Bjóða vinum</string>
+    <string name="action_contact_us">Hafðu samband við okkur</string>
+    <string name="contact_name">Nafn tengiliðar</string>
+    <string name="contact_phone_number">Númer tengiliðs</string>
+    <string name="contact_account_type">Tegund reiknings</string>
+    <string name="description_contact_photo">Viltu samband við mynd</string>
+    <string name="description_contact_info">Hafðu samband</string>
+    <string name="static_contact_us_whats_app">Hafðu samband við forritara beint á WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ hópur fyrir hönnuði, prófunarmenn og þátttakendur.</string>
+    <string name="static_contact_us_language">Google+ hópur fyrir þýðendur og tungumál elskendur.</string>
+    <string name="static_contact_us_google_plus">Til að hitta mig á Google+.</string>
+    <string name="static_contact_us_linkedin">Til að taka þátt sem framlag og hönnuður.</string>
+    <string name="static_contact_us_facebook">Opinber Facebook Page.</string>
+    <string name="invite_title">Bjóða vinum</string>
+    <string name="invite_message">Eyða tengilið er Opinn uppspretta, Ókeypis hugbúnaður, Auglýsa ókeypis android app.</string>
+    <string name="permission">Leyfi</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE leyfi er þörf</string>
+    <string name="permission_message_read_contact">READ_CONTACTS leyfi er þörf</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS leyfi er þörf</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">Endurheimta</string>
+    <string name="rate_us_title">einkunn er mikilvægt fyrir okkur</string>
+    <string name="rate_us_message">Til hamingju .. !!! \ n \ n tengiliðir þínar eru endurheimtar. \ n \ n Vinsamlegast skoðaðu okkur.</string>
+    <string name="rate_us_positive_button">Gefðu okkur einkunn.</string>
+    <string name="rate_us_negative_button">Hafðu samband við okkur.</string>
+    <string name="rate_us_neutral_button">Ekki núna.</string>
+</resources>

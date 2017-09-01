@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D ehichapụ Kpọtụrụ</string><string name="all_contact">Ndi ana-akpo</string><string name="deleted_contact">ehichapụ</string><string name="no_data_found">Ọ dịghị Data Hụrụ</string><string name="dismiss">igbasa</string><string name="share">Share</string><string name="thank_you">Daalụ maka òkè / òkù</string><string name="contact_developer">Error ime, kọntaktị Mmepụta.</string><string name="install_whats_app">Wụnye kedu App mbụ</string><string name="install">wụnye</string><string name="coming_soon">Na-abịa oge adịghị anya</string><string name="rating_thank_you_message">Daalụ maka 5 kpakpando ratings</string><string name="press_again_to_exit">Biko pịa azụ ọzọ wepuÚ</string><string name="try_after_some_time">Gbalịa mgbe oge ụfọdụ</string><string name="action_language">Language</string><string name="action_rate_us">Dịruru anyị</string><string name="action_refresh">Ume</string><string name="action_restore_all">weghachi All</string><string name="action_app_invite">òkù Enyi</string><string name="action_contact_us">Kpọtụrụ anyị</string><string name="contact_name">kọntaktị aha</string><string name="contact_phone_number">Mkpọtụrụ</string><string name="contact_account_type">Account Type</string><string name="description_contact_photo">Kpọtụrụ Photo</string><string name="description_contact_info">Ama kọntaktị</string><string name="static_contact_us_whats_app">Kpọtụrụ Mmepụta na na WhatsApp.</string><string name="static_contact_us_developer">Google+ ìgwè Developers, Testers na nkwado.</string><string name="static_contact_us_language">Google+ ìgwè Nsụgharị na Language ndị hụrụ.</string><string name="static_contact_us_google_plus">Imeri m on Google+.</string><string name="static_contact_us_linkedin">Iji Jikọọ ka ntinye aka na Developer.</string><string name="static_contact_us_facebook">Official Facebook Page.</string><string name="invite_title">òkù Enyi</string><string name="invite_message">Ehichapụ Contact bụ Open-iyi, Freeware, Kpọsaanụ-free android ngwa.</string><string name="permission">ikike</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE ikike dị mkpa</string><string name="permission_message_read_contact">READ_CONTACTS ikike dị mkpa</string><string name="permission_message_write_contact">WRITE_CONTACTS ikike dị mkpa</string><string name="permission_grant">Grant</string><string name="restore">weghachi</string><string name="rate_us_title">fim bụ mkpa ka anyị</string><string name="rate_us_message">ekele .. !!! \ N \ n kọntaktị gị na-natara. \ N \ n biko nyochaa anyị.</string><string name="rate_us_positive_button">Dịruru anyị.</string><string name="rate_us_negative_button">Kpọtụrụ anyị.</string><string name="rate_us_neutral_button">Ọbụghị ugbu a.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D ehichapụ Kpọtụrụ</string>
+    <string name="all_contact">Ndi ana-akpo</string>
+    <string name="deleted_contact">ehichapụ</string>
+    <string name="no_data_found">Ọ dịghị Data Hụrụ</string>
+    <string name="dismiss">igbasa</string>
+    <string name="share">Share</string>
+    <string name="thank_you">Daalụ maka òkè / òkù</string>
+    <string name="contact_developer">Error ime, kọntaktị Mmepụta.</string>
+    <string name="install_whats_app">Wụnye kedu App mbụ</string>
+    <string name="install">wụnye</string>
+    <string name="coming_soon">Na-abịa oge adịghị anya</string>
+    <string name="rating_thank_you_message">Daalụ maka 5 kpakpando ratings</string>
+    <string name="press_again_to_exit">Biko pịa azụ ọzọ wepuÚ</string>
+    <string name="try_after_some_time">Gbalịa mgbe oge ụfọdụ</string>
+    <string name="action_language">Language</string>
+    <string name="action_rate_us">Dịruru anyị</string>
+    <string name="action_refresh">Ume</string>
+    <string name="action_restore_all">weghachi All</string>
+    <string name="action_app_invite">òkù Enyi</string>
+    <string name="action_contact_us">Kpọtụrụ anyị</string>
+    <string name="contact_name">kọntaktị aha</string>
+    <string name="contact_phone_number">Mkpọtụrụ</string>
+    <string name="contact_account_type">Account Type</string>
+    <string name="description_contact_photo">Kpọtụrụ Photo</string>
+    <string name="description_contact_info">Ama kọntaktị</string>
+    <string name="static_contact_us_whats_app">Kpọtụrụ Mmepụta na na WhatsApp.</string>
+    <string name="static_contact_us_developer">Google+ ìgwè Developers, Testers na nkwado.</string>
+    <string name="static_contact_us_language">Google+ ìgwè Nsụgharị na Language ndị hụrụ.</string>
+    <string name="static_contact_us_google_plus">Imeri m on Google+.</string>
+    <string name="static_contact_us_linkedin">Iji Jikọọ ka ntinye aka na Developer.</string>
+    <string name="static_contact_us_facebook">Official Facebook Page.</string>
+    <string name="invite_title">òkù Enyi</string>
+    <string name="invite_message">Ehichapụ Contact bụ Open-iyi, Freeware, Kpọsaanụ-free android ngwa.</string>
+    <string name="permission">ikike</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE ikike dị mkpa</string>
+    <string name="permission_message_read_contact">READ_CONTACTS ikike dị mkpa</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS ikike dị mkpa</string>
+    <string name="permission_grant">Grant</string>
+    <string name="restore">weghachi</string>
+    <string name="rate_us_title">fim bụ mkpa ka anyị</string>
+    <string name="rate_us_message">ekele .. !!! \ N \ n kọntaktị gị na-natara. \ N \ n biko nyochaa anyị.</string>
+    <string name="rate_us_positive_button">Dịruru anyị.</string>
+    <string name="rate_us_negative_button">Kpọtụrụ anyị.</string>
+    <string name="rate_us_neutral_button">Ọbụghị ugbu a.</string>
+</resources>

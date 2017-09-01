@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources><string name="app_name">D Usunięty kontakt</string><string name="all_contact">Łączność</string><string name="deleted_contact">Usunięto</string><string name="no_data_found">Nie znaleziono danych</string><string name="dismiss">Oddalić</string><string name="share">Dzielić</string><string name="thank_you">Dziękuję za udział / zaproszenie</string><string name="contact_developer">Wystąpił błąd, skontaktuj się z programistą.</string><string name="install_whats_app">Najpierw zainstaluj aplikację Whats App</string><string name="install">zainstalować</string><string name="coming_soon">Wkrótce</string><string name="rating_thank_you_message">Dziękuję za 5 gwiazdek</string><string name="press_again_to_exit">Proszę kliknąć ponownie, aby wyjść</string><string name="try_after_some_time">Spróbuj po jakimś czasie</string><string name="action_language">Język</string><string name="action_rate_us">Oceń nas</string><string name="action_refresh">Odświeżać</string><string name="action_restore_all">Przywrócić wszystkie</string><string name="action_app_invite">Zaprosić przyjaciół</string><string name="action_contact_us">Skontaktuj się z nami</string><string name="contact_name">Nazwa Kontaktu</string><string name="contact_phone_number">Numer kontaktowy</string><string name="contact_account_type">typ konta</string><string name="description_contact_photo">Kontakt z fotografią</string><string name="description_contact_info">Informacje kontaktowe</string><string name="static_contact_us_whats_app">Skontaktuj się bezpośrednio z programistą WhatsApp.</string><string name="static_contact_us_developer">Grupa Google+ dla programistów, testerów i współpracowników.</string><string name="static_contact_us_language">Grupa Google+ dla tłumaczy i miłośników języków.</string><string name="static_contact_us_google_plus">Aby mnie spotkać w Google+.</string><string name="static_contact_us_linkedin">Dołącz jako współpracownik i programista.</string><string name="static_contact_us_facebook">Oficjalna strona Facebooka.</string><string name="invite_title">Zaprosić przyjaciół</string><string name="invite_message">Usunięty kontakt to open-source, darmowa, darmowa aplikacja na Androida.</string><string name="permission">Pozwolenie</string><string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGAGE jest potrzebna</string><string name="permission_message_read_contact">Konieczne jest uprawnienie READ_CONTACTS</string><string name="permission_message_write_contact">WRITE_CONTACTS jest potrzebna</string><string name="permission_grant">Dotacja</string><string name="restore">Przywracać</string><string name="rate_us_title">ocena jest dla nas ważna</string><string name="rate_us_message">gratulacje .. !!! \ n \ n Twoje kontakty są odzyskiwane. \ n \ n przeczytaj nas.</string><string name="rate_us_positive_button">Oceń nas.</string><string name="rate_us_negative_button">Skontaktuj się z nami.</string><string name="rate_us_neutral_button">Nie teraz.</string></resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Usunięty kontakt</string>
+    <string name="all_contact">Łączność</string>
+    <string name="deleted_contact">Usunięto</string>
+    <string name="no_data_found">Nie znaleziono danych</string>
+    <string name="dismiss">Oddalić</string>
+    <string name="share">Dzielić</string>
+    <string name="thank_you">Dziękuję za udział / zaproszenie</string>
+    <string name="contact_developer">Wystąpił błąd, skontaktuj się z programistą.</string>
+    <string name="install_whats_app">Najpierw zainstaluj aplikację Whats App</string>
+    <string name="install">zainstalować</string>
+    <string name="coming_soon">Wkrótce</string>
+    <string name="rating_thank_you_message">Dziękuję za 5 gwiazdek</string>
+    <string name="press_again_to_exit">Proszę kliknąć ponownie, aby wyjść</string>
+    <string name="try_after_some_time">Spróbuj po jakimś czasie</string>
+    <string name="action_language">Język</string>
+    <string name="action_rate_us">Oceń nas</string>
+    <string name="action_refresh">Odświeżać</string>
+    <string name="action_restore_all">Przywrócić wszystkie</string>
+    <string name="action_app_invite">Zaprosić przyjaciół</string>
+    <string name="action_contact_us">Skontaktuj się z nami</string>
+    <string name="contact_name">Nazwa Kontaktu</string>
+    <string name="contact_phone_number">Numer kontaktowy</string>
+    <string name="contact_account_type">typ konta</string>
+    <string name="description_contact_photo">Kontakt z fotografią</string>
+    <string name="description_contact_info">Informacje kontaktowe</string>
+    <string name="static_contact_us_whats_app">Skontaktuj się bezpośrednio z programistą WhatsApp.</string>
+    <string name="static_contact_us_developer">Grupa Google+ dla programistów, testerów i współpracowników.</string>
+    <string name="static_contact_us_language">Grupa Google+ dla tłumaczy i miłośników języków.</string>
+    <string name="static_contact_us_google_plus">Aby mnie spotkać w Google+.</string>
+    <string name="static_contact_us_linkedin">Dołącz jako współpracownik i programista.</string>
+    <string name="static_contact_us_facebook">Oficjalna strona Facebooka.</string>
+    <string name="invite_title">Zaprosić przyjaciół</string>
+    <string name="invite_message">Usunięty kontakt to open-source, darmowa, darmowa aplikacja na Androida.</string>
+    <string name="permission">Pozwolenie</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGAGE jest potrzebna</string>
+    <string name="permission_message_read_contact">Konieczne jest uprawnienie READ_CONTACTS</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS jest potrzebna</string>
+    <string name="permission_grant">Dotacja</string>
+    <string name="restore">Przywracać</string>
+    <string name="rate_us_title">ocena jest dla nas ważna</string>
+    <string name="rate_us_message">gratulacje .. !!! \ n \ n Twoje kontakty są odzyskiwane. \ n \ n przeczytaj nas.</string>
+    <string name="rate_us_positive_button">Oceń nas.</string>
+    <string name="rate_us_negative_button">Skontaktuj się z nami.</string>
+    <string name="rate_us_neutral_button">Nie teraz.</string>
+</resources>
