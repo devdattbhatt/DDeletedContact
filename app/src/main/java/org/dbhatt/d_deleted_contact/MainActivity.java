@@ -153,11 +153,6 @@ public class MainActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        try {
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 
 
