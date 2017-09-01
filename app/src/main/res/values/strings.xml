@@ -15,7 +15,7 @@
 
 <resources>
     <string name="app_name">D Deleted Contact</string>
-    <string name="splash_dbhatt_org">Dbhatt.org</string>
+    <string name="splash_dbhatt_org" translatable="false">Dbhatt.org</string>
     <string name="all_contact">Contacts</string>
     <string name="deleted_contact">Deleted</string>
     <string name="no_data_found">No Data Found</string>
