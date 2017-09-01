@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D Silinmiş Əlaqə</string>
+    <string name="all_contact">Əlaqə</string>
+    <string name="deleted_contact">Silindi</string>
+    <string name="no_data_found">Məlumat yoxdur</string>
+    <string name="dismiss">Çıxın</string>
+    <string name="share">Paylaş</string>
+    <string name="thank_you">Paylaşma / dəvət etdiyiniz üçün təşəkkür edirik</string>
+    <string name="contact_developer">Hata oluşur, geliştirici ilə əlaqə saxlayın.</string>
+    <string name="install_whats_app">İlk Whats App qurun</string>
+    <string name="install">Yüklemek</string>
+    <string name="coming_soon">Tezliklə</string>
+    <string name="rating_thank_you_message">5 ulduzlu ratings üçün təşəkkür edirik</string>
+    <string name="press_again_to_exit">Çıxmaq üçün yenidən geri vurun</string>
+    <string name="try_after_some_time">Bəzi vaxtdan sonra cəhd edin</string>
+    <string name="action_language">Dil</string>
+    <string name="action_rate_us">Qiymətləndirin</string>
+    <string name="action_refresh">təzələmək</string>
+    <string name="action_restore_all">Hamısını bərpa edin</string>
+    <string name="action_app_invite">Dostları dəvət edin</string>
+    <string name="action_contact_us">Bizimlə əlaqə saxlayın</string>
+    <string name="contact_name">Əlaqə adı</string>
+    <string name="contact_phone_number">Əlaqə nömrəsi</string>
+    <string name="contact_account_type">Hesab növü</string>
+    <string name="description_contact_photo">Əlaqə Şəkil</string>
+    <string name="description_contact_info">Əlaqə məlumatı</string>
+    <string name="static_contact_us_whats_app">WhatsApp-da birbaşa əlaqələndirici ilə əlaqə saxlayın.</string>
+    <string name="static_contact_us_developer">Developers, Testers və contributors üçün Google + qrupu.</string>
+    <string name="static_contact_us_language">Translators və Dil severler üçün Google+ qrupu.</string>
+    <string name="static_contact_us_google_plus">Google + &amp;#39;da məni tanış ol.</string>
+    <string name="static_contact_us_linkedin">Töhfə və Tərəfdaş kimi iştirak etmək.</string>
+    <string name="static_contact_us_facebook">Rəsmi Facebook səhifəsi.</string>
+    <string name="invite_title">Dostları dəvət edin</string>
+    <string name="invite_message">Silinmiş Əlaqə, açıq mənbə, pulsuz, reklam pulsuz Android app edir.</string>
+    <string name="permission">Icazə</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE icazə tələb olunur</string>
+    <string name="permission_message_read_contact">READ_CONTACTS icazə tələb olunur</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS icazə tələb olunur</string>
+    <string name="permission_grant">Qrant</string>
+    <string name="restore">Bərpa edin</string>
+    <string name="rate_us_title">reytinq bizim üçün vacibdir</string>
+    <string name="rate_us_message">təbriklər .. !!! \ n \ n əlaqələriniz bərpa olunur. \ n \ n bizi nəzərdən keçirin.</string>
+    <string name="rate_us_positive_button">Qiymətləndirin.</string>
+    <string name="rate_us_negative_button">Bizimlə əlaqə saxlayın.</string>
+    <string name="rate_us_neutral_button">İndi deyil.</string>
+</resources>

@@ -26,7 +26,8 @@
     <string name="install_whats_app">Install Whats App first</string>
     <string name="install">Install</string>
     <string name="coming_soon">Coming soon</string>
-    <string name="rating_thenk_you_message">Thank you for 5 star ratings</string>
+    <string name="rating_thank_you_message">Thank you for 5 star ratings</string>
+    <string name="press_again_to_exit">Please click back again to exit</string>
 
     <!-- Toast messages-->
     <string name="try_after_some_time">Try After Some Time</string>
@@ -58,7 +59,7 @@
 
     <!-- app invite fire base-->
     <string name="invite_title">Invite Friends</string>
-    <string name="invite_message">D Deleted Contact is Open source, Freeware, Advertise-free android app.</string>
+    <string name="invite_message">Deleted Contact is Open source, Freeware, Advertise-free android app.</string>
     <string name="invite_email_subject" translatable="false">@string/app_name</string>
     <string name="invite_html_contact" translatable="false">%%APPINVITE_LINK_PLACEHOLDER%%</string>
 
@@ -69,11 +70,11 @@
     <string name="permission_message_write_contact">WRITE_CONTACTS permission is needed</string>
     <string name="permission_grant">Grant</string>
     <string name="restore">Restore</string>
-    <string name="rate_us_title">Rate us</string>
-    <string name="rate_us_message">congratulations ..!!! \n\n your contacts is recovered.\n\n please review us.</string>
-    <string name="rate_us_positive_button">Rate us</string>
-    <string name="rate_us_negative_button">Contact us</string>
-    <string name="rate_us_neutral_button">Not now</string>
+    <string name="rate_us_title">rating is important for us</string>
+    <string name="rate_us_message">congratulations ..!!! \n \n your contacts is recovered. \n \n please review us.</string>
+    <string name="rate_us_positive_button">Rate us.</string>
+    <string name="rate_us_negative_button">Contact us.</string>
+    <string name="rate_us_neutral_button">Not now.</string>
 
     <!-- hidden string
         variable    data_type

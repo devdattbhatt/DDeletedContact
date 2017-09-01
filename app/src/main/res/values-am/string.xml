@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D የተሰረዘ ግንኙነት</string>
+    <string name="all_contact">እውቂያዎች</string>
+    <string name="deleted_contact">ተሰርዟል</string>
+    <string name="no_data_found">ምንም ውሂብ አልተገኘም</string>
+    <string name="dismiss">አሰናብት</string>
+    <string name="share">አጋራ</string>
+    <string name="thank_you">ለማጋራት / ግብዣን እናመሰግናለን</string>
+    <string name="contact_developer">ስህተት ተከስቷል, የእውቂያ ገንቢ.</string>
+    <string name="install_whats_app">የትኛው የ Apps መተግበሪያን ይጫኑ</string>
+    <string name="install">ይጫኑ</string>
+    <string name="coming_soon">በቅርብ ቀን</string>
+    <string name="rating_thank_you_message">ለ 5 ኮከብ ደረጃዎች አመሰግናለሁ</string>
+    <string name="press_again_to_exit">ለመውጣት እባክዎ በድጋሜ እንደገና ይጫኑ</string>
+    <string name="try_after_some_time">ጥቂት ጊዜ ቆይተው ይሞክሩ</string>
+    <string name="action_language">ቋንቋ</string>
+    <string name="action_rate_us">ደረጃ ይስጡን</string>
+    <string name="action_refresh">አድስ</string>
+    <string name="action_restore_all">ሁሉንም ወደነበሩበት መልስ</string>
+    <string name="action_app_invite">ጓደኞችን ይጋብዙ</string>
+    <string name="action_contact_us">አግኙን</string>
+    <string name="contact_name">የዕውቂያ ስም</string>
+    <string name="contact_phone_number">የእውቂያ ቁጥር</string>
+    <string name="contact_account_type">የመለያ አይነት</string>
+    <string name="description_contact_photo">እውቂያ ፎቶ</string>
+    <string name="description_contact_info">የእውቂያ መረጃ</string>
+    <string name="static_contact_us_whats_app">በ WhatsApp ቀጥታ ገንቢን ያግኙ.</string>
+    <string name="static_contact_us_developer">የ Google+ የቡድን ለገንቢዎች, ሞካሪዎች እና አስተዋፅዖ አድራጊዎች.</string>
+    <string name="static_contact_us_language">የ Google+ የቡድን ተናጋሪዎች እና የቋንቋ ፍቅር ያላቸው.</string>
+    <string name="static_contact_us_google_plus">በ Google+ ላይ ለመገናኘት.</string>
+    <string name="static_contact_us_linkedin">እንደ አስተዋጽዖ አበርካች እና ገንቢነት ይቀላቀሉ.</string>
+    <string name="static_contact_us_facebook">Official Facebook Page.</string>
+    <string name="invite_title">ጓደኞችን ይጋብዙ</string>
+    <string name="invite_message">የተሰረዘ አድራሻው ግልጽ-ምንጭ, ነጻ ሶፍትዌር, ከማስታወቂያ-ነጻ የ Android መተግበሪያ ነው.</string>
+    <string name="permission">ፍቃድ</string>
+    <string name="permission_message_write_external_storage">WRITE_EXTERNAL_STORAGE ፈቃድ ያስፈልጋል</string>
+    <string name="permission_message_read_contact">READ_CONTACTS ፈቃድ ያስፈልጋል</string>
+    <string name="permission_message_write_contact">WRITE_CONTACTS ፈቃድ ያስፈልጋል</string>
+    <string name="permission_grant">እርዳታ ስጥ</string>
+    <string name="restore">እነበረበት መልስ</string>
+    <string name="rate_us_title">ደረጃ አሰጣጡ ለእኛ አስፈላጊ ነው</string>
+    <string name="rate_us_message">እንኳን ደስ አለዎት .. !!! \ n \ n እውቅያዎችህ ተመልሰዋል. \ n \ n እባክዎን ይከልሱ.</string>
+    <string name="rate_us_positive_button">ደረጃ ይስጡን.</string>
+    <string name="rate_us_negative_button">አግኙን.</string>
+    <string name="rate_us_neutral_button">አሁን አይሆንም.</string>
+</resources>

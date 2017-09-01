@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">D تم حذف جهة الاتصال</string>
+    <string name="all_contact">جهات الاتصال</string>
+    <string name="deleted_contact">تم الحذف</string>
+    <string name="no_data_found">لاتوجد بيانات</string>
+    <string name="dismiss">رفض</string>
+    <string name="share">شارك</string>
+    <string name="thank_you">شكرا لك على حصة / دعوة</string>
+    <string name="contact_developer">حدث خطأ، مطور جهات الاتصال.</string>
+    <string name="install_whats_app">تثبيت ماذا يكون التطبيق أولا</string>
+    <string name="install">التثبت</string>
+    <string name="coming_soon">قريبا</string>
+    <string name="rating_thank_you_message">شكرا لك على تصنيف 5 نجوم</string>
+    <string name="press_again_to_exit">الرجاء النقر مرة أخرى للخروج</string>
+    <string name="try_after_some_time">حاول بعد بعض الوقت</string>
+    <string name="action_language">لغة</string>
+    <string name="action_rate_us">قيمنا</string>
+    <string name="action_refresh">تحديث</string>
+    <string name="action_restore_all">استعادة كل</string>
+    <string name="action_app_invite">ادعو أصدقاء</string>
+    <string name="action_contact_us">اتصل بنا</string>
+    <string name="contact_name">اسم جهة الاتصال</string>
+    <string name="contact_phone_number">رقم الاتصال</string>
+    <string name="contact_account_type">نوع الحساب</string>
+    <string name="description_contact_photo">الاتصال الصورة</string>
+    <string name="description_contact_info">معلومات الاتصال</string>
+    <string name="static_contact_us_whats_app">الاتصال المطور مباشرة على ال واتساب.</string>
+    <string name="static_contact_us_developer">مجموعة + غوغل للمطورين والمختبرين والمساهمين.</string>
+    <string name="static_contact_us_language">مجموعة + غوغل للمتحولين وعشاق اللغة.</string>
+    <string name="static_contact_us_google_plus">لمقابلتي على + غوغل.</string>
+    <string name="static_contact_us_linkedin">للانضمام كمساهم والمطور.</string>
+    <string name="static_contact_us_facebook">صفحة الفيسبوك الرسمية.</string>
+    <string name="invite_title">ادعو أصدقاء</string>
+    <string name="invite_message">حذف الاتصال هو مفتوح المصدر، مجانية، أعلن خالية الروبوت التطبيق.</string>
+    <string name="permission">الإذن</string>
+    <string name="permission_message_write_external_storage">مطلوب WRITE_EXTERNAL_STORAGE إذن</string>
+    <string name="permission_message_read_contact">مطلوب إذن READ_CONTACTS</string>
+    <string name="permission_message_write_contact">مطلوب WRITE_CONTACTS إذن</string>
+    <string name="permission_grant">منحة</string>
+    <string name="restore">استعادة</string>
+    <string name="rate_us_title">تصنيف مهم بالنسبة لنا</string>
+    <string name="rate_us_message">تهانينا ..!!! \ n \ n يتم استرداد جهات الاتصال. \ n \ n يرجى مراجعتنا.</string>
+    <string name="rate_us_positive_button">قيمنا.</string>
+    <string name="rate_us_negative_button">اتصل بنا.</string>
+    <string name="rate_us_neutral_button">ليس الان.</string>
+</resources>

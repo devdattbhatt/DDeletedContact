@@ -30,10 +30,13 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
@@ -63,6 +66,8 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
+    private CoordinatorLayout coordinatorLayout;
+    private static boolean back_button_pressed;
     private static final int
             APP_INVITE = 9211,
             SHARE_APP = 142,
@@ -81,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
+        back_button_pressed = false;
 
         fragment_all_contact = new All_contact_fragment();
         fragment_deleted_contact = new Deleted_contact_fragment();
@@ -88,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         SectionsPagerAdapter mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+        coordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinator_layout);
 
         ((AppBarLayout.LayoutParams) toolbar.getLayoutParams()).setScrollFlags(0);
 
@@ -490,7 +497,7 @@ public class MainActivity extends AppCompatActivity {
                                                 )
                                         )
                                 );
-                                Toast.makeText(getApplicationContext(), R.string.rating_thenk_you_message, Toast.LENGTH_LONG).show();
+                                Toast.makeText(getApplicationContext(), R.string.rating_thank_you_message, Toast.LENGTH_LONG).show();
                             }
                         })
                         .setNegativeButton(R.string.rate_us_negative_button, new DialogInterface.OnClickListener() {
@@ -520,6 +527,35 @@ public class MainActivity extends AppCompatActivity {
                         .create()
                         .show();
             }
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (back_button_pressed) {
+            super.onBackPressed();
+            return;
+        }
+        try {
+            back_button_pressed = true;
+            Snackbar
+                    .make(
+                            coordinatorLayout,
+                            R.string.press_again_to_exit,
+                            2000
+                    ).show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        try {
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    back_button_pressed = false;
+                }
+            }, 2000);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
